@@ -1,5 +1,5 @@
 {
-  "name": "switch-lan-status",
+  "name": "lan-play-status",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -29,6 +29,7 @@
     "babel-jest": "^23.0.1",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
+    "vue-flag-icon": "^1.0.6",
     "vue-template-compiler": "^2.5.17"
   }
 }
