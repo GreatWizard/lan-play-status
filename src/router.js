@@ -1,5 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
+import VueAnalytics from "vue-analytics";
 import Home from "./views/Home.vue";
 import Download from "./views/Download.vue";
 import Install from "./views/Install.vue";
@@ -7,7 +8,12 @@ import About from "./views/About.vue";
 
 Vue.use(Router);
 
-export default new Router({
+Vue.use(VueAnalytics, {
+  id: "UA-128202561-1",
+  router
+});
+
+const router = new Router({
   mode: "history",
   base: process.env.BASE_URL,
   routes: [
@@ -33,3 +39,5 @@ export default new Router({
     }
   ]
 });
+
+export default router;

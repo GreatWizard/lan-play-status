@@ -12,6 +12,8 @@
   "dependencies": {
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.17",
+    "vue-analytics": "^5.16.0",
+    "vue-flag-icon": "^1.0.6",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
@@ -29,7 +31,6 @@
     "babel-jest": "^23.0.1",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
-    "vue-flag-icon": "^1.0.6",
     "vue-template-compiler": "^2.5.17"
   }
 }
