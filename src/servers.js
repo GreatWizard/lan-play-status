@@ -82,19 +82,5 @@ export default [
     platform: "switch",
     status: undefined,
     data: undefined
-  },
-  {
-    ip: "lanplay.retrogamer.tech:11451",
-    flag: "es",
-    platform: "switch",
-    status: undefined,
-    data: undefined
-  },
-  {
-    ip: "lanplayps.retrogamer.tech:11451",
-    flag: "es",
-    platform: "ps4",
-    status: undefined,
-    data: undefined
   }
 ];
