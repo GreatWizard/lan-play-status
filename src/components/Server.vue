@@ -1,27 +1,25 @@
 <template>
   <tr>
-    <td>{{item.ip}}</td>
-    <ServerStatus :status="item.status" />
+    <td>{{server.ip}}</td>
+    <CellStatus :server="server" />
     <td>
-      <flag :iso="item.flag" :title="item.flag" :squared="false" />
+      <flag :iso="server.flag" :title="server.flag" :squared="false" />
     </td>
-    <td>
-      <PlatformIcon :platform="item.platform" />
-    </td>
+    <CellIcon :platform="server.platform" />
   </tr>
 </template>
 
 <script>
-import ServerStatus from "@/components/ServerStatus.vue";
-import PlatformIcon from "@/components/PlatformIcon.vue";
+import CellStatus from "@/components/CellStatus.vue";
+import CellIcon from "@/components/CellIcon.vue";
 
 export default {
   components: {
-    ServerStatus,
-    PlatformIcon
+    CellStatus,
+    CellIcon
   },
   props: {
-    item: Object
+    server: Object
   }
 };
 </script>

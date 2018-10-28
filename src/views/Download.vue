@@ -3,7 +3,7 @@
     <h1>Download</h1>
     <p>
       <a href="https://mega.nz/#F!GNAFyQqY!VxSb5zENUhbZE1q8odEARA" target="=_blank">
-        Lan Play Client
+        Lan Play Client 0.0.5
       </a>
     </p>
     <h1>Usage</h1>
