@@ -27,8 +27,12 @@
         message="Press [L] + [R] + [Left Analog] at the local play option. Hold down until the lan mode is activated."
         image="switch/splatoon2.jpg" />
       <Card
+        title="Super Smash Bros. Ultimate"
+        message=""
+        image="switch/supersmashbrosultimate.jpg" />
+      <Card
         title="Titan Quest"
-        message="LAN mode is already in the menu."
+        message=""
         image="switch/titanquest.jpg" />
     </div>
   </div>
