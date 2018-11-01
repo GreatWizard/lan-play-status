@@ -1,0 +1,43 @@
+image: node:latest
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+
+stages:
+  - install
+  - test
+  - build
+  - deploy
+
+job install:
+  stage: install
+  script: yarn install --non-interactive
+
+job test e2e:
+  stage: test
+  script:
+    - yarn test:e2e --headless
+
+job test unit:
+  stage: test
+  script:
+    - yarn test:unit
+
+job build:
+  stage: build
+  script: yarn build
+  artifacts:
+    paths:
+      - dist
+  only:
+    - master
+
+job deploy:
+  stage: deploy
+  script:
+    - apt-get update -yq && apt-get install -y ncftp
+    - ncftpput -R -v -u $FTP_USER -p $FTP_PASSWORD $FTP_HOST www/ dist/*
+  only:
+    - master
