@@ -25,10 +25,11 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    checkServer(context, serverIP) {
+    checkServer(context, ip) {
+      let server = this.state.servers.find(server => server.ip === ip);
       var proxyUrl = "https://cors-anywhere.herokuapp.com/",
-        targetUrl = `http://${serverIP}/info`;
-      let url = `${proxyUrl}${targetUrl}`;
+        targetUrl = `http://${ip}/info`;
+      let url = server.cors ? targetUrl : `${proxyUrl}${targetUrl}`;
       return fetchWithTimeout(url)
         .then(response => {
           if (response.ok) {
@@ -39,14 +40,14 @@ export default new Vuex.Store({
         })
         .then(data => {
           context.commit("updateServer", {
-            ip: serverIP,
+            ip,
             status: 1,
             data
           });
         })
         .catch(() => {
           context.commit("updateServer", {
-            ip: serverIP,
+            ip,
             status: -1,
             data: undefined
           });

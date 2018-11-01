@@ -7,6 +7,14 @@ export default [
     data: undefined
   },
   {
+    ip: "super.lan-play.com:11451",
+    flag: "fr",
+    platform: "switch",
+    status: undefined,
+    data: undefined,
+    cors: true
+  },
+  {
     ip: "nxlan.duckdns.org:11451",
     flag: "us",
     platform: "switch",
