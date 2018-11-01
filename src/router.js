@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import VueAnalytics from "vue-analytics";
 import Home from "./views/Home.vue";
+import Games from "./views/Games.vue";
 import Download from "./views/Download.vue";
 import Install from "./views/Install.vue";
 import About from "./views/About.vue";
@@ -21,6 +22,11 @@ const router = new Router({
       path: "/",
       name: "home",
       component: Home
+    },
+    {
+      path: "/games",
+      name: "games",
+      component: Games
     },
     {
       path: "/download",

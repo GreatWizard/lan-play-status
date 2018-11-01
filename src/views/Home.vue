@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Logo" class="logo" src="../assets/logo.png">
-    <h1>Lan Play Status</h1>
+    <h1>LAN Play Status</h1>
     <Servers />
   </div>
 </template>

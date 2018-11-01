@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>About</h1>
-    <h2>Lan Play Client</h2>
+    <h2>LAN Play Client</h2>
     <p>The client is provided by spacemeowx2:</p>
     <p>
       <a href="https://discord.gg/zEMCu5n" target="=_blank">

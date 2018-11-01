@@ -61,37 +61,19 @@
       Finally in a terminal:
       <code>sudo ./lan-play-linux</code>
     </p>
-    <h2>3 - Start the Lan Play Client</h2>
+    <h2>3 - Start the LAN Play Client</h2>
     <p>
       The application will prompt you to enter the relay server address. You can choose the server you want, like <code>35.236.10.223:11451</code>.
     </p>
     <p>
       Then, the application will prompt you to enter your switch's LAN "interface". You must choose the one that is connected to your router.
     </p>
-    <h2>4 - Enjoy lan play on Switch</h2>
+    <h2>4 - Enjoy online LAN Play on Switch</h2>
     <p>
       First, your must activate your wifi.
     </p>
     <p>
-      Then start one game that suppports lan play.
-    </p>
-    <p>
-      Here is the steps to activate lan mode in some games:
-    </p>
-    <p>
-      <strong>Splatoon 2</strong>: Press [L] + [R] + [Left Analog] at the local play option. Hold down until the lan mode is activated.
-    </p>
-    <p>
-      <strong>Mario Kart 8 Deluxe</strong>: Press [L] + [R] + [Left Analog] on the main menu screen.
-    </p>
-    <p>
-      <strong>ARMS</strong>: Press [L] + [R] + [Left Analog] on the main menu screen.
-    </p>
-    <p>
-      <strong>Mario Tennis</strong>: Select Free Play from the Main Menu. Press [Left Analog (hold down)] and press [L] + [R].
-    </p>
-    <p>
-      <strong>Pokken Tournament DX</strong>: From the main screen select a game. Press [X] + [Dpad-Down] and press [L] + [R].
+      Then start one game that suppports LAN Play.
     </p>
   </div>
 </template>

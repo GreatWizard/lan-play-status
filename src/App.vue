@@ -2,6 +2,7 @@
   <div class="app">
     <div class="nav">
       <router-link to="/">Home</router-link> |
+      <router-link to="/games">Games</router-link> |
       <router-link to="/download">Download</router-link> |
       <router-link to="/install">Install</router-link> |
       <router-link to="/about">About</router-link>

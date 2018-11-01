@@ -1,6 +1,6 @@
 {
-  "name": "Lan Play Status",
-  "short_name": "Lan Play Status",
+  "name": "LAN Play Status",
+  "short_name": "LAN Play Status",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",

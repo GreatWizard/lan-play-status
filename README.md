@@ -1,4 +1,4 @@
-# Lan Play Status
+# LAN Play Status
 
 ## Project setup
 
