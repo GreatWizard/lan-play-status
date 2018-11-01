@@ -25,7 +25,8 @@ export default [
     flag: "us",
     platform: "switch",
     status: undefined,
-    data: undefined
+    data: undefined,
+    active: false
   },
   {
     ip: "relay1.fadx.co.uk:11451",
@@ -86,6 +87,14 @@ export default [
   {
     ip: "switch-lan.duckdns.org:11451",
     flag: "br",
+    platform: "switch",
+    status: undefined,
+    data: undefined,
+    active: false
+  },
+  {
+    ip: "200.120.118.142:11451",
+    flag: "cl",
     platform: "switch",
     status: undefined,
     data: undefined

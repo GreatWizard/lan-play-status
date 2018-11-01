@@ -50,7 +50,7 @@
     </p>
     <p>
       Finally in a terminal:
-      <code>sudo ./lan-play-linux</code>
+      <code>sudo ./lan-play-macos</code>
     </p>
     <h3>Ubuntu/Debian</h3>
     <p>
@@ -59,7 +59,7 @@
     </p>
     <p>
       Finally in a terminal:
-      <code>sudo ./lan-play-macos</code>
+      <code>sudo ./lan-play-linux</code>
     </p>
     <h2>3 - Start the Lan Play Client</h2>
     <p>
