@@ -1,19 +1,18 @@
-image: node:latest
+image: node:10
 
 cache:
   key: ${CI_COMMIT_REF_SLUG}
   paths:
     - node_modules/
 
+before_script:
+  - export PATH="$(yarn global bin):$PATH"
+  - yarn install --non-interactive
+
 stages:
-  - install
   - test
   - build
   - deploy
-
-job install:
-  stage: install
-  script: yarn install --non-interactive
 
 job test e2e:
   stage: test
@@ -36,8 +35,8 @@ job build:
 
 job deploy:
   stage: deploy
-  script:
+  before_script:
     - apt-get update -yq && apt-get install -y ncftp
-    - ncftpput -R -v -u $FTP_USER -p $FTP_PASSWORD $FTP_HOST www/ dist/*
+  script: ncftpput -R -v -u $FTP_USER -p $FTP_PASSWORD $FTP_HOST www/ dist/*
   only:
     - master
