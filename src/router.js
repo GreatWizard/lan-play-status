@@ -6,6 +6,7 @@ import Games from "./views/Games.vue";
 import Download from "./views/Download.vue";
 import Install from "./views/Install.vue";
 import About from "./views/About.vue";
+import NotFound from "./views/NotFound.vue";
 
 Vue.use(Router);
 
@@ -42,6 +43,11 @@ const router = new Router({
       path: "/about",
       name: "about",
       component: About
+    },
+    {
+      path: "*",
+      name: "NotFound",
+      component: NotFound
     }
   ]
 });
