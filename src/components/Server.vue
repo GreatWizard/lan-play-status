@@ -1,6 +1,6 @@
 <template>
   <tr>
-    <td>{{server.ip}}</td>
+    <td>{{server.ip}}:{{server.port}}</td>
     <CellStatus :server="server" />
     <td>
       <flag :iso="server.flag" :title="server.flag" :squared="false" />

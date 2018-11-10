@@ -18,7 +18,7 @@ export default {
   },
   computed: {
     checkOnline() {
-      this.$store.dispatch("checkServer", this.server.ip);
+      this.$store.dispatch("checkServer", this.server.ip, this.server.port);
       return this.server;
     },
     tooltip() {

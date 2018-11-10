@@ -25,10 +25,10 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    checkServer(context, ip) {
+    checkServer(context, ip, port = 11451) {
       let server = this.state.servers.find(server => server.ip === ip);
-      var proxyUrl = "https://cors-anywhere.herokuapp.com/",
-        targetUrl = `http://${ip}/info`;
+      let proxyUrl = "https://cors-anywhere.herokuapp.com/";
+      let targetUrl = `http://${ip}:${port}/info`;
       let url = server.cors ? targetUrl : `${proxyUrl}${targetUrl}`;
       return fetchWithTimeout(url)
         .then(response => {
