@@ -97,6 +97,14 @@ export default [
     flag: "cl",
     platform: "switch",
     status: undefined,
+    data: undefined,
+    active: false
+  },
+  {
+    ip: "lithium2g.ddns.net:11451",
+    flag: "au",
+    platform: "switch",
+    status: undefined,
     data: undefined
   }
 ];
