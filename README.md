@@ -1,5 +1,11 @@
 # LAN Play Status
 
+![](https://img.shields.io/badge/switch-lan--play-orange.svg)
+[![CircleCI](https://circleci.com/gh/GreatWizard/lan-play-status.svg?style=shield)](https://circleci.com/gh/GreatWizard/lan-play-status)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Liberapay](http://img.shields.io/liberapay/receives/GreatWizard.svg?logo=liberapay)](https://liberapay.com/GreatWizard/)
+[![Beerpay](https://beerpay.io/GreatWizard/lan-play-status/badge.svg?style=flat)](https://beerpay.io/GreatWizard/lan-play-status)
+
 ## Project setup
 
 ```

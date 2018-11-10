@@ -1,0 +1,101 @@
+defaults: &defaults
+  docker:
+    - image: vuejs/ci
+      environment:
+        JOBS: 2
+  working_directory: ~/lan-play-status
+
+version: 2
+jobs:
+  checkout_code:
+    <<: *defaults
+    steps:
+      - checkout
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+
+  install_dependencies:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: .
+      - restore_cache:
+          keys:
+            - lan-play-status-node10-v1-{{ checksum "yarn.lock" }}
+      - run: yarn install --non-interactive --pure-lockfile
+      - save_cache:
+          key: lan-play-status-node10-v1-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/lan-play-status/node_modules
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+
+  lint:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: .
+      - run: yarn lint
+
+  test_e2e:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: .
+      - run: echo 'export PATH=~/lan-play-status/node_modules/.bin:$PATH' >> $BASH_ENV
+      - run: cypress install
+      - run: yarn test:e2e --headless
+
+  test_unit:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: .
+      - run: yarn test:unit
+
+  build:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: .
+      - run: yarn build
+
+  deploy:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: .
+      - run: apt-get update -yq && apt-get install -y ncftp
+      - run: ncftpput -R -v -u $FTP_USER -p $FTP_PASSWORD $FTP_HOST www/ dist/*
+
+workflows:
+  version: 2
+  test_build_deploy:
+    jobs:
+      - checkout_code
+      - install_dependencies:
+          requires:
+            - checkout_code
+      - lint:
+          requires:
+            - install_dependencies
+      - test_e2e:
+          requires:
+            - install_dependencies
+      - test_unit:
+          requires:
+            - install_dependencies
+      - build:
+          requires:
+            - test_e2e
+            - test_unit
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
