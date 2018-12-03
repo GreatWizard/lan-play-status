@@ -8,7 +8,23 @@ export default [
     data: undefined
   },
   {
-    ip: "35.236.10.223",
+    ip: "usplay.secretalgorithm.com",
+    port: 11451,
+    flag: "us",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "38.122.225.132",
+    port: 11451,
+    flag: "us",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "pcoh.ddns.net",
     port: 11451,
     flag: "us",
     platform: "switch",
@@ -84,6 +100,14 @@ export default [
     ip: "relay.it-cybergate.club",
     port: 11451,
     flag: "de",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "euplay.secretalgorithm.com",
+    port: 11451,
+    flag: "lt",
     platform: "switch",
     status: undefined,
     data: undefined
