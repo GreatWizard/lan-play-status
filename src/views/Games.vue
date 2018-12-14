@@ -1,6 +1,6 @@
 <template>
   <div class="games">
-    <h1>Games</h1>
+    <h1>Games with LAN Mode</h1>
     <div class="cards">
       <Card
         title="ARMS"
@@ -27,13 +27,32 @@
         message="Press [L] + [R] + [Left Analog] at the local play option. Hold down until the lan mode is activated."
         image="switch/splatoon2.jpg" />
       <Card
+        title="Titan Quest"
+        message=""
+        image="switch/titanquest.jpg" />
+    </div>
+    <h1>Games with Wireless Mode</h1>
+    <div class="cards">
+      <Card
+        title="Diablo III: Eternal Collection"
+        message=""
+        image="switch/diabloiiieternalcollection.jpg" />
+      <Card
+        title="Monster Hunter Generations Ultimate"
+        message=""
+        image="switch/monsterhuntergenerationsultimate.jpg" />
+      <Card
+        title="Puyo Puyo Tetris"
+        message=""
+        image="switch/puyopuyotetris.jpg" />
+      <Card
         title="Super Smash Bros. Ultimate"
         message=""
         image="switch/supersmashbrosultimate.jpg" />
       <Card
-        title="Titan Quest"
+        title="And so on..."
         message=""
-        image="switch/titanquest.jpg" />
+        image="switch/etc.jpg" />
     </div>
   </div>
 </template>

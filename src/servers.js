@@ -8,7 +8,7 @@ export default [
     data: undefined
   },
   {
-    ip: "usplay.secretalgorithm.com",
+    ip: "35.236.10.223",
     port: 11451,
     flag: "us",
     platform: "switch",
@@ -16,15 +16,7 @@ export default [
     data: undefined
   },
   {
-    ip: "38.122.225.132",
-    port: 11451,
-    flag: "us",
-    platform: "switch",
-    status: undefined,
-    data: undefined
-  },
-  {
-    ip: "pcoh.ddns.net",
+    ip: "nycnsw.duckdns.org",
     port: 11451,
     flag: "us",
     platform: "switch",
@@ -40,6 +32,14 @@ export default [
     data: undefined
   },
   {
+    ip: "pcoh.ddns.net",
+    port: 11451,
+    flag: "us",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
     ip: "switchonline.club",
     port: 11451,
     flag: "us",
@@ -47,6 +47,14 @@ export default [
     status: undefined,
     data: undefined,
     active: false
+  },
+  {
+    ip: "fr.fadx.co.uk",
+    port: 11451,
+    flag: "fr",
+    platform: "switch",
+    status: undefined,
+    data: undefined
   },
   {
     ip: "relay1.fadx.co.uk",
