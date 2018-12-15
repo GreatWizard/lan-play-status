@@ -38,6 +38,10 @@
         message=""
         image="switch/diabloiiieternalcollection.jpg" />
       <Card
+        title="DRAGON BALL XENOVERSE 2"
+        message=""
+        image="switch/dragonballxenoverse2.jpg" />
+      <Card
         title="Monster Hunter Generations Ultimate"
         message=""
         image="switch/monsterhuntergenerationsultimate.jpg" />
@@ -45,6 +49,10 @@
         title="Puyo Puyo Tetris"
         message=""
         image="switch/puyopuyotetris.jpg" />
+      <Card
+        title="Rocket League"
+        message=""
+        image="switch/rocketleague.jpg" />
       <Card
         title="Super Smash Bros. Ultimate"
         message=""
