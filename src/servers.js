@@ -113,6 +113,14 @@ export default [
     data: undefined
   },
   {
+    ip: "nerdylife.de",
+    port: 11451,
+    flag: "de",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
     ip: "euplay.secretalgorithm.com",
     port: 11451,
     flag: "lt",
