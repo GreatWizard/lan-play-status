@@ -62,7 +62,8 @@ export default [
     flag: "gb",
     platform: "switch",
     status: undefined,
-    data: undefined
+    data: undefined,
+    active: false
   },
   {
     ip: "relay2.fadx.co.uk",
@@ -70,7 +71,8 @@ export default [
     flag: "gb",
     platform: "switch",
     status: undefined,
-    data: undefined
+    data: undefined,
+    active: false
   },
   {
     ip: "switch.glaciergaming.co.uk",
@@ -94,7 +96,8 @@ export default [
     flag: "eu",
     platform: "switch",
     status: undefined,
-    data: undefined
+    data: undefined,
+    active: false
   },
   {
     ip: "memehouse.de",
@@ -108,6 +111,14 @@ export default [
     ip: "relay.it-cybergate.club",
     port: 11451,
     flag: "de",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: " 177.54.110.45",
+    port: 11451,
+    flag: "br",
     platform: "switch",
     status: undefined,
     data: undefined
@@ -150,6 +161,14 @@ export default [
     ip: "lithium2g.ddns.net",
     port: 11451,
     flag: "au",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "switch.goffy.tk",
+    port: 11451,
+    flag: "no",
     platform: "switch",
     status: undefined,
     data: undefined
