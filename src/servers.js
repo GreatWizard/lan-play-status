@@ -112,7 +112,23 @@ export default [
     data: undefined
   },
   {
-    ip: " 177.54.110.45",
+    ip: "switch-lan.duckdns.org",
+    port: 11451,
+    flag: "br",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "177.54.110.45",
+    port: 11451,
+    flag: "br",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "nswbr.ddns.net",
     port: 11451,
     flag: "br",
     platform: "switch",
@@ -131,14 +147,6 @@ export default [
     ip: "slp.rush-hour.wo.tc",
     port: 11451,
     flag: "kr",
-    platform: "switch",
-    status: undefined,
-    data: undefined
-  },
-  {
-    ip: "switch-lan.duckdns.org",
-    port: 11451,
-    flag: "br",
     platform: "switch",
     status: undefined,
     data: undefined
