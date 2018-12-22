@@ -42,6 +42,10 @@
         message=""
         image="switch/dragonballxenoverse2.jpg" />
       <Card
+        title="FIFA 19"
+        message=""
+        image="switch/fifa19.jpg" />
+      <Card
         title="Monster Hunter Generations Ultimate"
         message=""
         image="switch/monsterhuntergenerationsultimate.jpg" />
@@ -53,6 +57,10 @@
         title="Rocket League"
         message=""
         image="switch/rocketleague.jpg" />
+      <Card
+        title="Stardew Valley"
+        message=""
+        image="switch/stardewvalley.jpg" />
       <Card
         title="Super Smash Bros. Ultimate"
         message=""
