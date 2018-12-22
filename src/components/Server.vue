@@ -1,12 +1,12 @@
 <template>
   <tr :class="trClasses" v-if="checkOnline.status >= 0">
     <td>{{server.ip}}:{{server.port}}</td>
-    <td :data-tooltip="tooltip">
+    <td :data-tooltip="infos">
       {{checkOnline.data.online}}
       <img alt="Users" class="icon" src="../assets/users.png">
     </td>
-    <td>
-      <flag :iso="server.flag" :title="server.flag" :squared="false" />
+    <td :data-tooltip="country">
+      <flag :iso="server.flag" :squared="false" />
     </td>
     <CellIcon :platform="server.platform" />
   </tr>
@@ -27,8 +27,11 @@ export default {
       this.$store.dispatch("checkServer", this.server.ip, this.server.port);
       return this.server;
     },
-    tooltip() {
+    infos() {
       return `Version: ${this.server.data.version}`;
+    },
+    country() {
+      return this.server.flag.toUpperCase();
     },
     trClasses() {
       return this.server.highlight ? 'highlight': '';
