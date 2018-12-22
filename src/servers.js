@@ -45,8 +45,7 @@ export default [
     flag: "us",
     platform: "switch",
     status: undefined,
-    data: undefined,
-    active: false
+    data: undefined
   },
   {
     ip: "fr.fadx.co.uk",
@@ -62,8 +61,7 @@ export default [
     flag: "gb",
     platform: "switch",
     status: undefined,
-    data: undefined,
-    active: false
+    data: undefined
   },
   {
     ip: "relay2.fadx.co.uk",
@@ -71,8 +69,7 @@ export default [
     flag: "gb",
     platform: "switch",
     status: undefined,
-    data: undefined,
-    active: false
+    data: undefined
   },
   {
     ip: "switch.glaciergaming.co.uk",
@@ -96,8 +93,7 @@ export default [
     flag: "eu",
     platform: "switch",
     status: undefined,
-    data: undefined,
-    active: false
+    data: undefined
   },
   {
     ip: "memehouse.de",
@@ -145,8 +141,7 @@ export default [
     flag: "br",
     platform: "switch",
     status: undefined,
-    data: undefined,
-    active: false
+    data: undefined
   },
   {
     ip: "200.120.118.142",
@@ -154,8 +149,7 @@ export default [
     flag: "cl",
     platform: "switch",
     status: undefined,
-    data: undefined,
-    active: false
+    data: undefined
   },
   {
     ip: "lithium2g.ddns.net",

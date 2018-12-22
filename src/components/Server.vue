@@ -1,7 +1,10 @@
 <template>
-  <tr>
+  <tr v-if="checkOnline.status >= 0">
     <td>{{server.ip}}:{{server.port}}</td>
-    <CellStatus :server="server" />
+    <td :data-tooltip="tooltip">
+      {{checkOnline.data.online}}
+      <img alt="Users" class="icon" src="../assets/users.png">
+    </td>
     <td>
       <flag :iso="server.flag" :title="server.flag" :squared="false" />
     </td>
@@ -10,16 +13,23 @@
 </template>
 
 <script>
-import CellStatus from "@/components/CellStatus.vue";
 import CellIcon from "@/components/CellIcon.vue";
 
 export default {
   components: {
-    CellStatus,
     CellIcon
   },
   props: {
     server: Object
+  },
+  computed: {
+    checkOnline() {
+      this.$store.dispatch("checkServer", this.server.ip, this.server.port);
+      return this.server;
+    },
+    tooltip() {
+      return `Version: ${this.server.data.version}`;
+    }
   }
 };
 </script>

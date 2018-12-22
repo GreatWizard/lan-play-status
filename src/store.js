@@ -15,7 +15,7 @@ const fetchWithTimeout = function(url, options, timeout = 20000) {
 
 export default new Vuex.Store({
   state: {
-    servers: servers.filter(server => server.active !== false)
+    servers
   },
   mutations: {
     updateServer(state, { ip, status, data }) {
