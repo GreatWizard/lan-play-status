@@ -22,7 +22,7 @@
         Linux
       </a>
     </p>
-    <h2>Switch Sysmodule (ldn_mtm)</h2>
+    <h2>Switch Sysmodule (ldn_mitm)</h2>
     <p>
       <a href="https://github.com/spacemeowx2/ldn_mitm/releases/download/v0.2.2/ldn_mitm_v0.2.2.kip" target="=_blank">
         Ldn_mtm v0.2.2 for Atmosphere 8.0+
