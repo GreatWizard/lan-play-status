@@ -114,6 +114,14 @@ export default [
     data: undefined
   },
   {
+    ip: "46.183.114.73",
+    port: 11451,
+    flag: "es",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
     ip: "switch-lan.duckdns.org",
     port: 11451,
     flag: "br",
