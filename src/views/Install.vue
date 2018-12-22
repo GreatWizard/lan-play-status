@@ -63,7 +63,7 @@
     </p>
     <h2>3 - Start the LAN Play Client</h2>
     <p>
-      The application will prompt you to enter the relay server address. You can choose the server you want, like <code>35.236.10.223:11451</code>.
+      The application will prompt you to enter the relay server address. You can choose the server you want, like <code>switch.lan-play.com:11451</code>.
     </p>
     <p>
       Then, the application will prompt you to enter your switch's LAN "interface". You must choose the one that is connected to your router.

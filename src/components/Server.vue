@@ -1,5 +1,5 @@
 <template>
-  <tr v-if="checkOnline.status >= 0">
+  <tr :class="trClasses" v-if="checkOnline.status >= 0">
     <td>{{server.ip}}:{{server.port}}</td>
     <td :data-tooltip="tooltip">
       {{checkOnline.data.online}}
@@ -29,7 +29,18 @@ export default {
     },
     tooltip() {
       return `Version: ${this.server.data.version}`;
+    },
+    trClasses() {
+      return this.server.highlight ? 'highlight': '';
     }
   }
 };
 </script>
+
+<style lang="scss">
+tr.highlight {
+  td {
+    font-weight: bold;
+  }
+}
+</style>

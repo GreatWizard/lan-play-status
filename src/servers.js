@@ -5,7 +5,8 @@ export default [
     flag: "fr",
     platform: "switch",
     status: undefined,
-    data: undefined
+    data: undefined,
+    highlight: true
   },
   {
     ip: "35.236.10.223",
@@ -13,7 +14,8 @@ export default [
     flag: "us",
     platform: "switch",
     status: undefined,
-    data: undefined
+    data: undefined,
+    highlight: true
   },
   {
     ip: "nycnsw.duckdns.org",
