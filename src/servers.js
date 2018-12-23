@@ -58,6 +58,14 @@ export default [
     data: undefined
   },
   {
+    ip: "switch.emiyl.com",
+    port: 11451,
+    flag: "gb",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
     ip: "relay1.fadx.co.uk",
     port: 11451,
     flag: "gb",
