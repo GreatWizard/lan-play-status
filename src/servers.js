@@ -58,6 +58,14 @@ export default [
     data: undefined
   },
   {
+    ip: "nxlanfr.hopto.org",
+    port: 11451,
+    flag: "fr",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
     ip: "switch.emiyl.com",
     port: 11451,
     flag: "gb",
@@ -189,6 +197,14 @@ export default [
     ip: "switch.goffy.tk",
     port: 11451,
     flag: "no",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "switch.adelphia.xyz",
+    port: 11451,
+    flag: "sg",
     platform: "switch",
     status: undefined,
     data: undefined
