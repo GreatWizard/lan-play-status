@@ -50,6 +50,14 @@ export default [
     data: undefined
   },
   {
+    ip: "qcswitch.ddns.net",
+    port: 11451,
+    flag: "ca",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
     ip: "fr.fadx.co.uk",
     port: 11451,
     flag: "fr",
@@ -138,6 +146,22 @@ export default [
     data: undefined
   },
   {
+    ip: "euplay.secretalgorithm.com",
+    port: 11451,
+    flag: "lt",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "switch.goffy.tk",
+    port: 11451,
+    flag: "no",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
     ip: "switch-lan.duckdns.org",
     port: 11451,
     flag: "br",
@@ -162,14 +186,6 @@ export default [
     data: undefined
   },
   {
-    ip: "euplay.secretalgorithm.com",
-    port: 11451,
-    flag: "lt",
-    platform: "switch",
-    status: undefined,
-    data: undefined
-  },
-  {
     ip: "slp.rush-hour.wo.tc",
     port: 11451,
     flag: "kr",
@@ -186,25 +202,17 @@ export default [
     data: undefined
   },
   {
-    ip: "lithium2g.ddns.net",
-    port: 11451,
-    flag: "au",
-    platform: "switch",
-    status: undefined,
-    data: undefined
-  },
-  {
-    ip: "switch.goffy.tk",
-    port: 11451,
-    flag: "no",
-    platform: "switch",
-    status: undefined,
-    data: undefined
-  },
-  {
     ip: "switch.adelphia.xyz",
     port: 11451,
     flag: "sg",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "lithium2g.ddns.net",
+    port: 11451,
+    flag: "au",
     platform: "switch",
     status: undefined,
     data: undefined
