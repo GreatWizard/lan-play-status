@@ -22,19 +22,19 @@
         Linux
       </a>
     </p>
-    <h2>Switch Sysmodule (ldn_mitm)</h2>
+    <h2>Switch Sysmodule and Homebrew (ldn_mitm)</h2>
     <p>
-      <a href="https://github.com/spacemeowx2/ldn_mitm/releases/download/v1.0.0/ldn_mitm_v1.0.0.kip" target="=_blank">
-        Ldn_mtm v1.0.0 for Atmosphere 8.0+
+      <a href="https://github.com/spacemeowx2/ldn_mitm/releases/download/v1.1.1/ldn_mitm_v1.1.1.kip" target="=_blank">
+        Ldn_mtm v1.1.1
       </a>
     </p>
     <p>
-      <a href="https://github.com/spacemeowx2/ldn_mitm/releases/download/v0.2.2_ReiNX/ldn_mitm_v0.2.2_ReiNX.kip" target="=_blank">
-       Ldn_mtm v0.2.2 for ReiNX
+      <a href="https://github.com/spacemeowx2/ldn_mitm/releases/download/v1.1.1/ldnmitm_config.nro" target="=_blank">
+       Ldn_mtm config homebrew v1.1.1
       </a>
     </p>
-    <p>
-       or you can use SX-OS v2.5+
-    </p>
+    <em>
+       (or you can use SX-OS v2.5+)
+    </em>
   </div>
 </template>
