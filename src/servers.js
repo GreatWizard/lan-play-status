@@ -82,14 +82,6 @@ export default [
     data: undefined
   },
   {
-    ip: "lanplay.reboot.ms",
-    port: 11451,
-    flag: "fr",
-    platform: "switch",
-    status: undefined,
-    data: undefined
-  },
-  {
     ip: "switch.emiyl.com",
     port: 11451,
     flag: "gb",
@@ -165,6 +157,14 @@ export default [
     ip: "46.183.114.73",
     port: 11451,
     flag: "es",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "lanplay.reboot.ms",
+    port: 11451,
+    flag: "nl",
     platform: "switch",
     status: undefined,
     data: undefined
