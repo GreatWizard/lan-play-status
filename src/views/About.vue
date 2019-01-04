@@ -10,7 +10,12 @@
     </p>
     <p>
       <a href="https://github.com/spacemeowx2/switch-lan-play" target="=_blank">
-        Github
+        LAN Play Client on Github
+      </a>
+    </p>
+    <p>
+      <a href="https://github.com/spacemeowx2/ldn_mitm" target="=_blank">
+        ldn_mitm on Github
       </a>
     </p>
     <h2>The status website</h2>

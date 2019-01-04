@@ -15,7 +15,7 @@ const fetchWithTimeout = function(url, options, timeout = 20000) {
 
 export default new Vuex.Store({
   state: {
-    servers: servers.filter(server => server.active !== false)
+    servers
   },
   mutations: {
     updateServer(state, { ip, status, data }) {
@@ -26,10 +26,7 @@ export default new Vuex.Store({
   },
   actions: {
     checkServer(context, ip, port = 11451) {
-      let server = this.state.servers.find(server => server.ip === ip);
-      let proxyUrl = "https://cors-anywhere.herokuapp.com/";
-      let targetUrl = `http://${ip}:${port}/info`;
-      let url = server.cors ? targetUrl : `${proxyUrl}${targetUrl}`;
+      let url = `/proxy.php?address=${ip}&port=${port}`;
       return fetchWithTimeout(url)
         .then(response => {
           if (response.ok) {

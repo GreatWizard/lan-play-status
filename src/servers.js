@@ -5,7 +5,8 @@ export default [
     flag: "fr",
     platform: "switch",
     status: undefined,
-    data: undefined
+    data: undefined,
+    highlight: true
   },
   {
     ip: "35.236.10.223",
@@ -13,7 +14,8 @@ export default [
     flag: "us",
     platform: "switch",
     status: undefined,
-    data: undefined
+    data: undefined,
+    highlight: true
   },
   {
     ip: "nycnsw.duckdns.org",
@@ -45,13 +47,44 @@ export default [
     flag: "us",
     platform: "switch",
     status: undefined,
-    data: undefined,
-    active: false
+    data: undefined
+  },
+  {
+    ip: "qcswitch.ddns.net",
+    port: 11451,
+    flag: "ca",
+    platform: "switch",
+    status: undefined,
+    data: undefined
   },
   {
     ip: "fr.fadx.co.uk",
     port: 11451,
     flag: "fr",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "nxlanfr.hopto.org",
+    port: 11451,
+    flag: "fr",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "lanplay.reboot.ms",
+    port: 11451,
+    flag: "fr",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "switch.emiyl.com",
+    port: 11451,
+    flag: "gb",
     platform: "switch",
     status: undefined,
     data: undefined
@@ -121,9 +154,57 @@ export default [
     data: undefined
   },
   {
+    ip: "46.183.114.73",
+    port: 11451,
+    flag: "es",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
     ip: "euplay.secretalgorithm.com",
     port: 11451,
     flag: "lt",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "lanplay2.reboot.ms",
+    port: 11451,
+    flag: "ro",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "switch.goffy.tk",
+    port: 11451,
+    flag: "no",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "switch-lan.duckdns.org",
+    port: 11451,
+    flag: "br",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "177.54.110.45",
+    port: 11451,
+    flag: "br",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "nswbr.ddns.net",
+    port: 11451,
+    flag: "br",
     platform: "switch",
     status: undefined,
     data: undefined
@@ -137,13 +218,12 @@ export default [
     data: undefined
   },
   {
-    ip: "switch-lan.duckdns.org",
+    ip: "jp.nx-s.cf",
     port: 11451,
-    flag: "br",
+    flag: "jp",
     platform: "switch",
     status: undefined,
-    data: undefined,
-    active: false
+    data: undefined
   },
   {
     ip: "200.120.118.142",
@@ -151,8 +231,15 @@ export default [
     flag: "cl",
     platform: "switch",
     status: undefined,
-    data: undefined,
-    active: false
+    data: undefined
+  },
+  {
+    ip: "switch.adelphia.xyz",
+    port: 11451,
+    flag: "sg",
+    platform: "switch",
+    status: undefined,
+    data: undefined
   },
   {
     ip: "lithium2g.ddns.net",
