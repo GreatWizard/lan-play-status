@@ -1,6 +1,7 @@
 <template>
   <div class="games">
     <h1>Games with LAN Mode</h1>
+    <h2>(OFW and CFW compatible)</h2>
     <div class="cards">
       <Card
         title="ARMS"
@@ -32,6 +33,7 @@
         image="switch/titanquest.jpg" />
     </div>
     <h1>Games with Wireless Mode</h1>
+    <h2>(CFW only: it needs ldn_mitn kip)</h2>
     <div class="cards">
       <Card
         title="Diablo III: Eternal Collection"
