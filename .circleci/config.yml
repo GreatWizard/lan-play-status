@@ -57,19 +57,13 @@ jobs:
           at: .
       - run: yarn test:unit
 
-  build:
-    <<: *defaults
-    steps:
-      - attach_workspace:
-          at: .
-      - run: yarn build
-
   deploy:
     <<: *defaults
     steps:
       - attach_workspace:
           at: .
       - run: apt-get update -yq && apt-get install -y ncftp
+      - run: yarn build
       - run: ncftpput -R -v -u $FTP_USER -p $FTP_PASSWORD $FTP_HOST www/ dist/*
 
 workflows:
@@ -83,19 +77,12 @@ workflows:
       - lint:
           requires:
             - install_dependencies
-      - test_e2e:
-          requires:
-            - install_dependencies
       - test_unit:
           requires:
             - install_dependencies
-      - build:
-          requires:
-            - test_e2e
-            - test_unit
       - deploy:
           requires:
-            - build
+            - test_unit
           filters:
             branches:
               only: master
