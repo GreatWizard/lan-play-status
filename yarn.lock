@@ -887,7 +887,7 @@
     jest-transform-stub "^1.0.0"
     vue-jest "^3.0.2"
 
-"@vue/cli-service@^3.0.5":
+"@vue/cli-service@^3.2.3":
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/@vue/cli-service/-/cli-service-3.2.3.tgz#cdc18d8d181c1202dc4825be51be64f043a31be3"
   integrity sha512-lRCwf8R/YCo67SAqt1MiYhJnvybedQJz1O3uWSJzv7mDPwRUp2980gzQ3wfsTt0tkUtxRcAOmD+V1co4tWOgrw==
