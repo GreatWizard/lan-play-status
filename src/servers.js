@@ -74,6 +74,14 @@ export default [
     data: undefined
   },
   {
+    ip: "lanplay.reboot.ms",
+    port: 11451,
+    flag: "fr",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
     ip: "switch.emiyl.com",
     port: 11451,
     flag: "gb",
@@ -154,6 +162,14 @@ export default [
     data: undefined
   },
   {
+    ip: "lanplay2.reboot.ms",
+    port: 11451,
+    flag: "ro",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
     ip: "switch.goffy.tk",
     port: 11451,
     flag: "no",
@@ -189,6 +205,14 @@ export default [
     ip: "slp.rush-hour.wo.tc",
     port: 11451,
     flag: "kr",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
+    ip: "jp.nx-s.cf",
+    port: 11451,
+    flag: "jp",
     platform: "switch",
     status: undefined,
     data: undefined
