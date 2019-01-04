@@ -14,6 +14,10 @@
       <flag :iso="server.flag" :squared="false" />
     </td>
     <CellIcon :platform="server.platform" />
+    <td>
+      <span v-if="ping > 0">{{ping}} ms</span>
+      <span v-else>n/a</span>
+    </td>
   </tr>
 </template>
 
@@ -25,7 +29,8 @@ export default {
     CellIcon
   },
   props: {
-    server: Object
+    server: Object,
+    ping: Number
   },
   computed: {
     checkOnline() {
@@ -56,6 +61,14 @@ export default {
       document.execCommand("copy");
       window.getSelection().removeAllRanges();
     }
+  },
+  created() {
+    let ctx = this;
+    ctx.ping = 0;
+    let started = new Date().getTime();
+    fetch(`//${this.server.ip}:${this.server.port}/info`).then(() => {
+      ctx.ping = Math.ceil((new Date().getTime() - started) * 0.3);
+    });
   }
 };
 </script>

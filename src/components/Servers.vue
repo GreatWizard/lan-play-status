@@ -6,6 +6,7 @@
         <th>Status</th>
         <th>Country</th>
         <th>Platform</th>
+        <th>Ping</th>
       </tr>
     </thead>
     <tbody>
