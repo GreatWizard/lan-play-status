@@ -82,6 +82,7 @@ workflows:
             - install_dependencies
       - deploy:
           requires:
+            - lint
             - test_unit
           filters:
             branches:
