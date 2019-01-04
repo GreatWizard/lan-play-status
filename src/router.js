@@ -10,11 +10,6 @@ import NotFound from "./views/NotFound.vue";
 
 Vue.use(Router);
 
-Vue.use(VueAnalytics, {
-  id: "UA-128202561-1",
-  router
-});
-
 const router = new Router({
   mode: "history",
   base: process.env.BASE_URL,
@@ -50,6 +45,11 @@ const router = new Router({
       component: NotFound
     }
   ]
+});
+
+Vue.use(VueAnalytics, {
+  id: "UA-128202561-1",
+  router
 });
 
 export default router;
