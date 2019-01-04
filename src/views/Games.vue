@@ -36,6 +36,10 @@
     <h2>(CFW only: it needs ldn_mitn kip)</h2>
     <div class="cards">
       <Card
+        title="A.O.T 2"
+        message=""
+        image="switch/aot2.jpg" />
+      <Card
         title="Diablo III: Eternal Collection"
         message=""
         image="switch/diabloiiieternalcollection.jpg" />
@@ -52,6 +56,10 @@
         message=""
         image="switch/monsterhuntergenerationsultimate.jpg" />
       <Card
+        title="Payday 2"
+        message=""
+        image="switch/payday2.jpg" />
+      <Card
         title="Puyo Puyo Tetris"
         message=""
         image="switch/puyopuyotetris.jpg" />
@@ -67,6 +75,18 @@
         title="Super Smash Bros. Ultimate"
         message=""
         image="switch/supersmashbrosultimate.jpg" />
+      <Card
+        title="Ultra Street Fighter 2: The Final Challengers"
+        message=""
+        image="switch/ultrastreetfighter2thefinalchallengers.jpg" />
+      <Card
+        title="UNO"
+        message=""
+        image="switch/uno.jpg" />
+      <Card
+        title="Worms W.M.D."
+        message=""
+        image="switch/wormswmd.jpg" />
       <Card
         title="And so on..."
         message=""
