@@ -50,6 +50,14 @@ export default [
     data: undefined
   },
   {
+    ip: "us.nx-s.cf",
+    port: 11451,
+    flag: "us",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
     ip: "qcswitch.ddns.net",
     port: 11451,
     flag: "ca",
