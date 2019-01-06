@@ -30,7 +30,8 @@ export default {
   },
   props: {
     server: Object,
-    ping: Number
+    ping: Number,
+    timerPing: Object
   },
   computed: {
     checkOnline() {
@@ -60,15 +61,22 @@ export default {
       window.getSelection().addRange(range);
       document.execCommand("copy");
       window.getSelection().removeAllRanges();
+    },
+    refreshPing() {
+      let ctx = this;
+      let started = new Date().getTime();
+      fetch(`//${this.server.ip}:${this.server.port}/info`).then(() => {
+        ctx.ping = Math.ceil((new Date().getTime() - started) * 0.3);
+      });
     }
   },
   created() {
-    let ctx = this;
-    ctx.ping = 0;
-    let started = new Date().getTime();
-    fetch(`//${this.server.ip}:${this.server.port}/info`).then(() => {
-      ctx.ping = Math.ceil((new Date().getTime() - started) * 0.3);
-    });
+    this.ping = 0;
+    this.refreshPing();
+    this.timerPing = setInterval(this.refreshPing, 2000)
+  },
+  beforeDestroy() {
+    clearInterval(this.timerPing)
   }
 };
 </script>
