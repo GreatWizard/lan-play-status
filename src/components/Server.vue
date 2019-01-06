@@ -21,7 +21,7 @@
     </td>
     <CellIcon :platform="server.platform" />
     <td>
-      <span v-if="ping > 0">{{ ping }} ms</span> <span v-else>n/a</span>
+      <span v-if="ping >= 0">{{ ping }} ms</span><span v-else>n/a</span>
     </td>
   </tr>
 </template>
@@ -95,17 +95,21 @@ export default {
     refreshPing() {
       let ctx = this;
       let started = new Date().getTime();
-      fetch(`//${this.server.ip}:${this.server.port}/info`).then(() => {
-        ctx.ping = Math.ceil((new Date().getTime() - started) * 0.3);
-      });
+      fetch(`//${this.server.ip}:${this.server.port}/info`)
+        .then(() => {
+          ctx.ping = Math.ceil((new Date().getTime() - started) * 0.3);
+        })
+        .catch(() => {
+          clearInterval(ctx.timerPing);
+        });
     }
   },
   created() {
-    this.ping = 0;
-    this.refreshServer();
-    this.refreshPing();
+    this.ping = -1;
     this.timerServer = setInterval(this.refreshServer, 10000);
     this.timerPing = setInterval(this.refreshPing, 2000);
+    this.refreshServer();
+    this.refreshPing();
   },
   beforeDestroy() {
     clearInterval(this.timerServer);
