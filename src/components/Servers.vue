@@ -10,11 +10,7 @@
       </tr>
     </thead>
     <tbody>
-      <Server
-        v-for="server in servers"
-        :server="server"
-        :key="server.ip"
-      />
+      <Server v-for="server in servers" :server="server" :key="server.ip" />
     </tbody>
   </table>
 </template>

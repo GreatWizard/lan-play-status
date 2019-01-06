@@ -1,9 +1,13 @@
 <template>
   <div class="card">
-    <img :src="require(`@/assets/${image}`)" class="card__image" alt="Card Image">
+    <img
+      :src="require(`@/assets/${image}`)"
+      class="card__image"
+      alt="Card Image"
+    />
     <div class="card__content">
-      <h2>{{title}}</h2>
-      <p>{{message}}</p>
+      <h2>{{ title }}</h2>
+      <p>{{ message }}</p>
     </div>
   </div>
 </template>

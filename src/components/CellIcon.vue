@@ -1,6 +1,10 @@
 <template>
   <td :data-tooltip="tooltip">
-    <img :alt="platform" class="icon" :src="require(`@/assets/${platform}.png`)">
+    <img
+      :alt="platform"
+      class="icon"
+      :src="require(`@/assets/${platform}.png`)"
+    />
   </td>
 </template>
 

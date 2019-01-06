@@ -1,11 +1,10 @@
 <template>
   <div class="home">
-    <img alt="Logo" class="logo" src="../assets/logo.png">
+    <img alt="Logo" class="logo" src="../assets/logo.png" />
     <h1>LAN Play Status</h1>
     <Servers />
   </div>
 </template>
-
 
 <script>
 import Servers from "@/components/Servers.vue";
