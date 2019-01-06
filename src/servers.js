@@ -10,25 +10,6 @@ export default [
     highlight: true
   },
   {
-    ip: "35.236.10.223",
-    port: 11451,
-    flag: "us",
-    platform: "switch",
-    status: undefined,
-    ping: undefined,
-    data: undefined,
-    highlight: true
-  },
-  {
-    ip: "nycnsw.duckdns.org",
-    port: 11451,
-    flag: "us",
-    platform: "switch",
-    status: undefined,
-    ping: undefined,
-    data: undefined
-  },
-  {
     ip: "nxlan.duckdns.org",
     port: 11451,
     flag: "us",
@@ -39,15 +20,6 @@ export default [
   },
   {
     ip: "pcoh.ddns.net",
-    port: 11451,
-    flag: "us",
-    platform: "switch",
-    status: undefined,
-    ping: undefined,
-    data: undefined
-  },
-  {
-    ip: "switchonline.club",
     port: 11451,
     flag: "us",
     platform: "switch",
@@ -101,24 +73,6 @@ export default [
     data: undefined
   },
   {
-    ip: "relay1.fadx.co.uk",
-    port: 11451,
-    flag: "gb",
-    platform: "switch",
-    status: undefined,
-    ping: undefined,
-    data: undefined
-  },
-  {
-    ip: "relay2.fadx.co.uk",
-    port: 11451,
-    flag: "gb",
-    platform: "switch",
-    status: undefined,
-    ping: undefined,
-    data: undefined
-  },
-  {
     ip: "switch.glaciergaming.co.uk",
     port: 11451,
     flag: "gb",
@@ -131,15 +85,6 @@ export default [
     ip: "switch.homelab.tech",
     port: 11451,
     flag: "gb",
-    platform: "switch",
-    status: undefined,
-    ping: undefined,
-    data: undefined
-  },
-  {
-    ip: "bandits.duckdns.org",
-    port: 11451,
-    flag: "eu",
     platform: "switch",
     status: undefined,
     ping: undefined,
@@ -167,24 +112,6 @@ export default [
     ip: "nerdylife.de",
     port: 11451,
     flag: "de",
-    platform: "switch",
-    status: undefined,
-    ping: undefined,
-    data: undefined
-  },
-  {
-    ip: "46.183.114.73",
-    port: 11451,
-    flag: "es",
-    platform: "switch",
-    status: undefined,
-    ping: undefined,
-    data: undefined
-  },
-  {
-    ip: "213.37.202.129",
-    port: 11451,
-    flag: "es",
     platform: "switch",
     status: undefined,
     ping: undefined,
@@ -236,7 +163,7 @@ export default [
     data: undefined
   },
   {
-    ip: "switch-lan.duckdns.org",
+    ip: "nswbr.ddns.net",
     port: 11451,
     flag: "br",
     platform: "switch",
@@ -246,15 +173,6 @@ export default [
   },
   {
     ip: "177.54.110.45",
-    port: 11451,
-    flag: "br",
-    platform: "switch",
-    status: undefined,
-    ping: undefined,
-    data: undefined
-  },
-  {
-    ip: "nswbr.ddns.net",
     port: 11451,
     flag: "br",
     platform: "switch",
@@ -275,15 +193,6 @@ export default [
     ip: "jp.nx-s.cf",
     port: 11451,
     flag: "jp",
-    platform: "switch",
-    status: undefined,
-    ping: undefined,
-    data: undefined
-  },
-  {
-    ip: "200.120.118.142",
-    port: 11451,
-    flag: "cl",
     platform: "switch",
     status: undefined,
     ping: undefined,
