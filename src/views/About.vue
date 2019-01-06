@@ -17,7 +17,7 @@
     <h2>The status website</h2>
     <p>
       <a href="https://github.com/GreatWizard/lan-play-status" target="=_blank">
-        This website is provided by GreatWizard.
+        This website (lan-play.com) is provided by GreatWizard.
       </a>
     </p>
   </div>
