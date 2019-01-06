@@ -23,10 +23,10 @@ jobs:
           at: .
       - restore_cache:
           keys:
-            - lan-play-status-node10-v1-{{ checksum "yarn.lock" }}
+            - lan-play-status-node10-v2-{{ checksum "yarn.lock" }}
       - run: yarn install --non-interactive --pure-lockfile
       - save_cache:
-          key: lan-play-status-node10-v1-{{ checksum "yarn.lock" }}
+          key: lan-play-status-node10-v2-{{ checksum "yarn.lock" }}
           paths:
             - ~/lan-play-status/node_modules
       - persist_to_workspace:
