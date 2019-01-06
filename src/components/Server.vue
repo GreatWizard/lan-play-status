@@ -106,8 +106,8 @@ export default {
   },
   created() {
     this.ping = -1;
-    this.timerServer = setInterval(this.refreshServer, 10000);
-    this.timerPing = setInterval(this.refreshPing, 2000);
+    this.timerServer = setInterval(this.refreshServer, 20000);
+    this.timerPing = setInterval(this.refreshPing, 5000);
     this.refreshServer();
     this.refreshPing();
   },
