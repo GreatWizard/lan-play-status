@@ -21,7 +21,8 @@
     </td>
     <CellIcon :platform="server.platform" />
     <td>
-      <span v-if="ping >= 0">{{ ping }} ms</span><span v-else>n/a</span>
+      <span v-if="server.ping >= 0">{{ server.ping }} ms</span
+      ><span v-else>n/a</span>
     </td>
   </tr>
 </template>
@@ -44,7 +45,7 @@ export default {
   },
   props: {
     server: Object,
-    ping: Number,
+    timerServer: Object,
     timerPing: Object
   },
   computed: {
@@ -84,10 +85,20 @@ export default {
           }
         })
         .then(data => {
+          if (ctx.server.status !== 1) {
+            clearInterval(this.timerServer);
+            this.timerServer = setInterval(this.refreshServer, 120000);
+            clearInterval(this.timerPing);
+            this.timerPing = setInterval(this.refreshPing, 5000);
+          }
           ctx.server.status = 1;
           ctx.server.data = data;
         })
         .catch(() => {
+          if (ctx.server.status !== -1) {
+            clearInterval(this.timerServer);
+            this.timerServer = setInterval(this.refreshServer, 300000);
+          }
           ctx.server.status = -1;
           ctx.server.data = undefined;
         });
@@ -95,21 +106,34 @@ export default {
     refreshPing() {
       let ctx = this;
       let started = new Date().getTime();
-      fetch(`//${this.server.ip}:${this.server.port}/info`)
-        .then(() => {
-          ctx.ping = Math.ceil((new Date().getTime() - started) * 0.3);
+      fetchWithTimeout(`//${this.server.ip}:${this.server.port}/info`)
+        .then(response => {
+          if (response.ok) {
+            ctx.server.ping = Math.ceil((new Date().getTime() - started) * 0.3);
+            return response.json();
+          } else {
+            throw new Error("bad api");
+          }
+        })
+        .then(data => {
+          if (ctx.server.status === 1) {
+            clearInterval(this.timerServer);
+          }
+          ctx.server.status = 2;
+          ctx.server.data = data;
         })
         .catch(() => {
+          if (ctx.server.status === 2) {
+            clearInterval(this.timerServer);
+            this.timerServer = setInterval(this.refreshServer, 300000);
+          }
+          ctx.server.ping = -1;
           clearInterval(ctx.timerPing);
         });
     }
   },
   created() {
-    this.ping = -1;
-    this.timerServer = setInterval(this.refreshServer, 20000);
-    this.timerPing = setInterval(this.refreshPing, 5000);
     this.refreshServer();
-    this.refreshPing();
   },
   beforeDestroy() {
     clearInterval(this.timerServer);

@@ -5,6 +5,7 @@ export default [
     flag: "fr",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined,
     highlight: true
   },
@@ -14,6 +15,7 @@ export default [
     flag: "us",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined,
     highlight: true
   },
@@ -23,6 +25,7 @@ export default [
     flag: "us",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -31,6 +34,7 @@ export default [
     flag: "us",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -39,6 +43,7 @@ export default [
     flag: "us",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -47,6 +52,7 @@ export default [
     flag: "us",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -55,6 +61,7 @@ export default [
     flag: "us",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -63,6 +70,7 @@ export default [
     flag: "ca",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -71,6 +79,7 @@ export default [
     flag: "fr",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -79,6 +88,7 @@ export default [
     flag: "fr",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -87,6 +97,7 @@ export default [
     flag: "gb",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -95,6 +106,7 @@ export default [
     flag: "gb",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -103,6 +115,7 @@ export default [
     flag: "gb",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -111,6 +124,7 @@ export default [
     flag: "gb",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -119,6 +133,7 @@ export default [
     flag: "gb",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -127,6 +142,7 @@ export default [
     flag: "eu",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -135,6 +151,7 @@ export default [
     flag: "de",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -143,6 +160,7 @@ export default [
     flag: "de",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -151,6 +169,7 @@ export default [
     flag: "de",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -159,6 +178,7 @@ export default [
     flag: "es",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -167,6 +187,7 @@ export default [
     flag: "es",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -175,6 +196,7 @@ export default [
     flag: "lt",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -183,6 +205,7 @@ export default [
     flag: "nl",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -191,6 +214,7 @@ export default [
     flag: "nl",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -199,6 +223,7 @@ export default [
     flag: "ro",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -207,6 +232,7 @@ export default [
     flag: "no",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -215,6 +241,7 @@ export default [
     flag: "br",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -223,6 +250,7 @@ export default [
     flag: "br",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -231,6 +259,7 @@ export default [
     flag: "br",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -239,6 +268,7 @@ export default [
     flag: "kr",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -247,6 +277,7 @@ export default [
     flag: "jp",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -255,6 +286,7 @@ export default [
     flag: "cl",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -263,6 +295,7 @@ export default [
     flag: "sg",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   },
   {
@@ -271,6 +304,7 @@ export default [
     flag: "au",
     platform: "switch",
     status: undefined,
+    ping: undefined,
     data: undefined
   }
 ];
