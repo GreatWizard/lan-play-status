@@ -186,6 +186,14 @@ export default [
     data: undefined
   },
   {
+    ip: "jayseateam.nl",
+    port: 11451,
+    flag: "nl",
+    platform: "switch",
+    status: undefined,
+    data: undefined
+  },
+  {
     ip: "lanplay2.reboot.ms",
     port: 11451,
     flag: "ro",
