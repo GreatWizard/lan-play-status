@@ -10,6 +10,24 @@ export default [
     highlight: true
   },
   {
+    ip: "au-west.switch.lan-play.com",
+    port: 11451,
+    flag: "au",
+    platform: "switch",
+    status: undefined,
+    ping: undefined,
+    data: undefined
+  },
+  {
+    ip: "au-east.switch.lan-play.com",
+    port: 11451,
+    flag: "au",
+    platform: "switch",
+    status: undefined,
+    ping: undefined,
+    data: undefined
+  },
+  {
     ip: "nxlan.duckdns.org",
     port: 11451,
     flag: "us",
@@ -202,15 +220,6 @@ export default [
     ip: "switch.adelphia.xyz",
     port: 11451,
     flag: "sg",
-    platform: "switch",
-    status: undefined,
-    ping: undefined,
-    data: undefined
-  },
-  {
-    ip: "lithium2g.ddns.net",
-    port: 11451,
-    flag: "au",
     platform: "switch",
     status: undefined,
     ping: undefined,
