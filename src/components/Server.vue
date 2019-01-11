@@ -90,6 +90,7 @@ export default {
             this.timerServer = setInterval(this.refreshServer, 120000);
             clearInterval(this.timerPing);
             this.timerPing = setInterval(this.refreshPing, 5000);
+            this.refreshPing();
           }
           ctx.server.status = 1;
           ctx.server.data = data;
