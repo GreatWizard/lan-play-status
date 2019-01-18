@@ -4,7 +4,7 @@
     <h2>LAN Play Client 0.0.7</h2>
     <p>
       <a
-        href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.0.7/lan-play-win64.exe"
+        href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.1.0/lan-play-win64.exe"
         target="=_blank"
       >
         Windows (64bit)
@@ -12,7 +12,7 @@
     </p>
     <p>
       <a
-        href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.0.7/lan-play-win32.exe"
+        href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.1.0/lan-play-win32.exe"
         target="=_blank"
       >
         Windows (32bit)
@@ -20,7 +20,7 @@
     </p>
     <p>
       <a
-        href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.0.7/lan-play-macos"
+        href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.1.0/lan-play-macos"
         target="=_blank"
       >
         MacOS
@@ -28,7 +28,7 @@
     </p>
     <p>
       <a
-        href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.0.7/lan-play-linux"
+        href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.1.0/lan-play-linux"
         target="=_blank"
       >
         Linux
