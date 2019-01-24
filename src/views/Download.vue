@@ -1,7 +1,7 @@
 <template>
   <div class="download">
     <h1>Download</h1>
-    <h2>LAN Play Client 0.0.7</h2>
+    <h2>LAN Play Client 0.1.0</h2>
     <p>
       <a
         href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.1.0/lan-play-win64.exe"
