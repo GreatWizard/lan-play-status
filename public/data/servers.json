@@ -1,0 +1,158 @@
+[
+  {
+    "ip": "switch.lan-play.com",
+    "port": 11451,
+    "flag": "fr",
+    "platform": "switch"
+  },
+  {
+    "ip": "au-west.switch.lan-play.com",
+    "port": 11451,
+    "flag": "au",
+    "platform": "switch"
+  },
+  {
+    "ip": "au-east.switch.lan-play.com",
+    "port": 11451,
+    "flag": "au",
+    "platform": "switch"
+  },
+  {
+    "ip": "nxlan.duckdns.org",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch"
+  },
+  {
+    "ip": "pcoh.ddns.net",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch"
+  },
+  {
+    "ip": "us.nx-s.cf",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch"
+  },
+  {
+    "ip": "gee19.com",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch"
+  },
+  {
+    "ip": "qcswitch.ddns.net",
+    "port": 11451,
+    "flag": "ca",
+    "platform": "switch"
+  },
+  {
+    "ip": "fr.fadx.co.uk",
+    "port": 11451,
+    "flag": "fr",
+    "platform": "switch"
+  },
+  {
+    "ip": "nxlanfr.hopto.org",
+    "port": 11451,
+    "flag": "fr",
+    "platform": "switch"
+  },
+  {
+    "ip": "switch.emiyl.com",
+    "port": 11451,
+    "flag": "gb",
+    "platform": "switch"
+  },
+  {
+    "ip": "switch.glaciergaming.co.uk",
+    "port": 11451,
+    "flag": "gb",
+    "platform": "switch"
+  },
+  {
+    "ip": "switch.homelab.tech",
+    "port": 11451,
+    "flag": "gb",
+    "platform": "switch"
+  },
+  {
+    "ip": "memehouse.de",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch"
+  },
+  {
+    "ip": "relay.it-cybergate.club",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch"
+  },
+  {
+    "ip": "nerdylife.de",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch"
+  },
+  {
+    "ip": "euplay.secretalgorithm.com",
+    "port": 11451,
+    "flag": "lt",
+    "platform": "switch"
+  },
+  {
+    "ip": "lanplay.reboot.ms",
+    "port": 11451,
+    "flag": "nl",
+    "platform": "switch"
+  },
+  {
+    "ip": "jayseateam.nl",
+    "port": 11451,
+    "flag": "nl",
+    "platform": "switch"
+  },
+  {
+    "ip": "lanplay2.reboot.ms",
+    "port": 11451,
+    "flag": "ro",
+    "platform": "switch"
+  },
+  {
+    "ip": "switch.goffy.tk",
+    "port": 11451,
+    "flag": "no",
+    "platform": "switch"
+  },
+  {
+    "ip": "nswbr.ddns.net",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch"
+  },
+  {
+    "ip": "177.54.110.45",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch"
+  },
+  {
+    "ip": "slp.rush-hour.wo.tc",
+    "port": 11451,
+    "flag": "kr",
+    "platform": "switch"
+  },
+  {
+    "ip": "jp.nx-s.cf",
+    "port": 11451,
+    "flag": "jp",
+    "platform": "switch"
+  },
+  {
+    "ip": "switch.adelphia.xyz",
+    "port": 11451,
+    "flag": "sg",
+    "platform": "switch"
+  }
+]
