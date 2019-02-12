@@ -55,7 +55,7 @@ export default [
     data: undefined
   },
   {
-    ip: "gee19.com",
+    ip: "frog-skins.com",
     port: 11451,
     flag: "us",
     platform: "switch",
