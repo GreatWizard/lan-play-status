@@ -64,6 +64,15 @@ export default [
     data: undefined
   },
   {
+    ip: "34.69.148.75",
+    port: 11451,
+    flag: "us",
+    platform: "switch",
+    status: undefined,
+    ping: undefined,
+    data: undefined
+  },
+  {
     ip: "qcswitch.ddns.net",
     port: 11451,
     flag: "ca",
@@ -110,6 +119,15 @@ export default [
   },
   {
     ip: "switch.homelab.tech",
+    port: 11451,
+    flag: "gb",
+    platform: "switch",
+    status: undefined,
+    ping: undefined,
+    data: undefined
+  },
+  {
+    ip: "34.89.92.59",
     port: 11451,
     flag: "gb",
     platform: "switch",
@@ -200,6 +218,15 @@ export default [
   },
   {
     ip: "177.54.110.45",
+    port: 11451,
+    flag: "br",
+    platform: "switch",
+    status: undefined,
+    ping: undefined,
+    data: undefined
+  },
+  {
+    ip: "35.235.1.55",
     port: 11451,
     flag: "br",
     platform: "switch",
