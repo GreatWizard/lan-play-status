@@ -36,7 +36,7 @@
       <Card title="Titan Quest" message="" image="switch/titanquest.jpg" />
     </div>
     <h1>Games with Wireless Mode</h1>
-    <h2>(CFW only: it needs ldn_mitn kip)</h2>
+    <h2>(CFW only: it needs ldn_mitm kip)</h2>
     <div class="cards">
       <Card title="A.O.T 2" message="" image="switch/aot2.jpg" />
       <Card
