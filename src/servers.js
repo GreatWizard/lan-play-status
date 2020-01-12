@@ -82,6 +82,15 @@ export default [
     data: undefined
   },
   {
+    ip: "north-lanplay.ddns.net",
+    port: 11451,
+    flag: "ca",
+    platform: "switch",
+    status: undefined,
+    ping: undefined,
+    data: undefined
+  },
+  {
     ip: "fr.fadx.co.uk",
     port: 11451,
     flag: "fr",
