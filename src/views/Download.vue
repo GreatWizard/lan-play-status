@@ -37,18 +37,10 @@
     <h2>Switch Sysmodule and Homebrew (ldn_mitm)</h2>
     <p>
       <a
-        href="https://github.com/spacemeowx2/ldn_mitm/releases/download/v1.2.7/ldn_mitm_v1.2.7.kip"
+        href="https://github.com/spacemeowx2/ldn_mitm/releases/download/v1.3.1-alpha/ldn_mitm_v1.3.1-alpha.zip"
         target="=_blank"
       >
-        Ldn_mtm v1.2.7
-      </a>
-    </p>
-    <p>
-      <a
-        href="https://github.com/spacemeowx2/ldn_mitm/releases/download/v1.2.7/ldnmitm_config.nro"
-        target="=_blank"
-      >
-        Ldn_mtm config homebrew v1.2.7
+        Ldn_mtm v1.3.1-alpha
       </a>
     </p>
     <em> (or you can use SX-OS v2.5+) </em>
