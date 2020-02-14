@@ -261,6 +261,15 @@ export default [
     ping: undefined,
     data: undefined
   },
+   {
+    ip: "nut.r3n3.at",
+    port: 11451,
+    flag: "at",
+    platform: "switch",
+    status: undefined,
+    ping: undefined,
+    data: undefined
+  },
   {
     ip: "switch.adelphia.xyz",
     port: 11451,
