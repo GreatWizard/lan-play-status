@@ -53,7 +53,12 @@ export default {
       return `${this.server.ip}:${this.server.port}`;
     },
     infos() {
-      return `Version: ${this.server.data.version}`;
+      let infos = `Server type: ${this.server.type}`;
+      if (this.server.data.version) {
+        infos = `${infos}
+(v${this.server.data.version})`;
+      }
+      return infos;
     },
     country() {
       return this.server.flag.toUpperCase();
@@ -75,7 +80,10 @@ export default {
     },
     refreshServer() {
       let ctx = this;
-      let url = `/proxy.php?address=${this.server.ip}&port=${this.server.port}`;
+      let url = `/proxy.php?address=${this.server.ip}:${this.server.port}`;
+      if (this.server.type === "node") {
+        url = `${url}/info`;
+      }
       return fetchWithTimeout(url)
         .then(response => {
           if (response.ok) {
@@ -93,7 +101,11 @@ export default {
             this.refreshPing();
           }
           ctx.server.status = 1;
-          ctx.server.data = data;
+          if (this.server.type === "node") {
+            ctx.server.data = { online: data.online, version: data.version };
+          } else if (this.server.type === "dotnet") {
+            ctx.server.data = { online: data.clientCount };
+          }
         })
         .catch(() => {
           if (ctx.server.status !== -1) {
@@ -107,7 +119,11 @@ export default {
     refreshPing() {
       let ctx = this;
       let started = new Date().getTime();
-      fetchWithTimeout(`//${this.server.ip}:${this.server.port}/info`)
+      let url = `//${this.server.ip}:${this.server.port}`;
+      if (this.server.type === "node") {
+        url = `${url}/info`;
+      }
+      fetchWithTimeout(url)
         .then(response => {
           if (response.ok) {
             ctx.server.ping = Math.ceil((new Date().getTime() - started) * 0.3);
@@ -121,7 +137,11 @@ export default {
             clearInterval(this.timerServer);
           }
           ctx.server.status = 2;
-          ctx.server.data = data;
+          if (this.server.type === "node") {
+            ctx.server.data = { online: data.online, version: data.version };
+          } else if (this.server.type === "dotnet") {
+            ctx.server.data = { online: data.clientCount };
+          }
         })
         .catch(() => {
           if (ctx.server.status === 2) {
