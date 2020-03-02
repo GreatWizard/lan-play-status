@@ -24,6 +24,12 @@
         image="switch/mariotennisaces.jpg"
       />
       <Card
+        title="Pokémon Shield"
+        message=""
+        image="switch/pokemonshield.jpg"
+      />
+      <Card title="Pokémon Sword" message="" image="switch/pokemonsword.jpg" />
+      <Card
         title="Pokken Tournament DX"
         message="From the main screen select a game. Press [X] + [Dpad-Down] and press [L] + [R]."
         image="switch/pokkentournamentdx.jpg"
@@ -50,6 +56,11 @@
         image="switch/dragonballxenoverse2.jpg"
       />
       <Card title="FIFA 19" message="" image="switch/fifa19.jpg" />
+      <Card
+        title="Luigi's Mansion 3"
+        message=""
+        image="switch/luigismansion3.jpg"
+      />
       <Card
         title="Monster Hunter Generations Ultimate"
         message=""
