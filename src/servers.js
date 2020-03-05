@@ -97,7 +97,8 @@ export default [
     platform: "switch",
     status: undefined,
     ping: undefined,
-    data: undefined
+    data: undefined,
+    type: "node"
   },
   {
     ip: "nxlanfr.hopto.org",
