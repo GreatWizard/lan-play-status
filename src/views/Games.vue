@@ -35,6 +35,11 @@
         image="switch/pokkentournamentdx.jpg"
       />
       <Card
+        title="Saints Row: The Third"
+        message=""
+        image="switch/saintsrow3.jpg"
+      />
+      <Card
         title="Splatoon 2"
         message="Press [L] + [R] + [Left Analog] at the local play option. Hold down until the lan mode is activated."
         image="switch/splatoon2.jpg"
