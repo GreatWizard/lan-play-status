@@ -91,6 +91,16 @@ export default [
     type: "node"
   },
   {
+    ip: "north-lanplay.ddns.net",
+    port: 11451,
+    flag: "ca",
+    platform: "switch",
+    status: undefined,
+    ping: undefined,
+    data: undefined,
+    type: "node"
+  },
+  {
     ip: "fr.fadx.co.uk",
     port: 11451,
     flag: "fr",
@@ -322,16 +332,6 @@ export default [
   },
   {
     ip: "epicna.ddns.net",
-    port: 11451,
-    flag: "ca",
-    platform: "switch",
-    status: undefined,
-    ping: undefined,
-    data: undefined,
-    type: "dotnet"
-  },
-  {
-    ip: "north-lanplay.ddns.net",
     port: 11451,
     flag: "ca",
     platform: "switch",

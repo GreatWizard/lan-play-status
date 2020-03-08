@@ -63,6 +63,13 @@
     "type": "node"
   },
   {
+    "ip": "north-lanplay.ddns.net",
+    "port": 11451,
+    "flag": "ca",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
     "ip": "fr.fadx.co.uk",
     "port": 11451,
     "flag": "fr",
@@ -225,13 +232,6 @@
   },
   {
     "ip": "epicna.ddns.net",
-    "port": 11451,
-    "flag": "ca",
-    "platform": "switch",
-    "type": "dotnet"
-  },
-  {
-    "ip": "north-lanplay.ddns.net",
     "port": 11451,
     "flag": "ca",
     "platform": "switch",
