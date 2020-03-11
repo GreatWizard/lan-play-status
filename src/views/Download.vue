@@ -20,10 +20,10 @@
     </p>
     <p>
       <a
-        href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.0.7/lan-play-macos"
+        href="https://www111.zippyshare.com/v/2DNOz1XM/file.html"
         target="=_blank"
       >
-        MacOS v0.0.7
+        MacOS v0.2.1
       </a>
     </p>
     <p>
