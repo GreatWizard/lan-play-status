@@ -142,7 +142,7 @@
   {
     "ip": "lanplay.reboot.ms",
     "port": 11451,
-    "flag": "nl",
+    "flag": "fr",
     "platform": "switch",
     "type": "node"
   },
@@ -150,13 +150,6 @@
     "ip": "jayseateam.nl",
     "port": 11451,
     "flag": "nl",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "lanplay2.reboot.ms",
-    "port": 11451,
-    "flag": "ro",
     "platform": "switch",
     "type": "node"
   },
@@ -219,7 +212,7 @@
   {
     "ip": "nut.r3n3.at",
     "port": 11451,
-    "flag": "at",
+    "flag": "de",
     "platform": "switch",
     "type": "dotnet"
   },

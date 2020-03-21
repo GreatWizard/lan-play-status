@@ -203,7 +203,7 @@ export default [
   {
     ip: "lanplay.reboot.ms",
     port: 11451,
-    flag: "nl",
+    flag: "fr",
     platform: "switch",
     status: undefined,
     ping: undefined,
@@ -214,16 +214,6 @@ export default [
     ip: "jayseateam.nl",
     port: 11451,
     flag: "nl",
-    platform: "switch",
-    status: undefined,
-    ping: undefined,
-    data: undefined,
-    type: "node"
-  },
-  {
-    ip: "lanplay2.reboot.ms",
-    port: 11451,
-    flag: "ro",
     platform: "switch",
     status: undefined,
     ping: undefined,
@@ -313,7 +303,7 @@ export default [
   {
     ip: "nut.r3n3.at",
     port: 11451,
-    flag: "at",
+    flag: "de",
     platform: "switch",
     status: undefined,
     ping: undefined,
