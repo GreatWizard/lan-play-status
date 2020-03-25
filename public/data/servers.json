@@ -203,6 +203,13 @@
     "type": "node"
   },
   {
+    "ip": "lanplay.r3n3.at",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
     "ip": "switch-la.nplay.asia",
     "port": 11451,
     "flag": "vn",
@@ -234,6 +241,13 @@
     "ip": "kirbfeels.throwbackcountdown.com",
     "port": 11451,
     "flag": "us",
+    "platform": "switch",
+    "type": "dotnet"
+  },
+  {
+    "ip": "mhguguts.ddns.net",
+    "port": 11451,
+    "flag": "gb",
     "platform": "switch",
     "type": "dotnet"
   }

@@ -49,6 +49,11 @@
     <h1>Games with Wireless Mode</h1>
     <h2>(CFW only: it needs ldn_mitm kip)</h2>
     <div class="cards">
+      <Card
+        title="Animal Crossing: New Horizons"
+        message="Switch MTU: 1500 — LanPlay PMTU: 500"
+        image="switch/animalcrossingnewhorizons.jpg"
+      />
       <Card title="A.O.T 2" message="" image="switch/aot2.jpg" />
       <Card
         title="Diablo III: Eternal Collection"
@@ -56,15 +61,31 @@
         image="switch/diabloiiieternalcollection.jpg"
       />
       <Card
+        title="DRAGON BALL FighterZ"
+        message=""
+        image="switch/dragonballfighterz.jpg"
+      />
+      <Card
         title="DRAGON BALL XENOVERSE 2"
         message=""
         image="switch/dragonballxenoverse2.jpg"
       />
+      <Card
+        title="Dragon Quest Builders 2"
+        message=""
+        image="switch/dragonquestbuilders2.jpg"
+      />
+      <Card title="FastRMX" message="" image="switch/fastrmx.jpg" />
       <Card title="FIFA 19" message="" image="switch/fifa19.jpg" />
       <Card
         title="Luigi's Mansion 3"
         message=""
         image="switch/luigismansion3.jpg"
+      />
+      <Card
+        title="Marvel Ultimate Alliance 3: The Black Order"
+        message=""
+        image="switch/marvelultimatealliance3theblackorder.jpg"
       />
       <Card
         title="Monster Hunter Generations Ultimate"
@@ -73,15 +94,30 @@
       />
       <Card title="Payday 2" message="" image="switch/payday2.jpg" />
       <Card
+        title="Portal Knights"
+        message=""
+        image="switch/portalknights.jpg"
+      />
+      <Card
         title="Puyo Puyo Tetris"
         message=""
         image="switch/puyopuyotetris.jpg"
       />
       <Card title="Rocket League" message="" image="switch/rocketleague.jpg" />
       <Card
+        title="Snack World: The Dungeon Crawl — Gold"
+        message=""
+        image="switch/snackworldthedungeoncrawlgold.jpg"
+      />
+      <Card
         title="Stardew Valley"
         message=""
         image="switch/stardewvalley.jpg"
+      />
+      <Card
+        title="Super Mario Maker 2"
+        message=""
+        image="switch/supermariomaker2.jpg"
       />
       <Card
         title="Super Smash Bros. Ultimate"

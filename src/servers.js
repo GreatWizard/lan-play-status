@@ -291,6 +291,16 @@ export default [
     type: "node"
   },
   {
+    ip: "lanplay.r3n3.at",
+    port: 11451,
+    flag: "de",
+    platform: "switch",
+    status: undefined,
+    ping: undefined,
+    data: undefined,
+    type: "node"
+  },
+  {
     ip: "switch-la.nplay.asia",
     port: 11451,
     flag: "vn",
@@ -334,6 +344,16 @@ export default [
     ip: "kirbfeels.throwbackcountdown.com",
     port: 11451,
     flag: "us",
+    platform: "switch",
+    status: undefined,
+    ping: undefined,
+    data: undefined,
+    type: "dotnet"
+  },
+  {
+    ip: "mhguguts.ddns.net",
+    port: 11451,
+    flag: "gb",
     platform: "switch",
     status: undefined,
     ping: undefined,
