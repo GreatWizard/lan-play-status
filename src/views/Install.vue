@@ -22,7 +22,7 @@
         <br />
         <strong>DNS settings</strong><br />
         Primary DNS: 163.172.141.219<br />
-        Secondary DNS: 45.248.48.62<br />
+        Secondary DNS: 207.246.121.77<br />
       </code>
     </p>
     <p>Please follow the screenshots:</p>
