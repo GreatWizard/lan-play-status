@@ -37,7 +37,7 @@
   {
     "ip": "us.nx-s.cf",
     "port": 11451,
-    "flag": "us",
+    "flag": "nl",
     "platform": "switch",
     "type": "node"
   },
@@ -56,13 +56,6 @@
     "type": "node"
   },
   {
-    "ip": "qcswitch.ddns.net",
-    "port": 11451,
-    "flag": "ca",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
     "ip": "north-lanplay.ddns.net",
     "port": 11451,
     "flag": "ca",
@@ -70,56 +63,21 @@
     "type": "node"
   },
   {
-    "ip": "fr.fadx.co.uk",
-    "port": 11451,
-    "flag": "fr",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "nxlanfr.hopto.org",
-    "port": 11451,
-    "flag": "fr",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "switch.emiyl.com",
-    "port": 11451,
-    "flag": "gb",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "switch.glaciergaming.co.uk",
-    "port": 11451,
-    "flag": "gb",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
     "ip": "switch.homelab.tech",
     "port": 11451,
-    "flag": "gb",
+    "flag": "us",
     "platform": "switch",
     "type": "node"
   },
   {
     "ip": "34.89.92.59",
     "port": 11451,
-    "flag": "gb",
+    "flag": "us",
     "platform": "switch",
     "type": "node"
   },
   {
     "ip": "memehouse.de",
-    "port": 11451,
-    "flag": "de",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "relay.it-cybergate.club",
     "port": 11451,
     "flag": "de",
     "platform": "switch",
@@ -154,20 +112,6 @@
     "type": "node"
   },
   {
-    "ip": "switch.goffy.tk",
-    "port": 11451,
-    "flag": "no",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "nswbr.ddns.net",
-    "port": 11451,
-    "flag": "br",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
     "ip": "177.54.110.45",
     "port": 11451,
     "flag": "br",
@@ -177,28 +121,14 @@
   {
     "ip": "35.235.1.55",
     "port": 11451,
-    "flag": "br",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "slp.rush-hour.wo.tc",
-    "port": 11451,
-    "flag": "kr",
+    "flag": "us",
     "platform": "switch",
     "type": "node"
   },
   {
     "ip": "jp.nx-s.cf",
     "port": 11451,
-    "flag": "jp",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "switch.adelphia.xyz",
-    "port": 11451,
-    "flag": "sg",
+    "flag": "nl",
     "platform": "switch",
     "type": "node"
   },
