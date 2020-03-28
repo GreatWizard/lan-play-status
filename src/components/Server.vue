@@ -13,16 +13,22 @@
       </button>
     </td>
     <td :data-tooltip="infos">
-      {{ server.data.online }}
-      <img alt="Users" class="icon" src="../assets/users.png" />
+      <span v-if="server.data.online >= 0">
+        {{ server.data.online }}
+        <img alt="Active users" class="icon" src="../assets/active.png" />
+      </span>
+      <span v-if="server.data.idle >= 0">
+        / {{ server.data.idle }}
+        <img alt="Idle users" class="icon" src="../assets/idle.png" />
+      </span>
     </td>
     <td :data-tooltip="country">
       <flag :iso="server.flag" :squared="false" />
     </td>
     <CellIcon :platform="server.platform" />
     <td>
-      <span v-if="server.ping >= 0">{{ server.ping }} ms</span
-      ><span v-else>n/a</span>
+      <span v-if="server.ping >= 0">{{ server.ping }} ms</span>
+      <span v-else>n/a</span>
     </td>
   </tr>
 </template>
@@ -81,7 +87,7 @@ export default {
     refreshServer() {
       let ctx = this;
       let url = `/proxy.php?address=${this.server.ip}:${this.server.port}`;
-      if (this.server.type === "node") {
+      if (this.server.type === "node" || this.server.type === "rust") {
         url = `${url}/info`;
       }
       return fetchWithTimeout(url)
@@ -103,6 +109,12 @@ export default {
           ctx.server.status = 1;
           if (this.server.type === "node") {
             ctx.server.data = { online: data.online, version: data.version };
+          } else if (this.server.type === "rust") {
+            ctx.server.data = {
+              online: data.online,
+              idle: data.idle,
+              version: data.version
+            };
           } else if (this.server.type === "dotnet") {
             ctx.server.data = { online: data.clientCount };
           }
@@ -120,7 +132,7 @@ export default {
       let ctx = this;
       let started = new Date().getTime();
       let url = `//${this.server.ip}:${this.server.port}`;
-      if (this.server.type === "node") {
+      if (this.server.type === "node" || this.server.type === "rust") {
         url = `${url}/info`;
       }
       fetchWithTimeout(url)
@@ -139,6 +151,12 @@ export default {
           ctx.server.status = 2;
           if (this.server.type === "node") {
             ctx.server.data = { online: data.online, version: data.version };
+          } else if (this.server.type === "rust") {
+            ctx.server.data = {
+              online: data.online,
+              idle: data.idle,
+              version: data.version
+            };
           } else if (this.server.type === "dotnet") {
             ctx.server.data = { online: data.clientCount };
           }

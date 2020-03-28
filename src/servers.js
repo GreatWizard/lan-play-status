@@ -11,6 +11,17 @@ export default [
     type: "node"
   },
   {
+    ip: "switch.lan-play.com",
+    port: 11452,
+    flag: "fr",
+    platform: "switch",
+    status: undefined,
+    ping: undefined,
+    data: undefined,
+    highlight: true,
+    type: "rust"
+  },
+  {
     ip: "au-west.switch.lan-play.com",
     port: 11451,
     flag: "au",
