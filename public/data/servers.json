@@ -14,27 +14,6 @@
     "type": "rust"
   },
   {
-    "ip": "au-west.switch.lan-play.com",
-    "port": 11451,
-    "flag": "au",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "au-east.switch.lan-play.com",
-    "port": 11451,
-    "flag": "au",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "nxlan.duckdns.org",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
     "ip": "pcoh.ddns.net",
     "port": 11451,
     "flag": "us",
@@ -66,13 +45,6 @@
     "ip": "north-lanplay.ddns.net",
     "port": 11451,
     "flag": "ca",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "switch.homelab.tech",
-    "port": 11451,
-    "flag": "us",
     "platform": "switch",
     "type": "node"
   },
@@ -112,13 +84,6 @@
     "type": "node"
   },
   {
-    "ip": "jayseateam.nl",
-    "port": 11451,
-    "flag": "nl",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
     "ip": "177.54.110.45",
     "port": 11451,
     "flag": "br",
@@ -140,16 +105,51 @@
     "type": "node"
   },
   {
-    "ip": "lanplay.r3n3.at",
+    "ip": "switch-la.nplay.asia",
     "port": 11451,
-    "flag": "de",
+    "flag": "vn",
     "platform": "switch",
     "type": "node"
   },
   {
-    "ip": "switch-la.nplay.asia",
+    "ip": "switch.0mn1b0x.com",
     "port": 11451,
-    "flag": "vn",
+    "flag": "au",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
+    "ip": "lanplay2.reboot.ms",
+    "port": 11451,
+    "flag": "gb",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "jayseateam.nl",
+    "port": 11451,
+    "flag": "nl",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "bluehouse.servepics.com",
+    "port": 11451,
+    "flag": "mx",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "lanplay.r3n3.at",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "dotnet"
+  },
+  {
+    "ip": "nxlan.duckdns.org",
+    "port": 11451,
+    "flag": "us",
     "platform": "switch",
     "type": "dotnet"
   },
@@ -157,13 +157,6 @@
     "ip": "nut.r3n3.at",
     "port": 11451,
     "flag": "de",
-    "platform": "switch",
-    "type": "dotnet"
-  },
-  {
-    "ip": "bluehouse.servepics.com",
-    "port": 11451,
-    "flag": "mx",
     "platform": "switch",
     "type": "dotnet"
   },
@@ -185,6 +178,13 @@
     "ip": "mhguguts.ddns.net",
     "port": 11451,
     "flag": "gb",
+    "platform": "switch",
+    "type": "dotnet"
+  },
+  {
+    "ip": "open.t0g3pii.tk",
+    "port": 11451,
+    "flag": "de",
     "platform": "switch",
     "type": "dotnet"
   }

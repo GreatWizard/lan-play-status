@@ -6,6 +6,7 @@
       <a
         href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.2.1/lan-play-win64.exe"
         target="=_blank"
+        rel="noreferrer noopener"
       >
         Windows (64bit) v0.2.1
       </a>
@@ -14,14 +15,16 @@
       <a
         href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.2.1/lan-play-win32.exe"
         target="=_blank"
+        rel="noreferrer noopener"
       >
         Windows (32bit) v0.2.1
       </a>
     </p>
     <p>
       <a
-        href="https://www111.zippyshare.com/v/2DNOz1XM/file.html"
+        href="https://www111.zippyshare.com/d/2DNOz1XM/27792/lan-play-macos-v0.2.1"
         target="=_blank"
+        rel="noreferrer noopener"
       >
         MacOS v0.2.1
       </a>
@@ -30,6 +33,7 @@
       <a
         href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.2.1/lan-play-linux"
         target="=_blank"
+        rel="noreferrer noopener"
       >
         Linux v0.2.1
       </a>
@@ -39,6 +43,7 @@
       <a
         href="https://github.com/spacemeowx2/ldn_mitm/releases/download/v1.3.3/ldn_mitm_v1.3.3.zip"
         target="=_blank"
+        rel="noreferrer noopener"
       >
         Ldn_mtm v1.3.3
       </a>

@@ -13,13 +13,21 @@
       </button>
     </td>
     <td :data-tooltip="infos">
-      <span v-if="server.data.online >= 0">
-        {{ server.data.online }}
-        <img alt="Active users" class="icon" src="../assets/active.png" />
+      <span v-if="server.data.active >= 0 && server.data.idle >= 0">
+        <span v-if="server.data.active >= 0">
+          {{ server.data.active }}
+          <img alt="Active users" class="icon" src="../assets/active.png" />
+        </span>
+        <span v-if="server.data.idle >= 0">
+          / {{ server.data.idle }}
+          <img alt="Idle users" class="icon" src="../assets/idle.png" />
+        </span>
       </span>
-      <span v-if="server.data.idle >= 0">
-        / {{ server.data.idle }}
-        <img alt="Idle users" class="icon" src="../assets/idle.png" />
+      <span v-else>
+        <span v-if="server.data.online >= 0">
+          {{ server.data.online }}
+          <img alt="Online users" class="icon" src="../assets/online.png" />
+        </span>
       </span>
     </td>
     <td :data-tooltip="country">
@@ -51,8 +59,7 @@ export default {
   },
   props: {
     server: Object,
-    timerServer: Object,
-    timerPing: Object
+    timerServer: Object
   },
   computed: {
     fullAddress() {
@@ -86,88 +93,68 @@ export default {
     },
     refreshServer() {
       let ctx = this;
-      let url = `/proxy.php?address=${this.server.ip}:${this.server.port}`;
+      let url = `${this.server.ip}:${this.server.port}`;
+      if (ctx.server.status === -1 || ctx.server.status === 1) {
+        url = `/proxy.php?address=${url}`;
+      } else {
+        url = `//${url}`;
+      }
       if (this.server.type === "node" || this.server.type === "rust") {
         url = `${url}/info`;
       }
+      let started = new Date().getTime();
       return fetchWithTimeout(url)
         .then(response => {
           if (response.ok) {
+            if (ctx.server.status === 0) {
+              ctx.server.ping = Math.ceil(
+                (new Date().getTime() - started) * 0.3
+              );
+            } else {
+              ctx.server.ping = undefined;
+            }
             return response.json();
           } else {
-            throw new Error("bad api");
+            throw new Error(response);
           }
         })
         .then(data => {
-          if (ctx.server.status !== 1) {
+          if (ctx.server.status === undefined) {
+            ctx.server.status = 0;
             clearInterval(this.timerServer);
-            this.timerServer = setInterval(this.refreshServer, 120000);
-            clearInterval(this.timerPing);
-            this.timerPing = setInterval(this.refreshPing, 5000);
-            this.refreshPing();
+            this.timerServer = setInterval(this.refreshServer, 5000);
           }
-          ctx.server.status = 1;
+
+          if (ctx.server.status === -1) {
+            ctx.server.status = 1;
+            clearInterval(this.timerServer);
+            this.timerServer = setInterval(this.refreshServer, 30000);
+          }
+
           if (this.server.type === "node") {
-            ctx.server.data = { online: data.online, version: data.version };
+            ctx.server.data = Object.assign({}, data);
           } else if (this.server.type === "rust") {
-            ctx.server.data = {
-              online: data.online,
-              idle: data.idle,
-              version: data.version
-            };
+            ctx.server.data = Object.assign(
+              { active: data.online - data.idle },
+              data
+            );
           } else if (this.server.type === "dotnet") {
             ctx.server.data = { online: data.clientCount };
           }
         })
         .catch(() => {
-          if (ctx.server.status !== -1) {
-            clearInterval(this.timerServer);
-            this.timerServer = setInterval(this.refreshServer, 300000);
-          }
-          ctx.server.status = -1;
-          ctx.server.data = undefined;
-        });
-    },
-    refreshPing() {
-      let ctx = this;
-      let started = new Date().getTime();
-      let url = `//${this.server.ip}:${this.server.port}`;
-      if (this.server.type === "node" || this.server.type === "rust") {
-        url = `${url}/info`;
-      }
-      fetchWithTimeout(url)
-        .then(response => {
-          if (response.ok) {
-            ctx.server.ping = Math.ceil((new Date().getTime() - started) * 0.3);
-            return response.json();
+          if (ctx.server.status === undefined) {
+            // Maybe CORS issue, test with proxy
+            ctx.server.status = -1;
+            this.refreshServer();
           } else {
-            throw new Error("bad api");
-          }
-        })
-        .then(data => {
-          if (ctx.server.status === 1) {
-            clearInterval(this.timerServer);
-          }
-          ctx.server.status = 2;
-          if (this.server.type === "node") {
-            ctx.server.data = { online: data.online, version: data.version };
-          } else if (this.server.type === "rust") {
-            ctx.server.data = {
-              online: data.online,
-              idle: data.idle,
-              version: data.version
-            };
-          } else if (this.server.type === "dotnet") {
-            ctx.server.data = { online: data.clientCount };
-          }
-        })
-        .catch(() => {
-          if (ctx.server.status === 2) {
+            // timeout
+            ctx.server.status = -2;
             clearInterval(this.timerServer);
             this.timerServer = setInterval(this.refreshServer, 300000);
           }
-          ctx.server.ping = -1;
-          clearInterval(ctx.timerPing);
+          ctx.server.ping = 0;
+          ctx.server.data = {};
         });
     }
   },
@@ -176,7 +163,6 @@ export default {
   },
   beforeDestroy() {
     clearInterval(this.timerServer);
-    clearInterval(this.timerPing);
   }
 };
 </script>

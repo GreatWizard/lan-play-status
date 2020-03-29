@@ -39,8 +39,12 @@
     <h3>Windows</h3>
     <p>
       First, you need to install
-      <a href="https://www.winpcap.org/install/default.htm" target="_blank"
-        >WinPcap
+      <a
+        href="https://www.winpcap.org/install/default.htm"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        WinPcap
       </a>
     </p>
 
@@ -48,7 +52,9 @@
     <h3>MacOS</h3>
     <p>
       First, you need to install
-      <a href="https://brew.sh" target="_blank">Homebrew</a>
+      <a href="https://brew.sh" target="_blank" rel="noreferrer noopener">
+        Homebrew</a
+      >
     </p>
     <p>Then in a terminal: <code>brew install libpcap libuv</code></p>
     <p>Finally in a terminal: <code>sudo ./lan-play-macos</code></p>
