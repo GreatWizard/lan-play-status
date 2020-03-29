@@ -30,6 +30,10 @@ export default {
   width: 300px;
   margin-bottom: 20px;
 
+  @media only screen and (max-width: 768px) {
+    width: 150px;
+  }
+
   &__image {
     border-radius: 5px 5px 0 0;
     max-width: 100%;

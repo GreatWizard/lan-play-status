@@ -4,8 +4,8 @@
       <tr>
         <th>Server</th>
         <th>Status</th>
-        <th>Country</th>
-        <th>Platform</th>
+        <th class="hide--on-mobile">Country</th>
+        <th class="hide--on-mobile">Platform</th>
         <th>Ping</th>
       </tr>
     </thead>
@@ -46,6 +46,10 @@ table {
     border-bottom: 1px solid #ddd;
     padding: 8px;
     text-align: center;
+
+    @media only screen and (max-width: 768px) {
+      padding: 2px;
+    }
   }
   tr:nth-child(even) {
     background-color: #f2f2f2;
@@ -57,6 +61,15 @@ table {
     padding: 12px;
     background-color: #5f4339;
     color: white;
+
+    @media only screen and (max-width: 768px) {
+      padding: 4px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .hide--on-mobile {
+    display: none;
   }
 }
 </style>
