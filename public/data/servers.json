@@ -14,20 +14,6 @@
     "type": "rust"
   },
   {
-    "ip": "pcoh.ddns.net",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "us.nx-s.cf",
-    "port": 11451,
-    "flag": "nl",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
     "ip": "frog-skins.com",
     "port": 11451,
     "flag": "us",
@@ -35,72 +21,9 @@
     "type": "node"
   },
   {
-    "ip": "34.69.148.75",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "north-lanplay.ddns.net",
-    "port": 11451,
-    "flag": "ca",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "34.89.92.59",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "memehouse.de",
-    "port": 11451,
-    "flag": "de",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "nerdylife.de",
-    "port": 11451,
-    "flag": "de",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "euplay.secretalgorithm.com",
-    "port": 11451,
-    "flag": "lt",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
     "ip": "lanplay.reboot.ms",
     "port": 11451,
     "flag": "fr",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "177.54.110.45",
-    "port": 11451,
-    "flag": "br",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "35.235.1.55",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "jp.nx-s.cf",
-    "port": 11451,
-    "flag": "nl",
     "platform": "switch",
     "type": "node"
   },
@@ -119,9 +42,9 @@
     "type": "node"
   },
   {
-    "ip": "lanplay2.reboot.ms",
+    "ip": "bluehouse.servepics.com",
     "port": 11451,
-    "flag": "gb",
+    "flag": "mx",
     "platform": "switch",
     "type": "rust"
   },
@@ -133,21 +56,21 @@
     "type": "rust"
   },
   {
-    "ip": "bluehouse.servepics.com",
+    "ip": "lanplay2.reboot.ms",
     "port": 11451,
-    "flag": "mx",
+    "flag": "gb",
     "platform": "switch",
     "type": "rust"
   },
   {
-    "ip": "lanplay.r3n3.at",
+    "ip": "nxlan.duckdns.org",
     "port": 11451,
-    "flag": "de",
+    "flag": "us",
     "platform": "switch",
     "type": "dotnet"
   },
   {
-    "ip": "nxlan.duckdns.org",
+    "ip": "kirbfeels.throwbackcountdown.com",
     "port": 11451,
     "flag": "us",
     "platform": "switch",
@@ -161,23 +84,9 @@
     "type": "dotnet"
   },
   {
-    "ip": "epicna.ddns.net",
+    "ip": "lanplay.r3n3.at",
     "port": 11451,
-    "flag": "ca",
-    "platform": "switch",
-    "type": "dotnet"
-  },
-  {
-    "ip": "kirbfeels.throwbackcountdown.com",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "dotnet"
-  },
-  {
-    "ip": "mhguguts.ddns.net",
-    "port": 11451,
-    "flag": "gb",
+    "flag": "de",
     "platform": "switch",
     "type": "dotnet"
   },
