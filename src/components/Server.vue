@@ -54,8 +54,8 @@ const fetchWithTimeout = function(url, options, timeout = 20000) {
 };
 
 const gqlPing = (server, delay = 0, timeout = 20000) => {
-  return new Promise((res, rej) => {
-    setTimeout(() => rej(new Error("timeout")), timeout);
+  return new Promise((resolve, reject) => {
+    setTimeout(() => reject(new Error("timeout")), timeout);
     const ws = new WebSocket(`ws://${server}`, "graphql-ws");
     let timeoutId = undefined;
     let lastTime = undefined;
@@ -69,7 +69,7 @@ const gqlPing = (server, delay = 0, timeout = 20000) => {
       const data = JSON.parse(e.data);
       if (data.type === "data" && data.id === "1") {
         let delta = Date.now() - lastTime;
-        res(delta);
+        resolve(delta);
         ws.send(`{"id":"1","type":"stop"}`);
         ws.close();
       }
@@ -78,7 +78,7 @@ const gqlPing = (server, delay = 0, timeout = 20000) => {
       timeoutId && clearTimeout(timeoutId);
     };
     ws.onerror = e => {
-      rej(e);
+      reject(e);
     };
     ws.onopen = () => {
       ws.send(`{"type":"connection_init","payload":{}}`);
@@ -140,27 +140,29 @@ export default {
       if (this.server.type === "node" || this.server.type === "rust") {
         url = `${url}/info`;
       }
-      let started = new Date().getTime();
+      let lastTime = Date.now();
       try {
         const response = await fetchWithTimeout(url);
-        if (response.ok) {
-          if (this.server.type === "rust") {
-            ctx.server.ping = await gqlPing(
-              `${this.server.ip}:${this.server.port}`
-            );
-          } else {
-            if (ctx.server.status === 0) {
-              ctx.server.ping = Math.ceil(
-                (new Date().getTime() - started) * 0.3
-              );
-            } else {
-              ctx.server.ping = undefined;
-            }
-          }
-        } else {
+        if (!response.ok) {
           throw new Error(response);
         }
-        const data = response.json();
+
+        if (this.server.type === "rust") {
+          gqlPing(`${this.server.ip}:${this.server.port}`)
+            .then(ping => {
+              ctx.server.ping = ping;
+            })
+            .catch(() => {
+              ctx.server.ping = 0;
+            });
+        } else if (ctx.server.status === undefined || ctx.server.status === 0) {
+          ctx.server.ping = Math.ceil((Date.now() - lastTime) * 0.3);
+        } else {
+          ctx.server.ping = undefined;
+        }
+
+        const data = await response.json();
+
         if (ctx.server.status === undefined) {
           ctx.server.status = 0;
           clearInterval(this.timerServer);
