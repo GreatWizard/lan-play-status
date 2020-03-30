@@ -13,6 +13,20 @@
     "platform": "switch",
     "type": "rust"
   },
+    {
+    "ip": "nut.r3n3.at",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "lanplay.r3n3.at",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
   {
     "ip": "frog-skins.com",
     "port": 11451,
