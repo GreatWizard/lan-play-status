@@ -57,9 +57,13 @@ export default {
   components: {
     CellIcon
   },
+  data: () => {
+    return {
+      timerServer: undefined
+    };
+  },
   props: {
-    server: Object,
-    timerServer: Object
+    server: Object
   },
   computed: {
     fullAddress() {
