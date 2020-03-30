@@ -109,6 +109,6 @@
     "port": 11451,
     "flag": "de",
     "platform": "switch",
-    "type": "dotnet"
+    "type": "rust"
   }
 ]
