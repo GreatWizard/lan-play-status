@@ -53,6 +53,40 @@ const fetchWithTimeout = function(url, options, timeout = 20000) {
   ]);
 };
 
+const gqlPing = (server, delay = 0, timeout = 20000) => {
+  return new Promise((res, rej) => {
+    setTimeout(() => rej(new Error("timeout")), timeout);
+    const ws = new WebSocket(`ws://${server}`, "graphql-ws");
+    let timeoutId = undefined;
+    let lastTime = undefined;
+    const doPing = () => {
+      ws.send(
+        `{"id":"1","type":"start","payload":{"variables":{},"extensions":{},"operationName":null,"query":"subscription{serverInfo{online}}"}}`
+      );
+      lastTime = Date.now();
+    };
+    ws.onmessage = e => {
+      const data = JSON.parse(e.data);
+      if (data.type === "data" && data.id === "1") {
+        let delta = Date.now() - lastTime;
+        res(delta);
+        ws.send(`{"id":"1","type":"stop"}`);
+        ws.close();
+      }
+    };
+    ws.onclose = () => {
+      timeoutId && clearTimeout(timeoutId);
+    };
+    ws.onerror = e => {
+      rej(e);
+    };
+    ws.onopen = () => {
+      ws.send(`{"type":"connection_init","payload":{}}`);
+      timeoutId = setTimeout(doPing, delay);
+    };
+  });
+};
+
 export default {
   components: {
     CellIcon
@@ -110,10 +144,18 @@ export default {
       try {
         const response = await fetchWithTimeout(url);
         if (response.ok) {
-          if (ctx.server.status === 0) {
-            ctx.server.ping = Math.ceil((new Date().getTime() - started) * 0.3);
+          if (this.server.type === "rust") {
+            ctx.server.ping = await gqlPing(
+              `${this.server.ip}:${this.server.port}`
+            );
           } else {
-            ctx.server.ping = undefined;
+            if (ctx.server.status === 0) {
+              ctx.server.ping = Math.ceil(
+                (new Date().getTime() - started) * 0.3
+              );
+            } else {
+              ctx.server.ping = undefined;
+            }
           }
         } else {
           throw new Error(response);
