@@ -53,13 +53,51 @@ const fetchWithTimeout = function(url, options, timeout = 20000) {
   ]);
 };
 
+const gqlPing = (server, delay = 0, timeout = 20000) => {
+  return new Promise((res, rej) => {
+    setTimeout(() => rej(new Error("timeout")), timeout);
+    const ws = new WebSocket(`ws://${server}`, "graphql-ws");
+    let timeoutId = undefined;
+    let lastTime = undefined;
+    const doPing = () => {
+      ws.send(
+        `{"id":"1","type":"start","payload":{"variables":{},"extensions":{},"operationName":null,"query":"subscription{serverInfo{online}}"}}`
+      );
+      lastTime = Date.now();
+    };
+    ws.onmessage = e => {
+      const data = JSON.parse(e.data);
+      if (data.type === "data" && data.id === "1") {
+        let delta = Date.now() - lastTime;
+        res(delta);
+        ws.send(`{"id":"1","type":"stop"}`);
+        ws.close();
+      }
+    };
+    ws.onclose = () => {
+      timeoutId && clearTimeout(timeoutId);
+    };
+    ws.onerror = e => {
+      rej(e);
+    };
+    ws.onopen = () => {
+      ws.send(`{"type":"connection_init","payload":{}}`);
+      timeoutId = setTimeout(doPing, delay);
+    };
+  });
+};
+
 export default {
   components: {
     CellIcon
   },
+  data: () => {
+    return {
+      timerServer: undefined
+    };
+  },
   props: {
-    server: Object,
-    timerServer: Object
+    server: Object
   },
   computed: {
     fullAddress() {
@@ -91,7 +129,7 @@ export default {
       document.execCommand("copy");
       window.getSelection().removeAllRanges();
     },
-    refreshServer() {
+    async refreshServer() {
       let ctx = this;
       let url = `${this.server.ip}:${this.server.port}`;
       if (ctx.server.status === -1 || ctx.server.status === 1) {
@@ -103,9 +141,14 @@ export default {
         url = `${url}/info`;
       }
       let started = new Date().getTime();
-      return fetchWithTimeout(url)
-        .then(response => {
-          if (response.ok) {
+      try {
+        const response = await fetchWithTimeout(url);
+        if (response.ok) {
+          if (this.server.type === "rust") {
+            ctx.server.ping = await gqlPing(
+              `${this.server.ip}:${this.server.port}`
+            );
+          } else {
             if (ctx.server.status === 0) {
               ctx.server.ping = Math.ceil(
                 (new Date().getTime() - started) * 0.3
@@ -113,49 +156,49 @@ export default {
             } else {
               ctx.server.ping = undefined;
             }
-            return response.json();
-          } else {
-            throw new Error(response);
           }
-        })
-        .then(data => {
-          if (ctx.server.status === undefined) {
-            ctx.server.status = 0;
-            clearInterval(this.timerServer);
-            this.timerServer = setInterval(this.refreshServer, 5000);
-          }
+        } else {
+          throw new Error(response);
+        }
+        const data = response.json();
+        if (ctx.server.status === undefined) {
+          ctx.server.status = 0;
+          clearInterval(this.timerServer);
+          this.timerServer = setInterval(this.refreshServer, 5000);
+        }
 
-          if (ctx.server.status === -1) {
-            ctx.server.status = 1;
-            clearInterval(this.timerServer);
-            this.timerServer = setInterval(this.refreshServer, 30000);
-          }
+        if (ctx.server.status === -1) {
+          ctx.server.status = 1;
+          clearInterval(this.timerServer);
+          this.timerServer = setInterval(this.refreshServer, 30000);
+        }
 
-          if (this.server.type === "node") {
-            ctx.server.data = Object.assign({}, data);
-          } else if (this.server.type === "rust") {
-            ctx.server.data = Object.assign(
-              { active: data.online - data.idle },
-              data
-            );
-          } else if (this.server.type === "dotnet") {
-            ctx.server.data = { online: data.clientCount };
-          }
-        })
-        .catch(() => {
-          if (ctx.server.status === undefined) {
-            // Maybe CORS issue, test with proxy
-            ctx.server.status = -1;
-            this.refreshServer();
-          } else {
-            // timeout
-            ctx.server.status = -2;
-            clearInterval(this.timerServer);
-            this.timerServer = setInterval(this.refreshServer, 300000);
-          }
-          ctx.server.ping = 0;
-          ctx.server.data = {};
-        });
+        if (this.server.type === "node") {
+          ctx.server.data = {
+            ...data
+          };
+        } else if (this.server.type === "rust") {
+          ctx.server.data = {
+            active: data.online - data.idle,
+            ...data
+          };
+        } else if (this.server.type === "dotnet") {
+          ctx.server.data = { online: data.clientCount };
+        }
+      } catch (e) {
+        if (ctx.server.status === undefined) {
+          // Maybe CORS issue, test with proxy
+          ctx.server.status = -1;
+          this.refreshServer();
+        } else {
+          // timeout
+          ctx.server.status = -2;
+          clearInterval(this.timerServer);
+          this.timerServer = setInterval(this.refreshServer, 300000);
+        }
+        ctx.server.ping = 0;
+        ctx.server.data = {};
+      }
     }
   },
   created() {
