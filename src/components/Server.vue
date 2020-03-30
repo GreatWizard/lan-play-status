@@ -136,12 +136,14 @@ export default {
           }
 
           if (this.server.type === "node") {
-            ctx.server.data = Object.assign({}, data);
+            ctx.server.data = {
+              ...data
+            };
           } else if (this.server.type === "rust") {
-            ctx.server.data = Object.assign(
-              { active: data.online - data.idle },
-              data
-            );
+            ctx.server.data = {
+              active: data.online - data.idle,
+              ...data
+            };
           } else if (this.server.type === "dotnet") {
             ctx.server.data = { online: data.clientCount };
           }
