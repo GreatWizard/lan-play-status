@@ -14,7 +14,7 @@
     "type": "node"
   },
   {
-    "ip": "nxlan.dentora.ca",
+    "ip": "nxlan.duckdns.org",
     "port": 11451,
     "flag": "us",
     "platform": "switch",
