@@ -42,6 +42,13 @@
     "type": "rust"
   },
   {
+    "ip": "aclanplay.servegame.org",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "open.t0g3pii.tk",
     "port": 11451,
     "flag": "de",
