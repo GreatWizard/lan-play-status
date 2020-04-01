@@ -61,15 +61,15 @@ const gqlPing = (server, delay = 0, timeout = 20000) => {
     let lastTime = undefined;
     const doPing = () => {
       ws.send(
-        `{"id":"1","type":"start","payload":{"variables":{},"extensions":{},"operationName":null,"query":"subscription{serverInfo{online}}"}}`
+        `{"id":"1","type":"start","payload":{"variables":{},"extensions":{},"operationName":null,"query":"subscription{serverInfo{online idle version}}"}}`
       );
       lastTime = Date.now();
     };
     ws.onmessage = e => {
       const data = JSON.parse(e.data);
       if (data.type === "data" && data.id === "1") {
-        let delta = Date.now() - lastTime;
-        resolve(delta);
+        let ping = Date.now() - lastTime;
+        resolve({ data: data.payload.data.serverInfo, ping });
         ws.send(`{"id":"1","type":"stop"}`);
         ws.close();
       }
@@ -129,7 +129,33 @@ export default {
       document.execCommand("copy");
       window.getSelection().removeAllRanges();
     },
-    async refreshServer() {
+    async gqlRefresh() {
+      let ctx = this;
+      try {
+        let { data, ping } = await gqlPing(
+          `${ctx.server.ip}:${ctx.server.port}`
+        );
+
+        ctx.server.ping = ping;
+        ctx.server.data = {
+          active: data.online - data.idle,
+          ...data
+        };
+
+        if (ctx.server.status === undefined) {
+          ctx.server.status = 0;
+          clearInterval(ctx.timerServer);
+          ctx.timerServer = setInterval(ctx.gqlRefresh, 5000);
+        }
+      } catch (e) {
+        ctx.server.status = undefined;
+        clearInterval(ctx.timerServer);
+        ctx.timerServer = setInterval(ctx.gqlRefresh, 300000);
+        ctx.server.ping = 0;
+        ctx.server.data = {};
+      }
+    },
+    async restRefresh() {
       let ctx = this;
       let url = `${this.server.ip}:${this.server.port}`;
       if (ctx.server.status === -1 || ctx.server.status === 1) {
@@ -147,15 +173,7 @@ export default {
           throw new Error(response);
         }
 
-        if (this.server.type === "rust") {
-          gqlPing(`${this.server.ip}:${this.server.port}`)
-            .then(ping => {
-              ctx.server.ping = ping;
-            })
-            .catch(() => {
-              ctx.server.ping = 0;
-            });
-        } else if (ctx.server.status === undefined || ctx.server.status === 0) {
+        if (ctx.server.status === undefined || ctx.server.status === 0) {
           ctx.server.ping = Math.ceil((Date.now() - lastTime) * 0.3);
         } else {
           ctx.server.ping = undefined;
@@ -166,13 +184,13 @@ export default {
         if (ctx.server.status === undefined) {
           ctx.server.status = 0;
           clearInterval(this.timerServer);
-          this.timerServer = setInterval(this.refreshServer, 5000);
+          this.timerServer = setInterval(this.restRefresh, 5000);
         }
 
         if (ctx.server.status === -1) {
           ctx.server.status = 1;
           clearInterval(this.timerServer);
-          this.timerServer = setInterval(this.refreshServer, 30000);
+          this.timerServer = setInterval(this.restRefresh, 30000);
         }
 
         if (this.server.type === "node") {
@@ -191,12 +209,12 @@ export default {
         if (ctx.server.status === undefined) {
           // Maybe CORS issue, test with proxy
           ctx.server.status = -1;
-          this.refreshServer();
+          this.restRefresh();
         } else {
           // timeout
-          ctx.server.status = -2;
+          ctx.server.status = undefined;
           clearInterval(this.timerServer);
-          this.timerServer = setInterval(this.refreshServer, 300000);
+          this.timerServer = setInterval(this.restRefresh, 300000);
         }
         ctx.server.ping = 0;
         ctx.server.data = {};
@@ -204,7 +222,11 @@ export default {
     }
   },
   created() {
-    this.refreshServer();
+    if (this.server.type === "rust") {
+      this.gqlRefresh();
+    } else {
+      this.restRefresh();
+    }
   },
   beforeDestroy() {
     clearInterval(this.timerServer);
