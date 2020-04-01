@@ -63,6 +63,13 @@
     "type": "rust"
   },
   {
+    "ip": "matkhau.net",
+    "port": 11451,
+    "flag": "nl",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lanplay2.reboot.ms",
     "port": 11451,
     "flag": "gb",
