@@ -117,5 +117,12 @@
     "flag": "us",
     "platform": "switch",
     "type": "dotnet"
+  },
+  {
+    "ip": "switch.mainbareng.web.id",
+    "port": 11451,
+    "flag": "id",
+    "platform": "switch",
+    "type": "node"
   }
 ]
