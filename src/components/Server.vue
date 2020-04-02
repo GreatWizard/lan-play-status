@@ -14,12 +14,13 @@
     </td>
     <td :data-tooltip="infos">
       <span v-if="server.data.active >= 0 && server.data.idle >= 0">
-        <span v-if="server.data.active >= 0">
+        <span v-if="server.data.active >= 0" class="inline-block--on-mobile">
           {{ server.data.active }}
           <img alt="Active users" class="icon" src="../assets/active.png" />
         </span>
-        <span v-if="server.data.idle >= 0">
-          / {{ server.data.idle }}
+        <span class="hide--on-mobile"> / </span>
+        <span v-if="server.data.idle >= 0" class="inline-block--on-mobile">
+          {{ server.data.idle }}
           <img alt="Idle users" class="icon" src="../assets/idle.png" />
         </span>
       </span>
@@ -258,6 +259,11 @@ tr.highlight {
   &:active {
     background-color: #52525240;
     transform: translateY(1px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .inline-block--on-mobile {
+    display: block;
   }
 }
 </style>
