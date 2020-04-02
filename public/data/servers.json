@@ -7,13 +7,6 @@
     "type": "rust"
   },
   {
-    "ip": "switch.lan-play.com",
-    "port": 11452,
-    "flag": "fr",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
     "ip": "nxlan-w.dentora.ca",
     "port": 11451,
     "flag": "us",
