@@ -117,5 +117,12 @@
     "flag": "id",
     "platform": "switch",
     "type": "node"
+  },
+  {
+    "ip": "nook-inc.net",
+    "port": 11451,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust"
   }
 ]
