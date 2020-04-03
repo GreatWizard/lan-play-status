@@ -7,7 +7,21 @@
     "type": "rust"
   },
   {
+    "ip": "frog-skins.com",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "nxlan-w.dentora.ca",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "aclanplay.servegame.org",
     "port": 11451,
     "flag": "us",
     "platform": "switch",
@@ -21,9 +35,23 @@
     "type": "rust"
   },
   {
+    "ip": "mim.servebeer.com",
+    "port": 11451,
+    "flag": "ca",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "bluehouse.servepics.com",
     "port": 11451,
     "flag": "mx",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "nook-inc.net",
+    "port": 11451,
+    "flag": "fr",
     "platform": "switch",
     "type": "rust"
   },
@@ -38,13 +66,6 @@
     "ip": "lanplay.r3n3.at",
     "port": 11451,
     "flag": "de",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "aclanplay.servegame.org",
-    "port": 11451,
-    "flag": "us",
     "platform": "switch",
     "type": "rust"
   },
@@ -77,13 +98,6 @@
     "type": "rust"
   },
   {
-    "ip": "frog-skins.com",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
     "ip": "lanplay.reboot.ms",
     "port": 11451,
     "flag": "fr",
@@ -105,17 +119,17 @@
     "type": "node"
   },
   {
-    "ip": "kirbfeels.throwbackcountdown.com",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "dotnet"
-  },
-  {
     "ip": "switch.mainbareng.web.id",
     "port": 11451,
     "flag": "id",
     "platform": "switch",
     "type": "node"
+  },
+  {
+    "ip": "kirbfeels.throwbackcountdown.com",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch",
+    "type": "dotnet"
   }
 ]
