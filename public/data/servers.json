@@ -125,6 +125,14 @@
     "platform": "switch",
     "type": "node"
   },
+{
+    "ip": "bahamamama.ml",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+
   {
     "ip": "kirbfeels.throwbackcountdown.com",
     "port": 11451,
