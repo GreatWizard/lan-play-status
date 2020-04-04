@@ -98,6 +98,20 @@
     "type": "rust"
   },
   {
+    "ip": "switch.0mn1b0x.com",
+    "port": 11451,
+    "flag": "au",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "switchlanplay-tw.ddns.net",
+    "port": 11451,
+    "flag": "tw",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lanplay.reboot.ms",
     "port": 11451,
     "flag": "fr",
@@ -108,13 +122,6 @@
     "ip": "switch-la.nplay.asia",
     "port": 11451,
     "flag": "vn",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "switch.0mn1b0x.com",
-    "port": 11451,
-    "flag": "au",
     "platform": "switch",
     "type": "node"
   },
