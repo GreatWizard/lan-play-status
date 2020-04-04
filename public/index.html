@@ -14,6 +14,11 @@
       rel="stylesheet"
     />
     <title>LAN Play Status | lan-play.com</title>
+    <script>
+      if (location.protocol === "https:") {
+        window.location.replace(location.toString().replace("https:", "http:"));
+      }
+    </script>
   </head>
   <body>
     <noscript>
