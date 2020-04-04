@@ -7,6 +7,13 @@
     "type": "rust"
   },
   {
+    "ip": "switch.lan-play.com",
+    "port": 11452,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
     "ip": "frog-skins.com",
     "port": 11451,
     "flag": "us",
@@ -133,9 +140,23 @@
     "type": "node"
   },
   {
+    "ip": "switch.0mn1b0x.com",
+    "port": 11453,
+    "flag": "au",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
     "ip": "kirbfeels.throwbackcountdown.com",
     "port": 11451,
     "flag": "us",
+    "platform": "switch",
+    "type": "dotnet"
+  },
+  {
+    "ip": "switch.0mn1b0x.com",
+    "port": 11452,
+    "flag": "au",
     "platform": "switch",
     "type": "dotnet"
   }
