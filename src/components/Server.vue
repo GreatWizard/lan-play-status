@@ -57,7 +57,8 @@ const fetchWithTimeout = function(url, options, timeout = 20000) {
 const gqlPing = (server, delay = 0, timeout = 20000) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => reject(new Error("timeout")), timeout);
-    const ws = new WebSocket(`ws://${server}`, "graphql-ws");
+    let url = `${location.protocol === "https:" ? "wss" : "ws"}://${server}`;
+    const ws = new WebSocket(url, "graphql-ws");
     let timeoutId = undefined;
     let lastTime = undefined;
     const doPing = () => {
