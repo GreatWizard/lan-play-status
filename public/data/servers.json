@@ -160,4 +160,11 @@
     "platform": "switch",
     "type": "dotnet"
   }
+  {
+    "ip": "joinsg.net",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch",
+    "type": "node"
+  },
 ]
