@@ -35,6 +35,13 @@
     "type": "rust"
   },
   {
+    "ip": "matkhau.net",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "nxlan-e.dentora.ca",
     "port": 11451,
     "flag": "ca",
@@ -85,13 +92,6 @@
   },
   {
     "ip": "jayseateam.nl",
-    "port": 11451,
-    "flag": "nl",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "matkhau.net",
     "port": 11451,
     "flag": "nl",
     "platform": "switch",
