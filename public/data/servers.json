@@ -44,7 +44,7 @@
   {
     "ip": "nxlan-e.dentora.ca",
     "port": 11451,
-    "flag": "ca",
+    "flag": "us",
     "platform": "switch",
     "type": "rust"
   },
