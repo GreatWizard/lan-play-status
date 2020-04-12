@@ -1,0 +1,66 @@
+<template>
+  <tr :class="trClasses">
+    <td>{{ community.name }}</td>
+    <td>{{ game }}</td>
+    <td v-if="community.flags && community.flags.length > 0">
+      <span v-for="flag in community.flags" :key="flag">
+        <flag :iso="flag" :squared="false" />
+        &nbsp;
+      </span>
+    </td>
+    <td v-else>
+      <img
+        class="icon"
+        :src="require(`@/assets/world-flags-globe.png`)"
+        alt="Worldwide"
+      />
+    </td>
+    <td v-if="community.discord">
+      <a :href="discord" target="=_blank" rel="noreferrer noopener">
+        <img
+          class="icon"
+          :src="require(`@/assets/discord.svg`)"
+          alt="Discord"
+        />
+      </a>
+    </td>
+    <td v-if="community.whatsapp">
+      <a :href="whatsapp" target="=_blank" rel="noreferrer noopener">
+        <img
+          class="icon"
+          :src="require(`@/assets/whatsapp.svg`)"
+          alt="WhatsApp"
+        />
+      </a>
+    </td>
+  </tr>
+</template>
+
+<script>
+export default {
+  props: {
+    community: Object
+  },
+  data() {
+    return {
+      games: this.$store.state.games
+    };
+  },
+  computed: {
+    game() {
+      let gameId = this.community.game;
+      let obj = this.games.find(({ id }) => id === gameId);
+      return obj ? obj.name : "All";
+    },
+    discord() {
+      return `https://discord.gg/${this.community.discord}`;
+    },
+    whatsapp() {
+      return `https://chat.whatsapp.com/${this.community.whatsapp}`;
+    },
+    trClasses() {
+      return this.community.highlight ? "highlight" : "";
+    }
+  }
+};
+</script>

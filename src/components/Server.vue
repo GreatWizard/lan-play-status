@@ -237,11 +237,6 @@ export default {
 </script>
 
 <style lang="scss">
-tr.highlight {
-  td {
-    font-weight: bold;
-  }
-}
 .margin-left {
   margin-left: 4px;
 }

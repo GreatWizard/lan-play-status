@@ -14,15 +14,18 @@
       </h1>
     </div>
     <Servers />
+    <Communities />
   </div>
 </template>
 
 <script>
 import Servers from "@/components/Servers.vue";
+import Communities from "@/components/Communities.vue";
 
 export default {
   components: {
-    Servers
+    Servers,
+    Communities
   }
 };
 </script>
@@ -31,8 +34,8 @@ export default {
 .title {
   img {
     vertical-align: middle;
-    width: 44px;
-    height: 44px;
+    width: 42px;
+    height: 42px;
   }
 }
 .logo {

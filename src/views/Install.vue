@@ -76,6 +76,7 @@
 
 <style lang="scss">
 .screenshot {
-  height: 300px;
+  max-height: 400px;
+  max-width: 100%;
 }
 </style>
