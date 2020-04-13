@@ -5,7 +5,7 @@
       <h1 class="title">
         LAN Play Status
         <a
-          href="https://discord.gg/zEMCu5n"
+          href="https://discordapp.com/invite/zEMCu5n"
           target="=_blank"
           rel="noreferrer noopener"
         >

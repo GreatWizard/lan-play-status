@@ -2,13 +2,16 @@
   <tr :class="trClasses">
     <td>{{ community.name }}</td>
     <td>{{ game }}</td>
-    <td v-if="community.flags && community.flags.length > 0">
-      <span v-for="flag in community.flags" :key="flag">
+    <td
+      v-if="community.flags && community.flags.length > 0"
+      :data-tooltip="languages"
+    >
+      <span v-for="(flag, index) in community.flags" :key="flag">
         <flag :iso="flag" :squared="false" />
-        &nbsp;
+        <span v-if="index !== community.flags.length - 1">&nbsp;</span>
       </span>
     </td>
-    <td v-else>
+    <td v-else :data-tooltip="languages">
       <img
         class="icon"
         :src="require(`@/assets/world-flags-globe.png`)"
@@ -52,8 +55,13 @@ export default {
       let obj = this.games.find(({ id }) => id === gameId);
       return obj ? obj.name : "All";
     },
+    languages() {
+      return this.community.flags
+        ? this.community.flags.map(flag => flag.toUpperCase()).join(", ")
+        : "Worldwide";
+    },
     discord() {
-      return `https://discord.gg/${this.community.discord}`;
+      return `https://discordapp.com/invite/${this.community.discord}`;
     },
     whatsapp() {
       return `https://chat.whatsapp.com/${this.community.whatsapp}`;

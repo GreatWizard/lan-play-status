@@ -5,7 +5,7 @@
     <p>The client is provided by spacemeowx2:</p>
     <p>
       <a
-        href="https://discord.gg/zEMCu5n"
+        href="https://discordapp.com/invite/zEMCu5n"
         target="=_blank"
         rel="noreferrer noopener"
       >
