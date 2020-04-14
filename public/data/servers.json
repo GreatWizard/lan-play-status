@@ -182,6 +182,13 @@
     "type": "node"
   },
   {
+    "ip": "fireflies-online.club",
+    "port": 11451,
+    "flag": "cn",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
     "ip": "kirbfeels.throwbackcountdown.com",
     "port": 11451,
     "flag": "us",
@@ -201,12 +208,5 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
-  },
-  {
-    "ip": "fireflies-online.club",
-    "port": 11451,
-    "flag": "cn",
-    "platform": "switch",
-    "type": "node"
   }
 ]
