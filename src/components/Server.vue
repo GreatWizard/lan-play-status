@@ -36,7 +36,15 @@
     </td>
     <CellIcon class="hide--on-mobile" :platform="server.platform" />
     <td>
-      <span v-if="server.ping >= 0">{{ server.ping }} ms</span>
+      <span v-if="server.ping >= 0">
+        {{ server.ping }}<span class="hide--on-mobile"> ms</span>
+      </span>
+      <span v-else>n/a</span>
+    </td>
+    <td>
+      <span v-if="uptime">
+        {{ uptime }}<span class="hide--on-mobile">%</span>
+      </span>
       <span v-else>n/a</span>
     </td>
   </tr>
@@ -99,7 +107,8 @@ export default {
     };
   },
   props: {
-    server: Object
+    server: Object,
+    monitors: Array
   },
   computed: {
     fullAddress() {
@@ -118,6 +127,16 @@ export default {
     },
     trClasses() {
       return this.server.highlight ? "highlight" : "";
+    },
+    uptime() {
+      let monitor = this.monitors.find(
+        monitor =>
+          monitor.friendly_name === `${this.server.ip}:${this.server.port}`
+      );
+      if (monitor && monitor.all_time_uptime_ratio) {
+        return `${Number.parseInt(monitor.all_time_uptime_ratio)}`;
+      }
+      return undefined;
     }
   },
   methods: {

@@ -33,6 +33,34 @@ export default new Vuex.Store({
   state: {
     servers,
     communities,
-    games
+    games,
+    monitors: undefined
+  },
+
+  actions: {
+    fetchMonitors({ commit }) {
+      return fetch("https://api.uptimerobot.com/v2/getMonitors", {
+        method: "POST",
+        mode: "cors",
+        cache: "no-cache",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body:
+          "api_key=ur905839-35c881f5b6efeb47afd5bff9&format=json&all_time_uptime_ratio=1"
+      })
+        .then(response => {
+          return response.json();
+        })
+        .then(data => {
+          return commit("setMonitors", data.monitors);
+        });
+    }
+  },
+
+  mutations: {
+    setMonitors(state, data) {
+      return (state.monitors = data);
+    }
   }
 });

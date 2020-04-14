@@ -8,12 +8,14 @@
           <th class="hide--on-mobile">Country</th>
           <th class="hide--on-mobile">Platform</th>
           <th>Ping</th>
+          <th>Uptime</th>
         </tr>
       </thead>
       <tbody>
         <Server
           v-for="server in servers"
           :server="server"
+          :monitors="monitors"
           :key="`${server.ip}:${server.port}`"
         />
       </tbody>
@@ -36,6 +38,21 @@ export default {
     return {
       servers: this.$store.state.servers
     };
+  },
+  computed: {
+    monitors() {
+      return this.$store.state.monitors;
+    }
+  },
+  mounted() {
+    if (!this.monitors) {
+      this.fetchMonitors();
+    }
+  },
+  methods: {
+    fetchMonitors() {
+      return this.$store.dispatch("fetchMonitors");
+    }
   }
 };
 </script>
