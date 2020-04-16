@@ -56,6 +56,13 @@
     "type": "rust"
   },
   {
+    "ip": "localhost.boroghor.com",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "mim.servebeer.com",
     "port": 11451,
     "flag": "ca",
