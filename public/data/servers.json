@@ -216,4 +216,11 @@
     "platform": "switch",
     "type": "dotnet"
   }
+  {
+    "ip": "auslanplay.ddns.net",
+    "port": 11451,
+    "flag": "au",
+    "platform": "switch",
+    "type": "node"
+  }
 ]
