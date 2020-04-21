@@ -222,5 +222,12 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
+  },
+    {
+    "ip": "switch.lan-play.com.br",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch",
+    "type": "rust"
   }
 ]
