@@ -63,6 +63,13 @@
     "type": "rust"
   },
   {
+    "ip": "switch.lan-play.com.br",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "mim.servebeer.com",
     "port": 11451,
     "flag": "ca",
@@ -77,7 +84,7 @@
     "type": "rust"
   },
   {
-    "ip": "187.95.40.212",
+    "ip": "lanplay.ddns.net",
     "port": 11451,
     "flag": "br",
     "platform": "switch",
@@ -154,16 +161,16 @@
     "type": "rust"
   },
   {
-    "ip": "auslanplay.ddns.net",
+    "ip": "joinsg.net",
     "port": 11451,
-    "flag": "au",
+    "flag": "us",
     "platform": "switch",
     "type": "node"
   },
   {
-    "ip": "joinsg.net",
+    "ip": "lanplay.duckdns.org",
     "port": 11451,
-    "flag": "us",
+    "flag": "br",
     "platform": "switch",
     "type": "node"
   },
@@ -177,6 +184,13 @@
   {
     "ip": "switch.0mn1b0x.com",
     "port": 11453,
+    "flag": "au",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
+    "ip": "auslanplay.ddns.net",
+    "port": 11451,
     "flag": "au",
     "platform": "switch",
     "type": "node"
