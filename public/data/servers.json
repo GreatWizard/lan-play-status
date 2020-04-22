@@ -236,5 +236,12 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
-  }
+  },
+  {
+    "ip": "Xswitch.imxyd.com",
+    "port": 4999,
+    "flag": "cn",
+    "platform": "switch",
+    "type": "node"
+}
 ]
