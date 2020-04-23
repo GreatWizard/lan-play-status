@@ -63,13 +63,6 @@
     "type": "rust"
   },
   {
-    "ip": "switch.lan-play.com.br",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "mim.servebeer.com",
     "port": 11451,
     "flag": "ca",
@@ -113,13 +106,6 @@
   },
   {
     "ip": "lanplay.r3n3.at",
-    "port": 11451,
-    "flag": "de",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "open.t0g3pii.tk",
     "port": 11451,
     "flag": "de",
     "platform": "switch",
@@ -217,6 +203,13 @@
     "type": "node"
   },
   {
+    "ip": "xswitch.imxyd.com",
+    "port": 4999,
+    "flag": "cn",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
     "ip": "kirbfeels.throwbackcountdown.com",
     "port": 11451,
     "flag": "us",
@@ -236,12 +229,5 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
-  },
-  {
-    "ip": "Xswitch.imxyd.com",
-    "port": 4999,
-    "flag": "cn",
-    "platform": "switch",
-    "type": "node"
-}
+  }
 ]
