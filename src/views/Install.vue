@@ -68,10 +68,12 @@
       The application will prompt you to enter the relay server address. You can
       choose the server you want, like <code>switch.lan-play.com:11451</code>.
     </p>
+    <p>You need to run the client administratively and allow it through your firewall</p>
     <h2>4 - Test you have setup everything correctly</h2>
     <p>You can test if you have setup everything correctly by trying to connect to your network.</p>
     <p>Go to System Settings > Internet > Internet Settings > Then either select Wireless/Wired network > Connect to this Network. </p>
     <p>You should be in the clear if you get the "Succesfully connected" message</p>
+    <p><b>If the above connection test fails, check if you see IConnection on your lanplay client which indicates your switch is connected to the client.</b></p>
     <h2>5 - You can now play games that have the LAN play feature</h2>
     <p>Launch the disired game you want to play (Must have the LAN play feature!)</p>
     <p>You can find a list of games with the LAN play feature <a href="http://lan-play.com/games" target="_blank" rel="noreferrer noopener">
