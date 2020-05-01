@@ -112,6 +112,13 @@
     "type": "rust"
   },
   {
+    "ip": "open.t0g3pii.de",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "nook-hq.ml",
     "port": 11451,
     "flag": "de",
@@ -141,6 +148,13 @@
   },
   {
     "ip": "switchlanplay-tw.ddns.net",
+    "port": 11451,
+    "flag": "tw",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "lanplay.cpalm.org",
     "port": 11451,
     "flag": "tw",
     "platform": "switch",
@@ -229,12 +243,5 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
-  },
-    {
-    "ip": "lanplay.cpalm.org",
-    "port": 11451,
-    "flag": "tw",
-    "platform": "switch",
-    "type": "rust"
   }
 ]
