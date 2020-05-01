@@ -229,5 +229,12 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
+  },
+  {
+    "ip": "open.t0g3pii.de",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
   }
 ]
