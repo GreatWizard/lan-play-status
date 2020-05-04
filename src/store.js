@@ -1,8 +1,8 @@
 import Vue from "vue";
 import Vuex from "vuex";
 import serversSource from "../public/data/servers.json";
-import communitiesSource from "../public/data/communities.json";
-import games from "../public/data/games.json";
+import communitiesSource from "./data/communities.json";
+import games from "./data/games.json";
 
 Vue.use(Vuex);
 

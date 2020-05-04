@@ -5,7 +5,7 @@ const fs = require("fs");
 const xml2js = require("xml2js");
 
 const parser = new xml2js.Parser();
-const file = fs.readFileSync("./public/data/games.xml", { encoding: "utf8" });
+const file = fs.readFileSync("./src/data/games.xml", { encoding: "utf8" });
 parser.parseString(file, function(err, result) {
   let games = result.releases.release
     .filter(r => r.titleid[0] !== "" && r.name[0] !== "")
@@ -16,5 +16,5 @@ parser.parseString(file, function(err, result) {
         region: r.region[0]
       };
     });
-  fs.writeFileSync("./public/data/games.json", JSON.stringify(games));
+  fs.writeFileSync("./src/data/games.json", JSON.stringify(games));
 });
