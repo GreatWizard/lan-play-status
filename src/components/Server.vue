@@ -129,10 +129,12 @@ export default {
       return this.server.highlight ? "highlight" : "";
     },
     uptime() {
-      let monitor = this.monitors.find(
-        monitor =>
-          monitor.friendly_name === `${this.server.ip}:${this.server.port}`
-      );
+      let monitor =
+        this.monitors &&
+        this.monitors.find(
+          monitor =>
+            monitor.friendly_name === `${this.server.ip}:${this.server.port}`
+        );
       if (monitor && monitor.all_time_uptime_ratio) {
         return `${Number.parseInt(monitor.all_time_uptime_ratio)}`;
       }
