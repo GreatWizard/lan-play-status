@@ -3,7 +3,10 @@
     <strong>{{ room.hostPlayerName }}</strong>
     &mdash;
     {{ game }}
-    &mdash; ({{ room.nodeCount }}/{{ room.nodeCountMax }})
+    &mdash;
+    <span :data-tooltip="players">
+      ({{ room.nodeCount }}/{{ room.nodeCountMax }})
+    </span>
   </div>
 </template>
 
@@ -22,6 +25,9 @@ export default {
       let gameId = this.room.contentId;
       let obj = this.games.find(({ id }) => id === gameId);
       return obj ? obj.name : gameId;
+    },
+    players() {
+      return this.room.nodes.map(({ playerName }) => playerName).join(", ");
     }
   }
 };

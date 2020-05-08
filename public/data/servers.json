@@ -7,13 +7,6 @@
     "type": "rust"
   },
   {
-    "ip": "switch.lan-play.com",
-    "port": 11452,
-    "flag": "fr",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
     "ip": "frog-skins.com",
     "port": 11451,
     "flag": "us",
@@ -159,6 +152,13 @@
     "flag": "tw",
     "platform": "switch",
     "type": "rust"
+  },
+  {
+    "ip": "switch.lan-play.com",
+    "port": 11452,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "node"
   },
   {
     "ip": "joinsg.net",
