@@ -24,7 +24,11 @@ export default {
     game() {
       let gameId = this.room.contentId;
       let obj = this.games.find(({ id }) => id === gameId);
-      return obj ? obj.name : gameId;
+      return obj
+        ? obj.region === "WLD" || obj.region === ""
+          ? obj.name
+          : `${obj.name} (${obj.region})`
+        : gameId;
     },
     players() {
       return this.room.nodes.map(({ playerName }) => playerName).join(", ");
