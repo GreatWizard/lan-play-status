@@ -1,57 +1,74 @@
 <template>
-  <tr :class="trClasses" v-if="server.status >= 0">
-    <td>
-      <span class="fullAddress">{{ fullAddress }}</span>
-      <button class="button margin-left hide--on-mobile" data-tooltip="Copy">
-        <img
-          alt="Copy"
-          class="icon"
-          src="../assets/copy.png"
-          data-copy-selector=".fullAddress"
-          v-on:click="copy"
+  <span class="contents" v-if="server.status >= 0">
+    <tr :class="trClasses">
+      <td>
+        <span class="fullAddress">{{ fullAddress }}</span>
+        <button class="button margin-left hide--on-mobile" data-tooltip="Copy">
+          <img
+            alt="Copy"
+            class="icon"
+            src="../assets/copy.png"
+            data-copy-selector=".fullAddress"
+            v-on:click="copy"
+          />
+        </button>
+      </td>
+      <td :data-tooltip="infos">
+        <span v-if="server.data.active >= 0 && server.data.idle >= 0">
+          <span v-if="server.data.active >= 0" class="inline-block--on-mobile">
+            {{ server.data.active }}
+            <img alt="Active users" class="icon" src="../assets/active.png" />
+          </span>
+          <span class="hide--on-mobile"> / </span>
+          <span v-if="server.data.idle >= 0" class="inline-block--on-mobile">
+            {{ server.data.idle }}
+            <img alt="Idle users" class="icon" src="../assets/idle.png" />
+          </span>
+        </span>
+        <span v-else>
+          <span v-if="server.data.online >= 0">
+            {{ server.data.online }}
+            <img alt="Online users" class="icon" src="../assets/online.png" />
+          </span>
+        </span>
+      </td>
+      <td class="hide--on-mobile" :data-tooltip="country">
+        <flag :iso="server.flag" :squared="false" />
+      </td>
+      <CellIcon class="hide--on-mobile" :platform="server.platform" />
+      <td>
+        <span v-if="server.ping >= 0">
+          {{ server.ping }}<span class="hide--on-mobile"> ms</span>
+        </span>
+        <span v-else>n/a</span>
+      </td>
+      <td>
+        <span v-if="uptime">
+          {{ uptime }}<span class="hide--on-mobile">%</span>
+        </span>
+        <span v-else>n/a</span>
+      </td>
+    </tr>
+    <tr v-if="server.type === 'rust' && server.data.rooms.length > 0">
+      <td colspan="6">
+        <Room
+          v-for="room in server.data.rooms"
+          :room="room"
+          :key="`${room.hostPlayerName}:${room.contentId}`"
         />
-      </button>
-    </td>
-    <td :data-tooltip="infos">
-      <span v-if="server.data.active >= 0 && server.data.idle >= 0">
-        <span v-if="server.data.active >= 0" class="inline-block--on-mobile">
-          {{ server.data.active }}
-          <img alt="Active users" class="icon" src="../assets/active.png" />
-        </span>
-        <span class="hide--on-mobile"> / </span>
-        <span v-if="server.data.idle >= 0" class="inline-block--on-mobile">
-          {{ server.data.idle }}
-          <img alt="Idle users" class="icon" src="../assets/idle.png" />
-        </span>
-      </span>
-      <span v-else>
-        <span v-if="server.data.online >= 0">
-          {{ server.data.online }}
-          <img alt="Online users" class="icon" src="../assets/online.png" />
-        </span>
-      </span>
-    </td>
-    <td class="hide--on-mobile" :data-tooltip="country">
-      <flag :iso="server.flag" :squared="false" />
-    </td>
-    <CellIcon class="hide--on-mobile" :platform="server.platform" />
-    <td>
-      <span v-if="server.ping >= 0">
-        {{ server.ping }}<span class="hide--on-mobile"> ms</span>
-      </span>
-      <span v-else>n/a</span>
-    </td>
-    <td>
-      <span v-if="uptime">
-        {{ uptime }}<span class="hide--on-mobile">%</span>
-      </span>
-      <span v-else>n/a</span>
-    </td>
-  </tr>
+      </td>
+    </tr>
+  </span>
 </template>
 
 <script>
 import CellIcon from "@/components/CellIcon.vue";
+import Room from "@/components/Room.vue";
+
+const queryRoom = `{room{contentId hostPlayerName nodeCount nodeCountMax}}`;
+
+const subscriptionGql = `{"id":"1","type":"start","payload":{"variables":{},"extensions":{},"operationName":null,"query":"subscription{serverInfo{online idle version}}"}}`;
+const closeGql = `{"id":"1","type":"stop"}`;
 
 const fetchWithTimeout = function(url, options, timeout = 20000) {
   return Promise.race([
@@ -70,9 +87,7 @@ const gqlPing = (server, delay = 0, timeout = 20000) => {
     let timeoutId = undefined;
     let lastTime = undefined;
     const doPing = () => {
-      ws.send(
-        `{"id":"1","type":"start","payload":{"variables":{},"extensions":{},"operationName":null,"query":"subscription{serverInfo{online idle version}}"}}`
-      );
+      ws.send(subscriptionGql);
       lastTime = Date.now();
     };
     ws.onmessage = e => {
@@ -80,7 +95,7 @@ const gqlPing = (server, delay = 0, timeout = 20000) => {
       if (data.type === "data" && data.id === "1") {
         let ping = Date.now() - lastTime;
         resolve({ data: data.payload.data.serverInfo, ping });
-        ws.send(`{"id":"1","type":"stop"}`);
+        ws.send(closeGql);
         ws.close();
       }
     };
@@ -99,7 +114,8 @@ const gqlPing = (server, delay = 0, timeout = 20000) => {
 
 export default {
   components: {
-    CellIcon
+    CellIcon,
+    Room
   },
   data: () => {
     return {
@@ -154,15 +170,33 @@ export default {
     },
     async gqlRefresh() {
       let ctx = this;
+
+      let { data, ping } = await gqlPing(`${ctx.server.ip}:${ctx.server.port}`);
+
       try {
-        let { data, ping } = await gqlPing(
-          `${ctx.server.ip}:${ctx.server.port}`
-        );
+        let roomsData;
+        try {
+          let response = await fetchWithTimeout(
+            `${location.protocol}//${ctx.server.ip}:${ctx.server.port}`,
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json"
+              },
+              body: JSON.stringify({ query: queryRoom })
+            }
+          );
+          roomsData = await response.json();
+          roomsData = roomsData.data.room;
+        } catch (e) {
+          roomsData = [];
+        }
 
         ctx.server.ping = ping;
         ctx.server.data = {
           active: data.online - data.idle,
-          ...data
+          ...data,
+          rooms: roomsData
         };
 
         if (ctx.server.status === undefined) {
@@ -258,6 +292,9 @@ export default {
 </script>
 
 <style lang="scss">
+.contents {
+  display: contents;
+}
 .margin-left {
   margin-left: 4px;
 }
