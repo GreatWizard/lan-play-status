@@ -28,13 +28,6 @@
     "type": "rust"
   },
   {
-    "ip": "chasehall.net",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "nxlan-e.dentora.ca",
     "port": 11451,
     "flag": "us",
@@ -57,6 +50,13 @@
   },
   {
     "ip": "mim.servebeer.com",
+    "port": 11451,
+    "flag": "ca",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "chasehall.net",
     "port": 11451,
     "flag": "ca",
     "platform": "switch",
@@ -147,9 +147,9 @@
     "type": "rust"
   },
   {
-    "ip": "lanplay.cpalm.org",
+    "ip": "fireflies-online.club",
     "port": 11451,
-    "flag": "tw",
+    "flag": "cn",
     "platform": "switch",
     "type": "rust"
   },
@@ -162,6 +162,13 @@
   },
   {
     "ip": "joinsg.net",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
+    "ip": "switch.z5z.info",
     "port": 11451,
     "flag": "us",
     "platform": "switch",
@@ -206,13 +213,6 @@
     "ip": "switch.mainbareng.web.id",
     "port": 11451,
     "flag": "id",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "fireflies-online.club",
-    "port": 11451,
-    "flag": "cn",
     "platform": "switch",
     "type": "node"
   },

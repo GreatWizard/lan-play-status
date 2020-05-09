@@ -18,7 +18,8 @@ const updateData = async function(server) {
         type
       };
       if (addresses && addresses.length > 0) {
-        let detected = geoip.lookup(addresses[0]).country.toLowerCase();
+        let lookup = geoip.lookup(addresses[0]);
+        let detected = (lookup && lookup.country.toLowerCase()) || undefined;
         if (result.flag !== detected) {
           console.log(`  * "${ip}" must be updated to the flag "${detected}".`);
           result.flag = detected;
