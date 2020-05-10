@@ -160,6 +160,13 @@
     "platform": "switch",
     "type": "rust"
   },
+    {
+    "ip": "lanplay.cpalm.org",
+    "port": 11456,
+    "flag": "tw",
+    "platform": "switch",
+    "type": "rust"
+  },
   {
     "ip": "joinsg.net",
     "port": 11451,
