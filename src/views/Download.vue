@@ -45,7 +45,7 @@
         target="=_blank"
         rel="noreferrer noopener"
       >
-        Ldn_mtm v1.3.4
+        Ldn_mitm v1.3.4 (requires atmosphere 11, use ldn_mitm v1.3.3 for atmosphere 10)
       </a>
     </p>
     <em> (or you can use SX-OS v2.5+) </em>

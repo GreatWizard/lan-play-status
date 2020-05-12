@@ -85,14 +85,14 @@
       You should be in the clear if you get the "Succesfully connected" message.
     </p>
     <p>
-      <b>
+      <strong>
         If the above connection test fails, check if you see IConnection on your
         lanplay client which indicates your switch is connected to the client.
-      </b>
+      </strong>
     </p>
     <h2>5 - You can now play games that have the LAN play feature</h2>
     <p>
-      Launch the disired game you want to play (Must have the LAN play feature!)
+      Launch the desired game you want to play (Must have the LAN play feature!)
     </p>
     <p>
       You can find a list of games with the LAN play feature
