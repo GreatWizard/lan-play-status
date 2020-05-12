@@ -56,13 +56,6 @@
     "type": "rust"
   },
   {
-    "ip": "chasehall.net",
-    "port": 11451,
-    "flag": "ca",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "bluehouse.servepics.com",
     "port": 11451,
     "flag": "mx",
@@ -77,6 +70,13 @@
     "type": "rust"
   },
   {
+    "ip": "lanplaybrasil.myddns.me",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lanplay.reboot.ms",
     "port": 11451,
     "flag": "fr",
@@ -85,6 +85,13 @@
   },
   {
     "ip": "nook-inc.net",
+    "port": 11451,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "chasehall.net",
     "port": 11451,
     "flag": "fr",
     "platform": "switch",
@@ -142,6 +149,20 @@
   {
     "ip": "switchlanplay-tw.ddns.net",
     "port": 11451,
+    "flag": "tw",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "lanplay.cpalm.org",
+    "port": 11451,
+    "flag": "tw",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "lanplay.cpalm.org",
+    "port": 11456,
     "flag": "tw",
     "platform": "switch",
     "type": "rust"
