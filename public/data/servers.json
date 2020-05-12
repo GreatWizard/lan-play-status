@@ -7,13 +7,6 @@
     "type": "rust"
   },
   {
-    "ip": "switch.lan-play.com",
-    "port": 11452,
-    "flag": "fr",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
     "ip": "frog-skins.com",
     "port": 11451,
     "flag": "us",
@@ -29,13 +22,6 @@
   },
   {
     "ip": "aclanplay.servegame.org",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "chasehall.net",
     "port": 11451,
     "flag": "us",
     "platform": "switch",
@@ -84,6 +70,13 @@
     "type": "rust"
   },
   {
+    "ip": "lanplaybrasil.myddns.me",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lanplay.reboot.ms",
     "port": 11451,
     "flag": "fr",
@@ -98,6 +91,13 @@
     "type": "rust"
   },
   {
+    "ip": "chasehall.net",
+    "port": 11451,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "nut.r3n3.at",
     "port": 11451,
     "flag": "de",
@@ -106,6 +106,13 @@
   },
   {
     "ip": "lanplay.r3n3.at",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "open.t0g3pii.de",
     "port": 11451,
     "flag": "de",
     "platform": "switch",
@@ -147,7 +154,42 @@
     "type": "rust"
   },
   {
+    "ip": "lanplay.cpalm.org",
+    "port": 11451,
+    "flag": "tw",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "lanplay.cpalm.org",
+    "port": 11456,
+    "flag": "tw",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "fireflies-online.club",
+    "port": 11451,
+    "flag": "cn",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "switch.lan-play.com",
+    "port": 11452,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
     "ip": "joinsg.net",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
+    "ip": "switch.z5z.info",
     "port": 11451,
     "flag": "us",
     "platform": "switch",
@@ -192,13 +234,6 @@
     "ip": "switch.mainbareng.web.id",
     "port": 11451,
     "flag": "id",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "fireflies-online.club",
-    "port": 11451,
-    "flag": "cn",
     "platform": "switch",
     "type": "node"
   },
