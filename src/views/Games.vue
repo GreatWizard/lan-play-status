@@ -6,45 +6,31 @@
       <Card
         title="ARMS"
         message="Press [L] + [R] + [Left Analog] on the main menu screen."
-        image="switch/arms.jpg"
       />
       <Card
         title="Bayonetta 2"
         message="Enter tag climax and highlight local play. Press [Left Analog (hold down)] and press [L] + [R]."
-        image="switch/bayonetta2.jpg"
       />
       <Card
         title="Mario Kart 8 Deluxe"
         message="Press [L] + [R] + [Left Analog] on the main menu screen."
-        image="switch/mariokart8deluxe.jpg"
       />
       <Card
         title="Mario Tennis Aces"
         message="Select Free Play from the Main Menu. Press [Left Analog (hold down)] and press [L] + [R]."
-        image="switch/mariotennisaces.jpg"
       />
+      <Card title="Pokémon Shield" lang="enGB" />
+      <Card title="Pokémon Sword" lang="enGB" />
       <Card
-        title="Pokémon Shield"
-        message=""
-        image="switch/pokemonshield.jpg"
-      />
-      <Card title="Pokémon Sword" message="" image="switch/pokemonsword.jpg" />
-      <Card
-        title="Pokken Tournament DX"
+        title="Pokkén Tournament DX"
         message="From the main screen select a game. Press [X] + [Dpad-Down] and press [L] + [R]."
-        image="switch/pokkentournamentdx.jpg"
       />
-      <Card
-        title="Saints Row: The Third"
-        message=""
-        image="switch/saintsrow3.jpg"
-      />
+      <Card title="SAINTS ROW: THE THIRD - THE FULL PACKAGE" />
       <Card
         title="Splatoon 2"
         message="Press [L] + [R] + [Left Analog] at the local play option. Hold down until the lan mode is activated."
-        image="switch/splatoon2.jpg"
       />
-      <Card title="Titan Quest" message="" image="switch/titanquest.jpg" />
+      <Card title="Titan Quest" />
     </div>
     <h1>Games with Wireless Mode</h1>
     <h2>(CFW only: it needs ldn_mitm kip)</h2>
@@ -52,86 +38,30 @@
       <Card
         title="Animal Crossing: New Horizons"
         message="Switch MTU: 1500 — LanPlay PMTU: 500"
-        image="switch/animalcrossingnewhorizons.jpg"
       />
-      <Card title="A.O.T 2" message="" image="switch/aot2.jpg" />
-      <Card
-        title="Diablo III: Eternal Collection"
-        message=""
-        image="switch/diabloiiieternalcollection.jpg"
-      />
-      <Card
-        title="DRAGON BALL FighterZ"
-        message=""
-        image="switch/dragonballfighterz.jpg"
-      />
-      <Card
-        title="DRAGON BALL XENOVERSE 2"
-        message=""
-        image="switch/dragonballxenoverse2.jpg"
-      />
-      <Card
-        title="Dragon Quest Builders 2"
-        message=""
-        image="switch/dragonquestbuilders2.jpg"
-      />
-      <Card title="FastRMX" message="" image="switch/fastrmx.jpg" />
-      <Card title="FIFA 19" message="" image="switch/fifa19.jpg" />
-      <Card
-        title="Luigi's Mansion 3"
-        message=""
-        image="switch/luigismansion3.jpg"
-      />
-      <Card
-        title="Marvel Ultimate Alliance 3: The Black Order"
-        message=""
-        image="switch/marvelultimatealliance3theblackorder.jpg"
-      />
-      <Card
-        title="Monster Hunter Generations Ultimate"
-        message=""
-        image="switch/monsterhuntergenerationsultimate.jpg"
-      />
-      <Card title="Payday 2" message="" image="switch/payday2.jpg" />
-      <Card
-        title="Portal Knights"
-        message=""
-        image="switch/portalknights.jpg"
-      />
-      <Card
-        title="Puyo Puyo Tetris"
-        message=""
-        image="switch/puyopuyotetris.jpg"
-      />
-      <Card title="Rocket League" message="" image="switch/rocketleague.jpg" />
-      <Card
-        title="Snack World: The Dungeon Crawl — Gold"
-        message=""
-        image="switch/snackworldthedungeoncrawlgold.jpg"
-      />
-      <Card
-        title="Stardew Valley"
-        message=""
-        image="switch/stardewvalley.jpg"
-      />
-      <Card
-        title="Super Mario Maker 2"
-        message=""
-        image="switch/supermariomaker2.jpg"
-      />
-      <Card
-        title="Super Smash Bros. Ultimate"
-        message=""
-        image="switch/supersmashbrosultimate.jpg"
-      />
-      <Card
-        title="Ultra Street Fighter 2: The Final Challengers"
-        message=""
-        image="switch/ultrastreetfighter2thefinalchallengers.jpg"
-      />
-      <Card title="UNO" message="" image="switch/uno.jpg" />
-      <Card title="Worms W.M.D." message="" image="switch/wormswmd.jpg" />
-      <Card title="And so on..." message="" image="switch/etc.jpg" />
+      <Card title="A.O.T 2" />
+      <Card title="Diablo III: Eternal Collection" />
+      <Card title="DRAGON BALL FighterZ" />
+      <Card title="DRAGON BALL XENOVERSE 2" />
+      <Card title="Dragon Quest Builders 2" />
+      <Card title="Fast RMX" ds="true" />
+      <Card title="EA SPORTS FIFA 19" />
+      <Card title="EA SPORTS FIFA 20 Nintendo Switch Legacy Edition" />
+      <Card title="Luigi's Mansion 3" />
+      <Card title="Marvel Ultimate Alliance 3: The Black Order" />
+      <Card title="Monster Hunter Generations Ultimate" />
+      <Card title="Payday 2" />
+      <Card title="Portal Knights" />
+      <Card title="Puyo Puyo Tetris" />
+      <Card title="Rocket League" ds="true" />
+      <Card title="Snack World" lang="enGB" />
+      <Card title="Stardew Valley" ds="true" />
+      <Card title="Super Mario Maker 2" />
+      <Card title="Super Smash Bros. Ultimate" />
+      <Card title="Ultra Street Fighter 2: The Final Challengers" />
+      <Card title="UNO" ds="true" />
+      <Card title="Worms W.M.D." ds="true" />
+      <Card title="And so on..." asset="etc.jpg" />
     </div>
   </div>
 </template>

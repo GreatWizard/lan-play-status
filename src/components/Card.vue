@@ -1,23 +1,58 @@
 <template>
   <div class="card">
     <img
-      :src="require(`@/assets/${image}`)"
+      :src="asset ? require(`@/assets/${asset}`) : image"
       class="card__image"
-      alt="Card Image"
+      :alt="title"
     />
     <div class="card__content">
       <h2>{{ title }}</h2>
-      <p>{{ message }}</p>
+      <p v-if="message">{{ message }}</p>
     </div>
   </div>
 </template>
 
 <script>
+const capitalize = ([first, ...rest]) =>
+  first ? first.toUpperCase() + rest.join("").toLowerCase() : "";
+
+const removeDiacritics = str =>
+  str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
 export default {
   props: {
-    image: String,
     title: String,
-    message: String
+    asset: String,
+    message: String,
+    lang: String,
+    ds: Boolean
+  },
+  computed: {
+    image() {
+      let title = this.title
+        .replaceAll(":", "")
+        .replaceAll("'", "")
+        .replaceAll("®", "")
+        .replaceAll("™", "")
+        .replaceAll(".", " ")
+        .replaceAll("-", " ")
+        .split(" ")
+        .map(s => capitalize(removeDiacritics(s)))
+        .join("")
+        .replaceAll("Iii", "III")
+        .replaceAll("Rmx", "RMX")
+        .replaceAll("Dx", "DX")
+        .replaceAll("Fighterz", "FighterZ")
+        .replaceAll("EaSportsFifa19", "EASportsFifa19");
+
+      if (this.lang) {
+        title = `${title}_${this.lang}`;
+      }
+
+      return `https://cdn01.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_${
+        this.ds ? "download_software" : "5"
+      }/SQ_NSwitch${this.ds ? "DS" : ""}_${title}_image500w.jpg`;
+    }
   }
 };
 </script>
