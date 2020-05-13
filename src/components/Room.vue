@@ -25,7 +25,7 @@ export default {
       let gameId = this.room.contentId;
       let obj = this.games.find(({ id }) => id === gameId);
       return obj
-        ? obj.region === "WLD" || obj.region === ""
+        ? obj.region === undefined || obj.region === "" || obj.region === "WLD"
           ? obj.name
           : `${obj.name} (${obj.region})`
         : gameId;
