@@ -169,6 +169,7 @@ let cfw = [
   { title: "Resident Evil Revelations", ds: true },
   { title: "Resident Evil Revelations 2", ds: true },
   { title: "Rocket League", ds: true },
+  { title: "Risk of Rain 2" },
   { title: "Sid Meier's Civilization VI" },
   { title: "Snack World", lang: "enGB" },
   { title: "Sniper Elite V2 Remastered" },
