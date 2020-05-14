@@ -31,7 +31,7 @@ export default {
         ? obj.region === undefined || obj.region === "" || obj.region === "WLD"
           ? obj.name
           : `${obj.name} (${obj.region})`
-        : this.game.id;
+        : this.room.contentId;
     },
     tooltip() {
       let players = this.room.nodes
