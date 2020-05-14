@@ -14,7 +14,7 @@ let games = {};
 
 tinfoil.data.forEach(game => {
   let id = game.id.toLowerCase();
-  let name = game.name.replace(/<\/?[^>]+(>|$)/g, "");
+  let name = game.name.replace(/<\/?[^>]+(>|$)|®|™/g, "");
   let icon = game.icon.match("\\(https://.*\\)");
   if (icon && icon !== null) {
     icon = icon[0].replace("(", "").replace(")", "");
