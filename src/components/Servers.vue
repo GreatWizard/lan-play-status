@@ -20,6 +20,9 @@
         />
       </tbody>
     </table>
+    <div>
+      <button v-if="loadMore" @click="loadMoreServers">Load more...</button>
+    </div>
     <em class="hide--on-mobile">
       These servers are not linked to this site. We list them to help you find
       other players who speak the same language.
@@ -36,7 +39,8 @@ export default {
   },
   data() {
     return {
-      servers: this.$store.state.servers
+      servers: this.$store.state.servers,
+      loadMore: true
     };
   },
   computed: {
@@ -52,6 +56,12 @@ export default {
   methods: {
     fetchMonitors() {
       return this.$store.dispatch("fetchMonitors");
+    },
+    loadMoreServers() {
+      if (this.loadMore) {
+        this.loadMore = false;
+        this.$store.commit("loadMoreServers");
+      }
     }
   }
 };

@@ -6,33 +6,40 @@ import games from "./data/games.json";
 
 Vue.use(Vuex);
 
-const servers = serversSource.map(
-  ({ ip, flag, port = 11451, platform = "switch", type = "node" }) => {
-    return {
-      ip,
-      port,
-      flag,
-      platform,
-      type,
-      status: undefined,
-      ping: undefined,
-      data: undefined,
-      highlight: ip === "switch.lan-play.com"
-    };
-  }
-);
+const typeIsRust = o => o.type === "rust";
+const typeIsNotRust = o => o.type !== "rust";
 
-const communities = communitiesSource.map(community => {
+const serverMapping = ({
+  ip,
+  flag,
+  port = 11451,
+  platform = "switch",
+  type = "node"
+}) => {
+  return {
+    ip,
+    port,
+    flag,
+    platform,
+    type,
+    status: undefined,
+    ping: undefined,
+    data: undefined,
+    highlight: ip === "switch.lan-play.com"
+  };
+};
+
+const communityMapping = community => {
   return {
     ...community,
     highlight: community.discord === "zEMCu5n"
   };
-});
+};
 
 export default new Vuex.Store({
   state: {
-    servers,
-    communities,
+    servers: serversSource.filter(typeIsRust).map(serverMapping),
+    communities: communitiesSource.map(communityMapping),
     games,
     monitors: undefined
   },
@@ -61,6 +68,12 @@ export default new Vuex.Store({
   mutations: {
     setMonitors(state, data) {
       return (state.monitors = data);
+    },
+    loadMoreServers(state) {
+      serversSource
+        .filter(typeIsNotRust)
+        .map(serverMapping)
+        .forEach(server => state.servers.push(server));
     }
   }
 });
