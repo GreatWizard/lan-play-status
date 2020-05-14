@@ -38,7 +38,7 @@ export default {
         .map(({ playerName }) => playerName)
         .join(", ");
       return `${players} ${
-        this.room.nodes.length > 1 ? "plays together at" : "plays at"
+        this.room.nodes.length > 1 ? "are playing" : "is playing"
       } ${this.gameName}`;
     }
   }
