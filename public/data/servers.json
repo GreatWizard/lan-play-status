@@ -7,6 +7,69 @@
     "type": "rust"
   },
   {
+    "ip": "lanplay.reboot.ms",
+    "port": 11451,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "nook-inc.net",
+    "port": 11451,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "chasehall.net",
+    "port": 11451,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "nut.r3n3.at",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "lanplay.r3n3.at",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "open.t0g3pii.de",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "nook-hq.ml",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "switch.jayseateam.nl",
+    "port": 11451,
+    "flag": "nl",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "lanplay2.reboot.ms",
+    "port": 11451,
+    "flag": "gb",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "frog-skins.com",
     "port": 11451,
     "flag": "us",
@@ -91,69 +154,6 @@
     "type": "rust"
   },
   {
-    "ip": "lanplay.reboot.ms",
-    "port": 11451,
-    "flag": "fr",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "nook-inc.net",
-    "port": 11451,
-    "flag": "fr",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "chasehall.net",
-    "port": 11451,
-    "flag": "fr",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "nut.r3n3.at",
-    "port": 11451,
-    "flag": "de",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "lanplay.r3n3.at",
-    "port": 11451,
-    "flag": "de",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "open.t0g3pii.de",
-    "port": 11451,
-    "flag": "de",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "nook-hq.ml",
-    "port": 11451,
-    "flag": "de",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "switch.jayseateam.nl",
-    "port": 11451,
-    "flag": "nl",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "lanplay2.reboot.ms",
-    "port": 11451,
-    "flag": "gb",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "switch.0mn1b0x.com",
     "port": 11451,
     "flag": "au",
@@ -196,6 +196,13 @@
     "type": "node"
   },
   {
+    "ip": "switch.jayseateam.nl",
+    "port": 11453,
+    "flag": "nl",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
     "ip": "joinsg.net",
     "port": 11451,
     "flag": "us",
@@ -213,13 +220,6 @@
     "ip": "lanplay.duckdns.org",
     "port": 11451,
     "flag": "br",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "switch.jayseateam.nl",
-    "port": 11453,
-    "flag": "nl",
     "platform": "switch",
     "type": "node"
   },
@@ -259,16 +259,16 @@
     "type": "node"
   },
   {
-    "ip": "kirbfeels.throwbackcountdown.com",
-    "port": 11451,
-    "flag": "us",
+    "ip": "switch.jayseateam.nl",
+    "port": 11452,
+    "flag": "nl",
     "platform": "switch",
     "type": "dotnet"
   },
   {
-    "ip": "switch.jayseateam.nl",
-    "port": 11452,
-    "flag": "nl",
+    "ip": "kirbfeels.throwbackcountdown.com",
+    "port": 11451,
+    "flag": "us",
     "platform": "switch",
     "type": "dotnet"
   },
