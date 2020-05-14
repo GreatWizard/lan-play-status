@@ -49,6 +49,13 @@
     "type": "rust"
   },
   {
+    "ip": "crypt51.corafamily.com",
+    "port": 11452,
+    "flag": "us",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "mim.servebeer.com",
     "port": 11451,
     "flag": "ca",
@@ -73,6 +80,13 @@
     "ip": "lanplaybrasil.myddns.me",
     "port": 11451,
     "flag": "br",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "lebzul.duckdns.org",
+    "port": 11451,
+    "flag": "pa",
     "platform": "switch",
     "type": "rust"
   },
