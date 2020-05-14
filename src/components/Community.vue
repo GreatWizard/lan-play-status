@@ -1,7 +1,7 @@
 <template>
   <tr :class="trClasses">
     <td>{{ community.name }}</td>
-    <td>{{ game }}</td>
+    <td>{{ gameNames }}</td>
     <td
       v-if="community.flags && community.flags.length > 0"
       :data-tooltip="languages"
@@ -50,10 +50,14 @@ export default {
     };
   },
   computed: {
-    game() {
-      let gameId = this.community.game;
-      let obj = this.games.find(({ id }) => id === gameId);
-      return obj ? obj.name : "All";
+    gameNames() {
+      let gameIds = this.community.games;
+      if (gameIds === undefined || gameIds.length === 0) {
+        return "All";
+      }
+      return gameIds
+        .map(gameId => this.games.find(({ id }) => id === gameId).name)
+        .join(", ");
     },
     languages() {
       return this.community.flags

@@ -5,7 +5,7 @@
       <thead>
         <tr>
           <th>Name</th>
-          <th>Game</th>
+          <th>Games</th>
           <th>Languages</th>
           <th>Link</th>
         </tr>
