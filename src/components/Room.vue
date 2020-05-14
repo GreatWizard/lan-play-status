@@ -6,10 +6,9 @@
     <span v-else>
       {{ gameName }}
       &mdash; </span
-    ><strong>{{ room.hostPlayerName }}</strong>
-    <span>
-      ({{ room.nodeCount }}/{{ room.nodeCountMax }})
-    </span>
+    ><strong>{{ room.hostPlayerName }}</strong> ({{ room.nodeCount }}/{{
+      room.nodeCountMax
+    }})
   </div>
 </template>
 
