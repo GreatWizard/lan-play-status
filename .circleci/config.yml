@@ -5,26 +5,16 @@ defaults: &defaults
         JOBS: 2
   working_directory: ~/lan-play-status
 
-version: 2
+version: 2.1
 jobs:
-  checkout_code:
+  prepare:
     <<: *defaults
     steps:
       - checkout
-      - persist_to_workspace:
-          root: .
-          paths:
-            - .
-
-  install_dependencies:
-    <<: *defaults
-    steps:
-      - attach_workspace:
-          at: .
       - restore_cache:
           keys:
             - lan-play-status-node10-v2-{{ checksum "yarn.lock" }}
-      - run: yarn install --non-interactive --pure-lockfile
+      - run: yarn install --non-interactive --frozen-lockfile
       - save_cache:
           key: lan-play-status-node10-v2-{{ checksum "yarn.lock" }}
           paths:
@@ -70,16 +60,13 @@ workflows:
   version: 2
   test_build_deploy:
     jobs:
-      - checkout_code
-      - install_dependencies:
-          requires:
-            - checkout_code
+      - prepare
       - lint:
           requires:
-            - install_dependencies
+            - prepare
       - test_unit:
           requires:
-            - install_dependencies
+            - prepare
       - deploy:
           requires:
             - lint
