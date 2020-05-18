@@ -141,6 +141,7 @@ let cfw = [
   { title: "Monster Energy Supercross - The Official Videogame 3" },
   { title: "Monster Hunter Generations Ultimate" },
   { title: "Morphies Law", ds: true },
+  { title: "Mortal Kombat 11" },
   { title: "Moto GP 18" },
   { title: "Moto GP 19" },
   { title: "Moto GP 20", ds: true },
