@@ -40,19 +40,23 @@
     </p>
     <h2>Switch Sysmodule and Homebrew (ldn_mitm)</h2>
     <p>
+      For atmosphere 11:
       <a
         href="https://github.com/spacemeowx2/ldn_mitm/releases/download/v1.3.4/ldn_mitm_v1.3.4.zip"
         target="=_blank"
         rel="noreferrer noopener"
+        >Ldn_mitm v1.3.4</a
       >
-        Ldn_mitm v1.3.4</a> (requires atmosphere 11, use 
-      <a 
-        href="https://github.com/spacemeowx2/ldn_mitm/releases/download/v1.3.3/ldn_mitm_v1.3.3.zip" 
-        target="=_blank"
-        rel="noreferrer noopener" 
-      >
-        ldn_mitm v1.3.3</a> for atmosphere 10)
     </p>
-    <em> (or you can use SX-OS v2.5+) </em>
+    <p>
+      For atmosphere 10:
+      <a
+        href="https://github.com/spacemeowx2/ldn_mitm/releases/download/v1.3.3/ldn_mitm_v1.3.3.zip"
+        target="=_blank"
+        rel="noreferrer noopener"
+        >ldn_mitm v1.3.3</a
+      >
+    </p>
+    <em>(or you can use SX-OS v2.9.5+)</em>
   </div>
 </template>
