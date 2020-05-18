@@ -21,13 +21,6 @@
     "type": "rust"
   },
   {
-    "ip": "chasehall.net",
-    "port": 11451,
-    "flag": "fr",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "open.t0g3pii.de",
     "port": 11451,
     "flag": "de",
@@ -70,13 +63,6 @@
     "type": "rust"
   },
   {
-    "ip": "aclanplay.servegame.org",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "nxlan-e.dentora.ca",
     "port": 11451,
     "flag": "us",
@@ -86,6 +72,13 @@
   {
     "ip": "joinsg.net",
     "port": 11453,
+    "flag": "us",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "chasehall.net",
+    "port": 11451,
     "flag": "us",
     "platform": "switch",
     "type": "rust"
