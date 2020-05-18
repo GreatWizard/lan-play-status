@@ -18,6 +18,7 @@
 
 <script>
 import room01006f8002326000 from "@/components/rooms/01006f8002326000.vue";
+import room0100770008dd8000 from "@/components/rooms/0100770008dd8000.vue";
 
 const AdvertiseMap = {
   "01006f8002326000": data => {
@@ -25,6 +26,9 @@ const AdvertiseMap = {
     return {
       island: decodeUtf16(islandBin)
     };
+  },
+  "0100770008dd8000": () => {
+    return {};
   }
 };
 
@@ -54,7 +58,8 @@ const parseAdvertiseData = function(cid, data) {
 
 export default {
   components: {
-    room01006f8002326000
+    room01006f8002326000,
+    room0100770008dd8000
   },
   props: {
     room: Object
