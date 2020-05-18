@@ -45,8 +45,13 @@
         target="=_blank"
         rel="noreferrer noopener"
       >
-        Ldn_mitm v1.3.4 (requires atmosphere 11, use ldn_mitm v1.3.3 for atmosphere 10)
-      </a>
+        Ldn_mitm v1.3.4</a> (requires atmosphere 11, use 
+      <a 
+        href="https://github.com/spacemeowx2/ldn_mitm/releases/download/v1.3.3/ldn_mitm_v1.3.3.zip" 
+        target="=_blank"
+        rel="noreferrer noopener" 
+      >
+        ldn_mitm v1.3.3</a> for atmosphere 10)
     </p>
     <em> (or you can use SX-OS v2.5+) </em>
   </div>
