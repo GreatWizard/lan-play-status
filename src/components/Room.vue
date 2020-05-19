@@ -88,7 +88,7 @@ export default {
   },
   computed: {
     game() {
-      let gameId = this.room.contentId;
+      let gameId = this.room.contentId.toLowerCase();
       return this.games.find(({ id }) => id === gameId);
     },
     gameName() {

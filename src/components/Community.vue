@@ -56,7 +56,10 @@ export default {
         return "All";
       }
       return gameIds
-        .map(gameId => this.games.find(({ id }) => id === gameId).name)
+        .map(
+          gameId =>
+            this.games.find(({ id }) => id === gameId.toLowerCase()).name
+        )
         .join(", ");
     },
     languages() {
