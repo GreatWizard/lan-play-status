@@ -4,6 +4,7 @@
 const fs = require("fs");
 const xml2js = require("xml2js");
 const tinfoil = require("./tmp/games.tinfoil.json");
+const he = require("he");
 
 const parser = new xml2js.Parser();
 const file = fs.readFileSync("./tmp/games.nswdb.xml", {
@@ -14,7 +15,7 @@ let games = {};
 
 tinfoil.data.forEach(game => {
   let id = game.id.toLowerCase();
-  let name = game.name.replace(/<\/?[^>]+(>|$)|®|™/g, "");
+  let name = he.decode(game.name.replace(/<\/?[^>]+(>|$)|®|™/g, ""));
   let icon = game.icon.match("\\(https://.*\\)");
   if (icon && icon !== null) {
     icon = icon[0].replace("(", "").replace(")", "");
