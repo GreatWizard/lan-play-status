@@ -1,31 +1,14 @@
 <template>
   <span>
-    <img :src="require(`@/assets/${icon}.png`)" class="icon" alt="" />
-
-    <strong> {{ this.room.hostPlayerName }}</strong> 🏝️
+    🏝️
     <strong>{{ this.advertiseData.island }}</strong>
   </span>
 </template>
 
 <script>
-const icons = [
-  "blathers",
-  "isabelle",
-  "kk-slider",
-  "timmy",
-  "tom-nook",
-  "tommy"
-];
-
 export default {
   props: {
-    room: Object,
     advertiseData: Object
-  },
-  computed: {
-    icon() {
-      return icons[this.room.hostPlayerName.length % icons.length];
-    }
   }
 };
 </script>

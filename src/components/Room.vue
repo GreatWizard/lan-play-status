@@ -5,20 +5,24 @@
     </span>
     {{ gameName }}
     &mdash;
+    <img
+      v-if="icon !== undefined"
+      :src="require(`@/assets/${icon}.png`)"
+      class="icon"
+      alt=""
+    />
+    <strong> {{ room.hostPlayerName }}</strong>
     <component
       v-if="advertiseData !== undefined"
       v-bind:is="`room${room.contentId}`"
-      :room="room"
       :advertiseData="advertiseData"
     ></component>
-    <strong v-else>{{ room.hostPlayerName }}</strong>
     ({{ room.nodeCount }}/{{ room.nodeCountMax }})
   </div>
 </template>
 
 <script>
 import room01006f8002326000 from "@/components/rooms/01006f8002326000.vue";
-import room0100770008dd8000 from "@/components/rooms/0100770008dd8000.vue";
 
 const AdvertiseMap = {
   "01006f8002326000": data => {
@@ -26,10 +30,24 @@ const AdvertiseMap = {
     return {
       island: decodeUtf16(islandBin)
     };
-  },
-  "0100770008dd8000": () => {
-    return {};
   }
+};
+
+const IconsMap = {
+  "01006f8002326000": [
+    "blathers",
+    "isabelle",
+    "kk-slider",
+    "timmy",
+    "tom-nook",
+    "tommy"
+  ],
+  "0100c3800049c000": ["felyne", "melynx"],
+  "0100770008dd8000": ["felyne", "melynx"],
+  "010003f003a34000": ["red-cap"],
+  "0100187003a36000": ["red-cap"],
+  "0100abf008968000": ["red-cap"],
+  "01008db008c2C000": ["red-cap"]
 };
 
 const decodeUtf16 = function(data) {
@@ -58,8 +76,7 @@ const parseAdvertiseData = function(cid, data) {
 
 export default {
   components: {
-    room01006f8002326000,
-    room0100770008dd8000
+    room01006f8002326000
   },
   props: {
     room: Object
@@ -85,6 +102,10 @@ export default {
     advertiseData() {
       let { contentId, advertiseData } = this.room;
       return parseAdvertiseData(contentId, fromHex(advertiseData));
+    },
+    icon() {
+      let icons = IconsMap[this.room.contentId];
+      return icons && icons[this.room.hostPlayerName.length % icons.length];
     },
     tooltip() {
       let players = this.room.nodes
