@@ -7,6 +7,7 @@ import games from "./data/games.json";
 Vue.use(Vuex);
 
 const isVisible = o => !o.hidden;
+const isHidden = o => !!o.hidden;
 const isRust = o => o.type === "rust";
 const isNotRust = o => o.type !== "rust";
 
@@ -69,6 +70,12 @@ export default new Vuex.Store({
   mutations: {
     setMonitors(state, data) {
       return (state.monitors = data);
+    },
+    loadHiddenServers(state) {
+      serversSource
+        .filter(isHidden)
+        .map(serverMapping)
+        .forEach(server => state.servers.push(server));
     },
     loadMoreServers(state) {
       serversSource

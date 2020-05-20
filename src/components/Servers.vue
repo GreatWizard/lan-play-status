@@ -21,7 +21,7 @@
       </tbody>
     </table>
     <div>
-      <button v-if="loadMore" @click="loadMoreServers">Load more...</button>
+      <button v-if="!loadMore" @click="loadMoreServers">Load more...</button>
     </div>
     <em class="hide--on-mobile">
       These servers are not linked to this site. We list them to help you find
@@ -32,6 +32,7 @@
 
 <script>
 import Server from "@/components/Server.vue";
+import Konami from "../konami";
 
 export default {
   components: {
@@ -40,7 +41,8 @@ export default {
   data() {
     return {
       servers: this.$store.state.servers,
-      loadMore: true
+      loadHidden: false,
+      loadMore: false
     };
   },
   computed: {
@@ -51,15 +53,24 @@ export default {
   mounted() {
     if (!this.monitors) {
       this.fetchMonitors();
+      Konami(undefined, {
+        callback: this.loadHiddenServers
+      });
     }
   },
   methods: {
     fetchMonitors() {
       return this.$store.dispatch("fetchMonitors");
     },
+    loadHiddenServers() {
+      if (!this.loadHidden) {
+        this.loadHidden = true;
+        this.$store.commit("loadHiddenServers");
+      }
+    },
     loadMoreServers() {
-      if (this.loadMore) {
-        this.loadMore = false;
+      if (!this.loadMore) {
+        this.loadMore = true;
         this.$store.commit("loadMoreServers");
       }
     }
