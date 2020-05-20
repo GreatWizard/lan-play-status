@@ -70,7 +70,7 @@ export default {
         title = `${title}_${this.game.lang}`;
       }
 
-      return `//cdn01.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_${
+      return `https://cdn01.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_${
         this.game.ds ? "download_software" : "5"
       }/SQ_NSwitch${this.game.ds ? "DS" : ""}_${title}_image500w.jpg`;
     }
