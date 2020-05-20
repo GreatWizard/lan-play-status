@@ -1,5 +1,5 @@
 <template>
-  <span class="contents" v-if="server.status >= 0">
+  <span class="contents" v-if="status >= 0">
     <tr :class="trClasses">
       <td>
         <span class="fullAddress">{{ fullAddress }}</span>
@@ -14,20 +14,20 @@
         </button>
       </td>
       <td :data-tooltip="infos">
-        <span v-if="server.data.active >= 0 && server.data.idle >= 0">
-          <span v-if="server.data.active >= 0" class="inline-block--on-mobile">
-            {{ server.data.active }}
+        <span v-if="data.active >= 0 && data.idle >= 0">
+          <span v-if="data.active >= 0" class="inline-block--on-mobile">
+            {{ data.active }}
             <img alt="Active users" class="icon" src="../assets/active.png" />
           </span>
           <span class="hide--on-mobile"> / </span>
-          <span v-if="server.data.idle >= 0" class="inline-block--on-mobile">
-            {{ server.data.idle }}
+          <span v-if="data.idle >= 0" class="inline-block--on-mobile">
+            {{ data.idle }}
             <img alt="Idle users" class="icon" src="../assets/idle.png" />
           </span>
         </span>
         <span v-else>
-          <span v-if="server.data.online >= 0">
-            {{ server.data.online }}
+          <span v-if="data.online >= 0">
+            {{ data.online }}
             <img alt="Online users" class="icon" src="../assets/online.png" />
           </span>
         </span>
@@ -37,8 +37,8 @@
       </td>
       <CellIcon class="hide--on-mobile" :platform="server.platform" />
       <td>
-        <span v-if="server.ping >= 0">
-          {{ server.ping }}<span class="hide--on-mobile"> ms</span>
+        <span v-if="ping >= 0">
+          {{ ping }}<span class="hide--on-mobile"> ms</span>
         </span>
         <span v-else>n/a</span>
       </td>
@@ -49,10 +49,10 @@
         <span v-else>n/a</span>
       </td>
     </tr>
-    <tr v-if="server.type === 'rust' && server.data.rooms.length > 0">
+    <tr v-if="server.type === 'rust' && data.rooms.length > 0">
       <td colspan="6">
         <Room
-          v-for="room in server.data.rooms"
+          v-for="room in data.rooms"
           :room="room"
           :key="`${room.hostPlayerName}:${room.contentId}`"
         />
@@ -119,7 +119,10 @@ export default {
   },
   data: () => {
     return {
-      timerServer: undefined
+      timerServer: undefined,
+      status: undefined,
+      ping: undefined,
+      data: undefined
     };
   },
   props: {
@@ -132,9 +135,9 @@ export default {
     },
     infos() {
       let infos = `Server type: ${this.server.type}`;
-      if (this.server.data.version) {
+      if (this.data.version) {
         infos = `${infos}
-(v${this.server.data.version})`;
+(v${this.data.version})`;
       }
       return infos;
     },
@@ -169,15 +172,15 @@ export default {
       window.getSelection().removeAllRanges();
     },
     async gqlRefresh() {
-      let ctx = this;
-
-      let { data, ping } = await gqlPing(`${ctx.server.ip}:${ctx.server.port}`);
+      let { data, ping } = await gqlPing(
+        `${this.server.ip}:${this.server.port}`
+      );
 
       try {
         let roomsData;
         try {
           let response = await fetchWithTimeout(
-            `${location.protocol}//${ctx.server.ip}:${ctx.server.port}`,
+            `${location.protocol}//${this.server.ip}:${this.server.port}`,
             {
               method: "POST",
               headers: {
@@ -192,30 +195,29 @@ export default {
           roomsData = [];
         }
 
-        ctx.server.ping = ping;
-        ctx.server.data = {
+        this.ping = ping;
+        this.data = {
           active: data.online - data.idle,
           ...data,
           rooms: roomsData
         };
 
-        if (ctx.server.status === undefined) {
-          ctx.server.status = 0;
-          clearInterval(ctx.timerServer);
-          ctx.timerServer = setInterval(ctx.gqlRefresh, 5000);
+        if (this.status === undefined) {
+          this.status = 0;
+          clearInterval(this.timerServer);
+          this.timerServer = setInterval(this.gqlRefresh, 5000);
         }
       } catch (e) {
-        ctx.server.status = undefined;
-        clearInterval(ctx.timerServer);
-        ctx.timerServer = setInterval(ctx.gqlRefresh, 300000);
-        ctx.server.ping = 0;
-        ctx.server.data = {};
+        this.status = undefined;
+        clearInterval(this.timerServer);
+        this.timerServer = setInterval(this.gqlRefresh, 300000);
+        this.ping = 0;
+        this.data = {};
       }
     },
     async restRefresh() {
-      let ctx = this;
       let url = `${this.server.ip}:${this.server.port}`;
-      if (ctx.server.status === -1 || ctx.server.status === 1) {
+      if (this.status === -1 || this.status === 1) {
         url = `/proxy.php?address=${url}`;
       } else {
         url = `//${url}`;
@@ -230,51 +232,51 @@ export default {
           throw new Error(response);
         }
 
-        if (ctx.server.status === undefined || ctx.server.status === 0) {
-          ctx.server.ping = Math.ceil((Date.now() - lastTime) * 0.3);
+        if (this.status === undefined || this.status === 0) {
+          this.ping = Math.ceil((Date.now() - lastTime) * 0.3);
         } else {
-          ctx.server.ping = undefined;
+          this.ping = undefined;
         }
 
         const data = await response.json();
 
-        if (ctx.server.status === undefined) {
-          ctx.server.status = 0;
+        if (this.status === undefined) {
+          this.status = 0;
           clearInterval(this.timerServer);
           this.timerServer = setInterval(this.restRefresh, 5000);
         }
 
-        if (ctx.server.status === -1) {
-          ctx.server.status = 1;
+        if (this.status === -1) {
+          this.status = 1;
           clearInterval(this.timerServer);
           this.timerServer = setInterval(this.restRefresh, 30000);
         }
 
         if (this.server.type === "node") {
-          ctx.server.data = {
+          this.data = {
             ...data
           };
         } else if (this.server.type === "rust") {
-          ctx.server.data = {
+          this.data = {
             active: data.online - data.idle,
             ...data
           };
         } else if (this.server.type === "dotnet") {
-          ctx.server.data = { online: data.clientCount };
+          this.data = { online: data.clientCount };
         }
       } catch (e) {
-        if (ctx.server.status === undefined) {
+        if (this.status === undefined) {
           // Maybe CORS issue, test with proxy
-          ctx.server.status = -1;
+          this.status = -1;
           this.restRefresh();
         } else {
           // timeout
-          ctx.server.status = undefined;
+          this.status = undefined;
           clearInterval(this.timerServer);
           this.timerServer = setInterval(this.restRefresh, 300000);
         }
-        ctx.server.ping = 0;
-        ctx.server.data = {};
+        this.ping = 0;
+        this.data = {};
       }
     }
   },

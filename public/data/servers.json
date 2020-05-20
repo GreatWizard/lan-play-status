@@ -21,6 +21,22 @@
     "type": "rust"
   },
   {
+    "ip": "nook-inc.net",
+    "port": 11460,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust",
+    "hidden": true
+  },
+  {
+    "ip": "nook-inc.net",
+    "port": 11461,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust",
+    "hidden": true
+  },
+  {
     "ip": "open.t0g3pii.de",
     "port": 11451,
     "flag": "de",
@@ -96,6 +112,14 @@
     "flag": "us",
     "platform": "switch",
     "type": "rust"
+  },
+  {
+    "ip": "gallifrey.what.ninja",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch",
+    "type": "rust",
+    "hidden": true
   },
   {
     "ip": "mim.servebeer.com",

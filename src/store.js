@@ -6,8 +6,9 @@ import games from "./data/games.json";
 
 Vue.use(Vuex);
 
-const typeIsRust = o => o.type === "rust";
-const typeIsNotRust = o => o.type !== "rust";
+const isVisible = o => !o.hidden;
+const isRust = o => o.type === "rust";
+const isNotRust = o => o.type !== "rust";
 
 const serverMapping = ({
   ip,
@@ -22,9 +23,6 @@ const serverMapping = ({
     flag,
     platform,
     type,
-    status: undefined,
-    ping: undefined,
-    data: undefined,
     highlight: ip === "switch.lan-play.com"
   };
 };
@@ -38,7 +36,10 @@ const communityMapping = community => {
 
 export default new Vuex.Store({
   state: {
-    servers: serversSource.filter(typeIsRust).map(serverMapping),
+    servers: serversSource
+      .filter(isVisible)
+      .filter(isRust)
+      .map(serverMapping),
     communities: communitiesSource.map(communityMapping),
     games,
     monitors: undefined
@@ -71,7 +72,7 @@ export default new Vuex.Store({
     },
     loadMoreServers(state) {
       serversSource
-        .filter(typeIsNotRust)
+        .filter(isNotRust)
         .map(serverMapping)
         .forEach(server => state.servers.push(server));
     }
