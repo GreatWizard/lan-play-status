@@ -284,7 +284,7 @@
   },
     {
     "ip": "srv1.lanplay.group",
-    "port": 11452,
+    "port": 11451,
     "flag": "fr",
     "platform": "switch",
     "type": "rust"
