@@ -3,28 +3,12 @@
     <h1>Games with LAN Mode</h1>
     <h2>(OFW and CFW compatible)</h2>
     <div class="cards">
-      <Card
-        v-for="game in ofw"
-        :title="game.title"
-        :asset="game.asset"
-        :message="game.message"
-        :lang="game.lang"
-        :ds="game.ds"
-        :key="game.title"
-      />
+      <Card v-for="game in ofw" :game="game" :key="game.title" />
     </div>
     <h1>Games with Wireless Mode</h1>
     <h2>(CFW only: it needs ldn_mitm kip)</h2>
     <div class="cards">
-      <Card
-        v-for="game in cfw"
-        :title="game.title"
-        :asset="game.asset"
-        :message="game.message"
-        :lang="game.lang"
-        :ds="game.ds"
-        :key="game.title"
-      />
+      <Card v-for="game in cfw" :game="game" :key="game.title" />
       <Card title="And so on..." asset="etc.jpg" />
     </div>
   </div>
@@ -92,8 +76,9 @@ let cfw = [
   { title: "Chiki-Chiki Boxy Pro Wrestling", ds: true },
   { title: "Chiki-Chiki Boxy Racers", ds: true },
   {
-    title: "Chou Tousouchuu and Chou Sentouchuu Double Pack",
-    asset: "no-cover.jpg"
+    title: "Chou Tousouchuu & Chou Sentouchuu Double Pack (JP)",
+    source:
+      "https://img-eshop.cdn.nintendo.net/i/15331f273dd82cfa2b7381e31455fb3a70d158525625fa750b2ceefcee9693eb.jpg?w=1000"
   },
   { title: "Contra: Rogue Corps" },
   { title: "DAEMON X MACHINA" },
@@ -116,12 +101,18 @@ let cfw = [
   { title: "Freecell Battle King", ds: true },
   { title: "Full Metal Furies", ds: true },
   {
-    title: "Gesshizu: Gajigaji Nakama wo Sodateyou",
+    title: "Gesshizu: Gajigaji Nakama wo Sodateyou (JP)",
     asset: "no-cover.jpg"
   },
   {
-    title: "GIRLS und PANZER Dream Tank Match DX",
-    asset: "no-cover.jpg"
+    title: "Ginsei Mahjong (JP)",
+    source:
+      "https://img-eshop.cdn.nintendo.net/i/5448db27bb751f7c4daa999120cc517f775ed64a4a7a71edbc4daf4fdc410307.jpg?w=1000"
+  },
+  {
+    title: "GIRLS und PANZER Dream Tank Match DX (JP)",
+    source:
+      "https://img-eshop.cdn.nintendo.net/i/0e03d81e30a16a7a52e1478cbdc0e7f6a96b29577daf9a5fa9af286a626f4480.jpg?w=1000"
   },
   { title: "GO Vacation" },
   { title: "God Eater 3" },
@@ -129,15 +120,14 @@ let cfw = [
   { title: "Hammerwatch", ds: true },
   { title: "Human Fall Flat", ds: true },
   { title: "Just Shapes & Beats", ds: true },
-  { title: "Kamen Rider Climax Scramble", asset: "no-cover.jpg" },
+  { title: "Kamen Rider Climax Scramble (JP)", asset: "no-cover.jpg" },
   { title: "Korg Gadget for Nintendo Switch", ds: true },
   { title: "Luigi's Mansion 3" },
-  { title: "Mahjong", ds: true },
   { title: "Mantis Burn Racing", ds: true },
   { title: "Marvel Ultimate Alliance 3: The Black Order" },
   { title: "Mercenary Kings: Reloaded Edition", ds: true },
   { title: "Minecraft" },
-  { title: "Minna de Daifugo", asset: "no-cover.jpg" },
+  { title: "Minna de Daifugo (JP)", asset: "no-cover.jpg" },
   { title: "Monster Energy Supercross - The Official Videogame" },
   { title: "Monster Energy Supercross - The Official Videogame 2" },
   { title: "Monster Energy Supercross - The Official Videogame 3" },
@@ -157,13 +147,13 @@ let cfw = [
   { title: "Party Arcade", ds: true },
   { title: "Payday 2" },
   {
-    title: "Pikachin-Kit: Game de Pirameki Daisakusen",
+    title: "Pikachin-Kit: Game de Pirameki Daisakusen (JP)",
     asset: "no-cover.jpg"
   },
   { title: "PixARK" },
   { title: "Poisoft Thud Card", ds: true },
   { title: "Portal Knights" },
-  { title: "Pro Yakyuu Famista Evolution", asset: "no-cover.jpg" },
+  { title: "Pro Yakyuu Famista Evolution (JP)", asset: "no-cover.jpg" },
   { title: "Puyo Puyo Champions", ds: true },
   { title: "Puyo Puyo Tetris" },
   { title: "Ragtag Adventurers", ds: true },

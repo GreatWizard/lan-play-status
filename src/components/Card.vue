@@ -1,13 +1,19 @@
 <template>
   <div class="card">
     <img
-      :src="asset ? require(`@/assets/games/${asset}`) : image"
+      :src="
+        game.source
+          ? game.source
+          : game.asset
+          ? require(`@/assets/games/${game.asset}`)
+          : image
+      "
       class="card__image"
       alt=""
     />
     <div class="card__content">
-      <h2>{{ title }}</h2>
-      <p v-if="message">{{ message }}</p>
+      <h2>{{ game.title }}</h2>
+      <p v-if="message">{{ game.message }}</p>
     </div>
   </div>
 </template>
@@ -18,15 +24,11 @@ const capitalize = ([first, ...rest]) =>
 
 export default {
   props: {
-    title: String,
-    asset: String,
-    message: String,
-    lang: String,
-    ds: Boolean
+    game: Object
   },
   computed: {
     image() {
-      let title = this.title
+      let title = this.game.title
         // Remove diactrics
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")
@@ -64,14 +66,13 @@ export default {
         .replace("Mudrunner", "MudRunner")
         .replace("ReMarsTered", "ReMarstered");
 
-      if (this.lang) {
-        title = `${title}_${this.lang}`;
+      if (this.game.lang) {
+        title = `${title}_${this.game.lang}`;
       }
-      //cdn01.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_5/SQ_NSwitch_EASportsFifa18~1_image500w.jpg
 
       return `//cdn01.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_${
-        this.ds ? "download_software" : "5"
-      }/SQ_NSwitch${this.ds ? "DS" : ""}_${title}_image500w.jpg`;
+        this.game.ds ? "download_software" : "5"
+      }/SQ_NSwitch${this.game.ds ? "DS" : ""}_${title}_image500w.jpg`;
     }
   }
 };
