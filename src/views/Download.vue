@@ -45,7 +45,7 @@
         href="https://github.com/spacemeowx2/ldn_mitm/releases/download/v1.3.4/ldn_mitm_v1.3.4.zip"
         target="=_blank"
         rel="noreferrer noopener"
-        >Ldn_mitm v1.3.4</a
+        >ldn_mitm v1.3.4</a
       >
     </p>
     <p>
