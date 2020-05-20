@@ -9,7 +9,6 @@
     <h2>(CFW only: it needs ldn_mitm kip)</h2>
     <div class="cards">
       <Card v-for="game in cfw" :game="game" :key="game.title" />
-      <Card title="And so on..." asset="etc.jpg" />
     </div>
   </div>
 </template>
@@ -58,6 +57,7 @@ let ofw = [
   },
   { title: "Titan Quest" }
 ];
+ofw.sort(sortByTitle);
 
 let cfw = [
   { title: "A.O.T 2" },
@@ -193,9 +193,8 @@ let cfw = [
   { title: "Xenon Racer" },
   { title: "Yu-Gi-Oh! Legacy of the Duelist: Link Evolution" }
 ];
-
-ofw.sort(sortByTitle);
 cfw.sort(sortByTitle);
+cfw.push({ title: "And so on...", asset: "etc.jpg" });
 
 export default {
   components: {
