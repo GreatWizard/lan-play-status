@@ -49,6 +49,7 @@ let ofw = [
     message:
       "Enter tag climax and highlight local play. Press [Left Analog (hold down)] and press [L] + [R]."
   },
+  { title: "Mario & Sonic at the Olympic Games Tokyo 2020", lang: "enGB" },
   {
     title: "Mario Kart 8 Deluxe",
     message: "Press [L] + [R] + [Left Analog] on the main menu screen."
