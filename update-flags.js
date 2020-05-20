@@ -6,7 +6,7 @@ const geoip = require("geoip-country");
 const servers = require("./public/data/servers.json");
 
 const updateData = async function(server) {
-  let { ip, port = "14451", flag, platform = "switch", type = "node" } = server;
+  let { ip, port = "14451", flag, platform = "switch", type = "rust" } = server;
   return await new Promise((resolve, reject) => {
     dns.resolve4(ip, (err, addresses) => {
       if (err) reject(err);

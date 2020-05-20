@@ -16,7 +16,7 @@ const serverMapping = ({
   flag,
   port = 11451,
   platform = "switch",
-  type = "node"
+  type = "rust"
 }) => {
   return {
     ip,
