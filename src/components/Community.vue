@@ -14,7 +14,7 @@
     <td v-else :data-tooltip="languages">
       <img
         class="icon"
-        :src="require(`@/assets/world-flags-globe.png`)"
+        :src="require(`@/assets/icons/world-flags-globe.png`)"
         alt="Worldwide"
       />
     </td>
@@ -22,7 +22,7 @@
       <a :href="discord" target="=_blank" rel="noreferrer noopener">
         <img
           class="icon"
-          :src="require(`@/assets/discord.svg`)"
+          :src="require(`@/assets/icons/discord.svg`)"
           alt="Discord"
         />
       </a>
@@ -31,7 +31,7 @@
       <a :href="whatsapp" target="=_blank" rel="noreferrer noopener">
         <img
           class="icon"
-          :src="require(`@/assets/whatsapp.svg`)"
+          :src="require(`@/assets/icons/whatsapp.svg`)"
           alt="WhatsApp"
         />
       </a>

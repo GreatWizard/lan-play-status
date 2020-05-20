@@ -25,17 +25,15 @@ a {
   color: #212121;
 }
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon {
+  height: 22px;
 }
 
-.icon {
-  width: 22px;
+// new modifier for VueFlags
+.gb-flag {
+  &--icon {
+    height: 22px;
+  }
 }
 
 .nav {
@@ -97,6 +95,7 @@ $tooltip-bottom: 80%;
     opacity: 1;
   }
 }
+
 table {
   border-collapse: collapse;
   width: 100%;
@@ -138,9 +137,13 @@ table {
     }
   }
 }
+
 @media screen and (max-width: 768px) {
   .hide--on-mobile {
     display: none;
+  }
+  .inline-block--on-mobile {
+    display: block;
   }
 }
 </style>

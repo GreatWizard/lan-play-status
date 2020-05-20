@@ -7,7 +7,7 @@
     &mdash;
     <img
       v-if="icon !== undefined"
-      :src="require(`@/assets/${icon}.png`)"
+      :src="require(`@/assets/icons/${icon}.png`)"
       class="icon"
       alt=""
     />

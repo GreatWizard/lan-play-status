@@ -3,7 +3,7 @@
     <img
       :alt="platform"
       class="icon"
-      :src="require(`@/assets/${platform}.png`)"
+      :src="require(`@/assets/icons/${platform}.png`)"
     />
   </td>
 </template>

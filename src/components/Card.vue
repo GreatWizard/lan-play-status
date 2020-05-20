@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <img
-      :src="asset ? require(`@/assets/${asset}`) : image"
+      :src="asset ? require(`@/assets/switch/${asset}`) : image"
       class="card__image"
       alt=""
     />

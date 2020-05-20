@@ -3,7 +3,11 @@
     <h1>Page Not Found</h1>
     <p>Sorry. This link is dead.</p>
     <p>To keep browsing, return to <a href="/">our homepage</a>.</p>
-    <img alt="Link is dead" class="image--fullwidth" src="../assets/404.jpg" />
+    <img
+      alt="Link is dead"
+      class="image--fullwidth"
+      :src="require(`@/assets/404.jpg`)"
+    />
   </div>
 </template>
 

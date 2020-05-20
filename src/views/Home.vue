@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Logo" class="logo" src="../assets/logo.png" />
+    <img alt="Logo" class="logo" :src="require(`@/assets/logo.png`)" />
     <div>
       <h1 class="title">
         LAN Play Status
@@ -9,7 +9,7 @@
           target="=_blank"
           rel="noreferrer noopener"
         >
-          <img :src="require(`@/assets/discord.svg`)" alt="Discord" />
+          <img :src="require(`@/assets/icons/discord.svg`)" alt="Discord" />
         </a>
       </h1>
     </div>

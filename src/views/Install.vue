@@ -27,13 +27,25 @@
     </p>
     <p>Please follow the screenshots:</p>
     <p>
-      <img alt="Settings" class="screenshot" src="../assets/settings1.jpg" />
+      <img
+        alt="Settings"
+        class="screenshot"
+        :src="require(`@/assets/switch/settings1.jpg`)"
+      />
     </p>
     <p>
-      <img alt="Settings" class="screenshot" src="../assets/settings2.jpg" />
+      <img
+        alt="Settings"
+        class="screenshot"
+        :src="require(`@/assets/switch/settings2.jpg`)"
+      />
     </p>
     <p>
-      <img alt="Settings" class="screenshot" src="../assets/settings3.jpg" />
+      <img
+        alt="Settings"
+        class="screenshot"
+        :src="require(`@/assets/switch/settings3.jpg`)"
+      />
     </p>
     <h2>2 - Computer configuration</h2>
     <h3>Windows</h3>

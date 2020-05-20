@@ -2,12 +2,12 @@
   <span class="contents" v-if="status >= 0">
     <tr :class="trClasses">
       <td>
-        <span class="fullAddress">{{ fullAddress }}</span>
-        <button class="button margin-left hide--on-mobile" data-tooltip="Copy">
+        <span class="fullAddress">{{ fullAddress }} </span>
+        <button class="copy-button hide--on-mobile" data-tooltip="Copy">
           <img
             alt="Copy"
             class="icon"
-            src="../assets/copy.png"
+            :src="require(`@/assets/icons/copy.png`)"
             data-copy-selector=".fullAddress"
             v-on:click="copy"
           />
@@ -17,23 +17,35 @@
         <span v-if="data.active >= 0 && data.idle >= 0">
           <span v-if="data.active >= 0" class="inline-block--on-mobile">
             {{ data.active }}
-            <img alt="Active users" class="icon" src="../assets/active.png" />
+            <img
+              alt="Active users"
+              class="icon"
+              :src="require(`@/assets/icons/active.png`)"
+            />
           </span>
           <span class="hide--on-mobile"> / </span>
           <span v-if="data.idle >= 0" class="inline-block--on-mobile">
             {{ data.idle }}
-            <img alt="Idle users" class="icon" src="../assets/idle.png" />
+            <img
+              alt="Idle users"
+              class="icon"
+              :src="require(`@/assets/icons/idle.png`)"
+            />
           </span>
         </span>
         <span v-else>
           <span v-if="data.online >= 0">
             {{ data.online }}
-            <img alt="Online users" class="icon" src="../assets/online.png" />
+            <img
+              alt="Online users"
+              class="icon"
+              :src="require(`@/assets/icons/online.png`)"
+            />
           </span>
         </span>
       </td>
       <td class="hide--on-mobile" :data-tooltip="country">
-        <flag :iso="server.flag" :squared="false" />
+        <gb-flag :code="server.flag" class="icon" size="icon" />
       </td>
       <CellIcon class="hide--on-mobile" :platform="server.platform" />
       <td>
@@ -297,10 +309,7 @@ export default {
 .contents {
   display: contents;
 }
-.margin-left {
-  margin-left: 4px;
-}
-.button {
+.copy-button {
   padding: 4px;
   cursor: pointer;
   outline: none;
@@ -315,11 +324,6 @@ export default {
   &:active {
     background-color: #52525240;
     transform: translateY(1px);
-  }
-}
-@media screen and (max-width: 768px) {
-  .inline-block--on-mobile {
-    display: block;
   }
 }
 </style>
