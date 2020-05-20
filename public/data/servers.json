@@ -281,5 +281,12 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
-  }
+  },
+    {
+    "ip": "srv1.lanplay.group",
+    "port": 11452,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust"
+  },
 ]
