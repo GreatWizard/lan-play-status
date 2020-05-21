@@ -1,10 +1,5 @@
 <template>
   <div :data-tooltip="tooltip">
-    <span v-if="game.icon !== undefined">
-      <img :src="game.icon" class="icon" alt="" />
-    </span>
-    {{ gameName }}
-    &mdash;
     <img
       v-if="icon !== undefined"
       :src="require(`@/assets/icons/${icon}.png`)"
@@ -17,7 +12,11 @@
       v-bind:is="`room${room.contentId}`"
       :advertiseData="advertiseData"
     ></component>
-    ({{ room.nodeCount }}/{{ room.nodeCountMax }})
+    ({{ room.nodeCount }}/{{ room.nodeCountMax }}) &mdash;
+    <span v-if="game.icon !== undefined">
+      <img :src="game.icon" class="icon" alt="" />
+    </span>
+    {{ gameName }}
   </div>
 </template>
 
@@ -33,21 +32,40 @@ const AdvertiseMap = {
   }
 };
 
-const IconsMap = {
-  "01006f8002326000": [
-    "blathers",
-    "isabelle",
-    "kk-slider",
-    "timmy",
-    "tom-nook",
-    "tommy"
-  ],
-  "0100c3800049c000": ["felyne", "melynx"],
-  "0100770008dd8000": ["felyne", "melynx"],
-  "010003f003a34000": ["red-cap"],
-  "0100187003a36000": ["red-cap"],
-  "0100abf008968000": ["red-cap"],
-  "01008db008c2C000": ["red-cap"]
+const IconsMap = contentId => {
+  switch (contentId) {
+    case "01006f8002326000":
+      return [
+        "blathers",
+        "isabelle",
+        "kk-slider",
+        "timmy",
+        "tom-nook",
+        "tommy"
+      ];
+    case "0100c3800049c000":
+    case "0100770008dd8000":
+      return ["felyne", "melynx"];
+    case "010003f003a34000":
+    case "0100187003a36000":
+    case "0100abf008968000":
+    case "01008db008c2C000":
+      return ["red-cap"];
+    case "0100152000022000":
+      return [
+        "bowser-kart",
+        "donkey-kart",
+        "luigi-kart",
+        "mario-kart",
+        "peach-kart",
+        "rosalina-kart",
+        "toad-kart",
+        "wario-kart",
+        "yoshi-kart"
+      ];
+    default:
+      return undefined;
+  }
 };
 
 const decodeUtf16 = function(data) {
@@ -104,7 +122,7 @@ export default {
       return parseAdvertiseData(contentId, fromHex(advertiseData));
     },
     icon() {
-      let icons = IconsMap[this.room.contentId];
+      let icons = IconsMap(this.room.contentId);
       return icons && icons[this.room.hostPlayerName.length % icons.length];
     },
     tooltip() {
