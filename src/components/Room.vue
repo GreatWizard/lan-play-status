@@ -6,7 +6,7 @@
       class="icon"
       alt=""
     />
-    <strong> {{ room.hostPlayerName }}</strong>
+    <strong vif="hostPlayerName !== undefined"> {{ hostPlayerName }}</strong>
     <component
       v-if="advertiseData !== undefined"
       v-bind:is="`room${room.contentId}`"
@@ -107,7 +107,26 @@ export default {
   computed: {
     game() {
       let gameId = this.room.contentId.toLowerCase();
+      if (
+        // Fix for DRAGON BALL FighterZ
+        gameId === "ffffffffffffffff" &&
+        this.room.hostPlayerName === "DBFighter"
+      ) {
+        gameId = "0100a250097f0000";
+      }
       return this.games.find(({ id }) => id === gameId);
+    },
+    hostPlayerName() {
+      let gameId = this.room.contentId.toLowerCase();
+      let hostPlayerName = this.room.hostPlayerName;
+      if (
+        // Fix for DRAGON BALL FighterZ
+        gameId === "ffffffffffffffff" &&
+        hostPlayerName === "DBFighter"
+      ) {
+        hostPlayerName = undefined;
+      }
+      return hostPlayerName;
     },
     gameName() {
       let obj = this.game;
