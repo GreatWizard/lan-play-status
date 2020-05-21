@@ -37,6 +37,13 @@
     "hidden": true
   },
   {
+    "ip": "srv1.lanplay.group",
+    "port": 11451,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "open.t0g3pii.de",
     "port": 11451,
     "flag": "de",
@@ -59,13 +66,6 @@
   },
   {
     "ip": "lanplay2.reboot.ms",
-    "port": 11451,
-    "flag": "gb",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "srv1.lanplay.group",
     "port": 11451,
     "flag": "gb",
     "platform": "switch",
