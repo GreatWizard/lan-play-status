@@ -14,8 +14,8 @@
         </button>
       </td>
       <td :data-tooltip="infos">
-        <span v-if="data.active >= 0 && data.idle >= 0">
-          <span v-if="data.active >= 0" class="inline-block--on-mobile">
+        <span v-if="data.active !== undefined && data.idle !== undefined">
+          <span class="inline-block--on-mobile">
             {{ data.active }}
             <img
               alt="Active users"
@@ -24,7 +24,7 @@
             />
           </span>
           <span class="hide--on-mobile"> / </span>
-          <span v-if="data.idle >= 0" class="inline-block--on-mobile">
+          <span class="inline-block--on-mobile">
             {{ data.idle }}
             <img
               alt="Idle users"
@@ -34,7 +34,7 @@
           </span>
         </span>
         <span v-else>
-          <span v-if="data.online >= 0">
+          <span>
             {{ data.online }}
             <img
               alt="Online users"
@@ -79,7 +79,7 @@ import Room from "@/components/Room.vue";
 
 const queryRoom = `{room{contentId hostPlayerName nodeCount nodeCountMax advertiseData nodes{playerName}}}`;
 
-const subscriptionGql = `{"id":"1","type":"start","payload":{"variables":{},"extensions":{},"operationName":null,"query":"subscription{serverInfo{online idle version}}"}}`;
+const subscriptionGql = `{"id":"1","type":"start","payload":{"variables":{},"extensions":{},"operationName":null,"query":"subscription{serverInfo{online idle}}"}}`;
 const closeGql = `{"id":"1","type":"stop"}`;
 
 const fetchWithTimeout = function(url, options, timeout = 20000) {
@@ -146,11 +146,15 @@ export default {
       return `${this.server.ip}:${this.server.port}`;
     },
     infos() {
-      let infos = `Server type: ${this.server.type}`;
-      if (this.data.version) {
-        infos = `${infos}
-(v${this.data.version})`;
+      let infos = "";
+      if (this.data.active !== undefined && this.data.idle !== undefined) {
+        infos = `${this.data.active} active user${
+          this.data.active > 1 ? "s" : ""
+        } and ${this.data.idle} idle user${this.data.idle > 1 ? "s" : ""}`;
+      } else {
+        infos = `${this.data.online} user${this.data.online > 1 ? "s" : ""}`;
       }
+
       return infos;
     },
     country() {
