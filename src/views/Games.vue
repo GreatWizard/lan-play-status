@@ -97,12 +97,17 @@ let cfw = [
   { title: "EA SPORTS FIFA 20 Nintendo Switch Legacy Edition" },
   { title: "Flip Over Frog", ds: true },
   { title: "Flip Wars", ds: true },
-  { title: "Football Heroes Turbo", asset: "no-cover.jpg" },
+  {
+    title: "Football Heroes Turbo",
+    source:
+      "https://www.nintendo.com/content/dam/noa/en_US/games/switch/f/football-heroes-turbo-switch/football-heroes-turbo-switch-hero.jpg"
+  },
   { title: "Freecell Battle King", ds: true },
   { title: "Full Metal Furies", ds: true },
   {
     title: "Gesshizu: Gajigaji Nakama wo Sodateyou (JP)",
-    asset: "no-cover.jpg"
+    source:
+      "https://img-eshop.cdn.nintendo.net/i/ff7bb4a2e6ac1b299ad173f7e238861f97bfcfa4a2a850ea63044ff0f0c6841e.jpg?w=1000"
   },
   {
     title: "Ginsei Mahjong (JP)",
@@ -120,14 +125,22 @@ let cfw = [
   { title: "Hammerwatch", ds: true },
   { title: "Human Fall Flat", ds: true },
   { title: "Just Shapes & Beats", ds: true },
-  { title: "Kamen Rider Climax Scramble (JP)", asset: "no-cover.jpg" },
+  {
+    title: "Kamen Rider Climax Scramble (JP)",
+    source:
+      "https://img-eshop.cdn.nintendo.net/i/fa85b59fdb799e8d06303beff4b03d63c0ac22d24c303e981f1a8f2c5471d5b4.jpg?w=1000"
+  },
   { title: "Korg Gadget for Nintendo Switch", ds: true },
   { title: "Luigi's Mansion 3" },
   { title: "Mantis Burn Racing", ds: true },
   { title: "Marvel Ultimate Alliance 3: The Black Order" },
   { title: "Mercenary Kings: Reloaded Edition", ds: true },
   { title: "Minecraft" },
-  { title: "Minna de Daifugo (JP)", asset: "no-cover.jpg" },
+  {
+    title: "Minna de Daifugo (JP)",
+    source:
+      "https://img-eshop.cdn.nintendo.net/i/1b77d2ae95d80724ea4b32f3f85303f6341d7a5fec10b98d6f9f899da8fd61f7.jpg?w=1000"
+  },
   { title: "Monster Energy Supercross - The Official Videogame" },
   { title: "Monster Energy Supercross - The Official Videogame 2" },
   { title: "Monster Energy Supercross - The Official Videogame 3" },
@@ -148,12 +161,15 @@ let cfw = [
   { title: "Payday 2" },
   {
     title: "Pikachin-Kit: Game de Pirameki Daisakusen (JP)",
-    asset: "no-cover.jpg"
+    asset: "pikachin-kit-game-de-pirameki-daisakusen.jpg"
   },
   { title: "PixARK" },
   { title: "Poisoft Thud Card", ds: true },
   { title: "Portal Knights" },
-  { title: "Pro Yakyuu Famista Evolution (JP)", asset: "no-cover.jpg" },
+  {
+    title: "Pro Yakyuu Famista Evolution (JP)",
+    asset: "pro-yakyuu-famista-evolution.jpg"
+  },
   { title: "Puyo Puyo Champions", ds: true },
   { title: "Puyo Puyo Tetris" },
   { title: "Ragtag Adventurers", ds: true },
