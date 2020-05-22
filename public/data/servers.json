@@ -296,4 +296,11 @@
     "platform": "switch",
     "type": "dotnet"
   }
+  {
+    "ip": "142.118.33.143",
+    "port": 11451,
+    "flag": "ca",
+    "platform": "switch",
+    "type": "rust"
+  }
 ]
