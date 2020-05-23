@@ -28,6 +28,10 @@ a {
 
 .icon {
   height: 22px;
+
+  &--game {
+    border-radius: 2px;
+  }
 }
 
 // new modifier for VueFlags

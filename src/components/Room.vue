@@ -15,7 +15,7 @@
     ></component>
     ({{ room.nodeCount }}/{{ room.nodeCountMax }}) &mdash;
     <span v-if="game.icon !== undefined">
-      <img :src="game.icon" class="icon" alt="" />
+      <img :src="game.icon" class="icon icon--game" alt="" />
     </span>
     {{ gameName }}
   </div>
