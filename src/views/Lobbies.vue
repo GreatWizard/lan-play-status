@@ -23,6 +23,10 @@ const popularLobbies = [
     games: ["0100a250097f0000"]
   },
   {
+    // Luigis Mansion 3
+    games: ["0100dca0064a6000"]
+  },
+  {
     // Mario Kart 8 Deluxe
     games: ["0100152000022000"]
   },
@@ -43,8 +47,16 @@ const popularLobbies = [
     games: ["0100f8f0000a2000"]
   },
   {
+    // Spatoon 2 (JAP)
+    games: ["01003c700009c000"]
+  },
+  {
     // Splatoon 2 (USA)
     games: ["01003bc0000a0000"]
+  },
+  {
+    // Super Smash Bros. Ultimate
+    games: ["01006a800016e000"]
   }
 ];
 
