@@ -5,8 +5,9 @@
       :src="require(`@/assets/icons/${icon}.png`)"
       class="icon"
       alt=""
-    />
-    <strong vif="hostPlayerName !== undefined"> {{ hostPlayerName }}</strong>
+    />&nbsp;<strong vif="hostPlayerName !== undefined">{{
+      hostPlayerName
+    }}</strong>
     <component
       v-if="advertiseData !== undefined"
       v-bind:is="`room${room.contentId}`"
@@ -25,9 +26,11 @@ import room01006f8002326000 from "@/components/rooms/01006f8002326000.vue";
 
 const AdvertiseMap = {
   "01006f8002326000": data => {
-    const islandBin = data.slice(0x1c);
+    const islandBin = fromHex(data).slice(28);
+    const dodoCode = data.charAt(557) === "1";
     return {
-      island: decodeUtf16(islandBin)
+      island: decodeUtf16(islandBin),
+      dodoCode
     };
   }
 };
@@ -138,7 +141,7 @@ export default {
     },
     advertiseData() {
       let { contentId, advertiseData } = this.room;
-      return parseAdvertiseData(contentId, fromHex(advertiseData));
+      return parseAdvertiseData(contentId, advertiseData);
     },
     icon() {
       let icons = IconsMap(this.room.contentId);

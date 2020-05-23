@@ -2,8 +2,8 @@
   <span class="contents" v-if="status >= 0">
     <tr :class="trClasses">
       <td>
-        <span class="fullAddress">{{ fullAddress }} </span>
-        <button class="copy-button hide--on-mobile" data-tooltip="Copy">
+        <span class="fullAddress">{{ fullAddress }}</span
+        >&nbsp;<button class="copy-button hide--on-mobile" data-tooltip="Copy">
           <img
             alt="Copy"
             class="icon"

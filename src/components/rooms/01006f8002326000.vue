@@ -1,7 +1,17 @@
 <template>
-  <span>
-    🏝️
-    <strong>{{ this.advertiseData.island }}</strong>
+  <span
+    >&nbsp;<img
+      v-if="advertiseData.dodoCode"
+      :src="require(`@/assets/icons/island-code.png`)"
+      class="icon"
+      alt="🏝️🔒"
+    />
+    <img
+      v-else
+      :src="require(`@/assets/icons/island.png`)"
+      class="icon"
+      alt="🏝️"
+    />&nbsp;<strong>{{ advertiseData.island }}</strong>
   </span>
 </template>
 
