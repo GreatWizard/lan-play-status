@@ -21,22 +21,6 @@
     "type": "rust"
   },
   {
-    "ip": "nook-inc.net",
-    "port": 11460,
-    "flag": "fr",
-    "platform": "switch",
-    "type": "rust",
-    "hidden": true
-  },
-  {
-    "ip": "nook-inc.net",
-    "port": 11461,
-    "flag": "fr",
-    "platform": "switch",
-    "type": "rust",
-    "hidden": true
-  },
-  {
     "ip": "srv1.lanplay.group",
     "port": 11451,
     "flag": "fr",

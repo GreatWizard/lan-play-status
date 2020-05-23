@@ -1,6 +1,6 @@
 <template>
   <span
-    >&nbsp;<img
+    ><img
       v-if="advertiseData.dodoCode"
       :src="require(`@/assets/icons/island-code.png`)"
       class="icon"

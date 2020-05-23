@@ -2,6 +2,8 @@ import Vue from "vue";
 import Router from "vue-router";
 import VueAnalytics from "vue-analytics";
 import Home from "./views/Home.vue";
+import Lobbies from "./views/Lobbies.vue";
+import Lobby from "./views/Lobby.vue";
 import Games from "./views/Games.vue";
 import Download from "./views/Download.vue";
 import Install from "./views/Install.vue";
@@ -19,6 +21,8 @@ const router = new Router({
       name: "home",
       component: Home
     },
+    { path: "/lobbies", component: Lobbies },
+    { path: "/lobbies/:gameIds", component: Lobby },
     {
       path: "/games",
       name: "games",

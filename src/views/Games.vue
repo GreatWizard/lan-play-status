@@ -3,24 +3,19 @@
     <h1>Games with LAN Mode</h1>
     <h2>(OFW and CFW compatible)</h2>
     <div class="cards">
-      <Card v-for="game in ofw" :game="game" :key="game.title" />
+      <GameCard v-for="game in ofw" :game="game" :key="game.title" />
     </div>
     <h1>Games with Wireless Mode</h1>
     <h2>(CFW only: it needs ldn_mitm kip)</h2>
     <div class="cards">
-      <Card v-for="game in cfw" :game="game" :key="game.title" />
+      <GameCard v-for="game in cfw" :game="game" :key="game.title" />
     </div>
   </div>
 </template>
 
 <script>
-import Card from "@/components/Card.vue";
-
-const sortByTitle = function(a, b) {
-  let aTitle = a.title.toLowerCase();
-  let bTitle = b.title.toLowerCase();
-  return aTitle > bTitle ? 1 : bTitle > aTitle ? -1 : 0;
-};
+import GameCard from "@/components/GameCard.vue";
+import { sortByString } from "@/utils/sorts";
 
 let ofw = [
   {
@@ -57,7 +52,7 @@ let ofw = [
   },
   { title: "Titan Quest" }
 ];
-ofw.sort(sortByTitle);
+ofw.sort(sortByString("title"));
 
 let cfw = [
   { title: "A.O.T 2" },
@@ -209,12 +204,12 @@ let cfw = [
   { title: "Xenon Racer" },
   { title: "Yu-Gi-Oh! Legacy of the Duelist: Link Evolution" }
 ];
-cfw.sort(sortByTitle);
+cfw.sort(sortByString("title"));
 cfw.push({ title: "And so on...", asset: "etc.jpg" });
 
 export default {
   components: {
-    Card
+    GameCard
   },
   data: function() {
     return {
@@ -224,13 +219,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss">
-.cards {
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row wrap;
-  max-width: 90%;
-  margin: auto;
-}
-</style>

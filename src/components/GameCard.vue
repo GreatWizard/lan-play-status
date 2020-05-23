@@ -77,30 +77,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss">
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  border-radius: 5px;
-  width: 300px;
-  margin-bottom: 20px;
-
-  @media only screen and (max-width: 768px) {
-    width: 150px;
-  }
-
-  &__image {
-    border-radius: 5px 5px 0 0;
-    max-width: 100%;
-  }
-
-  &:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  }
-
-  &__content {
-    padding: 2px 16px;
-  }
-}
-</style>

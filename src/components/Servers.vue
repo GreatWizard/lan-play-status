@@ -6,7 +6,6 @@
           <th>Server</th>
           <th>Status</th>
           <th class="hide--on-mobile">Country</th>
-          <th class="hide--on-mobile">Platform</th>
           <th>Ping</th>
           <th>Uptime</th>
         </tr>

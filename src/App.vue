@@ -2,6 +2,7 @@
   <div class="app">
     <div class="nav">
       <router-link to="/">Home</router-link> |
+      <router-link to="/lobbies">Lobbies</router-link> |
       <router-link to="/games">Games</router-link> |
       <router-link to="/download">Download</router-link> |
       <router-link to="/install">Install</router-link> |
@@ -148,6 +149,39 @@ button {
   color: rgb(232, 230, 227);
   border-color: rgb(87, 87, 87);
   border-radius: 4px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  max-width: 90%;
+  margin: auto;
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 20px;
+
+    @media only screen and (max-width: 768px) {
+      width: 150px;
+    }
+
+    &__image {
+      border-radius: 5px 5px 0 0;
+      max-width: 100%;
+    }
+
+    &:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    &__content {
+      padding: 2px 16px;
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {

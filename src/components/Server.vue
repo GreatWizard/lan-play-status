@@ -2,16 +2,7 @@
   <span class="contents" v-if="status >= 0">
     <tr :class="trClasses">
       <td>
-        <span class="fullAddress">{{ fullAddress }}</span
-        >&nbsp;<button class="copy-button hide--on-mobile" data-tooltip="Copy">
-          <img
-            alt="Copy"
-            class="icon"
-            :src="require(`@/assets/icons/copy.png`)"
-            data-copy-selector=".fullAddress"
-            v-on:click="copy"
-          />
-        </button>
+        <CopyButton :data="fullAddress" />
       </td>
       <td :data-tooltip="infos">
         <span v-if="data.active !== undefined && data.idle !== undefined">
@@ -47,7 +38,6 @@
       <td class="hide--on-mobile" :data-tooltip="country">
         <gb-flag :code="server.flag" class="icon" size="icon" />
       </td>
-      <CellIcon class="hide--on-mobile" :platform="server.platform" />
       <td>
         <span v-if="ping >= 0">
           {{ ping }}<span class="hide--on-mobile"> ms</span>
@@ -66,7 +56,9 @@
         <Room
           v-for="room in data.rooms"
           :room="room"
-          :key="`${room.hostPlayerName}:${room.contentId}`"
+          :key="
+            `${server.ip}:${server.port}:${room.hostPlayerName}:${room.contentId}`
+          "
         />
       </td>
     </tr>
@@ -74,8 +66,9 @@
 </template>
 
 <script>
-import CellIcon from "@/components/CellIcon.vue";
+import CopyButton from "@/components/CopyButton.vue";
 import Room from "@/components/Room.vue";
+import { getFullAddress } from "@/utils/servers";
 
 const queryRoom = `{room{contentId hostPlayerName nodeCount nodeCountMax advertiseData nodes{playerName}}}`;
 
@@ -126,7 +119,7 @@ const gqlPing = (server, delay = 0, timeout = 20000) => {
 
 export default {
   components: {
-    CellIcon,
+    CopyButton,
     Room
   },
   data: () => {
@@ -143,7 +136,7 @@ export default {
   },
   computed: {
     fullAddress() {
-      return `${this.server.ip}:${this.server.port}`;
+      return getFullAddress(this.server);
     },
     infos() {
       let infos = "";
@@ -177,16 +170,6 @@ export default {
     }
   },
   methods: {
-    copy(event) {
-      let el = this.$el.querySelector(
-        event.target.getAttribute("data-copy-selector")
-      );
-      let range = document.createRange();
-      range.selectNode(el);
-      window.getSelection().addRange(range);
-      document.execCommand("copy");
-      window.getSelection().removeAllRanges();
-    },
     async gqlRefresh() {
       let { data, ping } = await gqlPing(
         `${this.server.ip}:${this.server.port}`
@@ -308,26 +291,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss">
-.contents {
-  display: contents;
-}
-.copy-button {
-  padding: 4px;
-  cursor: pointer;
-  outline: none;
-  border: none;
-  background-color: #ffffff00;
-  border-radius: 4px;
-
-  &:hover {
-    background-color: #52525220;
-  }
-
-  &:active {
-    background-color: #52525240;
-    transform: translateY(1px);
-  }
-}
-</style>
