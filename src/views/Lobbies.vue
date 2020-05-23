@@ -19,6 +19,10 @@ const popularLobbies = [
     games: ["01006f8002326000"]
   },
   {
+    // DRAGON BALL FighterZ
+    games: ["0100a250097f0000"]
+  },
+  {
     // Mario Kart 8 Deluxe
     games: ["0100152000022000"]
   },
@@ -33,6 +37,14 @@ const popularLobbies = [
   {
     // Pokémon Shield, Pokémon Sword
     games: ["01008db008c2C000", "0100abf008968000"]
+  },
+  {
+    // Splatoon 2 (EUR)
+    games: ["0100f8f0000a2000"]
+  },
+  {
+    // Splatoon 2 (USA)
+    games: ["01003bc0000a0000"]
   }
 ];
 

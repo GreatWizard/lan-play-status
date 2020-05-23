@@ -1,3 +1,5 @@
+import { getGameId } from "./games";
+
 const getHostPlayerName = _room => {
   let hostPlayerName = _room.hostPlayerName;
   if (
@@ -51,10 +53,10 @@ const fromHex = hex => {
   }
   return new Uint8Array(buf.map(h => parseInt(h, 16))).buffer;
 };
-
 const getAdvertiseData = _room => {
   let { contentId, advertiseData } = _room;
-  return AdvertiseDataMap(contentId)(advertiseData);
+  let gameId = getGameId(contentId);
+  return AdvertiseDataMap(gameId)(advertiseData);
 };
 
 export { getHostPlayerName, getPlayers, getAdvertiseData };

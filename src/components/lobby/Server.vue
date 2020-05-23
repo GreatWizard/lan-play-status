@@ -13,6 +13,7 @@
 
 <script>
 import LobbyRoom from "@/components/lobby/Room.vue";
+import { getGameId } from "@/utils/games";
 
 const queryRoom = `{room{contentId hostPlayerName nodeCount nodeCountMax advertiseData nodes{playerName}}}`;
 
@@ -56,7 +57,7 @@ export default {
           );
           roomsData = await response.json();
           roomsData = roomsData.data.room.filter(room =>
-            this.gameIds.includes(room.contentId)
+            this.gameIds.includes(getGameId(room.contentId))
           );
         } catch (e) {
           roomsData = [];

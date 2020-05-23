@@ -64,7 +64,7 @@ export default {
       }`;
     },
     icon() {
-      return getPlayerIcon(this.room.contentId, this.room.hostPlayerName);
+      return getPlayerIcon(this.gameId, this.hostPlayerName);
     },
     advertiseData() {
       return getAdvertiseData(this.room);
