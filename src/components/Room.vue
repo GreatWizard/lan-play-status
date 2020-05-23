@@ -148,9 +148,20 @@ export default {
       return icons && icons[this.room.hostPlayerName.length % icons.length];
     },
     tooltip() {
-      let players = this.room.nodes
-        .map(({ playerName }) => playerName)
-        .join(", ");
+      let players;
+      if (
+        // Fix for DRAGON BALL FighterZ
+        this.room.contentId.toLowerCase() === "ffffffffffffffff"
+      ) {
+        players ==
+          `${this.rooms.nodes.length} user${
+            this.room.nodes.length > 1 ? "s" : ""
+          }`;
+      } else {
+        players = this.room.nodes
+          .map(({ playerName }) => playerName)
+          .join(", ");
+      }
       return `${players} ${
         this.room.nodes.length > 1 ? "are playing" : "is playing"
       } ${this.gameName}`;
