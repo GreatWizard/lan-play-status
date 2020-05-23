@@ -69,53 +69,9 @@
 import CopyButton from "@/components/CopyButton.vue";
 import Room from "@/components/servers/Room.vue";
 import { getFullAddress } from "@/utils/servers";
-
-const queryRoom = `{room{contentId hostPlayerName nodeCount nodeCountMax advertiseData nodes{playerName}}}`;
-
-const subscriptionGql = `{"id":"1","type":"start","payload":{"variables":{},"extensions":{},"operationName":null,"query":"subscription{serverInfo{online idle}}"}}`;
-const closeGql = `{"id":"1","type":"stop"}`;
-
-const fetchWithTimeout = function(url, options, timeout = 20000) {
-  return Promise.race([
-    fetch(url, options),
-    new Promise((_, reject) =>
-      setTimeout(() => reject(new Error("timeout")), timeout)
-    )
-  ]);
-};
-
-const gqlPing = (server, delay = 0, timeout = 20000) => {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => reject(new Error("timeout")), timeout);
-    let url = `${location.protocol === "https:" ? "wss" : "ws"}://${server}`;
-    const ws = new WebSocket(url, "graphql-ws");
-    let timeoutId = undefined;
-    let lastTime = undefined;
-    const doPing = () => {
-      ws.send(subscriptionGql);
-      lastTime = Date.now();
-    };
-    ws.onmessage = e => {
-      const data = JSON.parse(e.data);
-      if (data.type === "data" && data.id === "1") {
-        let ping = Date.now() - lastTime;
-        resolve({ data: data.payload.data.serverInfo, ping });
-        ws.send(closeGql);
-        ws.close();
-      }
-    };
-    ws.onclose = () => {
-      timeoutId && clearTimeout(timeoutId);
-    };
-    ws.onerror = e => {
-      reject(e);
-    };
-    ws.onopen = () => {
-      ws.send(`{"type":"connection_init","payload":{}}`);
-      timeoutId = setTimeout(doPing, delay);
-    };
-  });
-};
+import { fetchWithTimeout } from "@/utils/fetch";
+import { gqlRequestAndPing } from "@/utils/graphql";
+import { queryRoom, subscriptionGql } from "@/queries";
 
 export default {
   components: {
@@ -171,8 +127,9 @@ export default {
   },
   methods: {
     async gqlRefresh() {
-      let { data, ping } = await gqlPing(
-        `${this.server.ip}:${this.server.port}`
+      let { data, ping } = await gqlRequestAndPing(
+        `${this.server.ip}:${this.server.port}`,
+        subscriptionGql
       );
 
       try {
@@ -196,8 +153,8 @@ export default {
 
         this.ping = ping;
         this.data = {
-          active: data.online - data.idle,
-          ...data,
+          active: data.serverInfo.online - data.serverInfo.idle,
+          ...data.serverInfo,
           rooms: roomsData
         };
 

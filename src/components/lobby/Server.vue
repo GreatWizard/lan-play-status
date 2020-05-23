@@ -14,17 +14,8 @@
 <script>
 import LobbyRoom from "@/components/lobby/Room.vue";
 import { getGameId } from "@/utils/games";
-
-const queryRoom = `{room{contentId hostPlayerName nodeCount nodeCountMax advertiseData nodes{playerName}}}`;
-
-const fetchWithTimeout = function(url, options, timeout = 20000) {
-  return Promise.race([
-    fetch(url, options),
-    new Promise((_, reject) =>
-      setTimeout(() => reject(new Error("timeout")), timeout)
-    )
-  ]);
-};
+import { fetchWithTimeout } from "@/utils/fetch";
+import { queryRoom } from "@/queries";
 
 export default {
   components: {
