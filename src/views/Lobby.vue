@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Lobby from "@/components/Lobby.vue";
+import Lobby from "@/components/lobby/Lobby.vue";
 
 export default {
   components: {

@@ -67,7 +67,7 @@
 
 <script>
 import CopyButton from "@/components/CopyButton.vue";
-import Room from "@/components/Room.vue";
+import Room from "@/components/servers/Room.vue";
 import { getFullAddress } from "@/utils/servers";
 
 const queryRoom = `{room{contentId hostPlayerName nodeCount nodeCountMax advertiseData nodes{playerName}}}`;

@@ -37,7 +37,7 @@ export default {
   },
   props: {
     server: Object,
-    gameIds: String
+    gameIds: Array
   },
   methods: {
     async gqlRefresh() {

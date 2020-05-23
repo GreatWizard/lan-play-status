@@ -12,6 +12,24 @@
   </div>
 </template>
 
+<script>
+import Konami from "./konami";
+
+export default {
+  mounted() {
+    Konami(undefined, {
+      callback: this.loadHiddenServers
+    });
+  },
+  methods: {
+    loadHiddenServers() {
+      this.loadHidden = true;
+      this.$store.commit("loadHiddenServers");
+    }
+  }
+};
+</script>
+
 <style lang="scss">
 body {
   font-family: "Nunito Sans", sans-serif;

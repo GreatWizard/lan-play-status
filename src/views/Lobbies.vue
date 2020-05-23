@@ -10,7 +10,6 @@
 </template>
 
 <script>
-import Lobby from "@/components/Lobby.vue";
 import { getGameId, getGame, getGameName } from "@/utils/games";
 import { sortByString } from "@/utils/sorts";
 
@@ -38,9 +37,6 @@ const popularLobbies = [
 ];
 
 export default {
-  components: {
-    Lobby
-  },
   data: function() {
     return {
       popularLobbies,

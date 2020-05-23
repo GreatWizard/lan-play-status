@@ -1,15 +1,11 @@
 import Vue from "vue";
 import Vuex from "vuex";
 import serversSource from "../public/data/servers.json";
-import communitiesSource from "./data/communities.json";
-import games from "./data/games.json";
+import communitiesSource from "@/data/communities.json";
+import games from "@/data/games.json";
+import { filterBy, rejectBy, truthyBy, falsyBy } from "@/utils/filters";
 
 Vue.use(Vuex);
-
-const isVisible = o => !o.hidden;
-const isHidden = o => !!o.hidden;
-const isRust = o => o.type === "rust";
-const isNotRust = o => o.type !== "rust";
 
 const serverMapping = ({
   ip,
@@ -38,8 +34,8 @@ const communityMapping = community => {
 export default new Vuex.Store({
   state: {
     servers: serversSource
-      .filter(isVisible)
-      .filter(isRust)
+      .filter(falsyBy("hidden"))
+      .filter(filterBy("type", "rust"))
       .map(serverMapping),
     communities: communitiesSource.map(communityMapping),
     games,
@@ -73,13 +69,13 @@ export default new Vuex.Store({
     },
     loadHiddenServers(state) {
       serversSource
-        .filter(isHidden)
+        .filter(truthyBy("hidden"))
         .map(serverMapping)
         .forEach(server => state.servers.push(server));
     },
     loadMoreServers(state) {
       serversSource
-        .filter(isNotRust)
+        .filter(rejectBy("type", "rust"))
         .map(serverMapping)
         .forEach(server => state.servers.push(server));
     }

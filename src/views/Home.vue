@@ -19,8 +19,8 @@
 </template>
 
 <script>
-import Servers from "@/components/Servers.vue";
-import Communities from "@/components/Communities.vue";
+import Servers from "@/components/servers/Servers.vue";
+import Communities from "@/components/communities/Communities.vue";
 
 export default {
   components: {

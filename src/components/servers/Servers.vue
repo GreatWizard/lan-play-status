@@ -30,8 +30,7 @@
 </template>
 
 <script>
-import Server from "@/components/Server.vue";
-import Konami from "../konami";
+import Server from "@/components/servers/Server.vue";
 
 export default {
   components: {
@@ -40,7 +39,6 @@ export default {
   data() {
     return {
       servers: this.$store.state.servers,
-      loadHidden: false,
       loadMore: false
     };
   },
@@ -52,20 +50,11 @@ export default {
   mounted() {
     if (!this.monitors) {
       this.fetchMonitors();
-      Konami(undefined, {
-        callback: this.loadHiddenServers
-      });
     }
   },
   methods: {
     fetchMonitors() {
       return this.$store.dispatch("fetchMonitors");
-    },
-    loadHiddenServers() {
-      if (!this.loadHidden) {
-        this.loadHidden = true;
-        this.$store.commit("loadHiddenServers");
-      }
     },
     loadMoreServers() {
       if (!this.loadMore) {

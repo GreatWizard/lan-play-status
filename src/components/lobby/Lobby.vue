@@ -13,13 +13,14 @@
 <script>
 import LobbyServer from "@/components/lobby/Server.vue";
 import { getGameId, getGame, getGameName } from "@/utils/games";
+import { notEmpty } from "@/utils/filters";
 
 export default {
   components: {
     LobbyServer
   },
   props: {
-    routeGameIds: String
+    routeGameIds: Array
   },
   data() {
     return {
@@ -29,13 +30,17 @@ export default {
   },
   computed: {
     gameIds() {
-      return this.routeGameIds.map(gameId => getGameId(gameId));
+      return this.routeGameIds
+        .filter(notEmpty)
+        .map(gameId => getGameId(gameId));
     },
     gamesObj() {
-      return this.gameIds.map(gameId => getGame(this.games, gameId));
+      return this.gameIds
+        .map(gameId => getGame(this.games, gameId))
+        .filter(notEmpty);
     },
     gamesName() {
-      return this.gamesObj.map(game => getGameName(game));
+      return this.gamesObj.map(game => getGameName(game)).sort();
     }
   }
 };

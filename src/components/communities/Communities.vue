@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import Community from "@/components/Community.vue";
+import Community from "@/components/communities/Community.vue";
 
 export default {
   components: {
