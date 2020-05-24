@@ -13,7 +13,7 @@
     />
     <div class="card__content">
       <h2>{{ game.title }}</h2>
-      <p v-if="message">{{ game.message }}</p>
+      <p v-if="game.message">{{ game.message }}</p>
     </div>
   </div>
 </template>
