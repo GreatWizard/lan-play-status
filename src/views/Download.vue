@@ -26,32 +26,32 @@
         href="https://www111.zippyshare.com/d/2DNOz1XM/27792/lan-play-macos-v0.2.1"
         target="=_blank"
         rel="noreferrer noopener"
-        >zippyshare.com</a
+        >zippyshare</a
       >
-      &mdash;
+      /
       <a
         href="http://dl.free.fr/nGyzMkHje"
         target="=_blank"
         rel="noreferrer noopener"
-        >dl.free.fr</a
+        >free</a
       >
-      &mdash;
+      /
       <a
         href="https://1fichier.com/?dwcwk24w7g91y0cyh1w3"
         target="=_blank"
         rel="noreferrer noopener"
-        >1fichier.com</a
+        >1fichier</a
       >
-      &mdash;
+      /
       <a
         href="https://uptobox.com/kvsee5axaw8k"
         target="=_blank"
         rel="noreferrer noopener"
-        >uptobox.com</a
+        >uptobox</a
       >
-      &mdash;
+      /
       <a href="http://ul.to/70cmx7bj" target="=_blank" rel="noreferrer noopener"
-        >uploaded.net</a
+        >uploaded</a
       >
     </p>
     <p>
