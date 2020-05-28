@@ -149,7 +149,7 @@
   },
   {
     "ip": "lebzul.duckdns.org",
-    "port": 11451,
+    "port": 11450,
     "flag": "pa",
     "platform": "switch",
     "type": "rust"
@@ -158,6 +158,13 @@
     "ip": "switch.0mn1b0x.com",
     "port": 11451,
     "flag": "au",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "acnh.hopto.org",
+    "port": 11451,
+    "flag": "my",
     "platform": "switch",
     "type": "rust"
   },
