@@ -293,5 +293,12 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
+  },
+  {
+    "ip": "lan-play.tk",
+    "port": 11451,
+    "flag": "ca",
+    "platform": "switch",
+    "type": "rust"
   }
 ]
