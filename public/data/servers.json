@@ -120,6 +120,13 @@
     "type": "rust"
   },
   {
+    "ip": "lan-play.tk",
+    "port": 11451,
+    "flag": "ca",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "bluehouse.servepics.com",
     "port": 11451,
     "flag": "mx",
@@ -142,6 +149,13 @@
   },
   {
     "ip": "cajuina.ddns.net",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "netfindersbrasil2.ddns.net",
     "port": 11451,
     "flag": "br",
     "platform": "switch",
