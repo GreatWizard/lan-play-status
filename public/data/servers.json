@@ -7,6 +7,13 @@
     "type": "rust"
   },
   {
+    "ip": "teamneptune.ddns.net",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lanplay.reboot.ms",
     "port": 11451,
     "flag": "fr",
