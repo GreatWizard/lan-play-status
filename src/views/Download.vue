@@ -64,6 +64,15 @@
       </a>
     </p>
     <h2>Switch Sysmodule and Homebrew (ldn_mitm)</h2>
+	    <p>
+      For atmosphere 13:
+      <a
+        href="https://github.com/spacemeowx2/ldn_mitm/releases/download/v1.4.0/ldn_mitm_v1.4.0.zip"
+        target="=_blank"
+        rel="noreferrer noopener"
+        >ldn_mitm v1.4.0</a
+      >
+    </p>
     <p>
       For atmosphere 11 or 12:
       <a
