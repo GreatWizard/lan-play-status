@@ -18,7 +18,7 @@
         <strong>IP Address Settings</strong><br />
         IP Address: 10.13.XX.YY<br />
         Subnet Mask: 255.255.0.0<br />
-        Gatewway: 10.13.37.1<br />
+        Gateway: 10.13.37.1<br />
         <br />
         <strong>DNS settings</strong><br />
         Primary DNS: 163.172.141.219<br />
