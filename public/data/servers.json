@@ -14,44 +14,9 @@
     "type": "rust"
   },
   {
-    "ip": "nook-inc.net",
-    "port": 11451,
-    "flag": "fr",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "srv1.lanplay.group",
-    "port": 11451,
-    "flag": "fr",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "open.t0g3pii.de",
-    "port": 11451,
-    "flag": "de",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "nook-hq.ml",
-    "port": 11451,
-    "flag": "de",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "switch.jayseateam.nl",
     "port": 11451,
     "flag": "nl",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "lanplay2.reboot.ms",
-    "port": 11451,
-    "flag": "gb",
     "platform": "switch",
     "type": "rust"
   },
@@ -63,36 +28,8 @@
     "type": "rust"
   },
   {
-    "ip": "nxlan-w.dentora.ca",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "nxlan-e.dentora.ca",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "joinsg.net",
     "port": 11453,
-    "flag": "us",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "chasehall.net",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "localhost.boroghor.com",
-    "port": 11451,
     "flag": "us",
     "platform": "switch",
     "type": "rust"
@@ -113,9 +50,9 @@
     "hidden": true
   },
   {
-    "ip": "mim.servebeer.com",
-    "port": 11451,
-    "flag": "ca",
+    "ip": "dojo.smashbreakofficial.com",
+    "port": 11452,
+    "flag": "us",
     "platform": "switch",
     "type": "rust"
   },
@@ -123,13 +60,6 @@
     "ip": "lan-play.tk",
     "port": 11451,
     "flag": "ca",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "bluehouse.servepics.com",
-    "port": 11451,
-    "flag": "mx",
     "platform": "switch",
     "type": "rust"
   },
@@ -169,20 +99,6 @@
     "type": "rust"
   },
   {
-    "ip": "switch.0mn1b0x.com",
-    "port": 11451,
-    "flag": "au",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "acnh.hopto.org",
-    "port": 11451,
-    "flag": "my",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "switchlanplay-tw.ddns.net",
     "port": 11451,
     "flag": "tw",
@@ -204,13 +120,6 @@
     "type": "rust"
   },
   {
-    "ip": "fireflies-online.club",
-    "port": 11451,
-    "flag": "cn",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "lan.nonny.horse",
     "port": 11451,
     "flag": "de",
@@ -218,11 +127,11 @@
     "type": "rust"
   },
   {
-    "ip": "switch.lan-play.com",
-    "port": 11452,
-    "flag": "fr",
+    "ip": "teamneptune.ddns.net",
+    "port": 11451,
+    "flag": "de",
     "platform": "switch",
-    "type": "node"
+    "type": "rust"
   },
   {
     "ip": "switch.jayseateam.nl",
@@ -260,13 +169,6 @@
     "type": "node"
   },
   {
-    "ip": "auslanplay.ddns.net",
-    "port": 11451,
-    "flag": "au",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
     "ip": "switch-la.nplay.asia",
     "port": 11451,
     "flag": "vn",
@@ -277,13 +179,6 @@
     "ip": "switch.mainbareng.web.id",
     "port": 11451,
     "flag": "id",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "xswitch.imxyd.com",
-    "port": 4999,
-    "flag": "cn",
     "platform": "switch",
     "type": "node"
   },
