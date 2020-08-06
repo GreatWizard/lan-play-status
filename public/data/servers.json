@@ -134,7 +134,7 @@
     "type": "rust"
   },
    {
-    "ip": "switch.servegame.com:11451",
+    "ip": "switch.servegame.com",
     "port": 11451,
     "flag": "dk",
     "platform": "switch",
