@@ -133,6 +133,13 @@
     "platform": "switch",
     "type": "rust"
   },
+   {
+    "ip": "switch.servegame.com:11451",
+    "port": 11451,
+    "flag": "dk",
+    "platform": "switch",
+    "type": "rust"
+  },
   {
     "ip": "switch.jayseateam.nl",
     "port": 11453,
