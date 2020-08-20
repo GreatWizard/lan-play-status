@@ -86,21 +86,18 @@
     </p>
     <h2>4 - Test you have setup everything correctly</h2>
     <p>
-      You can test if you have setup everything correctly by trying to connect
-      to your network.
+      You can test if you have setup everything correctly by putting your Switch to sleep and waking it up.
     </p>
     <p>
-      Go to System Settings > Internet > Internet Settings > Then either select
-      Wireless/Wired network > Connect to this Network.
+        If everything is good, you should see IConnection on your lan-play client. It will look like 
+        <img src="https://cdn.discordapp.com/attachments/500786651526594598/743907525191008261/unknown.png" alt="IConnection" />
+        If you do not, verify your switch settings, ensure there is no autoconnect profile for a different wireless profile, and try rebooting your switch.
+        <strong>
+                Failing the internet and/or DNS connectivity test on your switch <b>DOES NOT MATTER</b> and can be ignored.
+        </strong>
     </p>
     <p>
-      You should be in the clear if you get the "Succesfully connected" message.
-    </p>
-    <p>
-      <strong>
-        If the above connection test fails, check if you see IConnection on your
-        lanplay client which indicates your switch is connected to the client.
-      </strong>
+        If this continues to fail, join #help on the lan-play discord for further assistance.
     </p>
     <h2>5 - You can now play games that have the LAN play feature</h2>
     <p>
