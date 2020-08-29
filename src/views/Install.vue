@@ -92,7 +92,7 @@
         If everything is good, you should see IConnection on your lan-play client. It will look like 
 <img src="https://cdn.discordapp.com/attachments/500786651526594598/743907525191008261/unknown.png" alt="IConnection" style="vertical-align:middle;margin:50px 650px" width="500" height="250">
        </p>
-        If you do not, verify your switch settings, ensure there is no autoconnect profile for a different wireless profile, and try rebooting your switch.
+       <p> If you do not, verify your switch settings, ensure there is no autoconnect profile for a different wireless profile, and try rebooting your switch.
         <strong>
                 Failing the internet and/or DNS connectivity test on your switch <b>DOES NOT MATTER</b> and can be ignored.
         </strong>
