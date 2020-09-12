@@ -91,7 +91,9 @@
     </p>
     <p>
       If everything is good, you should see IConnection on your lan-play client.
-      It will look like
+      It will look like:
+    </p>
+    <p>
       <img
         alt="IConnection"
         class="screenshot"
