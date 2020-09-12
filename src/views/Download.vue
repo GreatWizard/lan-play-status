@@ -4,11 +4,29 @@
     <h2>LAN Play Client</h2>
     <p>
       <a
-        href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.2.1/lan-play-win64.exe"
+        href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.2.3/lan-play-win64.exe"
         target="=_blank"
         rel="noreferrer noopener"
       >
-        Windows (64bit) v0.2.1
+        Windows (64bit) v0.2.3
+      </a>
+    </p>
+    <p>
+      <a
+        href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.2.3/lan-play-macos"
+        target="=_blank"
+        rel="noreferrer noopener"
+      >
+        MacOS v0.2.3
+      </a>
+    </p>
+    <p>
+      <a
+        href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.2.3/lan-play-linux"
+        target="=_blank"
+        rel="noreferrer noopener"
+      >
+        Linux v0.2.3
       </a>
     </p>
     <p>
@@ -18,49 +36,6 @@
         rel="noreferrer noopener"
       >
         Windows (32bit) v0.2.1
-      </a>
-    </p>
-    <p>
-      MacOS v0.2.1:
-      <a
-        href="https://www111.zippyshare.com/d/2DNOz1XM/27792/lan-play-macos-v0.2.1"
-        target="=_blank"
-        rel="noreferrer noopener"
-        >zippyshare</a
-      >
-      /
-      <a
-        href="http://dl.free.fr/nGyzMkHje"
-        target="=_blank"
-        rel="noreferrer noopener"
-        >free</a
-      >
-      /
-      <a
-        href="https://1fichier.com/?dwcwk24w7g91y0cyh1w3"
-        target="=_blank"
-        rel="noreferrer noopener"
-        >1fichier</a
-      >
-      /
-      <a
-        href="https://uptobox.com/kvsee5axaw8k"
-        target="=_blank"
-        rel="noreferrer noopener"
-        >uptobox</a
-      >
-      /
-      <a href="http://ul.to/70cmx7bj" target="=_blank" rel="noreferrer noopener"
-        >uploaded</a
-      >
-    </p>
-    <p>
-      <a
-        href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.2.1/lan-play-linux"
-        target="=_blank"
-        rel="noreferrer noopener"
-      >
-        Linux v0.2.1
       </a>
     </p>
     <h2>Switch Sysmodule and Homebrew (ldn_mitm)</h2>
