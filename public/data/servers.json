@@ -209,5 +209,12 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
+  },
+  {
+    "ip": "mariokart8.jbgaming.ca",
+    "port": 11451,
+    "flag": "ca",
+    "platform": "switch",
+    "type": "dotnet"
   }
 ]
