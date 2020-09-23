@@ -215,6 +215,6 @@
     "port": 11451,
     "flag": "ca",
     "platform": "switch",
-    "type": "dotnet"
+    "type": "rust"
   }
 ]
