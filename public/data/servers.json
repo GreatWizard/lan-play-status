@@ -140,6 +140,13 @@
     "platform": "switch",
     "type": "rust"
   },
+   {
+    "ip": "localhorst.guru",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
   {
     "ip": "switch.jayseateam.nl",
     "port": 11453,
