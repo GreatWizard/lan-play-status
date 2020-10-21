@@ -120,6 +120,13 @@
     "type": "rust"
   },
   {
+    "ip": "mk.nonny.horse",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lan.nonny.horse",
     "port": 11451,
     "flag": "de",
