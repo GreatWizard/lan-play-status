@@ -18,7 +18,7 @@
         <strong>IP Address Settings</strong><br />
         IP Address: 10.13.XX.YY<br />
         Subnet Mask: 255.255.0.0<br />
-        Gatewway: 10.13.37.1<br />
+        Gateway: 10.13.37.1<br />
         <br />
         <strong>DNS settings</strong><br />
         Primary DNS: 163.172.141.219<br />
@@ -86,21 +86,31 @@
     </p>
     <h2>4 - Test you have setup everything correctly</h2>
     <p>
-      You can test if you have setup everything correctly by trying to connect
-      to your network.
+      You can test if you have setup everything correctly by putting your Switch
+      to sleep and waking it up.
     </p>
     <p>
-      Go to System Settings > Internet > Internet Settings > Then either select
-      Wireless/Wired network > Connect to this Network.
+      If everything is good, you should see IConnection on your lan-play client.
+      It will look like:
     </p>
     <p>
-      You should be in the clear if you get the "Succesfully connected" message.
+      <img
+        alt="IConnection"
+        class="screenshot"
+        :src="require(`@/assets/switch/iconnection.jpg`)"
+      />
     </p>
     <p>
+      If you do not, verify your switch settings, ensure there is no autoconnect
+      profile for a different wireless profile, and try rebooting your switch.
       <strong>
-        If the above connection test fails, check if you see IConnection on your
-        lanplay client which indicates your switch is connected to the client.
+        Failing the internet and/or DNS connectivity test on your switch
+        <b>DOES NOT MATTER</b> and can be ignored.
       </strong>
+    </p>
+    <p>
+      If this continues to fail, join #help on the lan-play discord for further
+      assistance.
     </p>
     <h2>5 - You can now play games that have the LAN play feature</h2>
     <p>
