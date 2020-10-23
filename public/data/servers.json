@@ -7,20 +7,6 @@
     "type": "rust"
   },
   {
-    "ip": "lanplay.reboot.ms",
-    "port": 11451,
-    "flag": "fr",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "switch.jayseateam.nl",
-    "port": 11451,
-    "flag": "nl",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "frog-skins.com",
     "port": 11451,
     "flag": "us",
@@ -42,14 +28,6 @@
     "type": "rust"
   },
   {
-    "ip": "gallifrey.what.ninja",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "rust",
-    "hidden": true
-  },
-  {
     "ip": "dojo.humblefist.com",
     "port": 11452,
     "flag": "us",
@@ -60,6 +38,76 @@
     "ip": "lan-play.tk",
     "port": 11451,
     "flag": "ca",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "mariokart8.jbgaming.ca",
+    "port": 11451,
+    "flag": "ca",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "lanplay.reboot.ms",
+    "port": 11451,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "spain-slp.duckdns.org",
+    "port": 11451,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "lan.nonny.horse",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "teamneptune.ddns.net",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "localhorst.guru",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "switch.servegame.com",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "switch.jayseateam.nl",
+    "port": 11451,
+    "flag": "nl",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "lanplayserver.if6-dev.tk",
+    "port": 11451,
+    "flag": "nl",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": " games.initlab.org",
+    "port": 11451,
+    "flag": "bg",
     "platform": "switch",
     "type": "rust"
   },
@@ -99,6 +147,13 @@
     "type": "rust"
   },
   {
+    "ip": "lanplay.verdandi.icu",
+    "port": 11451,
+    "flag": "cn",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "switchlanplay-tw.ddns.net",
     "port": 11451,
     "flag": "tw",
@@ -116,27 +171,6 @@
     "ip": "lanplay.cpalm.org",
     "port": 11456,
     "flag": "tw",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "lan.nonny.horse",
-    "port": 11451,
-    "flag": "de",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "teamneptune.ddns.net",
-    "port": 11451,
-    "flag": "de",
-    "platform": "switch",
-    "type": "rust"
-  },
-   {
-    "ip": "switch.servegame.com",
-    "port": 11451,
-    "flag": "dk",
     "platform": "switch",
     "type": "rust"
   },
