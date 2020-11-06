@@ -7,7 +7,7 @@
       :data-tooltip="languages"
     >
       <span v-for="(flag, index) in community.flags" :key="flag">
-        <flag :iso="flag" :squared="false" />
+        <gb-flag :code="flag" class="icon" size="icon" />
         <span v-if="index !== community.flags.length - 1">&nbsp;</span>
       </span>
     </td>
@@ -60,6 +60,7 @@ export default {
           gameId =>
             this.games.find(({ id }) => id === gameId.toLowerCase()).name
         )
+        .filter((x, i, a) => a.indexOf(x) == i)
         .join(", ");
     },
     languages() {

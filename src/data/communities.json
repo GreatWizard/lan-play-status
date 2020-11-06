@@ -14,6 +14,11 @@
     "discord": "yqhPBNC"
   },
   {
+    "name": "Plat Fest",
+    "games": ["01003bc0000a0000", "0100f8f0000a2000", "01003c700009c000"],
+    "discord": "2ntSP4P"
+  },
+  {
     "name": "Humble Fist Dojo",
     "games": ["01006a800016e000"],
     "discord": "mEm8ZUZ"
@@ -21,5 +26,15 @@
   {
     "name": "Team Neptune",
     "discord": "VkaRjYN"
+  },
+  {
+    "name": "Nintendo Switch Free Online🌐France",
+    "discord": "79fkbDh",
+    "flags": ["fr"]
+  },
+  {
+    "name": " Switch Lan Play 🇧🇷",
+    "discord": "Mqe39z9",
+    "flags": ["br"]
   }
 ]
