@@ -37,5 +37,16 @@
     "discord": "Mqe39z9",
     "whatsapp": "BfiXOUfyosnIj5ox8Kco29",
     "flags": ["br"]
-  }
+  },
+  {
+    "name": "Splatoon 2 Custom Splatfest Server",
+    "games": ["01003bc0000a0000", "0100f8f0000a2000", "01003c700009c000"],
+    "discord": "AJaaSj3NUM"
+  },
+  {
+    "name": "Splatoon 2Custom Splatfest",
+    "games": ["01003bc0000a0000", "0100f8f0000a2000", "01003c700009c000"],
+    "discord": "DjrHF69kd2"
+  },
+  {
 ]
