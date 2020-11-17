@@ -16,8 +16,16 @@
     "title": "Mario Tennis Aces",
     "message": "Select Free Play from the Main Menu. Press [Left Analog (hold down)] and press [L] + [R]."
   },
-  { "title": "Pokémon Shield", "lang": "enGB" },
-  { "title": "Pokémon Sword", "lang": "enGB" },
+  {
+    "title": "Pokémon Shield",
+    "lang": "enGB",
+    "message": "Press [L] + [R] + [Left Analog] in the options menu."
+  },
+  {
+    "title": "Pokémon Sword",
+    "lang": "enGB",
+    "message": "Press [L] + [R] + [Left Analog] in the options menu."
+  },
   {
     "title": "Pokkén Tournament DX",
     "message": "From the main screen select a game. Press [X] + [Dpad-Down] and press [L] + [R]."
