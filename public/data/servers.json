@@ -175,13 +175,6 @@
     "type": "rust"
   },
   {
-    "ip": "switch.jayseateam.nl",
-    "port": 11453,
-    "flag": "nl",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
     "ip": "joinsg.net",
     "port": 11451,
     "flag": "us",
@@ -192,6 +185,20 @@
     "ip": "switch.z5z.info",
     "port": 11451,
     "flag": "us",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
+    "ip": "lanturn.net",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
+    "ip": "switch.jayseateam.nl",
+    "port": 11453,
+    "flag": "nl",
     "platform": "switch",
     "type": "node"
   },
