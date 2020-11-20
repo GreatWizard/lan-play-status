@@ -20,7 +20,7 @@
         Subnet Mask: 255.255.0.0<br />
         Gateway: 10.13.37.1<br />
         <br />
-        <strong>DNS settings</strong><br />
+        <strong>DNS settings (these are the 90DNS servers)</strong><br />
         Primary DNS: 163.172.141.219<br />
         Secondary DNS: 207.246.121.77<br />
       </code>
