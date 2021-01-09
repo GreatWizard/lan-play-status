@@ -1,15 +1,15 @@
 const getGameId = _gameId => {
-  let gameId = _gameId.toLowerCase();
-  if (
-    // Fix for DRAGON BALL FighterZ
-    gameId === "ffffffffffffffff"
-  ) {
-    gameId = "0100a250097f0000";
-  }
-  return gameId;
+  return _gameId.toLowerCase();
 };
 
 const getGame = (_games, _gameId) => {
+  if (_gameId === "ffffffffffffffff") {
+    // DRAGON BALL FighterZ: 0100a250097f0000
+    return {
+      id: _gameId,
+      name: "DBFighterZ or MH:Rise Demo"
+    };
+  }
   return _games.find(({ id }) => id === _gameId);
 };
 
