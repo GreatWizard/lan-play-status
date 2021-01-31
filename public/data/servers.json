@@ -250,5 +250,12 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
+  },
+  {
+    "ip": "trey.ddns.net",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch",
+    "type": "rust"
   }
 ]
