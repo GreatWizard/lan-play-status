@@ -33,6 +33,7 @@ export default {
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")
         // Fix strange names
+        .replace(/\+/g, "and")
         .replace(/&/g, "and")
         .replace(/'n'/g, "n ")
         .replace(/ 'EM/g, "em")
@@ -48,6 +49,7 @@ export default {
         .replace("Iii", "III")
         .replace("CivilizationVi", "CivilizationVI")
         // Fix specifics namings
+        .replace("3d", "3D")
         .replace("Ark", "ARK")
         .replace("ark", "ARK")
         .replace("MARKed", "Marked")
