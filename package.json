@@ -33,6 +33,7 @@
     "he": "^1.2.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
+    "sitemap-webpack-plugin": "^1.1.0",
     "vue-template-compiler": "^2.5.17",
     "xml2js": "^0.4.23"
   }
