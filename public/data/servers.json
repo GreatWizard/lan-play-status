@@ -257,5 +257,12 @@
     "flag": "us",
     "platform": "switch",
     "type": "rust"
+  },
+  {
+    "ip": "coaching4free.ddns.net",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "node"
   }
 ]
