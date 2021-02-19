@@ -35,6 +35,13 @@
     "type": "rust"
   },
   {
+    "ip": "trey.ddns.net",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lan-play.tk",
     "port": 11451,
     "flag": "ca",
@@ -85,6 +92,13 @@
   },
   {
     "ip": "switch.servegame.com",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "switch-lanyplay-de.ddns.net",
     "port": 11451,
     "flag": "de",
     "platform": "switch",
@@ -250,12 +264,5 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
-  },
-  {
-    "ip": "trey.ddns.net",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "rust"
   }
 ]
