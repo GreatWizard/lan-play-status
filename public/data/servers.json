@@ -70,6 +70,41 @@
     "type": "rust"
   },
   {
+    "ip": "192.168.5.71",
+    "port": 11452,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "badswitchlanplay.tk",
+    "port": 11451,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "badps4lanplay.tk",
+    "port": 22451,
+    "flag": "fr",
+    "platform": "ps4",
+    "type": "rust"
+  },
+  {
+    "ip": "mario-kart-8.tk",
+    "port": 11453,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "animal--crossing.tk",
+    "port": 11452,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lan.nonny.horse",
     "port": 11451,
     "flag": "de",
