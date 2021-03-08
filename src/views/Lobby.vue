@@ -1,15 +1,15 @@
 <template>
   <div class="lobby">
-    <Lobby :routeGameIds="gameIds" />
+    <LobbyComponent :routeGameIds="gameIds" />
   </div>
 </template>
 
 <script>
-import Lobby from "@/components/lobby/Lobby.vue";
+import LobbyComponent from "@/components/lobby/Lobby.vue";
 
 export default {
   components: {
-    Lobby
+    LobbyComponent
   },
   computed: {
     gameIds() {

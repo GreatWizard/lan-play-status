@@ -15,14 +15,20 @@ module.exports = {
             path: "/lobbies"
           },
           {
-            path: "/games"
+            path: "/games-switch"
+          },
+          {
+            path: "/games-ps4"
           },
           {
             path: "/download"
           },
           {
-            path: "/install",
+            path: "/install-switch",
             priority: 1.0
+          },
+          {
+            path: "/install-ps4"
           },
           {
             path: "/about"

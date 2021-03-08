@@ -77,6 +77,8 @@ export default {
           this.game.ds ? "download_software" : "5"
         }/SQ_NSwitch${this.game.ds ? "DS" : ""}_${title}_image500w.jpg`;
       }
+
+      return undefined;
     }
   }
 };

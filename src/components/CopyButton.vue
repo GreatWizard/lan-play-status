@@ -30,10 +30,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.contents {
-  display: contents;
-}
+<style scoped lang="scss">
 .copy-button {
   padding: 4px;
   cursor: pointer;

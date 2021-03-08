@@ -1,4 +1,4 @@
-module.exports = function(Vue, options) {
+module.exports = function(plugin, options) {
   if (!(options instanceof Object)) {
     throw new Error("Konami plugin needs an options Object");
   }

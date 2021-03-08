@@ -7,7 +7,7 @@
       :data-tooltip="languages"
     >
       <span v-for="(flag, index) in community.flags" :key="flag">
-        <gb-flag :code="flag" class="icon" size="icon" />
+        <country-flag :code="flag" class="icon" />
         <span v-if="index !== community.flags.length - 1">&nbsp;</span>
       </span>
     </td>
@@ -48,7 +48,12 @@
 </template>
 
 <script>
+import CountryFlag from "@/components/CountryFlag.vue";
+
 export default {
+  components: {
+    CountryFlag
+  },
   props: {
     community: Object
   },

@@ -36,7 +36,7 @@
         </span>
       </td>
       <td class="hide--on-mobile" :data-tooltip="country">
-        <gb-flag :code="server.flag" class="icon" size="icon" />
+        <country-flag :code="server.flag" class="icon" />
       </td>
       <td class="hide--on-mobile" :data-tooltip="platform">
         <img
@@ -71,9 +71,16 @@
   </span>
 </template>
 
+<style scoped lang="scss">
+.contents {
+  display: contents;
+}
+</style>
+
 <script>
 import CopyButton from "@/components/CopyButton.vue";
 import Room from "@/components/servers/Room.vue";
+import CountryFlag from "@/components/CountryFlag.vue";
 import { getFullAddress } from "@/utils/servers";
 import { fetchWithTimeout } from "@/utils/fetch";
 import { gqlRequestAndPing } from "@/utils/graphql";
@@ -82,7 +89,8 @@ import { queryRoom, subscriptionGql } from "@/queries";
 export default {
   components: {
     CopyButton,
-    Room
+    Room,
+    CountryFlag
   },
   data: () => {
     return {
@@ -257,7 +265,7 @@ export default {
       this.restRefresh();
     }
   },
-  beforeDestroy() {
+  beforeUnmount() {
     clearInterval(this.timerServer);
   }
 };

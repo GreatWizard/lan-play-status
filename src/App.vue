@@ -49,17 +49,11 @@ a {
 }
 
 .icon {
-  height: 22px;
+  max-height: 22px;
+  max-width: 22px;
 
   &--game {
     border-radius: 2px;
-  }
-}
-
-// new modifier for VueFlags
-.gb-flag {
-  &--icon {
-    height: 22px;
   }
 }
 

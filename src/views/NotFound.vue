@@ -11,7 +11,7 @@
   </div>
 </template>
 
-<style lang="scss">
+<style scoped lang="scss">
 .image--fullwidth {
   max-width: 400px;
   width: 90%;

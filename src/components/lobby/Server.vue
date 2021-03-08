@@ -76,7 +76,7 @@ export default {
       this.gqlRefresh();
     }
   },
-  beforeDestroy() {
+  beforeUnmount() {
     clearInterval(this.timerServer);
   }
 };
