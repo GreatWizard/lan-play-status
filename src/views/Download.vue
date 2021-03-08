@@ -46,7 +46,7 @@
         target="=_blank"
         rel="noreferrer noopener"
       >
-      https://github.com/spacemeowx2/ldn_mitm#version-table
+        https://github.com/spacemeowx2/ldn_mitm#version-table
       </a>
     </p>
     <em>(or you can use SX-OS v2.9.5+)</em>

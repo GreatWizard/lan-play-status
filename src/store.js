@@ -5,8 +5,9 @@ import serversSource from "../public/data/servers.json";
 import communitiesSource from "@/data/communities.json";
 import lobbiesSource from "@/data/lobbies.json";
 import gamesSource from "@/data/games.json";
-import gamesOfwSource from "@/data/games-ofw.json";
-import gamesCfwSource from "@/data/games-cfw.json";
+import gamesSwitchOfwSource from "@/data/games-switch-ofw.json";
+import gamesSwitchCfwSource from "@/data/games-switch-cfw.json";
+import gamesPS4Source from "@/data/games-ps4.json";
 
 import { getGameId, getGame, getGameName } from "@/utils/games";
 import { filterBy, rejectBy, truthyBy, falsyBy } from "@/utils/filters";
@@ -50,8 +51,11 @@ const lobbyMapping = lobby => {
   return lobby;
 };
 
-let gamesCfw = gamesCfwSource.sort(sortByString("title"));
-gamesCfw.push({ title: "And so on...", asset: "etc.jpg" });
+let gamesSwitchCfw = gamesSwitchCfwSource.sort(sortByString("title"));
+gamesSwitchCfw.push({ title: "And so on...", asset: "etc.jpg" });
+
+let gamesPS4 = gamesPS4Source.sort(sortByString("title"));
+gamesPS4.push({ title: "And so on...", asset: "etc.jpg" });
 
 export default new Vuex.Store({
   state: {
@@ -61,8 +65,9 @@ export default new Vuex.Store({
       .map(serverMapping),
     communities: communitiesSource.map(communityMapping),
     games: gamesSource,
-    gamesOfw: gamesOfwSource.sort(sortByString("title")),
-    gamesCfw,
+    gamesSwitchOfw: gamesSwitchOfwSource.sort(sortByString("title")),
+    gamesSwitchCfw,
+    gamesPS4,
     lobbies: lobbiesSource.map(lobbyMapping),
     monitors: undefined
   },

@@ -7,7 +7,7 @@ const servers = require("./public/data/servers.json");
 
 const updateData = async function(server) {
   let { ip, port = "14451", flag, platform = "switch", type = "rust" } = server;
-  return await new Promise((resolve) => {
+  return await new Promise(resolve => {
     dns.resolve4(ip, (err, addresses) => {
       if (err) {
         console.warn(err);

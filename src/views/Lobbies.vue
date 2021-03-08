@@ -1,6 +1,6 @@
 <template>
   <div class="lobbies">
-    <h1>Popular Lobbies</h1>
+    <h1>Popular Switch Lobbies</h1>
     <div v-for="lobby in lobbies" :key="`${lobby.games.join(':')}`">
       <router-link :to="`/lobbies/${lobby.games.join(',')}`">
         {{ lobby.title }}

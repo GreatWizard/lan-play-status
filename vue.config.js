@@ -9,32 +9,32 @@ module.exports = {
         paths: [
           {
             path: "/",
-            priority: 1.0,
+            priority: 1.0
           },
           {
-            path: "/lobbies",
+            path: "/lobbies"
           },
           {
-            path: "/games",
+            path: "/games"
           },
           {
-            path: "/download",
+            path: "/download"
           },
           {
             path: "/install",
-            priority: 1.0,
+            priority: 1.0
           },
           {
-            path: "/about",
-          },
+            path: "/about"
+          }
         ],
         options: {
           filename: "sitemap.xml",
           lastmod: new Date().toISOString().slice(0, 10),
           priority: 0.8,
-          changefreq: "hourly",
-        },
-      }),
-    ],
-  },
+          changefreq: "hourly"
+        }
+      })
+    ]
+  }
 };

@@ -19,14 +19,24 @@
       />
     </td>
     <td>
-      <a v-if="community.discord" :href="discord" target="=_blank" rel="noreferrer noopener">
+      <a
+        v-if="community.discord"
+        :href="discord"
+        target="=_blank"
+        rel="noreferrer noopener"
+      >
         <img
           class="icon"
           :src="require(`@/assets/icons/discord.svg`)"
           alt="Discord"
         />
       </a>
-      <a v-if="community.whatsapp" :href="whatsapp" target="=_blank" rel="noreferrer noopener">
+      <a
+        v-if="community.whatsapp"
+        :href="whatsapp"
+        target="=_blank"
+        rel="noreferrer noopener"
+      >
         <img
           class="icon"
           :src="require(`@/assets/icons/whatsapp.svg`)"
