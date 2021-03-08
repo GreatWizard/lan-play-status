@@ -38,7 +38,7 @@
       <td class="hide--on-mobile" :data-tooltip="country">
         <gb-flag :code="server.flag" class="icon" size="icon" />
       </td>
-      <td class="hide--on-mobile" :data-tooltip="server.platform">
+      <td class="hide--on-mobile" :data-tooltip="platform">
         <img
           class="icon"
           :src="require(`@/assets/icons/${server.platform.toLowerCase()}.png`)"
@@ -127,6 +127,14 @@ export default {
         );
       if (monitor && monitor.all_time_uptime_ratio) {
         return `${Number.parseInt(monitor.all_time_uptime_ratio)}`;
+      }
+      return undefined;
+    },
+    platform() {
+      if (this.server.platform === "ps4") {
+        return "PS4";
+      } else if (this.server.platform === "switch") {
+        return "Switch";
       }
       return undefined;
     }
