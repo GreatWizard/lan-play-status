@@ -33,13 +33,14 @@ export default {
 </script>
 
 <style lang="scss">
-body {
+html {
   font-family: "Nunito Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: rgb(185, 203, 217);
   background-color: rgb(24, 26, 27);
+  margin: 0;
 }
 
 a {
