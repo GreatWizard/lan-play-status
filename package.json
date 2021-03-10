@@ -9,17 +9,20 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "register-service-worker": "^1.7.1",
     "vue": "^3.0.0",
     "vue-gtag-next": "^1.14.0",
+    "vue-i18n": "^9.0.0-rc.7",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {
+    "@intlify/vue-i18n-loader": "^2.0.0-rc.1",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-e2e-cypress": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
@@ -44,6 +47,7 @@
     "sitemap-webpack-plugin": "^1.1.0",
     "svgo": "^2.2.2",
     "typescript": "~3.9.3",
+    "vue-cli-plugin-i18n": "~2.0.0",
     "vue-jest": "^5.0.0-0",
     "xml2js": "^0.4.23"
   },

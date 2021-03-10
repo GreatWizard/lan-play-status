@@ -1,6 +1,6 @@
 <template>
   <div class="download">
-    <h1>Download</h1>
+    <h1>{{ $t("pages.download.title") }}</h1>
     <h2>LAN Play Client</h2>
     <p>
       <a

@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>About</h1>
+    <h1>{{ $t("pages.about.title") }}</h1>
     <h2>LAN Play Client</h2>
     <p>The client is provided by spacemeowx2:</p>
     <p>

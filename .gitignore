@@ -26,3 +26,6 @@ pnpm-debug.log*
 *.sw?
 
 /src/assets/flags
+
+/src/locales/*
+!/src/locales/en.json

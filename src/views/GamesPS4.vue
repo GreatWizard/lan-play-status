@@ -1,6 +1,7 @@
 <template>
   <div class="games">
-    <h1>PS4 Games compatible with LAN Play</h1>
+    <h1>{{ $t("pages.gamesPS4.title") }}</h1>
+    <h2>(Compatible with LAN Play)</h2>
     <div class="cards">
       <GameCard
         v-for="game in gamesPS4"

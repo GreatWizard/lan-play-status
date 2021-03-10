@@ -2,6 +2,7 @@ const SitemapPlugin = require("sitemap-webpack-plugin").default;
 
 module.exports = {
   productionSourceMap: false,
+
   configureWebpack: {
     plugins: [
       new SitemapPlugin({
@@ -42,5 +43,17 @@ module.exports = {
         }
       })
     ]
+  },
+
+  pluginOptions: {
+    i18n: {
+      locale: "en",
+      fallbackLocale: "en",
+      localeDir: "locales",
+      enableLegacy: false,
+      runtimeOnly: false,
+      compositionOnly: false,
+      fullInstall: true
+    }
   }
 };

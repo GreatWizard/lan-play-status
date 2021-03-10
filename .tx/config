@@ -1,0 +1,10 @@
+[main]
+host = https://www.transifex.com
+
+[lan-play-status.en-json]
+file_filter = src/locales/<lang>.json
+minimum_perc = 0
+source_file = src/locales/en.json
+source_lang = en
+type = KEYVALUEJSON
+

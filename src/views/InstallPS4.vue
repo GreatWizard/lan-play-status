@@ -1,6 +1,6 @@
 <template>
   <div class="install">
-    <h1>PS4 Install</h1>
+    <h1>{{ $t("pages.installPS4.title") }}</h1>
     <h2>1 - PS4 configuration</h2>
     <p>
       You need to manually edit the configuration of your local network with
