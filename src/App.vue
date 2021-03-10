@@ -1,14 +1,25 @@
 <template>
   <div class="app">
     <div class="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/lobbies">Lobbies</router-link> |
-      <router-link to="/games-switch">Switch Games</router-link> |
-      <router-link to="/games-ps4">PS4 Games</router-link> |
-      <router-link to="/download">Download</router-link> |
-      <router-link to="/install-switch">Switch Install</router-link> |
-      <router-link to="/install-ps4">PS4 Install</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">{{ $t("navigation.home") }}</router-link> |
+      <router-link to="/lobbies">{{ $t("navigation.lobbies") }}</router-link> |
+      <router-link to="/games-switch">{{
+        $t("navigation.gamesSwitch")
+      }}</router-link>
+      |
+      <router-link to="/games-ps4">{{ $t("navigation.gamesPS4") }}</router-link>
+      |
+      <router-link to="/download">{{ $t("navigation.download") }}</router-link>
+      |
+      <router-link to="/install-switch">{{
+        $t("navigation.installSwitch")
+      }}</router-link>
+      |
+      <router-link to="/install-ps4">{{
+        $t("navigation.installPS4")
+      }}</router-link>
+      |
+      <router-link to="/about">{{ $t("navigation.about") }}</router-link>
     </div>
     <router-view />
   </div>

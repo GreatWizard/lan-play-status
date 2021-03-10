@@ -1,6 +1,6 @@
 <template>
   <div class="install">
-    <h1>Switch Install</h1>
+    <h1>{{ $t("pages.installSwitch.title") }}</h1>
     <h2>1 - Switch configuration</h2>
     <p>
       You need to manually edit the configuration of your local network with

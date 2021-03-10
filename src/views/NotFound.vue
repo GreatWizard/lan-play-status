@@ -1,6 +1,6 @@
 <template>
   <div class="not-found">
-    <h1>Page Not Found</h1>
+    <h1>{{ $t("pages.notFound.title") }}</h1>
     <p>Sorry. This link is dead.</p>
     <p>To keep browsing, return to <a href="/">our homepage</a>.</p>
     <img

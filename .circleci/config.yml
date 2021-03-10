@@ -24,6 +24,28 @@ jobs:
           paths:
             - .
 
+  transifex_sync:
+    docker:
+      - image: circleci/python:latest
+        environment:
+          JOBS: 2
+    working_directory: ~/lan-play-status
+    steps:
+      - attach_workspace:
+          at: .
+      - run: pip install transifex-client
+      - run: |
+          echo "[https://www.transifex.com]" > ~/.transifexrc
+          echo "api_hostname = https://api.transifex.com" >> ~/.transifexrc
+          echo "hostname = https://www.transifex.com" >> ~/.transifexrc
+          echo "password = ${TRANSIFEX_PASSWORD}" >> ~/.transifexrc
+          echo "username = api" >> ~/.transifexrc
+      - run: tx pull --all
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+
   lint:
     <<: *defaults
     steps:
@@ -61,6 +83,9 @@ workflows:
   test_build_deploy:
     jobs:
       - prepare
+      - transifex_sync:
+          requires:
+            - prepare
       - lint:
           requires:
             - prepare
@@ -70,6 +95,7 @@ workflows:
       - deploy:
           requires:
             - lint
+            - transifex_sync
             - test_unit
           filters:
             branches:

@@ -3,7 +3,7 @@
     <img alt="Logo" class="logo" :src="require(`@/assets/logo.png`)" />
     <div>
       <h1 class="title">
-        LAN Play Status
+        {{ $t("pages.home.title") }}
         <a
           href="https://discordapp.com/invite/zEMCu5n"
           target="=_blank"

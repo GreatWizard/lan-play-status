@@ -1,0 +1,41 @@
+{
+  "navigation": {
+    "home": "Home",
+    "lobbies": "Lobbies",
+    "gamesSwitch": "Switch Games",
+    "gamesPS4": "PS4 Games",
+    "download": "Download",
+    "installSwitch": "Switch Install",
+    "installPS4": "PS4 Install",
+    "about": "About"
+  },
+  "pages": {
+    "home": {
+      "title": "LAN Play Status"
+    },
+    "lobbies": {
+      "title": "Lobbies"
+    },
+    "gamesSwitch": {
+      "title": "Switch Games"
+    },
+    "gamesPS4": {
+      "title": "PS4 Games"
+    },
+    "download": {
+      "title": "Download"
+    },
+    "installSwitch": {
+      "title": "Switch Install"
+    },
+    "installPS4": {
+      "title": "PS4 Install"
+    },
+    "about": {
+      "title": "About"
+    },
+    "notFound": {
+      "title": "Page Not Found"
+    }
+  }
+}

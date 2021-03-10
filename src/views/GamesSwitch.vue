@@ -1,7 +1,7 @@
 <template>
   <div class="games">
-    <h1>Games with LAN Mode</h1>
-    <h2>(OFW and CFW compatible)</h2>
+    <h1>{{ $t("pages.gamesSwitch.title") }}</h1>
+    <h2>Games with LAN Mode, OFW and CFW compatible</h2>
     <div class="cards">
       <GameCard
         v-for="game in gamesSwitchOfw"
@@ -10,8 +10,7 @@
         type="switch"
       />
     </div>
-    <h1>Games with Wireless Mode</h1>
-    <h2>(CFW only: it needs ldn_mitm kip)</h2>
+    <h2>Games with Wireless Mode, CFW only: it needs ldn_mitm kip</h2>
     <div class="cards">
       <GameCard
         v-for="game in gamesSwitchCfw"
