@@ -43,6 +43,10 @@ jobs:
           echo "hostname = https://www.transifex.com" >> ~/.transifexrc
           echo "password = ${TRANSIFEX_PASSWORD}" >> ~/.transifexrc
           echo "username = api" >> ~/.transifexrc
+      - run: |
+          if [ "${CIRCLE_BRANCH}" == "master" ]; then
+            tx push --source
+          fi
       - run: tx pull --all
       - persist_to_workspace:
           root: .
