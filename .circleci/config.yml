@@ -1,6 +1,13 @@
 defaults: &defaults
   docker:
-    - image: vuejs/ci
+    - image: circleci/node:14-browsers
+      environment:
+        JOBS: 2
+  working_directory: ~/lan-play-status
+
+python: &python
+  docker:
+    - image: circleci/python:latest
       environment:
         JOBS: 2
   working_directory: ~/lan-play-status
@@ -13,10 +20,10 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - lan-play-status-node10-v2-{{ checksum "yarn.lock" }}
+            - lan-play-status-node14-v1-{{ checksum "yarn.lock" }}
       - run: yarn install --non-interactive --frozen-lockfile
       - save_cache:
-          key: lan-play-status-node10-v2-{{ checksum "yarn.lock" }}
+          key: lan-play-status-node14-v1-{{ checksum "yarn.lock" }}
           paths:
             - ~/lan-play-status/node_modules
       - persist_to_workspace:
@@ -24,12 +31,8 @@ jobs:
           paths:
             - .
 
-  transifex_sync:
-    docker:
-      - image: circleci/python:latest
-        environment:
-          JOBS: 2
-    working_directory: ~/lan-play-status
+  sync_i18n:
+    <<: *python
     steps:
       - attach_workspace:
           at: .
@@ -44,7 +47,7 @@ jobs:
       - persist_to_workspace:
           root: .
           paths:
-            - .
+            - src/locales/
 
   lint:
     <<: *defaults
@@ -74,7 +77,7 @@ jobs:
     steps:
       - attach_workspace:
           at: .
-      - run: apt-get update -yq && apt-get install -y ncftp
+      - run: sudo apt-get update -yq && sudo apt-get install -y ncftp
       - run: yarn build
       - run: ncftpput -R -v -u $FTP_USER -p $FTP_PASSWORD $FTP_HOST www/ dist/*
 
@@ -83,7 +86,7 @@ workflows:
   test_build_deploy:
     jobs:
       - prepare
-      - transifex_sync:
+      - sync_i18n:
           requires:
             - prepare
       - lint:
@@ -94,8 +97,8 @@ workflows:
             - prepare
       - deploy:
           requires:
+            - sync_i18n
             - lint
-            - transifex_sync
             - test_unit
           filters:
             branches:
