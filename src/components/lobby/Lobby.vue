@@ -1,13 +1,11 @@
 <template>
-  <span>
-    <h1>Lobby for "{{ gamesName.join(", ") }}"</h1>
-    <LobbyServer
-      v-for="server in servers"
-      :server="server"
-      :gameIds="gameIds"
-      :key="`${server.ip}:${server.port}`"
-    />
-  </span>
+  <h1>Lobby for "{{ gamesName.join(", ") }}"</h1>
+  <LobbyServer
+    v-for="server in servers"
+    :server="server"
+    :gameIds="gameIds"
+    :key="`${server.ip}:${server.port}`"
+  />
 </template>
 
 <script>

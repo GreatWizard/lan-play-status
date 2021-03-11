@@ -1,33 +1,31 @@
 <template>
+  <table>
+    <thead>
+      <tr>
+        <th>Server</th>
+        <th>Status</th>
+        <th class="hide--on-mobile">Country</th>
+        <th class="hide--on-mobile">Platform</th>
+        <th>Ping</th>
+        <th>Uptime</th>
+      </tr>
+    </thead>
+    <tbody>
+      <Server
+        v-for="server in servers"
+        :server="server"
+        :monitors="monitors"
+        :key="`${server.ip}:${server.port}`"
+      />
+    </tbody>
+  </table>
   <div>
-    <table>
-      <thead>
-        <tr>
-          <th>Server</th>
-          <th>Status</th>
-          <th class="hide--on-mobile">Country</th>
-          <th class="hide--on-mobile">Platform</th>
-          <th>Ping</th>
-          <th>Uptime</th>
-        </tr>
-      </thead>
-      <tbody>
-        <Server
-          v-for="server in servers"
-          :server="server"
-          :monitors="monitors"
-          :key="`${server.ip}:${server.port}`"
-        />
-      </tbody>
-    </table>
-    <div>
-      <button v-if="!loadMore" @click="loadMoreServers">Load more...</button>
-    </div>
-    <em class="hide--on-mobile">
-      These servers are not linked to this site. We list them to help you find
-      other players who speak the same language.
-    </em>
+    <button v-if="!loadMore" @click="loadMoreServers">Load more...</button>
   </div>
+  <em class="hide--on-mobile">
+    These servers are not linked to this site. We list them to help you find
+    other players who speak the same language.
+  </em>
 </template>
 
 <script>

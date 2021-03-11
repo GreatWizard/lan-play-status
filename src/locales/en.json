@@ -1,4 +1,7 @@
 {
+  "general": {
+    "copy": "Copy"
+  },
   "navigation": {
     "home": "Home",
     "lobbies": "Lobbies",

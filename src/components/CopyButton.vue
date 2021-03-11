@@ -1,15 +1,16 @@
 <template>
-  <span>
-    <span data-copy>{{ data }}</span
-    >&nbsp;<button class="copy-button hide--on-mobile" data-tooltip="Copy">
-      <img
-        alt="Copy"
-        class="icon"
-        :src="require(`@/assets/icons/copy.png`)"
-        v-on:click="copy"
-      />
-    </button>
-  </span>
+  <span data-copy>{{ data }}</span
+  >&nbsp;<button
+    class="copy-button hide--on-mobile"
+    :data-tooltip="$t('general.copy')"
+  >
+    <img
+      :alt="$t('general.copy')"
+      class="icon"
+      :src="require(`@/assets/icons/copy.png`)"
+      v-on:click="copy"
+    />
+  </button>
 </template>
 
 <script>
