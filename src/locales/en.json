@@ -17,10 +17,19 @@
       "title": "Lobbies"
     },
     "gamesSwitch": {
-      "title": "Switch Games"
+      "title": "Switch Games",
+      "lan": {
+        "title": "Games with LAN Mode, OFW and CFW compatible"
+      },
+      "wan": {
+        "title": "Games with Wireless Mode, CFW only: it needs ldn_mitm kip"
+      }
     },
     "gamesPS4": {
-      "title": "PS4 Games"
+      "title": "PS4 Games",
+      "lan": {
+        "title": "(Compatible with LAN Play)"
+      }
     },
     "download": {
       "title": "Download",
