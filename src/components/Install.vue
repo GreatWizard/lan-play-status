@@ -23,9 +23,7 @@
   <p>Then in a terminal: <code>brew install libpcap libuv</code></p>
   <p>Finally in a terminal: <code>sudo ./lan-play-macos</code></p>
   <h3>Ubuntu/Debian</h3>
-  <p>
-    In a terminal: <code>sudo apt install libpcap0.8-dev libuv1-dev</code>
-  </p>
+  <p>In a terminal: <code>sudo apt install libpcap0.8-dev libuv1-dev</code></p>
   <p>Finally in a terminal: <code>sudo ./lan-play-linux</code></p>
   <h2>3 - Start the LAN Play Client</h2>
   <p>

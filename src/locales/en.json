@@ -75,5 +75,16 @@
       "return": "To keep browsing, return to",
       "homepage": "our homepage"
     }
+  },
+  "servers": {
+    "table": {
+      "server": "Server",
+      "status": "Status",
+      "country": "Country",
+      "platform": "Platform",
+      "ping": "Ping",
+      "uptime": "Uptime"
+    },
+    "message": "These servers are not linked to this site. We list them to help you find other players who speak the same language."
   }
 }

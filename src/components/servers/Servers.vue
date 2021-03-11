@@ -2,12 +2,12 @@
   <table>
     <thead>
       <tr>
-        <th>Server</th>
-        <th>Status</th>
-        <th class="hide--on-mobile">Country</th>
-        <th class="hide--on-mobile">Platform</th>
-        <th>Ping</th>
-        <th>Uptime</th>
+        <th>{{ $t("servers.table.server") }}</th>
+        <th>{{ $t("servers.table.status") }}</th>
+        <th class="hide--on-mobile">{{ $t("servers.table.country") }}</th>
+        <th class="hide--on-mobile">{{ $t("servers.table.platform") }}</th>
+        <th>{{ $t("servers.table.ping") }}</th>
+        <th>{{ $t("servers.table.uptime") }}</th>
       </tr>
     </thead>
     <tbody>
@@ -23,8 +23,7 @@
     <button v-if="!loadMore" @click="loadMoreServers">Load more...</button>
   </div>
   <em class="hide--on-mobile">
-    These servers are not linked to this site. We list them to help you find
-    other players who speak the same language.
+    {{ $t("servers.message") }}
   </em>
 </template>
 
