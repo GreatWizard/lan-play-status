@@ -99,5 +99,8 @@
       "links": "Links"
     },
     "message": "These communities are not linked to this site. We list them to help you find other players who speak the same language."
+  },
+  "lobby": {
+    "title": "Lobby for {games}"
   }
 }

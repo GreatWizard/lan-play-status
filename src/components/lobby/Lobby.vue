@@ -1,5 +1,5 @@
 <template>
-  <h1>Lobby for "{{ gamesName.join(", ") }}"</h1>
+  <h1>{{ $t("lobby.title", { games: gamesName.join(", ") }) }}</h1>
   <LobbyServer
     v-for="server in servers"
     :server="server"
