@@ -1,14 +1,14 @@
 <template>
   <div class="download">
     <h1>{{ $t("pages.download.title") }}</h1>
-    <h2>LAN Play Client</h2>
+    <h2>{{ $t("pages.download.client.title") }}</h2>
     <p>
       <a
         href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.2.3/lan-play-win64.exe"
         target="=_blank"
         rel="noreferrer noopener"
       >
-        Windows (64bit) v0.2.3
+        {{ $t("pages.download.client.windows64") }} v0.2.3
       </a>
     </p>
     <p>
@@ -17,7 +17,7 @@
         target="=_blank"
         rel="noreferrer noopener"
       >
-        MacOS v0.2.3
+        {{ $t("pages.download.client.macos") }} v0.2.3
       </a>
     </p>
     <p>
@@ -26,7 +26,7 @@
         target="=_blank"
         rel="noreferrer noopener"
       >
-        Linux v0.2.3
+        {{ $t("pages.download.client.linux") }} v0.2.3
       </a>
     </p>
     <p>
@@ -35,12 +35,12 @@
         target="=_blank"
         rel="noreferrer noopener"
       >
-        Windows (32bit) v0.2.1
+        {{ $t("pages.download.client.windows32") }} v0.2.1
       </a>
     </p>
-    <h2>Switch Sysmodule and Homebrew (ldn_mitm)</h2>
+    <h2>{{ $t("pages.download.switchModule.title") }}</h2>
     <p>
-      For the ldn_mitm compatibility list and links, please visit below
+      {{ $t("pages.download.switchModule.text") }}
       <a
         href="https://github.com/spacemeowx2/ldn_mitm#version-table"
         target="=_blank"
@@ -49,6 +49,6 @@
         https://github.com/spacemeowx2/ldn_mitm#version-table
       </a>
     </p>
-    <em>(or you can use SX-OS v2.9.5+)</em>
+    <em>{{ $t("pages.download.switchModule.sxos") }}</em>
   </div>
 </template>

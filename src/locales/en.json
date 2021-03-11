@@ -23,7 +23,19 @@
       "title": "PS4 Games"
     },
     "download": {
-      "title": "Download"
+      "title": "Download",
+      "client": {
+        "title": "LAN Play Client",
+        "windows64": "Windows (64bit)",
+        "windows32": "Windows (32bit)",
+        "macos": "MacOS",
+        "linux": "Linux"
+      },
+      "switchModule": {
+        "title": "Switch Sysmodule and Homebrew (ldn_mitm)",
+        "text": "For the ldn_mitm compatibility list and links, please visit ",
+        "sxos": "(or you can use SX-OS v2.9.5+)"
+      }
     },
     "installSwitch": {
       "title": "Switch Install"
