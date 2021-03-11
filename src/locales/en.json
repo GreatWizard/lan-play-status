@@ -1,6 +1,10 @@
 {
   "general": {
-    "copy": "Copy"
+    "copy": "Copy",
+    "discord": "Discord",
+    "whatsapp": "WhatsApp",
+    "worldwide": "Worldwide",
+    "all": "All"
   },
   "navigation": {
     "home": "Home",
@@ -60,7 +64,6 @@
       "client": {
         "title": "LAN Play Client",
         "text": "The client is provided by spacemeowx2:",
-        "discord": "Discord",
         "clientGithub": "LAN Play Client on Github",
         "ldnmitmGithub": "ldn_mitm on Github"
       },
@@ -86,5 +89,15 @@
       "uptime": "Uptime"
     },
     "message": "These servers are not linked to this site. We list them to help you find other players who speak the same language."
+  },
+  "communities": {
+    "title": "Communities",
+    "table": {
+      "name": "Name",
+      "games": "Games",
+      "languages": "Languages",
+      "links": "Links"
+    },
+    "message": "These communities are not linked to this site. We list them to help you find other players who speak the same language."
   }
 }

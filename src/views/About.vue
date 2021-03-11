@@ -9,7 +9,7 @@
         target="=_blank"
         rel="noreferrer noopener"
       >
-        {{ $t("pages.about.client.discord") }}
+        {{ $t("general.discord") }}
       </a>
     </p>
     <p>

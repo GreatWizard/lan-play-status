@@ -1,12 +1,12 @@
 <template>
-  <h2>Communities</h2>
+  <h2>{{ $t("communities.title") }}</h2>
   <table>
     <thead>
       <tr>
-        <th>Name</th>
-        <th>Games</th>
-        <th>Languages</th>
-        <th>Link</th>
+        <th>{{ $t("communities.table.name") }}</th>
+        <th>{{ $t("communities.table.games") }}</th>
+        <th>{{ $t("communities.table.languages") }}</th>
+        <th>{{ $t("communities.table.links") }}</th>
       </tr>
     </thead>
     <tbody>
@@ -18,8 +18,7 @@
     </tbody>
   </table>
   <em class="hide--on-mobile">
-    These communities are not linked to this site. We list them to help you find
-    other players who speak the same language.
+    {{ $t("communities.message") }}
   </em>
 </template>
 

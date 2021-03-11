@@ -15,7 +15,7 @@
       <img
         class="icon"
         :src="require(`@/assets/icons/world-flags-globe.png`)"
-        alt="Worldwide"
+        :alt="$t('general.worldwide')"
       />
     </td>
     <td>
@@ -28,7 +28,7 @@
         <img
           class="icon"
           :src="require(`@/assets/icons/discord.svg`)"
-          alt="Discord"
+          :alt="$t('general.discord')"
         />
       </a>
       <a
@@ -40,7 +40,7 @@
         <img
           class="icon"
           :src="require(`@/assets/icons/whatsapp.svg`)"
-          alt="WhatsApp"
+          :alt="$t('general.whatsapp')"
         />
       </a>
     </td>
@@ -66,7 +66,7 @@ export default {
     gameNames() {
       let gameIds = this.community.games;
       if (gameIds === undefined || gameIds.length === 0) {
-        return "All";
+        return this.$t("general.all");
       }
       return gameIds
         .map(
@@ -79,7 +79,7 @@ export default {
     languages() {
       return this.community.flags
         ? this.community.flags.map(flag => flag.toUpperCase()).join(", ")
-        : "Worldwide";
+        : this.$t("general.worldwide");
     },
     discord() {
       return `https://discordapp.com/invite/${this.community.discord}`;
