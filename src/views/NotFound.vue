@@ -1,8 +1,11 @@
 <template>
   <div class="not-found">
     <h1>{{ $t("pages.notFound.title") }}</h1>
-    <p>Sorry. This link is dead.</p>
-    <p>To keep browsing, return to <a href="/">our homepage</a>.</p>
+    <p>{{ $t("pages.notFound.text") }}</p>
+    <p>
+      {{ $t("pages.notFound.return") }}
+      <router-link to="/">{{ $t("pages.notFound.homepage") }}</router-link>
+    </p>
     <img
       alt="Link is dead"
       class="image--fullwidth"

@@ -67,7 +67,10 @@
       }
     },
     "notFound": {
-      "title": "Page Not Found"
+      "title": "Page Not Found",
+      "text": "Sorry. This link is dead.",
+      "return": "To keep browsing, return to",
+      "homepage": "our homepage"
     }
   }
 }
