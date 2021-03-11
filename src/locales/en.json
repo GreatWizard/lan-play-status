@@ -32,7 +32,18 @@
       "title": "PS4 Install"
     },
     "about": {
-      "title": "About"
+      "title": "About",
+      "client": {
+        "title": "LAN Play Client",
+        "text": "The client is provided by spacemeowx2:",
+        "discord": "Discord",
+        "clientGithub": "LAN Play Client on Github",
+        "ldnmitmGithub": "ldn_mitm on Github"
+      },
+      "website": {
+        "title": "The status website",
+        "text": "This website (lan-play.com) is provided by GreatWizard."
+      }
     },
     "notFound": {
       "title": "Page Not Found"

@@ -1,15 +1,15 @@
 <template>
   <div class="about">
     <h1>{{ $t("pages.about.title") }}</h1>
-    <h2>LAN Play Client</h2>
-    <p>The client is provided by spacemeowx2:</p>
+    <h2>{{ $t("pages.about.client.title") }}</h2>
+    <p>{{ $t("pages.about.client.text") }}</p>
     <p>
       <a
         href="https://discordapp.com/invite/zEMCu5n"
         target="=_blank"
         rel="noreferrer noopener"
       >
-        Discord
+        {{ $t("pages.about.client.discord") }}
       </a>
     </p>
     <p>
@@ -18,7 +18,7 @@
         target="=_blank"
         rel="noreferrer noopener"
       >
-        LAN Play Client on Github
+        {{ $t("pages.about.client.clientGithub") }}
       </a>
     </p>
     <p>
@@ -27,17 +27,17 @@
         target="=_blank"
         rel="noreferrer noopener"
       >
-        ldn_mitm on Github
+        {{ $t("pages.about.client.ldnmitmGithub") }}
       </a>
     </p>
-    <h2>The status website</h2>
+    <h2>{{ $t("pages.about.website.title") }}</h2>
     <p>
       <a
         href="https://github.com/GreatWizard/lan-play-status"
         target="=_blank"
         rel="noreferrer noopener"
       >
-        This website (lan-play.com) is provided by GreatWizard.
+        {{ $t("pages.about.website.text") }}
       </a>
     </p>
   </div>
