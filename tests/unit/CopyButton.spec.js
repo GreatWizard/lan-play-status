@@ -1,5 +1,9 @@
-import { shallowMount } from "@vue/test-utils";
+import { config, shallowMount } from "@vue/test-utils";
 import CopyButton from "@/components/CopyButton.vue";
+
+config.global.mocks = {
+  $t: text => text
+};
 
 describe("CopyButton.vue", () => {
   it("renders props.data when passed", () => {
