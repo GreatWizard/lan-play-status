@@ -15,8 +15,15 @@
     />
     <title>LAN Play Status | lan-play.com</title>
     <script>
-      if (location.protocol === "https:") {
+      if (location.protocol === "https:" && window.localStorage && window.localStorage.getItem("reloadHTTP") === null) {
+        if (window.localStorage) {
+          window.localStorage.setItem("reloadHTTP", true);
+        }
         window.location.replace(location.toString().replace("https:", "http:"));
+      } else {
+        if (window.localStorage) {
+          window.localStorage.removeItem("reloadHTTP");
+        }
       }
     </script>
     <script data-ad-client="ca-pub-5453484589871544" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

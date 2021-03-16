@@ -66,7 +66,9 @@
     </p>
     <p>
       If you do not, verify your switch settings, ensure there is no autoconnect
-      profile for a different wireless profile but that autoconnect <b>IS</b> enabled for the lanplay profile, and try playing a game. Failing this, try rebooting your switch.
+      profile for a different wireless profile but that autoconnect
+      <b>IS</b> enabled for the lanplay profile, and try playing a game. Failing
+      this, try rebooting your switch.
       <strong>
         Failing the internet and/or DNS connectivity test on your switch
         <b>DOES NOT MATTER</b> and can be ignored.

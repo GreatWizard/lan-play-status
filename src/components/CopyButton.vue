@@ -1,5 +1,5 @@
 <template>
-  <span data-copy>{{ data }}</span
+  <span ref="dataToCopy">{{ data }}</span
   >&nbsp;<button
     class="copy-button hide--on-mobile"
     :data-tooltip="$t('general.copy')"
@@ -20,7 +20,7 @@ export default {
   },
   methods: {
     copy() {
-      let el = this.$el.querySelector("[data-copy]");
+      let el = this.$refs.dataToCopy;
       let range = document.createRange();
       range.selectNode(el);
       window.getSelection().addRange(range);
