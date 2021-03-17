@@ -1,39 +1,19 @@
 [
-  {
-    "title": "ARMS",
-    "message": "Press [L] + [R] + [Left Analog] on the main menu screen."
-  },
-  {
-    "title": "Bayonetta 2",
-    "message": "Enter tag climax and highlight local play. Press [Left Analog (hold down)] and press [L] + [R]."
-  },
+  { "title": "ARMS" },
+  { "title": "Bayonetta 2" },
   { "title": "Mario & Sonic at the Olympic Games Tokyo 2020", "lang": "enGB" },
-  {
-    "title": "Mario Kart 8 Deluxe",
-    "message": "Press [L] + [R] + [Left Analog] on the main menu screen."
-  },
-  {
-    "title": "Mario Tennis Aces",
-    "message": "Select Free Play from the Main Menu. Press [Left Analog (hold down)] and press [L] + [R]."
-  },
+  { "title": "Mario Kart 8 Deluxe" },
+  { "title": "Mario Tennis Aces" },
   {
     "title": "Pokémon Shield",
-    "lang": "enGB",
-    "message": "Press [L] + [R] + [Left Analog] in the options menu."
+    "lang": "enGB"
   },
   {
     "title": "Pokémon Sword",
-    "lang": "enGB",
-    "message": "Press [L] + [R] + [Left Analog] in the options menu."
+    "lang": "enGB"
   },
-  {
-    "title": "Pokkén Tournament DX",
-    "message": "From the main screen select a game. Press [X] + [Dpad-Down] and press [L] + [R]."
-  },
+  { "title": "Pokkén Tournament DX" },
   { "title": "SAINTS ROW: THE THIRD - THE FULL PACKAGE" },
-  {
-    "title": "Splatoon 2",
-    "message": "Press [L] + [R] + [Left Analog] at the local play option. Hold down until the lan mode is activated."
-  },
+  { "title": "Splatoon 2" },
   { "title": "Titan Quest" }
 ]

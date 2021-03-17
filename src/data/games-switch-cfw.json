@@ -2,10 +2,7 @@
   { "title": "51 Worldwide Games" },
   { "title": "A.O.T 2" },
   { "title": "Ace of Seafood", "ds": true },
-  {
-    "title": "Animal Crossing: New Horizons",
-    "message": "Switch MTU: 1500 — LanPlay PMTU: 500"
-  },
+  { "title": "Animal Crossing: New Horizons" },
   { "title": "ARK: Survival Evolved" },
   { "title": "Art of Balance", "ds": true },
   { "title": "Battlezone Gold Edition", "ds": true },

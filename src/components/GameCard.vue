@@ -7,7 +7,7 @@
     />
     <div class="card__content">
       <h2>{{ game.title }}</h2>
-      <p v-if="game.message">{{ game.message }}</p>
+      <p v-if="message">{{ message }}</p>
     </div>
   </div>
 </template>
@@ -22,6 +22,14 @@ export default {
     type: String
   },
   computed: {
+    message() {
+      let key = `games.${this.type}.${this.game.title}`;
+      let value = this.$t(key);
+      if (value !== key) {
+        return value;
+      }
+      return undefined;
+    },
     image() {
       if (this.type === "ps4") {
         return `${this.game.source}?w=620`;

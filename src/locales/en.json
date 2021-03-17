@@ -103,6 +103,19 @@
   "lobby": {
     "title": "Lobby for {games}"
   },
+  "games": {
+    "switch": {
+      "Animal Crossing: New Horizons": "Switch MTU: 1500 — LanPlay PMTU: 500",
+      "ARMS": "Press [L] + [R] + [Left Analog] on the main menu screen.",
+      "Bayonetta 2": "Enter tag climax and highlight local play. Press [Left Analog (hold down)] and press [L] + [R].",
+      "Mario Kart 8 Deluxe": "Press [L] + [R] + [Left Analog] on the main menu screen.",
+      "Mario Tennis Aces": "Select Free Play from the Main Menu. Press [Left Analog (hold down)] and press [L] + [R].",
+      "Pokémon Shield": "Press [L] + [R] + [Left Analog] in the options menu.",
+      "Pokémon Sword": "Press [L] + [R] + [Left Analog] in the options menu.",
+      "Pokkén Tournament DX": "From the main screen select a game. Press [X] + [Dpad-Down] and press [L] + [R].",
+      "Splatoon 2": "Press [L] + [R] + [Left Analog] at the local play option. Hold down until the lan mode is activated."
+    }
+  },
   "countries": {
     "au": "Australia",
     "bg": "Bulgaria",
