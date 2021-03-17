@@ -1,5 +1,5 @@
 <template>
-  <h2>2 - Computer configuration</h2>
+  <h2>{{ $t("install.computer.title", { prefix: "2 - " }) }}</h2>
   <h3>Windows</h3>
   <p>
     First, you need to install
@@ -40,7 +40,7 @@
     Finally in a terminal: <code>sudo ./lan-play-linux</code> (ensuring you are
     in the proper directory (likely ~/Downloads)
   </p>
-  <h2>3 - Start the LAN Play Client</h2>
+  <h2>{{ $t("install.games.title", { prefix: "3 - " }) }}</h2>
   <p>
     The application will prompt you to enter the relay server address. You can
     choose the server you want, like <code>switch.lan-play.com:11451</code>.
@@ -50,7 +50,7 @@
     firewall. If the client exits right away, ensure you are running as an
     administrator and pasting in the server correctly (example above).
   </p>
-  <h2>4 - You can now play games that have the LAN play feature</h2>
+  <h2>{{ $t("install.games.title", { prefix: "4 - " }) }}</h2>
   <p>
     Launch the desired game you want to play (Must have the LAN play feature!)
   </p>

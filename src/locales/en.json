@@ -54,7 +54,13 @@
       }
     },
     "installSwitch": {
-      "title": "Switch Install"
+      "title": "Switch Install",
+      "module": {
+        "title": "{prefix}Download ldn_mitm to play non LAN supported games (Requires CFW)"
+      },
+      "test": {
+        "title": "{prefix}Test you have setup everything correctly"
+      }
     },
     "installPS4": {
       "title": "PS4 Install"
@@ -102,6 +108,36 @@
   },
   "lobby": {
     "title": "Lobby for {games}"
+  },
+  "install": {
+    "configuration": {
+      "title": "{prefix}{type} configuration",
+      "text": "You need to manually edit the configuration of your local network with this informations.",
+      "note": "Note: The IP address can be any from {start} to {end}, excepting {gateway}. But don't use the same IP address with your friend.",
+      "settings": {
+        "ip": {
+          "title": "IP Address Settings",
+          "address": "IP Address: {address}",
+          "mask": "Subnet Mask: {address}",
+          "gateway": "Gateway: {address}"
+        },
+        "dns": {
+          "title": "DNS settings (these are the {owner} servers)",
+          "primary": "Primary DNS: {address}",
+          "secondary": "Secondary DNS: {address}"
+        }
+      },
+      "screenshots": "Please follow the screenshots:"
+    },
+    "computer": {
+      "title" :"{prefix}Computer configuration"
+    },
+    "client": {
+      "title": "{prefix}Start the LAN Play Client"
+    },
+    "games": {
+      "title": "{prefix}You can now play games that have the LAN play feature"
+    }
   },
   "games": {
     "switch": {
