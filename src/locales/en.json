@@ -102,5 +102,20 @@
   },
   "lobby": {
     "title": "Lobby for {games}"
+  },
+  "countries": {
+    "au": "Australia",
+    "bg": "Bulgaria",
+    "br": "Brazil",
+    "ca": "Canada",
+    "cn": "China",
+    "de": "Germany",
+    "fr": "France",
+    "id": "Indonesia",
+    "nl": "Netherlands",
+    "pa": "Panama",
+    "tw": "Taiwan",
+    "us": "United States of America",
+    "vn": "Vietnam"
   }
 }

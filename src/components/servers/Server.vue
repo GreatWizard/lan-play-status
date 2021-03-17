@@ -121,7 +121,7 @@ export default {
       return infos;
     },
     country() {
-      return this.server.flag.toUpperCase();
+      return this.$t(`countries.${this.server.flag.toLowerCase()}`);
     },
     trClasses() {
       return this.server.highlight ? "highlight" : "";

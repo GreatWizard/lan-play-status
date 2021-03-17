@@ -1,5 +1,9 @@
 <template>
-  <img :src="require(`@/assets/flags/${code}.svg`)" :alt="code" class="flag" />
+  <img
+    :src="require(`@/assets/flags/${code}.svg`)"
+    :alt="$t(`countries.${code}`)"
+    class="flag"
+  />
 </template>
 
 <style scoped lang="scss">

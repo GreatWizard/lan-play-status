@@ -78,7 +78,9 @@ export default {
     },
     languages() {
       return this.community.flags
-        ? this.community.flags.map(flag => flag.toUpperCase()).join(", ")
+        ? this.community.flags
+            .map(flag => this.$t(`countries.${flag.toLowerCase()}`))
+            .join(", ")
         : this.$t("general.worldwide");
     },
     discord() {

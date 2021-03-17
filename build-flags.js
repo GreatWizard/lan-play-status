@@ -3,16 +3,21 @@
 
 const fs = require("fs");
 const { optimize } = require("svgo");
-const servers = require("./public/data/servers.json");
-const communities = require("./src/data/communities.json");
 
+const translationsPath = "./src/locales/en.json";
 const sourcePath = "./node_modules/flagpack-core/svg/l/";
 const distPath = "./src/assets/flags/";
+
+const servers = require("./public/data/servers.json");
+const communities = require("./src/data/communities.json");
+const translations = require(translationsPath);
+
+const countryCodeList = require("./node_modules/flagpack-core/countryCodeList.json");
 
 let flags = [];
 
 servers.forEach(s => {
-  let f = s.flag.toLowerCase();
+  let f = s.flag.toUpperCase();
   if (!flags.includes(f)) {
     flags.push(f);
   }
@@ -20,7 +25,7 @@ servers.forEach(s => {
 
 communities.forEach(c => {
   c.flags?.forEach(flag => {
-    let f = flag.toLowerCase();
+    let f = flag.toUpperCase();
     if (!flags.includes(f)) {
       flags.push(f);
     }
@@ -36,3 +41,12 @@ flags.forEach(f => {
   });
   fs.writeFileSync(`${distPath}${f.toLowerCase()}.svg`, result.data);
 });
+
+let countries = {};
+countryCodeList
+  .filter(c => flags.includes(c.alpha2))
+  .forEach(c => {
+    countries[c.alpha2.toLowerCase()] = c.countryName;
+  });
+translations.countries = countries;
+fs.writeFileSync(translationsPath, JSON.stringify(translations, 0, 2));
