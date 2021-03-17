@@ -56,7 +56,7 @@
   </p>
   <p>
     You can find a list of games compatible with the LAN play feature
-    <a :href="games"> here</a>.
+    <router-link :to="games">here</router-link>.
   </p>
 </template>
 
