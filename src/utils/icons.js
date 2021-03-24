@@ -127,6 +127,23 @@ const IconsMap = _gameId => {
         "zelda-ssbu",
         "zerosuitsamus-ssbu"
       ];
+    // Luigi's Mansion
+    case "0100dca0064a6000":
+      return ["luigi-mansion", "boo"];
+    // Super Mario
+    case "010028600ebda000":
+      return ["mario", "luigi", "peach", "rosalina", "toad", "yoshi", "bowser"];
+    // Splatoon
+    case "0100f8f0000a2000":
+    case "01003c700009c000":
+    case "01003bc0000a0000":
+      return [
+        "inkling-boy",
+        "inkling-girl",
+        "inkling-squid",
+        "marie",
+        "callie"
+      ];
     default:
       return undefined;
   }
