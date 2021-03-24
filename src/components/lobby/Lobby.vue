@@ -1,11 +1,13 @@
 <template>
   <h1>{{ $t("lobby.title", { games: gamesName.join(", ") }) }}</h1>
-  <LobbyServer
-    v-for="server in servers"
-    :server="server"
-    :gameIds="gameIds"
-    :key="`${server.ip}:${server.port}`"
-  />
+  <div class="cards">
+    <LobbyServer
+      v-for="server in servers"
+      :server="server"
+      :gameIds="gameIds"
+      :key="`${server.ip}:${server.port}`"
+    />
+  </div>
 </template>
 
 <script>

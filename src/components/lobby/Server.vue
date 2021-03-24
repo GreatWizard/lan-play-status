@@ -1,14 +1,12 @@
 <template>
-  <div class="cards">
-    <LobbyRoom
-      v-for="room in data.rooms"
-      :server="server"
-      :room="room"
-      :key="
-        `${server.ip}:${server.port}:${room.hostPlayerName}:${room.contentId}`
-      "
-    />
-  </div>
+  <LobbyRoom
+    v-for="room in data.rooms"
+    :server="server"
+    :room="room"
+    :key="
+      `${server.ip}:${server.port}:${room.hostPlayerName}:${room.contentId}`
+    "
+  />
 </template>
 
 <script>
