@@ -13,7 +13,7 @@
 
 <script>
 import LobbyRoom from "@/components/lobby/Room.vue";
-import { getGameId, getGame } from "@/utils/games";
+import { sanitizeData } from "@/utils/rooms";
 import { fetchWithTimeout } from "@/utils/fetch";
 import { queryRoom } from "@/queries";
 
@@ -23,7 +23,6 @@ export default {
   },
   data() {
     return {
-      games: this.$store.state.games,
       timerServer: undefined,
       data: {}
     };
@@ -49,12 +48,7 @@ export default {
           );
           roomsData = await response.json();
           roomsData = roomsData.data.room.filter(room => {
-            let game = getGame(
-              this.games,
-              getGameId(room.contentId),
-              room.advertiseData
-            );
-            room.contentId = game.id;
+            room = sanitizeData(room);
             return this.gameIds.includes(room.contentId);
           });
         } catch (e) {

@@ -4,7 +4,7 @@ const getHostPlayerName = _room => {
   let hostPlayerName = _room.hostPlayerName;
   if (
     // Fix for DRAGON BALL FighterZ
-    _room.contentId.toLowerCase() === "ffffffffffffffff" &&
+    _room.contentId === "0100a250097f0000" &&
     hostPlayerName === "DBFighter"
   ) {
     return undefined;
@@ -15,7 +15,7 @@ const getHostPlayerName = _room => {
 const getPlayers = _room => {
   if (
     // Fix for DRAGON BALL FighterZ
-    _room.contentId.toLowerCase() === "ffffffffffffffff"
+    _room.contentId === "0100a250097f0000"
   ) {
     return [];
   }
@@ -70,4 +70,20 @@ const getAdvertiseData = _room => {
   return AdvertiseDataMap(gameId)(advertiseData);
 };
 
-export { getHostPlayerName, getPlayers, getAdvertiseData };
+const sanitizeData = _room => {
+  if (_room.contentId === "ffffffffffffffff") {
+    if (_room.advertiseData === "ffff0000") {
+      // DRAGON BALL FighterZ
+      _room.contentId = "0100a250097f0000";
+    } else {
+      let data = _room.advertiseData.split("000000000400");
+      if (data.length === 3 || data.length === 4) {
+        // MONSTER HUNTER RISE
+        _room.contentId = "0100b04011742000";
+      }
+    }
+  }
+  return _room;
+};
+
+export { getHostPlayerName, getPlayers, getAdvertiseData, sanitizeData };
