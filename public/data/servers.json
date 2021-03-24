@@ -233,14 +233,14 @@
   {
     "ip": "switch.z5z.info",
     "port": 11451,
-    "flag": "us",
+    "flag": "hk",
     "platform": "switch",
     "type": "node"
   },
   {
     "ip": "lanturn.net",
     "port": 11451,
-    "flag": "us",
+    "flag": "ca",
     "platform": "switch",
     "type": "node"
   },
