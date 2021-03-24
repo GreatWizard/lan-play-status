@@ -26,6 +26,8 @@ const IconsMap = _gameId => {
     // Monster Hunter
     case "0100c3800049c000":
     case "0100770008dd8000":
+    case "0100e6400b1ea000":
+    case "0100b04011742000":
       return ["felyne", "melynx"];
     // Pokémon
     case "010003f003a34000":

@@ -130,7 +130,7 @@
       "screenshots": "Please follow the screenshots:"
     },
     "computer": {
-      "title" :"{prefix}Computer configuration"
+      "title": "{prefix}Computer configuration"
     },
     "client": {
       "title": "{prefix}Start the LAN Play Client"

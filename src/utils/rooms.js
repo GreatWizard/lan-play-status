@@ -24,7 +24,7 @@ const getPlayers = _room => {
 
 const AdvertiseDataMap = _gameId => {
   switch (_gameId) {
-    // Animal Crossing
+    // Animal Crossing: New Horizons
     case "01006f8002326000":
       return data => {
         const islandBin = fromHex(data).slice(28);
@@ -32,6 +32,16 @@ const AdvertiseDataMap = _gameId => {
         return {
           island: decodeUtf16(islandBin),
           dodoCode
+        };
+      };
+    // MONSTER HUNTER RISE
+    case "0100b04011742000":
+      return data => {
+        const questId = data
+          .split("000000000400")[3] // delimiter
+          ?.split("0000000000000000000000")[1]; // padding before quest id
+        return {
+          quest: questId !== ""
         };
       };
     default:
@@ -53,6 +63,7 @@ const fromHex = hex => {
   }
   return new Uint8Array(buf.map(h => parseInt(h, 16))).buffer;
 };
+
 const getAdvertiseData = _room => {
   let { contentId, advertiseData } = _room;
   let gameId = getGameId(contentId);

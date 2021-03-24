@@ -84,6 +84,7 @@ import CountryFlag from "@/components/CountryFlag.vue";
 import { getFullAddress } from "@/utils/servers";
 import { fetchWithTimeout } from "@/utils/fetch";
 import { gqlRequestAndPing } from "@/utils/graphql";
+import { getGameId, getGame } from "@/utils/games";
 import { queryRoom, subscriptionGql } from "@/queries";
 
 export default {
@@ -92,8 +93,9 @@ export default {
     Room,
     CountryFlag
   },
-  data: () => {
+  data() {
     return {
+      games: this.$store.state.games,
       timerServer: undefined,
       status: undefined,
       ping: undefined,
@@ -169,6 +171,14 @@ export default {
           );
           roomsData = await response.json();
           roomsData = roomsData.data.room;
+          roomsData.forEach(room => {
+            let game = getGame(
+              this.games,
+              getGameId(room.contentId),
+              room.advertiseData
+            );
+            room.contentId = game.id;
+          });
         } catch (e) {
           roomsData = [];
         }
