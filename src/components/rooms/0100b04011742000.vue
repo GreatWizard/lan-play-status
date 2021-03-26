@@ -1,9 +1,9 @@
 <template>
   <img
-    v-if="advertiseData.quest"
-    :src="require(`@/assets/icons/mh-ticket.png`)"
+    v-if="advertiseData.locked"
+    :src="require(`@/assets/icons/lock.png`)"
     class="icon"
-    alt="🎫"
+    alt="🔒"
   />
 </template>
 
