@@ -307,6 +307,13 @@
     "platform": "switch",
     "type": "dotnet"
   },
+{
+    "ip": "lan.imperialcommand.xyz",
+    "port": 11451,
+    "flag": "ca",
+    "platform": "switch",
+    "type": "rust"
+  },
   {
     "ip": "lan-play.ortega.network",
     "port": 11451,
