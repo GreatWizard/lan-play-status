@@ -168,13 +168,6 @@
     "type": "rust"
   },
   {
-    "ip": "lan-play.ortega.network",
-    "port": 11451,
-    "flag": "br",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "lanplay.ddns.net",
     "port": 11451,
     "flag": "br",
@@ -313,5 +306,12 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
+  },
+  {
+    "ip": "lan-play.ortega.network",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch",
+    "type": "node"
   }
 ]
