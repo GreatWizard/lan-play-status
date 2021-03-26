@@ -105,6 +105,13 @@
     "type": "rust"
   },
   {
+    "ip": "jadelabe.com",
+    "port": 11451,
+    "flag": "es",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lan.nonny.horse",
     "port": 11451,
     "flag": "de",
