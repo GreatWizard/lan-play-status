@@ -312,6 +312,6 @@
     "port": 11451,
     "flag": "br",
     "platform": "switch",
-    "type": "node"
+    "type": "rust"
   }
 ]
