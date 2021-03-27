@@ -28,10 +28,10 @@ const AdvertiseDataMap = _gameId => {
     case "01006f8002326000":
       return data => {
         const islandBin = fromHex(data).slice(28);
-        const dodoCode = data.charAt(557) === "1";
+        const code = data.charAt(557) === "1";
         return {
           island: decodeUtf16(islandBin),
-          dodoCode
+          code
         };
       };
     // MONSTER HUNTER RISE

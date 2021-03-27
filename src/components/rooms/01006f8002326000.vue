@@ -1,6 +1,6 @@
 <template>
   <img
-    v-if="advertiseData.dodoCode"
+    v-if="advertiseData.code"
     :src="require(`@/assets/icons/island-code.png`)"
     class="icon"
     alt="🏝️🔒"
