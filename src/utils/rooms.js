@@ -84,6 +84,11 @@ const sanitizeData = _room => {
       if (data.length === 4) {
         // MONSTER HUNTER RISE
         _room.contentId = "0100b04011742000";
+        const hostPlayer = data[1].split("0000")[0] + "0000";
+        const hostPlayerName = decodeUtf16(
+          fromHex(hostPlayer.slice(2, hostPlayer.length - 2) + "0000")
+        );
+        _room.hostPlayerName = `${hostPlayerName} (${_room.hostPlayerName})`;
       }
     }
   }
