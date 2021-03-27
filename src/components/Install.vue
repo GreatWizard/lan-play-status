@@ -11,7 +11,15 @@
       WinPcap
     </a>
   </p>
-  <p>Then run <code>lan-play-win64.exe</code> as an administrator.</p>
+  <p>
+    Then run
+    <a
+      href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.2.3/lan-play-win64.exe"
+      target="=_blank"
+      rel="noreferrer noopener"
+    >
+      lan-play-win64.exe</a> as an administrator
+  </p>
   <h3>MacOS</h3>
   <p>
     First, you need to install
