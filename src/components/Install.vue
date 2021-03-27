@@ -13,11 +13,7 @@
   </p>
   <p>
     Then download and run
-    <a
-      href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.2.3/lan-play-win64.exe"
-      target="=_blank"
-      rel="noreferrer noopener"
-    >
+    <a :href="ldnMitmWin64Link" target="=_blank" rel="noreferrer noopener">
       <code>lan-play-win64.exe</code></a
     >
     <strong> as an administrator</strong>.
@@ -118,6 +114,7 @@ Server IP: 149.91.81.201"
 
 <script>
 import Terminal from "@/components/Terminal.vue";
+import { ldnMitmVersion } from "@/config";
 
 export default {
   components: {
@@ -126,9 +123,17 @@ export default {
   props: {
     type: String
   },
+  data() {
+    return {
+      ldnMitmVersion
+    };
+  },
   computed: {
     games() {
       return `/games-${this.type}`;
+    },
+    ldnMitmWin64Link() {
+      return `https://github.com/spacemeowx2/switch-lan-play/releases/download/${ldnMitmVersion}/lan-play-win64.exe`;
     }
   }
 };
