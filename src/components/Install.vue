@@ -4,23 +4,33 @@
   <p>
     First, you need to install
     <a
-      href="https://www.winpcap.org/install/default.htm"
+      href="https://www.winpcap.org/install/bin/WinPcap_4_1_3.exe"
       target="_blank"
       rel="noreferrer noopener"
     >
-      WinPcap
-    </a>
+      WinPcap </a
+    >.
   </p>
-  <p>Then run <code>lan-play-win64.exe</code> as an administrator.</p>
+  <p>
+    Then download and run
+    <a
+      href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.2.3/lan-play-win64.exe"
+      target="=_blank"
+      rel="noreferrer noopener"
+    >
+      <code>lan-play-win64.exe</code></a
+    >
+    <strong> as an administrator</strong>.
+  </p>
   <h3>MacOS</h3>
   <p>
     First, you need to install
     <a href="https://brew.sh/" target="_blank" rel="noreferrer noopener"
       >Homebrew</a
-    >
+    >.
   </p>
-  <p>Then in a terminal: <code>brew install switch-lan-play</code></p>
-  <p>Finally in a terminal: <code>lan-play --pmtu 500</code></p>
+  <p>Then in a terminal: <code>brew install switch-lan-play</code>.</p>
+  <p>Finally in a terminal: <code>lan-play --pmtu 500</code>.</p>
   <Terminal
     title="user@mac: ~/"
     content="$ brew install switch-lan-play
@@ -48,12 +58,22 @@ Server IP: 149.91.81.201"
   />
   <h3>Ubuntu/Debian</h3>
   <p>
-    In a terminal: Go to the directory you downloaded to (likely ~/Downloads)
-    and input <code>chmod +x lan-play-linux</code>
+    You need to download
+    <a
+      href="https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.2.3/lan-play-linux"
+      target="=_blank"
+      rel="noreferrer noopener"
+    >
+      <code>lan-play-linux</code></a
+    >.
   </p>
   <p>
-    Then in a terminal: <code>./lan-play-linux --pmtu 500</code> (ensuring you
-    are in the proper directory (likely ~/Downloads)
+    Then in a terminal: go to the directory you downloaded to (likely
+    ~/Downloads) and input <code>chmod +x lan-play-linux</code>.
+  </p>
+  <p>
+    Finally in a terminal: <code>./lan-play-linux --pmtu 500</code> (ensuring
+    you are in the proper directory (likely ~/Downloads).
   </p>
   <Terminal
     title="user@linux: ~/Downloads"
@@ -88,7 +108,7 @@ Server IP: 149.91.81.201"
   </p>
   <h2>{{ $t("install.games.title", { prefix: "4 - " }) }}</h2>
   <p>
-    Launch the desired game you want to play (Must have the LAN play feature!)
+    Launch the desired game you want to play (must have the LAN play feature).
   </p>
   <p>
     You can find a list of games compatible with the LAN play feature

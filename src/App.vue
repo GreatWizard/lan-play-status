@@ -250,4 +250,11 @@ button {
   max-height: 400px;
   max-width: 100%;
 }
+
+code {
+  font-family: Monospace;
+  background-color: rgba(3, 37, 45, 0.9);
+  padding: 5px;
+  border-radius: 5px;
+}
 </style>
