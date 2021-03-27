@@ -37,9 +37,7 @@ const AdvertiseDataMap = _gameId => {
     // MONSTER HUNTER RISE
     case "0100b04011742000":
       return data => {
-        const locked = data
-          .split("000000000400")[0] // delimiter
-          ?.endsWith("0831003100310031"); // locked
+        const locked = data.split("0000000400")[0]?.length > 44; // 44: unlocked ; 60: locked
         return {
           locked
         };
@@ -76,7 +74,7 @@ const sanitizeData = _room => {
       // DRAGON BALL FighterZ
       _room.contentId = "0100a250097f0000";
     } else {
-      let data = _room.advertiseData.split("000000000400");
+      let data = _room.advertiseData.split("0000000400");
       if (data.length === 4) {
         // MONSTER HUNTER RISE
         _room.contentId = "0100b04011742000";
