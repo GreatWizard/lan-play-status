@@ -26,14 +26,14 @@
     >.
   </p>
   <p>Then in a terminal: <code>brew install switch-lan-play</code>.</p>
-  <p>Finally in a terminal: <code>lan-play --pmtu 500</code>.</p>
+  <p>Finally in a terminal: <code>lan-play</code>.</p>
   <Terminal
     title="user@mac: ~/"
     content="$ brew install switch-lan-play
 ==> Downloading https://homebrew.bintray.com/bottles/switch-lan-play-0.2.3.catalina.bottle.tar.gz
 ==> Pouring switch-lan-play-0.2.3.catalina.bottle.tar.gz
 🍺  /usr/local/Cellar/switch-lan-play/0.2.3: 5 files, 922.4KB
-$ lan-play --pmtu 500 --relay-server-addr switch.lan-play.com:11451
+$ lan-play --relay-server-addr switch.lan-play.com:11451
 Interface not specified, opening all interfaces
 [DEBUG]: open en0 ok
 [DEBUG]: open p2p0 fail: datalink(12)
@@ -49,7 +49,6 @@ Interface not specified, opening all interfaces
 [DEBUG]: open ap1 ok
 pcap loop start
 [DEBUG]: packet init buffer 0x10ecb9bb0
-[DEBUG]: pmtu is set to 500
 Server IP: 149.91.81.201"
   />
   <h3>Ubuntu/Debian</h3>
@@ -68,7 +67,7 @@ Server IP: 149.91.81.201"
     ~/Downloads) and input <code>chmod +x lan-play-linux</code>.
   </p>
   <p>
-    Finally in a terminal: <code>./lan-play-linux --pmtu 500</code> (ensuring
+    Finally in a terminal: <code>./lan-play-linux</code> (ensuring
     you are in the proper directory (likely ~/Downloads).
   </p>
   <Terminal
@@ -76,7 +75,7 @@ Server IP: 149.91.81.201"
     content="$ cd ~/Downloads
 $ wget --quiet https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.2.3/lan-play-linux
 $ chmod +x lan-play-linux
-$ sudo ./lan-play-linux --pmtu 500 --relay-server-addr switch.lan-play.com:11451
+$ sudo ./lan-play-linux --relay-server-addr switch.lan-play.com:11451
 Interface not specified, opening all interfaces
 [DEBUG]: open veth3b172e4 ok
 [DEBUG]: open br-f2c3fb820b84 ok
@@ -88,7 +87,6 @@ Interface not specified, opening all interfaces
 [DEBUG]: open usbmon2 fail
 pcap loop start
 [DEBUG]: packet init buffer 0x55b3687b58c0
-[DEBUG]: pmtu is set to 500
 Server IP: 149.91.81.201"
   />
   <h2>{{ $t("install.games.title", { prefix: "3 - " }) }}</h2>
