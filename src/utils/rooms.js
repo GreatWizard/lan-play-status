@@ -37,11 +37,15 @@ const AdvertiseDataMap = _gameId => {
     // MONSTER HUNTER RISE
     case "0100b04011742000":
       return data => {
-        const locked = data
-          .split("000000000400")[0] // delimiter
-          ?.endsWith("0831003100310031"); // locked
+        const header = data.split("0000000400")[0];
+        const code =
+          header?.length > 44 // 44: unlocked ; 60: locked
+            ? `${header.charAt(45)}${header.charAt(49)}${header.charAt(
+                53
+              )}${header.charAt(57)}`
+            : "";
         return {
-          locked
+          code
         };
       };
     default:
@@ -76,7 +80,7 @@ const sanitizeData = _room => {
       // DRAGON BALL FighterZ
       _room.contentId = "0100a250097f0000";
     } else {
-      let data = _room.advertiseData.split("000000000400");
+      let data = _room.advertiseData.split("0000000400");
       if (data.length === 4) {
         // MONSTER HUNTER RISE
         _room.contentId = "0100b04011742000";
