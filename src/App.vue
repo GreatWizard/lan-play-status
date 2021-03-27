@@ -219,6 +219,14 @@ button {
   }
 }
 
+code,
+pre {
+  font-family: Monospace;
+  background-color: rgba(3, 37, 45, 0.9);
+  padding: 5px;
+  border-radius: 5px;
+}
+
 @media screen and (prefers-color-scheme: light) {
   body {
     background-color: rgb(255, 255, 255);
@@ -244,17 +252,14 @@ button {
     color: rgb(33, 33, 33);
     border-color: rgb(87, 87, 87);
   }
+  code,
+  pre {
+    background-color: rgba(225, 235, 238, 0.9);
+  }
 }
 
 .screenshot {
   max-height: 400px;
   max-width: 100%;
-}
-
-code {
-  font-family: Monospace;
-  background-color: rgba(3, 37, 45, 0.9);
-  padding: 5px;
-  border-radius: 5px;
 }
 </style>

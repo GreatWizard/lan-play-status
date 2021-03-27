@@ -12,42 +12,38 @@
       })
     }}</em>
   </p>
-  <p>
-    <code>
-      <strong>{{ $t("install.configuration.settings.ip.title") }}</strong
-      ><br />
-      {{
+  <pre><strong>{{ $t("install.configuration.settings.ip.title") }}</strong
+      >
+{{
         $t("install.configuration.settings.ip.address", {
           address: "10.13.XX.YY"
         })
-      }}<br />
-      {{
+}}
+{{
         $t("install.configuration.settings.ip.mask", {
           address: "255.255.0.0"
         })
-      }}<br />
-      {{
+}}
+{{
         $t("install.configuration.settings.ip.gateway", {
           address: "10.13.37.1"
         })
-      }}<br />
-      <br />
-      <strong>{{
-        $t("install.configuration.settings.dns.title", { owner: this.owner })
-      }}</strong
-      ><br />
-      {{
+}}
+
+<strong>{{
+$t("install.configuration.settings.dns.title", { owner: this.owner })
+}}</strong
+      >
+{{
         $t("install.configuration.settings.dns.primary", {
           address: this.primary
         })
-      }}<br />
-      {{
+}}
+{{
         $t("install.configuration.settings.dns.secondary", {
           address: this.secondary
         })
-      }}<br />
-    </code>
-  </p>
+}}</pre>
   <p>{{ $t("install.configuration.screenshots") }}</p>
 </template>
 

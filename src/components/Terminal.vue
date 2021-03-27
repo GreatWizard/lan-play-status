@@ -66,4 +66,12 @@ export default {
     }
   }
 }
+
+@media screen and (prefers-color-scheme: light) {
+  .terminal-container {
+    .terminal__body {
+      background: rgba(225, 235, 238, 0.9);
+    }
+  }
+}
 </style>
