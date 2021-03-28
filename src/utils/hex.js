@@ -1,0 +1,20 @@
+const decodeUtf16 = data => {
+  const decoder = new TextDecoder("utf-16");
+  const u16 = new Uint16Array(data);
+  const cut = u16.findIndex(i => i === 0);
+  return decoder.decode(data.slice(0, cut * 2));
+};
+
+const fromHex = hex => {
+  const buf = hex.match(/[0-9a-fA-F]{2}/gi);
+  if (!buf) {
+    throw new Error("Wrong hex");
+  }
+  return new Uint8Array(buf.map(h => parseInt(h, 16))).buffer;
+};
+
+const hexToUtf16 = hex => {
+  return decodeUtf16(fromHex(hex));
+};
+
+export { decodeUtf16, fromHex, hexToUtf16 };

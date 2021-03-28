@@ -1,4 +1,5 @@
 import { getGameId } from "./games";
+import { hexToUtf16 } from "./hex";
 
 const getHostPlayerName = _room => {
   let hostPlayerName = _room.hostPlayerName;
@@ -31,10 +32,10 @@ const AdvertiseDataMap = _gameId => {
     // Animal Crossing: New Horizons
     case "01006f8002326000":
       return data => {
-        const islandBin = fromHex(data).slice(28);
+        const island = hexToUtf16(data.slice(28 * 2));
         const code = data.charAt(557) === "1";
         return {
-          island: decodeUtf16(islandBin),
+          island,
           code
         };
       };
@@ -58,25 +59,6 @@ const AdvertiseDataMap = _gameId => {
   }
 };
 
-const decodeUtf16 = data => {
-  const decoder = new TextDecoder("utf-16");
-  const u16 = new Uint16Array(data);
-  const cut = u16.findIndex(i => i === 0);
-  return decoder.decode(data.slice(0, cut * 2));
-};
-
-const fromHex = hex => {
-  const buf = hex.match(/[0-9a-fA-F]{2}/gi);
-  if (!buf) {
-    throw new Error("Wrong hex");
-  }
-  return new Uint8Array(buf.map(h => parseInt(h, 16))).buffer;
-};
-
-const hexToUtf16 = hex => {
-  return decodeUtf16(fromHex(`${hex}0000`));
-};
-
 const getAdvertiseData = _room => {
   let { contentId, advertiseData } = _room;
   let gameId = getGameId(contentId);
@@ -93,28 +75,31 @@ const sanitizeData = _room => {
       if (data.length === 4) {
         // MONSTER HUNTER RISE
         _room.contentId = "0100b04011742000";
+        const players = data[1];
         const newNodes = [];
-        let players = data[1];
-        let readingSize = 0;
         let index = 0;
         let cursor = 0;
         do {
-          readingSize = parseInt(players.substr(cursor, 2), "16") * 2;
-          if (readingSize > 0) {
-            cursor = cursor + 2;
-            const playerName = hexToUtf16(players.substr(cursor, readingSize));
-            cursor = cursor + readingSize + 2;
+          const readingSize = parseInt(players.substr(cursor, 2), "16") * 2;
+          if (!Number.isNaN(readingSize) && readingSize > 0) {
+            cursor += 2;
+            const playerName = hexToUtf16(
+              `${players.substr(cursor, readingSize)}0000`
+            );
+            cursor += readingSize + 2;
             newNodes.push({
               playerName,
               userName: _room.nodes[index].playerName
             });
+          } else {
+            cursor = -1;
           }
           index++;
-        } while (readingSize > 0);
+        } while (cursor !== -1);
         _room.nodes = newNodes;
-        let hostPlayerName = newNodes[0].playerName;
+        const hostPlayerName = newNodes[0].playerName;
         if (hostPlayerName !== _room.hostPlayerName) {
-          _room.hostPlayerName = `${newNodes[0].playerName} (${_room.hostPlayerName})`;
+          _room.hostPlayerName = `${hostPlayerName} (${_room.hostPlayerName})`;
         }
       }
     }
