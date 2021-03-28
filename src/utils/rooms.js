@@ -20,9 +20,9 @@ const getPlayers = _room => {
   ) {
     return [];
   }
-  return _room.nodes.map(({ playerName, userName }) =>
-    userName && playerName !== userName
-      ? `${playerName} (${userName})`
+  return _room.nodes.map(({ playerName, characterName }) =>
+    characterName && playerName !== characterName
+      ? `${playerName} (${characterName})`
       : playerName
   );
 };
@@ -42,17 +42,18 @@ const AdvertiseDataMap = _gameId => {
     // MONSTER HUNTER RISE
     case "0100b04011742000":
       return data => {
-        const header = data.split("0000000400")[0];
+        const [header, , ranks] = data.split("0000000400");
         const code =
           header?.length > 44 // 44: unlocked ; 60: locked
             ? `${header.charAt(45)}${header.charAt(49)}${header.charAt(
                 53
               )}${header.charAt(57)}`
             : undefined;
+        let result = { rank: ranks.charAt(1) };
         if (code) {
-          return { code };
+          result.code = code;
         }
-        return undefined;
+        return result;
       };
     default:
       return () => undefined;
@@ -83,13 +84,13 @@ const sanitizeData = _room => {
           const readingSize = parseInt(players.substr(cursor, 2), "16") * 2;
           if (!Number.isNaN(readingSize) && readingSize > 0) {
             cursor += 2;
-            const playerName = hexToUtf16(
+            const characterName = hexToUtf16(
               `${players.substr(cursor, readingSize)}0000`
             );
             cursor += readingSize + 2;
             newNodes.push({
-              playerName,
-              userName: _room.nodes[index].playerName
+              characterName,
+              playerName: _room.nodes[index].playerName
             });
           } else {
             cursor = -1;
@@ -97,9 +98,9 @@ const sanitizeData = _room => {
           index++;
         } while (cursor !== -1);
         _room.nodes = newNodes;
-        const hostPlayerName = newNodes[0].playerName;
-        if (hostPlayerName !== _room.hostPlayerName) {
-          _room.hostPlayerName = `${hostPlayerName} (${_room.hostPlayerName})`;
+        const hostCharacterName = newNodes[0].characterName;
+        if (hostCharacterName !== _room.hostPlayerName) {
+          _room.hostPlayerName = `${hostCharacterName} (${_room.hostPlayerName})`;
         }
       }
     }

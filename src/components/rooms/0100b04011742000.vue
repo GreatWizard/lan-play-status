@@ -6,6 +6,8 @@
     alt="🔒"
     :title="advertiseData.code"
   />
+  {{ " " }}
+  HR{{ advertiseData.rank }}
 </template>
 
 <script>
