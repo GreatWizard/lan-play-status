@@ -62,6 +62,7 @@ a {
 .icon {
   max-height: 22px;
   max-width: 22px;
+  vertical-align: middle;
 
   &--game {
     border-radius: 2px;

@@ -43,10 +43,11 @@ const AdvertiseDataMap = _gameId => {
             ? `${header.charAt(45)}${header.charAt(49)}${header.charAt(
                 53
               )}${header.charAt(57)}`
-            : "";
-        return {
-          code
-        };
+            : undefined;
+        if (code) {
+          return { code };
+        }
+        return undefined;
       };
     default:
       return () => undefined;

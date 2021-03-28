@@ -67,8 +67,8 @@ Server IP: 149.91.81.201"
     ~/Downloads) and input <code>chmod +x lan-play-linux</code>.
   </p>
   <p>
-    Finally in a terminal: <code>./lan-play-linux</code> (ensuring
-    you are in the proper directory (likely ~/Downloads).
+    Finally in a terminal: <code>./lan-play-linux</code> (ensuring you are in
+    the proper directory (likely ~/Downloads).
   </p>
   <Terminal
     title="user@linux: ~/Downloads"
