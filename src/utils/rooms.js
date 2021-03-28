@@ -19,7 +19,11 @@ const getPlayers = _room => {
   ) {
     return [];
   }
-  return _room.nodes.map(({ playerName }) => playerName);
+  return _room.nodes.map(({ playerName, userName }) =>
+    userName && playerName !== userName
+      ? `${playerName} (${userName})`
+      : playerName
+  );
 };
 
 const AdvertiseDataMap = _gameId => {
@@ -69,6 +73,10 @@ const fromHex = hex => {
   return new Uint8Array(buf.map(h => parseInt(h, 16))).buffer;
 };
 
+const hexToUtf16 = hex => {
+  return decodeUtf16(fromHex(`${hex}0000`));
+};
+
 const getAdvertiseData = _room => {
   let { contentId, advertiseData } = _room;
   let gameId = getGameId(contentId);
@@ -85,11 +93,29 @@ const sanitizeData = _room => {
       if (data.length === 4) {
         // MONSTER HUNTER RISE
         _room.contentId = "0100b04011742000";
-        const hostPlayer = data[1].split("0000")[0] + "0000";
-        const hostPlayerName = decodeUtf16(
-          fromHex(hostPlayer.slice(2, hostPlayer.length - 2) + "0000")
-        );
-        _room.hostPlayerName = `${hostPlayerName} (${_room.hostPlayerName})`;
+        const newNodes = [];
+        let players = data[1];
+        let readingSize = 0;
+        let index = 0;
+        let cursor = 0;
+        do {
+          readingSize = parseInt(players.substr(cursor, 2), "16") * 2;
+          if (readingSize > 0) {
+            cursor = cursor + 2;
+            const playerName = hexToUtf16(players.substr(cursor, readingSize));
+            cursor = cursor + readingSize + 2;
+            newNodes.push({
+              playerName,
+              userName: _room.nodes[index].playerName
+            });
+          }
+          index++;
+        } while (readingSize > 0);
+        _room.nodes = newNodes;
+        let hostPlayerName = newNodes[0].playerName;
+        if (hostPlayerName !== _room.hostPlayerName) {
+          _room.hostPlayerName = `${newNodes[0].playerName} (${_room.hostPlayerName})`;
+        }
       }
     }
   }
