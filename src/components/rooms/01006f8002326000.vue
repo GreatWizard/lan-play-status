@@ -10,7 +10,9 @@
     :src="require(`@/assets/icons/island.png`)"
     class="icon"
     alt="🏝️"
-  />&nbsp;<strong>{{ advertiseData.island }}</strong>
+  />
+  {{ " " }}
+  <strong>{{ advertiseData.island }}</strong>
 </template>
 
 <script>
