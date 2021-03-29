@@ -164,11 +164,6 @@ table {
       padding: 4px;
     }
   }
-  td {
-    .icon {
-      vertical-align: middle;
-    }
-  }
 }
 
 button {

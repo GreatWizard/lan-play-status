@@ -48,7 +48,7 @@ const AdvertiseDataMap = _gameId => {
       return data => {
         const [header, , ranks] = data.split("00000004");
         const code =
-          header?.length > 44 // 44: unlocked ; 60: locked
+          header?.length > 44 // 44: unlocked ; 60: locked  83100310031003100
             ? `${header.charAt(45)}${header.charAt(49)}${header.charAt(
                 53
               )}${header.charAt(57)}`
@@ -77,7 +77,7 @@ const sanitizeData = _room => {
       _room.contentId = "0100a250097f0000";
     } else {
       let data = _room.advertiseData.split("00000004");
-      if (data.length === 4) {
+      if (data[0].includes("4f2818b9000")) {
         // MONSTER HUNTER RISE
         _room.contentId = "0100b04011742000";
         const players = data[1];

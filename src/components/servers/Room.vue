@@ -6,16 +6,18 @@
       class="icon"
       alt=""
     />
-    <strong vif="hostPlayerName !== undefined">{{ hostPlayerName }}</strong>
+    {{ " " }}
+    <strong vif="hostPlayerName">
+      {{ hostPlayerName }}
+      {{ " " }}
+    </strong>
     <component
       v-if="advertiseData"
       v-bind:is="`room${room.contentId}`"
       :advertiseData="advertiseData"
     />
     ({{ room.nodeCount }}/{{ room.nodeCountMax }}) &mdash;
-    <span v-if="game.icon">
-      <img :src="game.icon" class="icon icon--game" alt="" />
-    </span>
+    <img v-if="game.icon" :src="game.icon" class="icon icon--game" alt="" />
     {{ gameName }}
   </div>
 </template>

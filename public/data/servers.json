@@ -196,6 +196,13 @@
     "type": "rust"
   },
   {
+    "ip": "lan-play.ortega.network",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lebzul.duckdns.org",
     "port": 11450,
     "flag": "pa",
@@ -306,12 +313,5 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
-  },
-  {
-    "ip": "lan-play.ortega.network",
-    "port": 11451,
-    "flag": "br",
-    "platform": "switch",
-    "type": "node"
   }
 ]
