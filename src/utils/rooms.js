@@ -1,5 +1,5 @@
 import { getGameId } from "./games";
-import { hexToUtf16 } from "./hex";
+import { hexToUtf16, hexToInt } from "./hex";
 
 const getHostPlayerName = _room => {
   let hostPlayerName = _room.hostPlayerName;
@@ -15,16 +15,20 @@ const getHostPlayerName = _room => {
 
 const getPlayers = _room => {
   if (
-    // Fix for DRAGON BALL FighterZ
+    // DRAGON BALL FighterZ
     _room.contentId === "0100a250097f0000"
   ) {
     return [];
   }
-  return _room.nodes.map(({ playerName, characterName }) =>
-    characterName && playerName !== characterName
-      ? `${playerName} (${characterName})`
-      : playerName
-  );
+  if (
+    // MONSTER HUNTER RISE
+    _room.contentId === "0100b04011742000"
+  ) {
+    return _room.nodes.map(
+      ({ characterName, rank }) => `${characterName} (HR${rank})`
+    );
+  }
+  return _room.nodes;
 };
 
 const AdvertiseDataMap = _gameId => {
@@ -42,14 +46,14 @@ const AdvertiseDataMap = _gameId => {
     // MONSTER HUNTER RISE
     case "0100b04011742000":
       return data => {
-        const [header, , ranks] = data.split("0000000400");
+        const [header, , ranks] = data.split("00000004");
         const code =
           header?.length > 44 // 44: unlocked ; 60: locked
             ? `${header.charAt(45)}${header.charAt(49)}${header.charAt(
                 53
               )}${header.charAt(57)}`
             : undefined;
-        let result = { rank: ranks.charAt(1) };
+        let result = { rank: hexToInt(ranks.substr(0, 4)) };
         if (code) {
           result.code = code;
         }
@@ -72,25 +76,27 @@ const sanitizeData = _room => {
       // DRAGON BALL FighterZ
       _room.contentId = "0100a250097f0000";
     } else {
-      let data = _room.advertiseData.split("0000000400");
+      let data = _room.advertiseData.split("00000004");
       if (data.length === 4) {
         // MONSTER HUNTER RISE
         _room.contentId = "0100b04011742000";
         const players = data[1];
+        const ranks = data[2];
         const newNodes = [];
         let index = 0;
         let cursor = 0;
         do {
-          const readingSize = parseInt(players.substr(cursor, 2), "16") * 2;
+          const readingSize = hexToInt(players.substr(cursor, 4)) * 2;
           if (!Number.isNaN(readingSize) && readingSize > 0) {
-            cursor += 2;
+            cursor += 4;
             const characterName = hexToUtf16(
               `${players.substr(cursor, readingSize)}0000`
             );
-            cursor += readingSize + 2;
+            cursor += readingSize;
             newNodes.push({
+              playerName: _room.nodes[index].playerName,
               characterName,
-              playerName: _room.nodes[index].playerName
+              rank: hexToInt(ranks.substr(index * 4, 4))
             });
           } else {
             cursor = -1;

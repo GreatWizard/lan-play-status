@@ -13,8 +13,8 @@ const fromHex = hex => {
   return new Uint8Array(buf.map(h => parseInt(h, 16))).buffer;
 };
 
-const hexToUtf16 = hex => {
-  return decodeUtf16(fromHex(hex));
-};
+const hexToUtf16 = hex => decodeUtf16(fromHex(hex));
 
-export { decodeUtf16, fromHex, hexToUtf16 };
+const hexToInt = hex => parseInt(hex, "16");
+
+export { decodeUtf16, fromHex, hexToUtf16, hexToInt };

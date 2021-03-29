@@ -1,21 +1,19 @@
 <template>
   <div :data-tooltip="tooltip">
     <img
-      v-if="icon !== undefined"
+      v-if="icon"
       :src="require(`@/assets/icons/${icon}.png`)"
       class="icon"
       alt=""
-    />&nbsp;<strong vif="hostPlayerName !== undefined">{{
-      hostPlayerName
-    }}</strong>
-    <span v-if="advertiseData !== undefined">&nbsp;</span>
+    />
+    <strong vif="hostPlayerName !== undefined">{{ hostPlayerName }}</strong>
     <component
-      v-if="advertiseData !== undefined"
+      v-if="advertiseData"
       v-bind:is="`room${room.contentId}`"
       :advertiseData="advertiseData"
     />
     ({{ room.nodeCount }}/{{ room.nodeCountMax }}) &mdash;
-    <span v-if="game.icon !== undefined">
+    <span v-if="game.icon">
       <img :src="game.icon" class="icon icon--game" alt="" />
     </span>
     {{ gameName }}
