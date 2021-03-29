@@ -28,7 +28,7 @@ const getPlayers = _room => {
       ({ characterName, rank }) => `${characterName} (HR${rank})`
     );
   }
-  return _room.nodes;
+  return _room.nodes.map(({ playerName }) => playerName);
 };
 
 const AdvertiseDataMap = _gameId => {
