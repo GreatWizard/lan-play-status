@@ -1,5 +1,5 @@
 import { getGameId } from "./games";
-import { hexToUtf16, hexToInt } from "./hex";
+import { hexToUtf8, hexToUtf16, hexToInt } from "./hex";
 
 const getHostPlayerName = _room => {
   let hostPlayerName = _room.hostPlayerName;
@@ -46,16 +46,17 @@ const AdvertiseDataMap = _gameId => {
     // MONSTER HUNTER RISE
     case "0100b04011742000":
       return data => {
-        const [header, , ranks] = data.split("00000004");
-        const code =
-          header?.length > 44 // 44: unlocked ; 60: locked  83100310031003100
-            ? `${header.charAt(45)}${header.charAt(49)}${header.charAt(
-                53
-              )}${header.charAt(57)}`
-            : undefined;
+        const [header, , ranks, user] = data.split("00000004");
         let result = { rank: hexToInt(ranks.substr(0, 4)) };
-        if (code) {
-          result.code = code;
+        if (header?.length > 44) {
+          // 44: unlocked ; 60: locked
+          result.code = `${header.charAt(45)}${header.charAt(
+            49
+          )}${header.charAt(53)}${header.charAt(57)}`;
+        }
+        let userData = user.split("0d");
+        if (userData.length === 2) {
+          result.userId = hexToUtf8(userData[1]);
         }
         return result;
       };

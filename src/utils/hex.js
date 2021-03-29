@@ -15,6 +15,17 @@ const fromHex = hex => {
 
 const hexToUtf16 = hex => decodeUtf16(fromHex(hex));
 
+const hexToUtf8 = hex => {
+  const cut = hex.indexOf("00");
+  return decodeURIComponent(
+    "%" +
+      hex
+        .slice(0, cut)
+        .match(/.{1,2}/g)
+        .join("%")
+  );
+};
+
 const hexToInt = hex => parseInt(hex, "16");
 
-export { decodeUtf16, fromHex, hexToUtf16, hexToInt };
+export { decodeUtf16, fromHex, hexToUtf16, hexToUtf8, hexToInt };
