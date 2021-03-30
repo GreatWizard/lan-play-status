@@ -4,12 +4,12 @@
   <p>
     First, you need to install
     <a
-      href="https://www.winpcap.org/install/bin/WinPcap_4_1_3.exe"
+      href="https://nmap.org/npcap/#download"
       target="_blank"
       rel="noreferrer noopener"
     >
-      WinPcap </a
-    >.
+      Npcap</a
+    >, you must check <strong>Installed in WinPcap API-compatible mode</strong> in Npcap installation wizard.
   </p>
   <p>
     Then download and run
