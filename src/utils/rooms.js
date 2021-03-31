@@ -68,7 +68,7 @@ const AdvertiseDataMap = _gameId => {
           json.ServerMap = "DFH Stadium";
         } else if (map.startsWith("trainstation_")) {
           json.ServerMap = "Urban Central";
-        } else if (map.startsWith("UtopiaStadium_")) {
+        } else if (map.startsWith("utopiastadium_")) {
           json.ServerMap = "Utopia Coliseum";
         } else if (map.startsWith("wasteland_")) {
           json.ServerMap = "Wasteland";
@@ -105,7 +105,7 @@ const AdvertiseDataMap = _gameId => {
           json.ServerMap += " (Night)";
         } else if (map.endsWith("_rainy_p") || map.endsWith("_foggy_p")) {
           json.ServerMap += " (Stormy)";
-        } else if (map.endsWith("_winter_p")) {
+        } else if (map.endsWith("_winter_p") || map.endsWith("_snowy_p")) {
           json.ServerMap += " (Snowy)";
         } else if (map.endsWith("_dawn_p")) {
           json.ServerMap += " (Dawn)";
