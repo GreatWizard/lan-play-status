@@ -6,7 +6,7 @@
   <p>
     <em>{{
       $t("install.configuration.note", {
-        start: "10.13.255.1",
+        start: "10.13.0.1",
         end: "10.13.255.254",
         gateway: "10.13.37.1"
       })
