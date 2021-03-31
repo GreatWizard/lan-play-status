@@ -4,14 +4,12 @@
   <p>
     First, you need to install
     <a
-      href="https://nmap.org/npcap/#download"
+      href="https://www.winpcap.org/install/bin/WinPcap_4_1_3.exe"
       target="_blank"
       rel="noreferrer noopener"
     >
-      Npcap</a
-    >, you must check
-    <strong>Installed in WinPcap API-compatible mode</strong> in Npcap
-    installation wizard.
+      WinPcap</a
+    >.
   </p>
   <p>
     Then download and run
@@ -27,15 +25,23 @@
       >Homebrew</a
     >.
   </p>
-  <p>Then in a terminal: <code>brew install switch-lan-play</code>.</p>
-  <p>Finally in a terminal: <code>lan-play</code>.</p>
+  <p>
+    Then in a terminal: <code>brew install libpcap libuv switch-lan-play</code>.
+  </p>
+  <p>Finally in a terminal: <code>sudo lan-play</code>.</p>
   <Terminal
     title="user@mac: ~/"
-    content="$ brew install switch-lan-play
+    content="$ brew install libpcap libuv switch-lan-play
+==> Downloading https://homebrew.bintray.com/bottles/libpcap-1.10.0.catalina.bottle.tar.gz
+==> Pouring libpcap-1.10.0.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/libpcap/1.10.0: 110 files, 973.8KB
+==> Downloading https://homebrew.bintray.com/bottles/libuv-1.41.0.catalina.bottle.tar.gz
+==> Pouring libuv-1.41.0.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/libuv/1.41.0: 49 files, 3.1MB
 ==> Downloading https://homebrew.bintray.com/bottles/switch-lan-play-0.2.3.catalina.bottle.tar.gz
 ==> Pouring switch-lan-play-0.2.3.catalina.bottle.tar.gz
 🍺  /usr/local/Cellar/switch-lan-play/0.2.3: 5 files, 922.4KB
-$ lan-play --relay-server-addr switch.lan-play.com:11451
+$ sudo lan-play --relay-server-addr switch.lan-play.com:11451
 Interface not specified, opening all interfaces
 [DEBUG]: open en0 ok
 [DEBUG]: open p2p0 fail: datalink(12)
@@ -44,6 +50,7 @@ Interface not specified, opening all interfaces
 [DEBUG]: open utun0 fail: datalink(0)
 [DEBUG]: open utun1 fail: datalink(0)
 [DEBUG]: open lo0 fail: datalink(0)
+[DEBUG]: open bridge0 ok
 [DEBUG]: open en1 ok
 [DEBUG]: open en2 ok
 [DEBUG]: open gif0 fail: datalink(0)
@@ -64,17 +71,25 @@ Server IP: 149.91.81.201"
       <code>lan-play-linux</code></a
     >.
   </p>
+  <p>In a terminal: <code>sudo apt install libpcap0.8-dev libuv1-dev</code></p>
   <p>
-    Then in a terminal: go to the directory you downloaded to (likely
-    ~/Downloads) and input <code>chmod +x lan-play-linux</code>.
+    Then, go to the directory you downloaded to (likely ~/Downloads) and input
+    <code>chmod +x lan-play-linux</code>.
   </p>
   <p>
-    Finally in a terminal: <code>./lan-play-linux</code> (ensuring you are in
-    the proper directory (likely ~/Downloads).
+    Finally in a terminal: <code>sudo ./lan-play-linux</code> (ensuring you are
+    in the proper directory (likely ~/Downloads).
   </p>
   <Terminal
     title="user@linux: ~/Downloads"
     content="$ cd ~/Downloads
+$ sudo apt install libpcap0.8-dev libuv1-dev
+Reading package list... Done
+Building dependency tree
+Reading state information... Done
+libpcap0.8-dev is already the newest version (1.8.1-6)
+libuv1-dev is already the newest version (1.24.1-1)
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 $ wget --quiet https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.2.3/lan-play-linux
 $ chmod +x lan-play-linux
 $ sudo ./lan-play-linux --relay-server-addr switch.lan-play.com:11451
