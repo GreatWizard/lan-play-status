@@ -45,6 +45,16 @@ const AdvertiseDataMap = _gameId => {
           code
         };
       };
+    // Minecraft
+    case "0100d71004694000":
+      return data => {
+        const world = hexToUtf8(data.slice(96));
+        const version = hexToUtf8(data.slice(320));
+        return {
+          world,
+          version
+        };
+      };
     // Rocket League
     case "01005ee0036ec000":
       return data => {
@@ -143,39 +153,50 @@ const sanitizeData = _room => {
       _room.contentId = "01005ee0036ec000";
       const json = JSON.parse(hexToAscii(_room.advertiseData));
       _room.hostPlayerName = json.OwnerName;
-    } else {
+    } else if (
+      _room.advertiseData.split("00000004")[0].includes("4f2818b9000")
+    ) {
       let data = _room.advertiseData.split("00000004");
-      if (data[0].includes("4f2818b9000")) {
-        // MONSTER HUNTER RISE
-        _room.contentId = "0100b04011742000";
-        const players = data[1];
-        const ranks = data[2];
-        const newNodes = [];
-        let index = 0;
-        let cursor = 0;
-        do {
-          const readingSize = hexToInt(players.substr(cursor, 4)) * 2;
-          if (!Number.isNaN(readingSize) && readingSize > 0) {
-            cursor += 4;
-            const characterName = hexToUtf16(
-              `${players.substr(cursor, readingSize)}0000`
-            );
-            cursor += readingSize;
-            newNodes.push({
-              playerName: _room.nodes[index].playerName,
-              characterName,
-              rank: hexToInt(ranks.substr(index * 4, 4))
-            });
-          } else {
-            cursor = -1;
-          }
-          index++;
-        } while (cursor !== -1);
-        _room.nodes = newNodes;
-        const hostCharacterName = newNodes[0].characterName;
-        if (hostCharacterName !== _room.hostPlayerName) {
-          _room.hostPlayerName = `${hostCharacterName} (${_room.hostPlayerName})`;
+      // MONSTER HUNTER RISE
+      _room.contentId = "0100b04011742000";
+      const players = data[1];
+      const ranks = data[2];
+      const newNodes = [];
+      let index = 0;
+      let cursor = 0;
+      do {
+        const readingSize = hexToInt(players.substr(cursor, 4)) * 2;
+        if (!Number.isNaN(readingSize) && readingSize > 0) {
+          cursor += 4;
+          const characterName = hexToUtf16(
+            `${players.substr(cursor, readingSize)}0000`
+          );
+          cursor += readingSize;
+          newNodes.push({
+            playerName: _room.nodes[index].playerName,
+            characterName,
+            rank: hexToInt(ranks.substr(index * 4, 4))
+          });
+        } else {
+          cursor = -1;
         }
+        index++;
+      } while (cursor !== -1);
+      _room.nodes = newNodes;
+      const hostCharacterName = newNodes[0].characterName;
+      if (hostCharacterName !== _room.hostPlayerName) {
+        _room.hostPlayerName = `${hostCharacterName} (${_room.hostPlayerName})`;
+      }
+    } else {
+      // Minecraft
+      let name = undefined;
+      try {
+        name = hexToUtf8(_room.advertiseData.slice(32));
+      } catch (e) {
+        name = undefined;
+      }
+      if (name === _room.hostPlayerName) {
+        _room.contentId = "0100d71004694000";
       }
     }
   }

@@ -15,8 +15,9 @@ const fromHex = hex => {
 
 const hexToUtf16 = hex => decodeUtf16(fromHex(hex));
 
-const hexToUtf8 = hex => {
-  const cut = hex.indexOf("00");
+let hexToUtf8 = hex => {
+  let cut = hex.indexOf("00");
+  cut += cut & 1;
   return decodeURIComponent(
     "%" +
       hex
