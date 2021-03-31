@@ -26,6 +26,14 @@ const hexToUtf8 = hex => {
   );
 };
 
+const hexToAscii = hex => {
+  let str = "";
+  for (var i = 0; i < hex.length; i += 2) {
+    str += String.fromCharCode(parseInt(hex.substr(i, 2), 16));
+  }
+  return str;
+};
+
 const hexToInt = hex => parseInt(hex, "16");
 
-export { decodeUtf16, fromHex, hexToUtf16, hexToUtf8, hexToInt };
+export { decodeUtf16, fromHex, hexToUtf16, hexToUtf8, hexToAscii, hexToInt };

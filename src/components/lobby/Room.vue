@@ -29,6 +29,7 @@
 <script>
 import CopyButton from "@/components/CopyButton.vue";
 import room0100b04011742000 from "@/components/rooms/0100b04011742000.vue";
+import room01005ee0036ec000 from "@/components/rooms/01005ee0036ec000.vue";
 import room01006f8002326000 from "@/components/rooms/01006f8002326000.vue";
 import { getFullAddress } from "@/utils/servers";
 import { getHostPlayerName, getPlayers, getAdvertiseData } from "@/utils/rooms";
@@ -38,6 +39,7 @@ export default {
   components: {
     CopyButton,
     room0100b04011742000,
+    room01005ee0036ec000,
     room01006f8002326000
   },
   props: {

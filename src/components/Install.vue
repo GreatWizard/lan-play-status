@@ -9,7 +9,9 @@
       rel="noreferrer noopener"
     >
       Npcap</a
-    >, you must check <strong>Installed in WinPcap API-compatible mode</strong> in Npcap installation wizard.
+    >, you must check
+    <strong>Installed in WinPcap API-compatible mode</strong> in Npcap
+    installation wizard.
   </p>
   <p>
     Then download and run
