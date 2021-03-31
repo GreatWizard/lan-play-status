@@ -238,6 +238,13 @@
     "type": "rust"
   },
   {
+    "ip": "edgymin.ga",
+    "port": 11451,
+    "flag": "ru",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "joinsg.net",
     "port": 11451,
     "flag": "us",
