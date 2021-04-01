@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1617271154780,
+    "generatedTime": 1617272361168,
     "data": [
         {
             "type": "file",
@@ -14,12 +14,6 @@
             "name": "BingSiteAuth.xml",
             "size": 85,
             "hash": "c8b1fcd3d2eda430c13aa7f7d19143a756622d5344a04e5353f0654ac37e8a05"
-        },
-        {
-            "type": "file",
-            "name": "CNAME",
-            "size": 17,
-            "hash": "df2c17390439a5d6ed0bff048333b173e5a0e5d290952776b583cdd8313bf8c4"
         },
         {
             "type": "file",
