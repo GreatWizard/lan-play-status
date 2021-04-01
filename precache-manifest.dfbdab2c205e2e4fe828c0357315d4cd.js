@@ -632,7 +632,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/zerosuitsamus-ssbu.bbf03a68.png"
   },
   {
-    "revision": "3e5c190b0b4bd36544a29b39780a1645",
+    "revision": "9f38eb19f1b198f123ba81129a03bb10",
     "url": "/index.html"
   },
   {
