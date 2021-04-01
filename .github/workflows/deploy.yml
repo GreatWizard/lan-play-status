@@ -24,9 +24,32 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Yarn Install
         run: yarn install --frozen-lockfile
+      - name: Synchronize translations
+        uses: docker://sergioisidoro/github-transifex-action:v0.2.0
+        with:
+            git_flow: false
+            tx_token: ${{ secrets.TX_TOKEN }}
+            pull_translations: true
+            pull_sources: false
+            push_translations: false
+            push_sources: true
+      - name: Lint
+        run: yarn lint
+      - name: Run unit tests
+        run: yarn test:unit
       - name: Build
         run: yarn build
-      - name: Deploy
+      - name: Deploy on ftp
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: "./dist/"
+          server-dir: "./www/"
+          dangerous-clean-slate: true
+          exclude: CNAME
+      - name: Deploy on github-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
