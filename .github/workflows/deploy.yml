@@ -33,12 +33,15 @@ jobs:
             pull_sources: false
             push_translations: false
             push_sources: true
-      - name: Lint
-        run: yarn lint
-      - name: Run unit tests
-        run: yarn test:unit
       - name: Build
         run: yarn build
+      - name: Wait on tests
+        uses: lewagon/wait-on-check-action@v0.2
+        with:
+          ref: master
+          check-name: test
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          wait-interval: 10
       - name: Deploy on ftp
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
