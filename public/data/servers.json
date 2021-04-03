@@ -321,6 +321,13 @@
     "platform": "switch",
     "type": "dotnet"
   },
+{
+    "ip": "lan2.imperialcommand.xyz",
+    "port": 11451,
+    "flag": "ph",
+    "platform": "switch",
+    "type": "dotnet"
+  },
   {
     "ip": "switch.0mn1b0x.com",
     "port": 11452,
