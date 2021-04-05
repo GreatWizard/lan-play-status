@@ -42,6 +42,13 @@
     "type": "rust"
   },
   {
+    "ip": "lanplay.daroku.tk",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lan-play.tk",
     "port": 11451,
     "flag": "ca",
