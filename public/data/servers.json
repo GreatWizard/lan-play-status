@@ -209,6 +209,13 @@
     "platform": "switch",
     "type": "rust"
   },
+   {
+    "ip": "nortebr.ortega.network",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch",
+    "type": "rust"
+  },
   {
     "ip": "lebzul.duckdns.org",
     "port": 11450,
