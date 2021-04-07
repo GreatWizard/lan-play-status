@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1617798574319,
+    "generatedTime": 1617799365837,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "0a7328eb6010fe735c4a1c580767994a27edc1584bd3448e0e7e55ad428bfb48"
+            "hash": "89a1a066c9c67929d27b5e35519bd1ac4e8c6dc405a30b611e5d056adf40df8e"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.69ab9e04c016e7005192b894e1a21ad9.js",
+            "name": "precache-manifest.64eae51df7f0cc983346f8a79266990e.js",
             "size": 16819,
-            "hash": "58bc59f5f5a7de259fbcb897c2c392c4958826aa256172dbb583415d415fe211"
+            "hash": "a4cf11d70f431b53c79b8864c061a2e39ced14a66a4f9294562f67a7e7714a7f"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "6d36b54cc27b7e4dff94dc971bbab15e779d1a05f46c9c77ca5ef613152fe952"
-        },
-        {
-            "type": "file",
-            "name": "sitemap.xml",
-            "size": 1552,
-            "hash": "953e993a82a8f80d86272a79bdd7ef510311feb43145e14cd580a592188dce58"
+            "hash": "2568a66ee11e63cad59a211b63035610f274a1b9df4b0b2230dab8778c9b77fc"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
             "hash": "af5bbcd3914ef298f1a3bca92157924d424d47524337280c7405f36e0350183e"
+        },
+        {
+            "type": "file",
+            "name": "sitemap.xml",
+            "size": 1552,
+            "hash": "953e993a82a8f80d86272a79bdd7ef510311feb43145e14cd580a592188dce58"
         },
         {
             "type": "file",
@@ -112,8 +112,8 @@
         {
             "type": "file",
             "name": "data/servers.json",
-            "size": 5931,
-            "hash": "e794f4dd8ce0b7c1b647857f30ee7d5e0aecf4423b27f5c55a50e9ce06c90b1b"
+            "size": 6057,
+            "hash": "68616fe13c175b43c6e2c95127bc288220b7a47b9a2366f50eaacfbc11970e03"
         },
         {
             "type": "file",
@@ -183,15 +183,15 @@
         },
         {
             "type": "file",
-            "name": "img/br.65163045.svg",
-            "size": 2860,
-            "hash": "ace13f390cb09a98b8585365aaa33a461b05dbada4e83d2a7803b1ff104c84fa"
-        },
-        {
-            "type": "file",
             "name": "img/byleth-ssbu.b641ea7e.png",
             "size": 8915,
             "hash": "3cfca956b0bc44f96935bb2fbcb76feefe2671de4756031c03d3d67bfd436841"
+        },
+        {
+            "type": "file",
+            "name": "img/br.65163045.svg",
+            "size": 2860,
+            "hash": "ace13f390cb09a98b8585365aaa33a461b05dbada4e83d2a7803b1ff104c84fa"
         },
         {
             "type": "file",
@@ -261,15 +261,15 @@
         },
         {
             "type": "file",
-            "name": "img/de.c360f786.svg",
-            "size": 405,
-            "hash": "6e81429d01bfd99546b3cb309db8f224fab38c8cc3e735cac8a3eb7cf9e1e941"
-        },
-        {
-            "type": "file",
             "name": "img/diddykong-ssbu.15b83d46.png",
             "size": 5501,
             "hash": "1f25c9ad0199c18b93bce6498282af35200c2d1ebac0df1bd05383f942de45a0"
+        },
+        {
+            "type": "file",
+            "name": "img/de.c360f786.svg",
+            "size": 405,
+            "hash": "6e81429d01bfd99546b3cb309db8f224fab38c8cc3e735cac8a3eb7cf9e1e941"
         },
         {
             "type": "file",
@@ -285,15 +285,15 @@
         },
         {
             "type": "file",
-            "name": "img/drmario-ssbu.37fc5043.png",
-            "size": 8989,
-            "hash": "64b9cd953da94230609847d0da1dd240f82d80d614359118c6dce14452c693be"
-        },
-        {
-            "type": "file",
             "name": "img/donkeykong-ssbu.aca85cfa.png",
             "size": 5357,
             "hash": "3274fd84ba00fddf6eb4caa34bc953355536cf8b4fcf504869ca890b95f1953e"
+        },
+        {
+            "type": "file",
+            "name": "img/drmario-ssbu.37fc5043.png",
+            "size": 8989,
+            "hash": "64b9cd953da94230609847d0da1dd240f82d80d614359118c6dce14452c693be"
         },
         {
             "type": "file",
@@ -356,12 +356,6 @@
             "hash": "7ad7385ec79fc4ecbc9bd9068e9f5e3a8d4beb965736dfef2d847d749a851d48"
         },
         {
-            "type": "file",
-            "name": "img/iceclimbers-ssbu.b3f17eaf.png",
-            "size": 6265,
-            "hash": "2688cf10b32ec51f55baa157922237574fad7ddad3d08980557faa6b6c78816f"
-        },
-        {
             "type": "folder",
             "name": "img/icons"
         },
@@ -370,6 +364,12 @@
             "name": "img/id.7943db38.svg",
             "size": 605,
             "hash": "5021d54b840994f617940ea97e01ae6453fb168772b0687c92115fcce82e1da5"
+        },
+        {
+            "type": "file",
+            "name": "img/iceclimbers-ssbu.b3f17eaf.png",
+            "size": 6265,
+            "hash": "2688cf10b32ec51f55baa157922237574fad7ddad3d08980557faa6b6c78816f"
         },
         {
             "type": "file",
@@ -475,6 +475,12 @@
         },
         {
             "type": "file",
+            "name": "img/link-ssbu.2926fc2b.png",
+            "size": 9038,
+            "hash": "d999c34d1ea9df2b345497e4a4bdbbd3fff06b38d40f226a78d0e728aee97e91"
+        },
+        {
+            "type": "file",
             "name": "img/littlemac-ssbu.6524ca37.png",
             "size": 9211,
             "hash": "d8dffaa8d466958762c28b643261a55939a57766e502b73e5b52bccd69b030f2"
@@ -487,9 +493,9 @@
         },
         {
             "type": "file",
-            "name": "img/link-ssbu.2926fc2b.png",
-            "size": 9038,
-            "hash": "d999c34d1ea9df2b345497e4a4bdbbd3fff06b38d40f226a78d0e728aee97e91"
+            "name": "img/logo.f64272e3.png",
+            "size": 7398,
+            "hash": "e5480a54cf761b91335a597f6126d5b1529bb62a32806cd5a7b24e2c32e62cac"
         },
         {
             "type": "file",
@@ -514,12 +520,6 @@
             "name": "img/luigi-kart.852cb916.png",
             "size": 9586,
             "hash": "ed113db529300a660e9526008a4a9844837a6ea7696fb725e5c2067dc7ada442"
-        },
-        {
-            "type": "file",
-            "name": "img/logo.f64272e3.png",
-            "size": 7398,
-            "hash": "e5480a54cf761b91335a597f6126d5b1529bb62a32806cd5a7b24e2c32e62cac"
         },
         {
             "type": "file",
@@ -721,6 +721,12 @@
         },
         {
             "type": "file",
+            "name": "img/pyra-ssbu.31513faf.png",
+            "size": 29600,
+            "hash": "8040e3afad2e5582cddc4ecc55bb82f5d6b40bc2ae08e6d1254af0213aed4553"
+        },
+        {
+            "type": "file",
             "name": "img/red-cap.1bd8445b.png",
             "size": 9046,
             "hash": "f0bf9bda713c5b1c1fded97dce75c0aeb3d408bb6ff77e172060b2cf95805e56"
@@ -730,12 +736,6 @@
             "name": "img/richter-ssbu.add76089.png",
             "size": 8280,
             "hash": "a6253037770a5b399ae1fcbd1378d2e0e3ef48db21e231d1de194f952d0998d1"
-        },
-        {
-            "type": "file",
-            "name": "img/pyra-ssbu.31513faf.png",
-            "size": 29600,
-            "hash": "8040e3afad2e5582cddc4ecc55bb82f5d6b40bc2ae08e6d1254af0213aed4553"
         },
         {
             "type": "file",
@@ -1027,9 +1027,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.c75d999d.js",
-            "size": 1215896,
-            "hash": "cddeee9af000ec3716089dfc1ca45e458cdaea593041d525be88fc3b28fcfedd"
+            "name": "js/app.74dce145.js",
+            "size": 1215986,
+            "hash": "24a72ebc26e225a43f27807204fc703c590bbaadf5ef536036df0ba3a04b3c13"
         },
         {
             "type": "file",
