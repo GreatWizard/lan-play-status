@@ -154,6 +154,13 @@
     "type": "rust"
   },
   {
+    "ip": "switch.pidserkoler.de",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "switch.jayseateam.nl",
     "port": 11451,
     "flag": "nl",
