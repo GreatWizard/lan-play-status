@@ -3,6 +3,7 @@
     <tr :class="trClasses">
       <td>
         <CopyButton :data="fullAddress" />
+        <span>{{ server.game }}</span>
       </td>
       <td :data-tooltip="infos">
         <span v-if="data.active !== undefined && data.idle !== undefined">

@@ -4,7 +4,32 @@
     "port": 11451,
     "flag": "cn",
     "platform": "switch",
-    "type": "rust"
+    "type": "rust",
+    "game": "MHR(1.1.1)电信1区"
+  },
+  {
+    "ip": "www.tgceo.cn",
+    "port": 11452,
+    "flag": "cn",
+    "platform": "switch",
+    "type": "rust",
+    "game": "MHR(1.1.2)电信1区"
+  },
+  {
+    "ip": "www.tgceo.cn",
+    "port": 11458,
+    "flag": "cn",
+    "platform": "switch",
+    "type": "rust",
+    "game": "喷射战士"
+  },
+  {
+    "ip": "www.tgceo.cn",
+    "port": 11460,
+    "flag": "cn",
+    "platform": "switch",
+    "type": "rust",
+    "game": "马里奥赛车8"
   },
   {
     "ip": "switch.lan-play.com",
