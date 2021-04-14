@@ -1,4 +1,11 @@
 [
+    {
+    "ip": "lanplaybr.ddns.net",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch",
+    "type": "rust"
+  },
   {
     "ip": "switch.lan-play.com",
     "port": 11451,
