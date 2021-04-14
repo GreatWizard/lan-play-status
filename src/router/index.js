@@ -1,69 +1,59 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "@/views/Home.vue";
-import Lobbies from "@/views/Lobbies.vue";
-import Lobby from "@/views/Lobby.vue";
-import GamesSwitch from "@/views/GamesSwitch.vue";
-import GamesPS4 from "@/views/GamesPS4.vue";
-import Download from "@/views/Download.vue";
-import InstallSwitch from "@/views/InstallSwitch.vue";
-import InstallPS4 from "@/views/InstallPS4.vue";
-import About from "@/views/About.vue";
-import NotFound from "@/views/NotFound.vue";
 
 const routes = [
   {
     path: "/",
     name: "home",
-    component: Home
+    component: () => import("@/views/Home.vue")
   },
-  { path: "/lobbies", component: Lobbies },
-  { path: "/lobbies/:gameIds", component: Lobby },
+  { path: "/lobbies", component: () => import("@/views/Lobbies.vue") },
+  { path: "/lobbies/:gameIds", component: () => import("@/views/Lobby.vue") },
   {
     // deprecated route
     path: "/games",
     name: "games",
-    component: GamesSwitch
+    component: () => import("@/views/GamesSwitch.vue")
   },
   {
     path: "/games-switch",
     name: "games-switch",
-    component: GamesSwitch
+    component: () => import("@/views/GamesSwitch.vue")
   },
   {
     path: "/games-ps4",
     name: "games-ps4",
-    component: GamesPS4
+    component: () => import("@/views/GamesPS4.vue")
   },
   {
     path: "/download",
     name: "download",
-    component: Download
+    component: () => import("@/views/Download.vue")
   },
   {
     // deprecated route
     path: "/install",
     name: "install",
-    component: InstallSwitch
+    component: () => import("@/views/InstallSwitch.vue")
   },
   {
     path: "/install-switch",
     name: "install-switch",
-    component: InstallSwitch
+    component: () => import("@/views/InstallSwitch.vue")
   },
   {
     path: "/install-ps4",
     name: "install-ps4",
-    component: InstallPS4
+    component: () => import("@/views/InstallPS4.vue")
   },
   {
     path: "/about",
     name: "about",
-    component: About
+    component: () => import("@/views/About.vue")
   },
   {
     path: "/:pathMatch(.*)*",
     name: "NotFound",
-    component: NotFound
+    component: () => import("@/views/NotFound.vue")
   }
 ];
 
