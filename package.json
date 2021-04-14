@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "license": "GPL-3.0",
   "scripts": {
+    "report": "vue-cli-service build --report",
     "preserve": "node build-flags.js",
     "serve": "vue-cli-service serve",
     "prebuild": "node build-flags.js",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --mode production",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
