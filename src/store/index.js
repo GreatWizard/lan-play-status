@@ -17,7 +17,9 @@ const serverMapping = ({
   flag,
   port = 11451,
   platform = "switch",
-  type = "rust"
+  type = "rust",
+  games,
+  comment
 }) => {
   return {
     ip,
@@ -25,6 +27,8 @@ const serverMapping = ({
     flag,
     platform,
     type,
+    games,
+    comment,
     highlight: ip === "switch.lan-play.com"
   };
 };

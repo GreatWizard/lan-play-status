@@ -84,14 +84,14 @@
     "type": "rust"
   },
   {
-    "ip": "badswitchlanplay.tk",
+    "ip": "badswitchlanplay.ml",
     "port": 11451,
     "flag": "fr",
     "platform": "switch",
     "type": "rust"
   },
   {
-    "ip": "badps4lanplay.tk",
+    "ip": "badps4lanplay.ml",
     "port": 22451,
     "flag": "fr",
     "platform": "ps4",
@@ -217,6 +217,27 @@
     "type": "rust"
   },
   {
+    "ip": "lanplay.daroku.tk",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "nortebr.ortega.network",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "lanplaybr.ddns.net",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lebzul.duckdns.org",
     "port": 11450,
     "flag": "pa",
@@ -229,6 +250,40 @@
     "flag": "cn",
     "platform": "switch",
     "type": "rust"
+  },
+  {
+    "ip": "tgceo.cn",
+    "port": 11451,
+    "flag": "cn",
+    "platform": "switch",
+    "type": "rust",
+    "games": ["0100b04011742000", "0100559011740000"],
+    "comment": "MHRise v1.1.1"
+  },
+  {
+    "ip": "tgceo.cn",
+    "port": 11452,
+    "flag": "cn",
+    "platform": "switch",
+    "type": "rust",
+    "games": ["0100b04011742000", "0100559011740000"],
+    "comment": "MHRise v1.1.2"
+  },
+  {
+    "ip": "tgceo.cn",
+    "port": 11458,
+    "flag": "cn",
+    "platform": "switch",
+    "type": "rust",
+    "games": ["0100f8f0000a2000", "01003c700009c000", "01003bc0000a0000"]
+  },
+  {
+    "ip": "tgceo.cn",
+    "port": 11460,
+    "flag": "cn",
+    "platform": "switch",
+    "type": "rust",
+    "games": ["0100152000022000", "010075100e8ec000"]
   },
   {
     "ip": "switchlanplay-tw.ddns.net",
