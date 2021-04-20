@@ -257,7 +257,7 @@
     "flag": "cn",
     "platform": "switch",
     "type": "rust",
-    "games": ["0100b04011742000", "0100559011740000"],
+    "games": ["0100b04011742000"],
     "comment": "MHRise v1.1.1"
   },
   {
@@ -266,7 +266,7 @@
     "flag": "cn",
     "platform": "switch",
     "type": "rust",
-    "games": ["0100b04011742000", "0100559011740000"],
+    "games": ["0100b04011742000"],
     "comment": "MHRise v1.1.2"
   },
   {

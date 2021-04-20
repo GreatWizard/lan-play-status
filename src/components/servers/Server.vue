@@ -95,6 +95,7 @@ export default {
   },
   data() {
     return {
+      games: this.$store.state.games,
       timerServer: undefined,
       status: undefined,
       ping: undefined,
@@ -118,7 +119,18 @@ export default {
       } else {
         infos = `${this.data.online} user${this.data.online > 1 ? "s" : ""}`;
       }
-
+      if (this.server.games?.length > 0) {
+        infos += `\n${this.server.games
+          .map(
+            gameId =>
+              this.games.find(({ id }) => id === gameId.toLowerCase()).name
+          )
+          .filter((v, i, l) => l.indexOf(v) === i)
+          .join(", ")}`;
+      }
+      if (this.server.comment) {
+        infos += `\n${this.server.comment}`;
+      }
       return infos;
     },
     country() {

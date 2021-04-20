@@ -4,7 +4,6 @@
     :src="require(`@/assets/icons/lock.png`)"
     class="icon"
     alt="🔒"
-    :title="advertiseData.code"
   />
   HR{{ advertiseData.rank }}
 </template>

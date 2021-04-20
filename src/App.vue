@@ -104,6 +104,7 @@ $tooltip-bottom: 80%;
     background-color: hsla(0, 0%, 20%, 0.9);
     color: rgb(255, 255, 255);
     content: attr(data-tooltip);
+    white-space: pre-wrap;
     text-align: center;
     font-size: 14px;
     line-height: 1.2;
