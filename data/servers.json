@@ -252,7 +252,7 @@
     "type": "rust"
   },
   {
-    "ip": "www.tgceo.cn",
+    "ip": "tgceo.cn",
     "port": 11451,
     "flag": "cn",
     "platform": "switch",
@@ -261,7 +261,7 @@
     "comment": "MHRise v1.1.1"
   },
   {
-    "ip": "www.tgceo.cn",
+    "ip": "tgceo.cn",
     "port": 11452,
     "flag": "cn",
     "platform": "switch",
@@ -270,7 +270,7 @@
     "comment": "MHRise v1.1.2"
   },
   {
-    "ip": "www.tgceo.cn",
+    "ip": "tgceo.cn",
     "port": 11458,
     "flag": "cn",
     "platform": "switch",
@@ -278,7 +278,7 @@
     "games": ["0100f8f0000a2000", "01003c700009c000", "01003bc0000a0000"]
   },
   {
-    "ip": "www.tgceo.cn",
+    "ip": "tgceo.cn",
     "port": 11460,
     "flag": "cn",
     "platform": "switch",
