@@ -313,6 +313,13 @@
     "platform": "switch",
     "type": "rust"
   },
+   {
+    "ip": "switch-lan.online",
+    "port": 11451,
+    "flag": "ru",
+    "platform": "switch",
+    "type": "rust"
+  },
   {
     "ip": "joinsg.net",
     "port": 11451,
