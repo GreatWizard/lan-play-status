@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1620119465961,
+    "generatedTime": 1622281672265,
     "data": [
         {
             "type": "file",
@@ -95,13 +95,13 @@
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "1ae726b8f48fcdd51905140a5132f198939d60e5372724797d8639b3a9a267e8"
+            "hash": "146550edd00d822e9704df75139c8fce4017889635ce2517ee8fb8c006e41047"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "9d981f840953a08eb2b9bb5d221e94beae5b090d739e126d9ee41ecffef77e5b"
+            "hash": "afba1f35f6c7bc335e7afe1675a0f74cd95023aab6e787068214d5441499dd95"
         },
         {
             "type": "file",
@@ -1051,6 +1051,12 @@
         },
         {
             "type": "file",
+            "name": "img/icons/apple-touch-icon-120x120.png",
+            "size": 1359,
+            "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
+        },
+        {
+            "type": "file",
             "name": "img/icons/apple-touch-icon-152x152.png",
             "size": 2005,
             "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
@@ -1063,21 +1069,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon-120x120.png",
-            "size": 1359,
-            "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
+            "name": "img/icons/apple-touch-icon-76x76.png",
+            "size": 980,
+            "hash": "852f9da2305ab21aaf8c5732b61a66dc009b67e6d059526ea51317b7dbd0f84a"
         },
         {
             "type": "file",
             "name": "img/icons/apple-touch-icon-60x60.png",
             "size": 679,
             "hash": "5ff0a87d94c2753e9ef192b802dd8c87b0876053d54ed2d642869e899d112119"
-        },
-        {
-            "type": "file",
-            "name": "img/icons/apple-touch-icon-76x76.png",
-            "size": 980,
-            "hash": "852f9da2305ab21aaf8c5732b61a66dc009b67e6d059526ea51317b7dbd0f84a"
         },
         {
             "type": "file",
