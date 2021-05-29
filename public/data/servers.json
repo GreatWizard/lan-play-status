@@ -286,6 +286,13 @@
     "games": ["0100152000022000", "010075100e8ec000"]
   },
   {
+    "ip": "ns.ix.tc",
+    "port": 11451,
+    "flag": "cn",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "switchlanplay-tw.ddns.net",
     "port": 11451,
     "flag": "tw",

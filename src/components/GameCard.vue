@@ -56,6 +56,7 @@ export default {
           .join("")
           // Fix roman numbers
           .replace("Iii", "III")
+          .replace("Iv", "IV")
           .replace("CivilizationVi", "CivilizationVI")
           // Fix specifics namings
           .replace("3d", "3D")
@@ -75,7 +76,8 @@ export default {
           .replace("EaSportsFifa1", "EASportsFifa1")
           .replace("ChikiChikiBoxyRacers", "_ChikiChikiBoxyRacers")
           .replace("Mudrunner", "MudRunner")
-          .replace("ReMarsTered", "ReMarstered");
+          .replace("ReMarsTered", "ReMarstered")
+          .replace("DukeNukem3D", "DukeNukem3d");
 
         if (this.game.lang) {
           title = `${title}_${this.game.lang}`;

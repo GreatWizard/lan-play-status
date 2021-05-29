@@ -1,6 +1,7 @@
 [
   { "title": "ARMS" },
   { "title": "Bayonetta 2" },
+  { "title": "Duke Nukem 3D: 20th Anniversary World Tour", "ds": true },
   { "title": "Mario & Sonic at the Olympic Games Tokyo 2020", "lang": "enGB" },
   { "title": "Mario Kart 8 Deluxe" },
   { "title": "Mario Tennis Aces" },
@@ -14,6 +15,7 @@
   },
   { "title": "Pokkén Tournament DX" },
   { "title": "SAINTS ROW: THE THIRD - THE FULL PACKAGE" },
+  { "title": "Saints Row IV®: Re-Elected™" },
   { "title": "Splatoon 2" },
   { "title": "Titan Quest" }
 ]
