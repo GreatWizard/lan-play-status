@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/browserconfig.xml"
   },
   {
-    "revision": "01ed4c3318f31d224a97",
+    "revision": "e50b92603952fc6f454b",
     "url": "/css/app.0593d79b.css"
   },
   {
@@ -584,6 +584,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/villager-ssbu.ac6e53b5.png"
   },
   {
+    "revision": "c2b533b536c1a338b91f6151b165d46a",
+    "url": "/img/vk.c2b533b5.svg"
+  },
+  {
     "revision": "af7135301e3a2be86bcbce39412d48ab",
     "url": "/img/vn.af713530.svg"
   },
@@ -636,12 +640,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/zerosuitsamus-ssbu.bbf03a68.png"
   },
   {
-    "revision": "54491c74ef8696944e648d50e3d30fb7",
+    "revision": "fa5b4639ef978602129c3a5040196b4d",
     "url": "/index.html"
   },
   {
-    "revision": "01ed4c3318f31d224a97",
-    "url": "/js/app.f51ecc7b.js"
+    "revision": "e50b92603952fc6f454b",
+    "url": "/js/app.9df491af.js"
   },
   {
     "revision": "d8118855ae774300e717",
