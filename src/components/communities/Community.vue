@@ -43,6 +43,18 @@
           :alt="$t('general.whatsapp')"
         />
       </a>
+      <a
+        v-if="community.vk"
+        :href="vk"
+        target="=_blank"
+        rel="noreferrer noopener"
+      >
+        <img
+          class="icon"
+          :src="require(`@/assets/icons/vkontakte.svg`)"
+          :alt="$t('general.vk')"
+        />
+      </a>
     </td>
   </tr>
 </template>
@@ -88,6 +100,9 @@ export default {
     },
     whatsapp() {
       return `https://chat.whatsapp.com/${this.community.whatsapp}`;
+    },
+    vk() {
+      return `https://vk.com/${this.community.vk}`;
     },
     trClasses() {
       return this.community.highlight ? "highlight" : "";
