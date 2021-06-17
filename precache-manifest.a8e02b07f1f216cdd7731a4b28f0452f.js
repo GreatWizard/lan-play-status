@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/browserconfig.xml"
   },
   {
-    "revision": "158c3c7ba97191e18d43",
+    "revision": "c0e85f8ffc16dce11d71",
     "url": "/css/app.0593d79b.css"
   },
   {
@@ -585,7 +585,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "713c4c4c690c83e28b258f1edb1c4084",
-    "url": "/img/vk.713c4c4c.svg"
+    "url": "/img/vkontakte.713c4c4c.svg"
   },
   {
     "revision": "af7135301e3a2be86bcbce39412d48ab",
@@ -640,12 +640,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/zerosuitsamus-ssbu.bbf03a68.png"
   },
   {
-    "revision": "ae1ec806b466a243d98e2ed26f8d904a",
+    "revision": "7b2c647d49282fd1cf32b9481f6c98e9",
     "url": "/index.html"
   },
   {
-    "revision": "158c3c7ba97191e18d43",
-    "url": "/js/app.3f801ded.js"
+    "revision": "c0e85f8ffc16dce11d71",
+    "url": "/js/app.a4a57cc5.js"
   },
   {
     "revision": "d8118855ae774300e717",

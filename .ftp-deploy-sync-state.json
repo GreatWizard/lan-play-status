@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1623912840399,
+    "generatedTime": 1623913344492,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "17f94c7c3b6cd5daf51c675217e012c72099afe941ab471edac664548f7aa43b"
+            "hash": "bd3350bcde6534ca03c214d75c4df358c27e63070387d20451fdcb4404fda82f"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.0f7a335da6bc6b9f54d282d861ff2602.js",
-            "size": 16914,
-            "hash": "ca8e86001345b6b2699dfc1afe4179c9e350992953f7442c03257e8ed5899f0d"
+            "name": "precache-manifest.a8e02b07f1f216cdd7731a4b28f0452f.js",
+            "size": 16921,
+            "hash": "91cbdcddae481653ebfb7c5050a2c58831d8fe41bd1d47ca941cceaefe4246db"
         },
         {
             "type": "file",
@@ -89,7 +89,7 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "780c9027ab70579038d66d6dfbb5fe75b9ce5672401a610c9be4f5380ef401d5"
+            "hash": "6587445dc180e71438629a8289b8eaf9e8e7fd21d6ac82a488ec988cf62c1aad"
         },
         {
             "type": "file",
@@ -949,7 +949,7 @@
         },
         {
             "type": "file",
-            "name": "img/vk.713c4c4c.svg",
+            "name": "img/vkontakte.713c4c4c.svg",
             "size": 2591,
             "hash": "bc5ac46669733c14f2b0154e968b08cd39cf53bcfdac33716885c50be34b3693"
         },
@@ -1033,15 +1033,15 @@
         },
         {
             "type": "file",
-            "name": "js/chunk-vendors.6e5909a0.js",
-            "size": 222063,
-            "hash": "187ee1a2c13df368b3441e7443c1a46c4ad8d41266e733027dbdd08938719837"
+            "name": "js/app.a4a57cc5.js",
+            "size": 1284084,
+            "hash": "9f19206348e4e1f24f8448e2c416339866afcecaefe36a0a8a56edefdf2bdad4"
         },
         {
             "type": "file",
-            "name": "js/app.3f801ded.js",
-            "size": 1284079,
-            "hash": "94677389ac766caf571257b6fc7d8b6c39fb8aa5e10150030e1cf652ec391912"
+            "name": "js/chunk-vendors.6e5909a0.js",
+            "size": 222063,
+            "hash": "187ee1a2c13df368b3441e7443c1a46c4ad8d41266e733027dbdd08938719837"
         },
         {
             "type": "file",
