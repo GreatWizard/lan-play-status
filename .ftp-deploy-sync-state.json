@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1625071380153,
+    "generatedTime": 1625071676222,
     "data": [
         {
             "type": "file",
@@ -93,15 +93,15 @@
         },
         {
             "type": "file",
-            "name": "sitemap.xml",
-            "size": 1552,
-            "hash": "5c9bc3303587f7ff94f9be0b90bdb8ba65b5bd6ba9280375f366ad8785719a6e"
-        },
-        {
-            "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
             "hash": "2e25107fd6e898d5b1fa476427a10b1ea6865a7ea02bd37fcd0e2734be299558"
+        },
+        {
+            "type": "file",
+            "name": "sitemap.xml",
+            "size": 1552,
+            "hash": "5c9bc3303587f7ff94f9be0b90bdb8ba65b5bd6ba9280375f366ad8785719a6e"
         },
         {
             "type": "file",
@@ -769,15 +769,15 @@
         },
         {
             "type": "file",
-            "name": "img/rosalina.dbc6b4e6.png",
-            "size": 27097,
-            "hash": "1262f6e2a47e49b141c9e379da4a563716bf5968c659c57caf53dce4d04f11b6"
-        },
-        {
-            "type": "file",
             "name": "img/roy-ssbu.26c858cf.png",
             "size": 7548,
             "hash": "e1768d5d91505bbea109eef43013dc40b4ed807c3b10a26e67e4a94aaaf9a1e1"
+        },
+        {
+            "type": "file",
+            "name": "img/rosalina.dbc6b4e6.png",
+            "size": 27097,
+            "hash": "1262f6e2a47e49b141c9e379da4a563716bf5968c659c57caf53dce4d04f11b6"
         },
         {
             "type": "file",
@@ -1051,6 +1051,12 @@
         },
         {
             "type": "file",
+            "name": "img/icons/android-chrome-512x512.png",
+            "size": 16638,
+            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
+        },
+        {
+            "type": "file",
             "name": "img/icons/apple-touch-icon-120x120.png",
             "size": 1359,
             "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
@@ -1114,12 +1120,6 @@
             "name": "img/icons/safari-pinned-tab.svg",
             "size": 2131,
             "hash": "5817ca734258ebd3f984b843961e7bbe8a3bb2f1df9316cb419d09b456314cdd"
-        },
-        {
-            "type": "file",
-            "name": "img/icons/android-chrome-512x512.png",
-            "size": 16638,
-            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
         }
     ]
 }
