@@ -187,6 +187,11 @@ const sanitizeData = _room => {
       if (hostCharacterName !== _room.hostPlayerName) {
         _room.hostPlayerName = `${hostCharacterName} (${_room.hostPlayerName})`;
       }
+    } else if (
+      _room.advertiseData.split("00000004")[0].includes("8af00000000")
+    ) {
+      // Monster Hunter Stories 2: Wings of Ruin
+      _room.contentId = "0100e21011446000";
     } else {
       // Minecraft
       let name = undefined;
