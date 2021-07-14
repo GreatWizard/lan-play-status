@@ -154,7 +154,8 @@ const sanitizeData = _room => {
       const json = JSON.parse(hexToAscii(_room.advertiseData));
       _room.hostPlayerName = json.OwnerName;
     } else if (
-      _room.advertiseData.split("00000004")[0].includes("4f2818b9000")
+      _room.advertiseData.split("00000004")[0].includes("0000000008100000") &&
+      _room.advertiseData.split("00000004")[0].includes("8b9000")
     ) {
       let data = _room.advertiseData.split("00000004");
       // MONSTER HUNTER RISE
@@ -187,6 +188,12 @@ const sanitizeData = _room => {
       if (hostCharacterName !== _room.hostPlayerName) {
         _room.hostPlayerName = `${hostCharacterName} (${_room.hostPlayerName})`;
       }
+    } else if (
+      _room.advertiseData.split("00000004")[0].includes("0000000008100000") &&
+      _room.advertiseData.split("00000004")[0].includes("0a0000")
+    ) {
+      // Monster Hunter Stories 2: Wings of Ruin
+      _room.contentId = "0100e21011446000";
     } else {
       // Minecraft
       let name = undefined;
