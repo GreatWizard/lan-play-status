@@ -175,6 +175,13 @@
     "type": "rust"
   },
   {
+    "ip": "switchlanplay.sephirot.pl",
+    "port": 11451,
+    "flag": "pl",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": " games.initlab.org",
     "port": 11451,
     "flag": "bg",
