@@ -328,6 +328,13 @@
     "type": "rust"
   },
   {
+    "ip": "switchlanplay.sephirot.pl",
+    "port": 11451,
+    "flag": "pl",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "joinsg.net",
     "port": 11451,
     "flag": "us",
@@ -352,13 +359,6 @@
     "ip": "switch.jayseateam.nl",
     "port": 11453,
     "flag": "nl",
-    "platform": "switch",
-    "type": "node"
-  },
-  {
-    "ip": "switchlanplay.sephirot.pl",
-    "port": 11451,
-    "flag": "pl",
     "platform": "switch",
     "type": "node"
   },
