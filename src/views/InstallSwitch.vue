@@ -29,7 +29,7 @@
       />
     </p>
     <Install type="switch" />
-    <h2>{{ $t("pages.installSwitch.test.title", { prefix: "5 - " }) }}</h2>
+    <h2>{{ $t("pages.installSwitch.test.title", { prefix: "4 - " }) }}</h2>
     <p>
       You can test if you have setup everything correctly by putting your Switch
       to sleep and waking it up.
@@ -62,7 +62,7 @@
       If this continues to fail, join #help on the lan-play discord for further
       assistance.
     </p>
-    <h2>{{ $t("pages.installSwitch.module.title", { prefix: "6 - " }) }}</h2>
+    <h2>{{ $t("pages.installSwitch.module.title", { prefix: "5 - " }) }}</h2>
     <p>
       You will need to download ldn_mitm if you wish to play to play games that
       don't have the lan play feature (Local Wireless mode Games).

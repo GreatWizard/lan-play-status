@@ -106,7 +106,6 @@ pcap loop start
 [DEBUG]: packet init buffer 0x55b3687b58c0
 Server IP: 149.91.81.201"
   />
-  <h2>{{ $t("install.games.title", { prefix: "3 - " }) }}</h2>
   <p>
     If you omit the <code>--relay-server-addr</code> option, the application
     will prompt you to enter the relay server address. You can choose the server
@@ -117,7 +116,7 @@ Server IP: 149.91.81.201"
     firewall. If the client exits right away, ensure you are running as an
     administrator and pasting in the server correctly.
   </p>
-  <h2>{{ $t("install.games.title", { prefix: "4 - " }) }}</h2>
+  <h2>{{ $t("install.games.title", { prefix: "3 - " }) }}</h2>
   <p>
     Launch the desired game you want to play (must have the LAN play feature).
   </p>
