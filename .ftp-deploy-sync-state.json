@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1627422011335,
+    "generatedTime": 1627752948040,
     "data": [
         {
             "type": "file",
@@ -95,13 +95,13 @@
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "e018fbdc74ad9a134510255eb8d50a8ba087d70cedb3bc8f5d5f978af6b7cac4"
+            "hash": "802fb2968ca28e17d5f3a01a9cdf923b473ab6bcd2ba9dfff1b741edb8c95c10"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "7f8c19f5758737d9b31ad1cc55afc47da86439a52a3a223dfd269558eb841f45"
+            "hash": "2e67582a354140aa566b4801b823445c5f2bb4a0fc3c6c61ea26eee94dece6b8"
         },
         {
             "type": "file",
@@ -871,15 +871,15 @@
         },
         {
             "type": "file",
-            "name": "img/snake-ssbu.1bcd8904.png",
-            "size": 9386,
-            "hash": "405686c11665268f2e979c72eba9ac1b2239697f8fe09ee50137f0334b3a376e"
-        },
-        {
-            "type": "file",
             "name": "img/sonic-ssbu.908f8143.png",
             "size": 5495,
             "hash": "820b1331421b8ce6352f5ec7d618dee73872a69e0336b42ec4bbcaaeee45334f"
+        },
+        {
+            "type": "file",
+            "name": "img/snake-ssbu.1bcd8904.png",
+            "size": 9386,
+            "hash": "405686c11665268f2e979c72eba9ac1b2239697f8fe09ee50137f0334b3a376e"
         },
         {
             "type": "file",
@@ -943,15 +943,15 @@
         },
         {
             "type": "file",
-            "name": "img/us.290ea922.svg",
-            "size": 2760,
-            "hash": "10212b34400b73fbcd714529aa382e3ef636405b3814a86480e76472f0ad4d10"
-        },
-        {
-            "type": "file",
             "name": "img/villager-ssbu.ac6e53b5.png",
             "size": 5714,
             "hash": "81d0bf36677aac12d4f7081dede397007f2d63effddc0a8124007fba4f64d459"
+        },
+        {
+            "type": "file",
+            "name": "img/us.290ea922.svg",
+            "size": 2760,
+            "hash": "10212b34400b73fbcd714529aa382e3ef636405b3814a86480e76472f0ad4d10"
         },
         {
             "type": "file",
@@ -1057,15 +1057,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/android-chrome-512x512.png",
-            "size": 16638,
-            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
-        },
-        {
-            "type": "file",
             "name": "img/icons/apple-touch-icon-120x120.png",
             "size": 1359,
             "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/android-chrome-512x512.png",
+            "size": 16638,
+            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
         },
         {
             "type": "file",
