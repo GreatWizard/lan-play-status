@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1627753520591,
+    "generatedTime": 1627753501309,
     "data": [
         {
             "type": "file",
@@ -87,15 +87,15 @@
         },
         {
             "type": "file",
-            "name": "service-worker.js",
-            "size": 1070,
-            "hash": "365ce3ffc4f20063f244e6d212a1276dfbf0abe473dd36d4bfdedc93d537de99"
-        },
-        {
-            "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
             "hash": "802fb2968ca28e17d5f3a01a9cdf923b473ab6bcd2ba9dfff1b741edb8c95c10"
+        },
+        {
+            "type": "file",
+            "name": "service-worker.js",
+            "size": 1070,
+            "hash": "365ce3ffc4f20063f244e6d212a1276dfbf0abe473dd36d4bfdedc93d537de99"
         },
         {
             "type": "file",
