@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1627753125622,
+    "generatedTime": 1627753359576,
     "data": [
         {
             "type": "file",
@@ -1081,6 +1081,12 @@
         },
         {
             "type": "file",
+            "name": "img/icons/apple-touch-icon-60x60.png",
+            "size": 679,
+            "hash": "5ff0a87d94c2753e9ef192b802dd8c87b0876053d54ed2d642869e899d112119"
+        },
+        {
+            "type": "file",
             "name": "img/icons/apple-touch-icon-76x76.png",
             "size": 980,
             "hash": "852f9da2305ab21aaf8c5732b61a66dc009b67e6d059526ea51317b7dbd0f84a"
@@ -1090,12 +1096,6 @@
             "name": "img/icons/apple-touch-icon.png",
             "size": 1988,
             "hash": "41dce4dde90145d0959fc84f7e79e9b114fc3cb5ce9ea9af050d1ebf90618921"
-        },
-        {
-            "type": "file",
-            "name": "img/icons/apple-touch-icon-60x60.png",
-            "size": 679,
-            "hash": "5ff0a87d94c2753e9ef192b802dd8c87b0876053d54ed2d642869e899d112119"
         },
         {
             "type": "file",
