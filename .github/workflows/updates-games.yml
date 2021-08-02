@@ -1,7 +1,13 @@
-name: Test
-on: [push]
+name: Update Games List
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  push:
+    branches: ['auto_update_games']
+
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -20,8 +26,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
       - name: Yarn Install
-        run: yarn install --frozen-lockfile
-      - name: Lint
-        run: yarn lint
-      - name: Run unit tests
-        run: yarn test:unit
+        run: yarn install
+      - run: ./generate-games.sh
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: Auto-update games
+          branch: auto-games-update
+          title: '[Bot] Update Games List'
