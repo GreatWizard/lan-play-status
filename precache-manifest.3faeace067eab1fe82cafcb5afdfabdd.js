@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/browserconfig.xml"
   },
   {
-    "revision": "f3aa6d1676ddb97080c1",
+    "revision": "21ab64801e82a08f7c78",
     "url": "/css/app.0593d79b.css"
   },
   {
@@ -644,12 +644,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/zerosuitsamus-ssbu.bbf03a68.png"
   },
   {
-    "revision": "3c9ecd2ffc1d4d7018da131acd699f7a",
+    "revision": "7f2ea313cf885c26aafc3ea28fbb7e13",
     "url": "/index.html"
   },
   {
-    "revision": "f3aa6d1676ddb97080c1",
-    "url": "/js/app.1b8acef4.js"
+    "revision": "21ab64801e82a08f7c78",
+    "url": "/js/app.ffb67c6f.js"
   },
   {
     "revision": "d8118855ae774300e717",
