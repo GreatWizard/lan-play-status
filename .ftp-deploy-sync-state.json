@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1630376938069,
+    "generatedTime": 1630463502811,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "f4570e62c2225990f719d0973ba9a58c7d5bd7ed11f6a4b93189f23a310257ec"
+            "hash": "f079d42f2954c6378f4ab9bc8448ca23b0d426b3b8e529a06956194dff946393"
         },
         {
             "type": "folder",
@@ -69,15 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.53992223e4ef3f0c272594504541556b.js",
+            "name": "precache-manifest.519893b94c21d41123cf51951d9548d4.js",
             "size": 17016,
-            "hash": "d5def4164ca1bdf45937ed911ec6ac3f206a6e3caf8da536678c9f7a2803898b"
-        },
-        {
-            "type": "file",
-            "name": "robots.txt",
-            "size": 24,
-            "hash": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f"
+            "hash": "c1cd4673d0c687833b577419d6c3ec8fe67623209b36afeb5e57a79c77b1cc04"
         },
         {
             "type": "file",
@@ -87,21 +81,27 @@
         },
         {
             "type": "file",
+            "name": "robots.txt",
+            "size": 24,
+            "hash": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f"
+        },
+        {
+            "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "703d9af9b61d50c310b4375b1210de407f73516bc597e26148bc9a74c2bd1066"
+            "hash": "c0f67b1adc2b3502187a2344b475f37636561f960eb564256b4cbff0a8ce535d"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "906963bb712b713ba11c151b29e1799f14329c6ecbbb4950ad2843914a770392"
+            "hash": "dabbbc134b0adec1c21b7d2b29e053e1782c63b9c83a212e578eea4204169154"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
-            "size": 317,
-            "hash": "0353220aaec5b1e74888d88efef5aef0ac95583ca087283c8eacebbd633322b8"
+            "size": 316,
+            "hash": "aa5447ec4250f3cbeded7797604b00bf8c8da20974e961f4c3545bd1ab5b8b15"
         },
         {
             "type": "file",
@@ -625,12 +625,6 @@
         },
         {
             "type": "file",
-            "name": "img/nl.5ed12067.svg",
-            "size": 647,
-            "hash": "733863d02e3f0bbc12ae93c0bb6e52e76d7d8ffea8a62ed6d78efa3669dda947"
-        },
-        {
-            "type": "file",
             "name": "img/no-cover.c97c7c1d.jpg",
             "size": 34002,
             "hash": "5c4356d2725af14fdc1ae87a6ae9921b54d4306c1039705b85fcfdd4f016dfe0"
@@ -640,6 +634,12 @@
             "name": "img/olimar-ssbu.db3e5e0b.png",
             "size": 8355,
             "hash": "218e81196960a48d565aa92db3aaf0b19ba0849ebb3c4759b91aacb7e46a834e"
+        },
+        {
+            "type": "file",
+            "name": "img/nl.5ed12067.svg",
+            "size": 647,
+            "hash": "733863d02e3f0bbc12ae93c0bb6e52e76d7d8ffea8a62ed6d78efa3669dda947"
         },
         {
             "type": "file",
@@ -943,15 +943,15 @@
         },
         {
             "type": "file",
-            "name": "img/us.290ea922.svg",
-            "size": 2760,
-            "hash": "10212b34400b73fbcd714529aa382e3ef636405b3814a86480e76472f0ad4d10"
-        },
-        {
-            "type": "file",
             "name": "img/villager-ssbu.ac6e53b5.png",
             "size": 5714,
             "hash": "81d0bf36677aac12d4f7081dede397007f2d63effddc0a8124007fba4f64d459"
+        },
+        {
+            "type": "file",
+            "name": "img/us.290ea922.svg",
+            "size": 2760,
+            "hash": "10212b34400b73fbcd714529aa382e3ef636405b3814a86480e76472f0ad4d10"
         },
         {
             "type": "file",
@@ -1039,9 +1039,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.dc0c977f.js",
-            "size": 1406085,
-            "hash": "ae6b58631b28698d2a36e070ee0f630f6eaee354f619690fbda88140fd77815f"
+            "name": "js/app.eb1d5d31.js",
+            "size": 1407610,
+            "hash": "39d144f845a55923dfed9a3b77c585b2354be87f9182ecb497579d4dbad619a5"
         },
         {
             "type": "file",
