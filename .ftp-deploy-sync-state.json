@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1630463502811,
+    "generatedTime": 1630549752223,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "f079d42f2954c6378f4ab9bc8448ca23b0d426b3b8e529a06956194dff946393"
+            "hash": "912fb938978883d61c8fb0c799c7ba29d97798d94ffcec26670c3fbf99173155"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.519893b94c21d41123cf51951d9548d4.js",
+            "name": "precache-manifest.925357a77f691054b497eb033cc7102d.js",
             "size": 17016,
-            "hash": "c1cd4673d0c687833b577419d6c3ec8fe67623209b36afeb5e57a79c77b1cc04"
+            "hash": "197ac8664239cb8cacd6aa876695208fbfd798caa9403a48cfba62ef27a08aee"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "c0f67b1adc2b3502187a2344b475f37636561f960eb564256b4cbff0a8ce535d"
+            "hash": "5facafe82b5ba3f0c4e4f2dc31ef7f37c802b4e5a849a7a43a58877719f35cc9"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "dabbbc134b0adec1c21b7d2b29e053e1782c63b9c83a212e578eea4204169154"
+            "hash": "f69a48ecb9da110e68c1f6b6d837fc46ea3695e8e1a5e428940c28f9e73e4a4e"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
-            "size": 316,
-            "hash": "aa5447ec4250f3cbeded7797604b00bf8c8da20974e961f4c3545bd1ab5b8b15"
+            "size": 317,
+            "hash": "02e2a7fa2aa166a648b7cdab789eed776bd2281903480fcdec942f06a8b071ad"
         },
         {
             "type": "file",
@@ -625,6 +625,12 @@
         },
         {
             "type": "file",
+            "name": "img/nl.5ed12067.svg",
+            "size": 647,
+            "hash": "733863d02e3f0bbc12ae93c0bb6e52e76d7d8ffea8a62ed6d78efa3669dda947"
+        },
+        {
+            "type": "file",
             "name": "img/no-cover.c97c7c1d.jpg",
             "size": 34002,
             "hash": "5c4356d2725af14fdc1ae87a6ae9921b54d4306c1039705b85fcfdd4f016dfe0"
@@ -634,12 +640,6 @@
             "name": "img/olimar-ssbu.db3e5e0b.png",
             "size": 8355,
             "hash": "218e81196960a48d565aa92db3aaf0b19ba0849ebb3c4759b91aacb7e46a834e"
-        },
-        {
-            "type": "file",
-            "name": "img/nl.5ed12067.svg",
-            "size": 647,
-            "hash": "733863d02e3f0bbc12ae93c0bb6e52e76d7d8ffea8a62ed6d78efa3669dda947"
         },
         {
             "type": "file",
@@ -943,15 +943,15 @@
         },
         {
             "type": "file",
-            "name": "img/villager-ssbu.ac6e53b5.png",
-            "size": 5714,
-            "hash": "81d0bf36677aac12d4f7081dede397007f2d63effddc0a8124007fba4f64d459"
-        },
-        {
-            "type": "file",
             "name": "img/us.290ea922.svg",
             "size": 2760,
             "hash": "10212b34400b73fbcd714529aa382e3ef636405b3814a86480e76472f0ad4d10"
+        },
+        {
+            "type": "file",
+            "name": "img/villager-ssbu.ac6e53b5.png",
+            "size": 5714,
+            "hash": "81d0bf36677aac12d4f7081dede397007f2d63effddc0a8124007fba4f64d459"
         },
         {
             "type": "file",
@@ -1039,9 +1039,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.eb1d5d31.js",
-            "size": 1407610,
-            "hash": "39d144f845a55923dfed9a3b77c585b2354be87f9182ecb497579d4dbad619a5"
+            "name": "js/app.7072e3f2.js",
+            "size": 1408864,
+            "hash": "e992c37e8b55a6f66f1d21b68f7cd891bf74aeebdc8f0b8a6995cd733f5043a5"
         },
         {
             "type": "file",
