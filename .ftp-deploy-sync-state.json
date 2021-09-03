@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1630549752223,
+    "generatedTime": 1630636190036,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "912fb938978883d61c8fb0c799c7ba29d97798d94ffcec26670c3fbf99173155"
+            "hash": "579abc687508f9c9bd29e52f772204f1c221e75ccb781b88539d81074e40a6dd"
         },
         {
             "type": "folder",
@@ -69,15 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.925357a77f691054b497eb033cc7102d.js",
+            "name": "precache-manifest.6e11b45ef3ac4500eb188402f0ebf2b4.js",
             "size": 17016,
-            "hash": "197ac8664239cb8cacd6aa876695208fbfd798caa9403a48cfba62ef27a08aee"
-        },
-        {
-            "type": "file",
-            "name": "proxy.php",
-            "size": 181,
-            "hash": "2d406dd2c0a7e72ea92d41c38365c435f14a3e5f0d363dee270ad9a5874c9e21"
+            "hash": "6cbe6665b1332c375684af9c6c2acb76370972b19dedf9f469a8ab6f99e51797"
         },
         {
             "type": "file",
@@ -87,21 +81,27 @@
         },
         {
             "type": "file",
+            "name": "proxy.php",
+            "size": 181,
+            "hash": "2d406dd2c0a7e72ea92d41c38365c435f14a3e5f0d363dee270ad9a5874c9e21"
+        },
+        {
+            "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "5facafe82b5ba3f0c4e4f2dc31ef7f37c802b4e5a849a7a43a58877719f35cc9"
+            "hash": "5e72d419e2143b70ecfc9fe63135e47a222c65f6b2efeaa55d6c3089ef8ea116"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "f69a48ecb9da110e68c1f6b6d837fc46ea3695e8e1a5e428940c28f9e73e4a4e"
+            "hash": "281b1336c67d07b8838b348ae33b9c2117d8bd8f336cfa43a36ad31cc9952af9"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
-            "size": 317,
-            "hash": "02e2a7fa2aa166a648b7cdab789eed776bd2281903480fcdec942f06a8b071ad"
+            "size": 316,
+            "hash": "776f336ba7c2b50ebcaeb7d286deccad0a84dc598696fd58d95b88828b7d8cb2"
         },
         {
             "type": "file",
@@ -1039,9 +1039,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.7072e3f2.js",
-            "size": 1408864,
-            "hash": "e992c37e8b55a6f66f1d21b68f7cd891bf74aeebdc8f0b8a6995cd733f5043a5"
+            "name": "js/app.cb0567f4.js",
+            "size": 1410650,
+            "hash": "a3ef1f14878325dc37fe06041155b1546ad30d3a435dc0b6c3b7b4b08aa076d0"
         },
         {
             "type": "file",
