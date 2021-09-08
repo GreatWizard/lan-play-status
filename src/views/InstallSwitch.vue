@@ -78,6 +78,17 @@
       >.
     </p>
     <p>
+      If you blindly upgraded AMS without checking compatibility, you will need to use 
+      untested/unsupported nightly builds of ldn_mitm, which are
+      <a
+        href="https://github.com/spacemeowx2/ldn_mitm/actions"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        here</a
+      >.
+    </p>
+    <p>
       After you downloaded it extract to the root of your SD card (Atmosphere/
       Reinx only) and the module should load on your next reboot.
     </p>
