@@ -417,12 +417,5 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
-  },
-  {
-    "ip": "asypost.kmdns.net",
-    "port": 11452,
-    "flag": "cn",
-    "platform": "switch",
-    "type": "rust"
   }
 ]
