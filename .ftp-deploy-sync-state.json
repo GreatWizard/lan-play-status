@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1632392072412,
+    "generatedTime": 1632392107960,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "38232c103ec08a4cd3af5fc8b2856d61d9ca5a61fd5890ba572c5795c63f7eef"
+            "hash": "74e7b460fa0b779cf0091c540df35b2a95ab6a373ea2e1e23c102163de72ef2c"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.132feb1076c0e27a47ba0b288f2d2d00.js",
+            "name": "precache-manifest.a4b13d410d1ea2c88436a9be188d7db8.js",
             "size": 17016,
-            "hash": "a04ddfbd84642e358fbd1d061c89323562bbda4b0f7ba041f0ce32277e633965"
+            "hash": "e10b977686d5dec918bf6306e8bd4b249c4536510cc8ec574f2552571cfa264a"
         },
         {
             "type": "file",
@@ -89,7 +89,7 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "4e78ec30616a9e4457579115295625afd62ede1fcc35459d71979dd5f30ad71f"
+            "hash": "7790d9182c769cc8d0d105ae723645c182905d19434ce2feb4d29c8a0e3bd0b7"
         },
         {
             "type": "file",
@@ -1039,15 +1039,15 @@
         },
         {
             "type": "file",
-            "name": "js/chunk-vendors.6e5909a0.js",
-            "size": 222063,
-            "hash": "187ee1a2c13df368b3441e7443c1a46c4ad8d41266e733027dbdd08938719837"
+            "name": "js/app.23031c3b.js",
+            "size": 1434802,
+            "hash": "32f04cf87c343c925ae4d866f7050f74d0dbbd0b3b20c278c84ac2633183b05e"
         },
         {
             "type": "file",
-            "name": "js/app.f9bedb15.js",
-            "size": 1434738,
-            "hash": "56e152917bcb1d9995ba795d28e5ef4caa15e16153f6ed749c7d989a47050f8c"
+            "name": "js/chunk-vendors.6e5909a0.js",
+            "size": 222063,
+            "hash": "187ee1a2c13df368b3441e7443c1a46c4ad8d41266e733027dbdd08938719837"
         },
         {
             "type": "file",
@@ -1099,6 +1099,12 @@
         },
         {
             "type": "file",
+            "name": "img/icons/favicon-16x16.png",
+            "size": 284,
+            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
+        },
+        {
+            "type": "file",
             "name": "img/icons/favicon-32x32.png",
             "size": 493,
             "hash": "6ca16294cb53573040299e65a7f636779423146624ddf3589addc0313f09b8c7"
@@ -1108,12 +1114,6 @@
             "name": "img/icons/msapplication-icon-144x144.png",
             "size": 2132,
             "hash": "e02368dd7e5dc3c1dcc35515e54f68fe802b7f655395c58450647ee234ca070b"
-        },
-        {
-            "type": "file",
-            "name": "img/icons/favicon-16x16.png",
-            "size": 284,
-            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
         },
         {
             "type": "file",
