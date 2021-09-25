@@ -13,7 +13,7 @@
     "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
   },
   "dependencies": {
-    "core-js": "^3.6.5",
+    "core-js": "^3.18.0",
     "register-service-worker": "^1.7.1",
     "vue": "^3.0.0",
     "vue-gtag-next": "^1.14.0",
