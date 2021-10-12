@@ -424,5 +424,12 @@
     "flag": "cn",
     "platform": "switch",
     "type": "rust"
+  },
+  {
+    "ip": "wollenmoth.ddns.net",
+    "port": 11451,
+    "flag": "mx",
+    "platform": "switch",
+    "type": "rust"
   }
 ]
