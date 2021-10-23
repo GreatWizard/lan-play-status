@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1634870111372,
+    "generatedTime": 1634956583506,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "3f63cc43ed708fc5c4fda8304d3120ba734d21bfa3ac4f3d1a951bc77eb025aa"
+            "hash": "55614256e141953a971118b5b32f3f58ce9af242e6e5b16cff70b763f9fb7043"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.55102064d4f949c94dfde211cc93da11.js",
+            "name": "precache-manifest.4485127ea437c5c8439aa45ab10ca5e0.js",
             "size": 17016,
-            "hash": "3173b7d860dafb7dbe8c34c986ee522f6c7c992ce97525608f2d59eea5d61cf2"
+            "hash": "e49ec88af1974c1f8060ea26383b1d057e198e7874233eab43ad1fa060d63b69"
         },
         {
             "type": "file",
@@ -89,25 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "b06498b288897f48528aaa6bf56c8195cb706b2f8a8efdf438c2b027ebd13f91"
+            "hash": "f119fc23de1d26505c2ca32784d2a3bbb724e6bd98229a635bc40bde322f0578"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "ff37047d4c54f1c872c019e22c1eab3157f4f644cc55f1de44f9e240ce3836fe"
+            "hash": "ecaa012d9785809d2e22d5cd68029d1f02324aa4532572f46398419f1077a6d5"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "34a04ca85a8d07a31c8eecce3214f1c36d178d1f8c643cf85843e043c8bd3746"
-        },
-        {
-            "type": "file",
-            "name": "css/app.0593d79b.css",
-            "size": 4313,
-            "hash": "9f04c17bc3056e8544e8e045ce68f8c7b13fd52522077a4dc51942db7e2c14b9"
+            "hash": "a584253fae6d1fb9fffd00696fac01207a924d3639e97f0c9cf463f1acef3a83"
         },
         {
             "type": "file",
@@ -1039,15 +1033,21 @@
         },
         {
             "type": "file",
-            "name": "js/app.99d80de1.js",
-            "size": 1469548,
-            "hash": "4cd6de9bdbc36acf5108a7cec201615c0a041ed3776245bfe8732840051ab5c6"
+            "name": "js/app.f84bc506.js",
+            "size": 1472330,
+            "hash": "5363d2280ce8b584e89642b7a5ced34087322c4b95221e79a6ec9e22a4df1bff"
         },
         {
             "type": "file",
             "name": "js/chunk-vendors.6e5909a0.js",
             "size": 222063,
             "hash": "187ee1a2c13df368b3441e7443c1a46c4ad8d41266e733027dbdd08938719837"
+        },
+        {
+            "type": "file",
+            "name": "css/app.0593d79b.css",
+            "size": 4313,
+            "hash": "9f04c17bc3056e8544e8e045ce68f8c7b13fd52522077a4dc51942db7e2c14b9"
         },
         {
             "type": "file",
@@ -1099,12 +1099,6 @@
         },
         {
             "type": "file",
-            "name": "img/icons/favicon-16x16.png",
-            "size": 284,
-            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
-        },
-        {
-            "type": "file",
             "name": "img/icons/favicon-32x32.png",
             "size": 493,
             "hash": "6ca16294cb53573040299e65a7f636779423146624ddf3589addc0313f09b8c7"
@@ -1114,6 +1108,12 @@
             "name": "img/icons/msapplication-icon-144x144.png",
             "size": 2132,
             "hash": "e02368dd7e5dc3c1dcc35515e54f68fe802b7f655395c58450647ee234ca070b"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/favicon-16x16.png",
+            "size": 284,
+            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
         },
         {
             "type": "file",
