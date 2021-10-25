@@ -426,7 +426,7 @@
     "type": "rust"
   },
   {
-    "ip: "snorunt.xyz"
+    "ip": "snorunt.xyz"
     "port": 11451,
     "flag": "us",
     "platform": "switch",
