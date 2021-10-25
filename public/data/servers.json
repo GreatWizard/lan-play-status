@@ -424,5 +424,12 @@
     "flag": "cn",
     "platform": "switch",
     "type": "rust"
+  },
+  {
+    "ip: "snorunt.xyz"
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch",
+    "type": "dotnet"
   }
 ]
