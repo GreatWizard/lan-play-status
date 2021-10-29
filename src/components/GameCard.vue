@@ -77,7 +77,8 @@ export default {
           .replace("ChikiChikiBoxyRacers", "_ChikiChikiBoxyRacers")
           .replace("Mudrunner", "MudRunner")
           .replace("ReMarsTered", "ReMarstered")
-          .replace("DukeNukem3D", "DukeNukem3d");
+          .replace("DukeNukem3D", "DukeNukem3d")
+          .replace("Cruisn", "CrusiN");
 
         if (this.game.lang) {
           title = `${title}_${this.game.lang}`;

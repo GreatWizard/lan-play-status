@@ -71,7 +71,7 @@ Server IP: 149.91.81.201"
       <code>lan-play-linux</code></a
     >.
   </p>
-  <p>In a terminal: <code>sudo apt install libpcap0.8-dev libuv1-dev</code></p>
+  <p>In a terminal: <code>sudo apt install libpcap0.8 libuv1</code></p>
   <p>
     Then, go to the directory you downloaded to (likely ~/Downloads) and input
     <code>chmod +x lan-play-linux</code>.
@@ -83,12 +83,12 @@ Server IP: 149.91.81.201"
   <Terminal
     title="user@linux: ~/Downloads"
     content="$ cd ~/Downloads
-$ sudo apt install libpcap0.8-dev libuv1-dev
+$ sudo apt install libpcap0.8 libuv1
 Reading package list... Done
 Building dependency tree
 Reading state information... Done
-libpcap0.8-dev is already the newest version (1.8.1-6)
-libuv1-dev is already the newest version (1.24.1-1)
+libpcap0.8 is already the newest version (1.8.1-6)
+libuv1 is already the newest version (1.24.1-1)
 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 $ wget --quiet https://github.com/spacemeowx2/switch-lan-play/releases/download/v0.2.3/lan-play-linux
 $ chmod +x lan-play-linux
