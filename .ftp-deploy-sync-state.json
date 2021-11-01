@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1635647590745,
+    "generatedTime": 1635734035018,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "a5a72ab4f5d80102799c137700997db97ffdad28e75a7919ea4fa5e75111e974"
+            "hash": "8325db2841411ac2ca02f482217849a5d1420ffe804ed953247a109c0a716c5e"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.20f6e864ac54a6f36ae3f36687f14632.js",
+            "name": "precache-manifest.d1bd1199bb78bd3677cd23b034b4fbb6.js",
             "size": 17016,
-            "hash": "d3916a3337180adcdf02491047f5d41b85f95140e0bdf019f2de54c63f6e6315"
+            "hash": "671822a6257459feeda8197d086bb8965bec8c2250b5eb4cae56dc9549338f31"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "6ebb8a31f8b6ff4d79c880a9e9838c3bed742a9f8761dec61560f11e8e571076"
+            "hash": "2685fd5890981190950923595b9fbb66b5e236d5091fe73f5e014fccf77c7f8b"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "8cb6425877b1f510c788d1c0ed3c871dbb77fe1367d7353ab8e3517be4e8190d"
+            "hash": "994119fc6ac912b22225f5b2fd0855a184a31adbcc3e2c16f201d1a2e2673ac8"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
-            "size": 316,
-            "hash": "3a60caff00019b253e8a54c768a82e9c1796e2ea22528e6adcd17d41bc390857"
+            "size": 317,
+            "hash": "c826024fb5886299a0435d8ae1f329b5daf1a3b122494b4905b7b686bf643887"
         },
         {
             "type": "file",
@@ -1039,9 +1039,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.f0425e36.js",
+            "name": "js/app.44db3cb0.js",
             "size": 1481913,
-            "hash": "65bc1e6e7ca03ab77a8c1c7b8eb136181297090d1e54fa5cc357fc6b14e9d83e"
+            "hash": "2c17a62c45205334a8bb9a0e8791112d4b9dad771924c6489991851eb8ce1751"
         },
         {
             "type": "file",
@@ -1075,6 +1075,12 @@
         },
         {
             "type": "file",
+            "name": "img/icons/apple-touch-icon-180x180.png",
+            "size": 1567,
+            "hash": "940ca26f385a497ba06cdc4d0fa15e4f09603d21c7bfe41623226e11bb0196df"
+        },
+        {
+            "type": "file",
             "name": "img/icons/apple-touch-icon-60x60.png",
             "size": 679,
             "hash": "5ff0a87d94c2753e9ef192b802dd8c87b0876053d54ed2d642869e899d112119"
@@ -1084,12 +1090,6 @@
             "name": "img/icons/apple-touch-icon-76x76.png",
             "size": 980,
             "hash": "852f9da2305ab21aaf8c5732b61a66dc009b67e6d059526ea51317b7dbd0f84a"
-        },
-        {
-            "type": "file",
-            "name": "img/icons/apple-touch-icon-180x180.png",
-            "size": 1567,
-            "hash": "940ca26f385a497ba06cdc4d0fa15e4f09603d21c7bfe41623226e11bb0196df"
         },
         {
             "type": "file",
@@ -1117,15 +1117,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/safari-pinned-tab.svg",
-            "size": 2131,
-            "hash": "5817ca734258ebd3f984b843961e7bbe8a3bb2f1df9316cb419d09b456314cdd"
-        },
-        {
-            "type": "file",
             "name": "img/icons/mstile-150x150.png",
             "size": 2067,
             "hash": "66416c8ecb1df6caed80e0e2bb4b01ef4b9b1573d0f46911de252226c1410f65"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/safari-pinned-tab.svg",
+            "size": 2131,
+            "hash": "5817ca734258ebd3f984b843961e7bbe8a3bb2f1df9316cb419d09b456314cdd"
         }
     ]
 }
