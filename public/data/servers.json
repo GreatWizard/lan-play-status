@@ -1,4 +1,11 @@
 [
+    {
+    "ip": "zeraorasemporium.ddns.net:11451",
+    "port": 11451,
+    "flag": "nl",
+    "platform": "switch",
+    "type": "dotnet"
+  },
   {
     "ip": "switch.lan-play.com",
     "port": 11451,
