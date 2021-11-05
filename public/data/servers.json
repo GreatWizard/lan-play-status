@@ -7,6 +7,13 @@
     "type": "rust"
   },
   {
+    "ip": "zeraorasemporium.ddns.net:11451",
+    "port": 11451,
+    "flag": "nl",
+    "platform": "switch",
+    "type": "dotnet"
+  },
+  {
     "ip": "frog-skins.com",
     "port": 11451,
     "flag": "us",
