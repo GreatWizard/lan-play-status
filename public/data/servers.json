@@ -427,7 +427,7 @@
   },
   {
     "ip": "lanplay.degepii.ml",
-    "port": 11452,
+    "port": 11451,
     "flag": "au",
     "platform": "switch",
     "type": "rust"
