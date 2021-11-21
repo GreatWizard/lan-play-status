@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1637375753573,
+    "generatedTime": 1637462050509,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "de466291758f3ec3f3b84aaba524d94d6ff7aaa366bc7e922cc84973b23203db"
+            "hash": "95d7e152e015f13a97f0c1dd060424cf11c4b569239c493fa1b8283df68b207c"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.6996d2053f15050ea9c403bbfd20f62e.js",
+            "name": "precache-manifest.678df25eb9c6728f5b49e2bb34a17302.js",
             "size": 17016,
-            "hash": "d8767840a19b2a23c2896ef5a611fb9b25b5931f6b9d309a1428b62fa0c61df7"
+            "hash": "3ff575919e4629e7012d91e0e0682a825b41a150637f84dc9efe17a1525352cd"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "d8a0a92cdd1ddb46af181a473654a78b730ea7c71b5f076b9122140828f96310"
+            "hash": "624780ae37c81d1924b35c4d3af5d2102ad284122c76640fd19a08ecbf2f7da3"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "60c15e97fbe373149f307e09818916d929df71fccbf400ef72dee5f1c7e45274"
+            "hash": "78e6b0efd63f95075b54d56df1a8c463e3fe6b552bbca531918ab2ca82934161"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "c4c92b6daab33784653cd9ae79b593156fd5147bc54291a2a76ec313158ece65"
+            "hash": "74197fbd236c4cd5f432e9e70f34e4492b83e6d9b66ee8c7b184956d76fde9a4"
         },
         {
             "type": "file",
@@ -541,15 +541,15 @@
         },
         {
             "type": "file",
-            "name": "img/marie.17f13741.png",
-            "size": 73157,
-            "hash": "73d08290232bb3de0fcc7e6c2efb5d8f428c3d537bdae25fbfb64756df8a28ef"
-        },
-        {
-            "type": "file",
             "name": "img/mario-kart.87114096.png",
             "size": 9705,
             "hash": "3994f3e5ef980b2994525a762d2b2a435141fad40cba49c7ee235c9feaede280"
+        },
+        {
+            "type": "file",
+            "name": "img/marie.17f13741.png",
+            "size": 73157,
+            "hash": "73d08290232bb3de0fcc7e6c2efb5d8f428c3d537bdae25fbfb64756df8a28ef"
         },
         {
             "type": "file",
@@ -1039,15 +1039,21 @@
         },
         {
             "type": "file",
-            "name": "js/app.23b2a74d.js",
-            "size": 1081005,
-            "hash": "2d97a468b35dc904298445de827f0c9f1fa77f04e7779af9c81f092410bdfc92"
+            "name": "js/app.bf4ca79d.js",
+            "size": 1081578,
+            "hash": "6c4544961134c9873dfbb2183ce60e10e6f0a1b26d3a1c930b805c95ece8ed78"
         },
         {
             "type": "file",
             "name": "js/chunk-vendors.6e5909a0.js",
             "size": 222063,
             "hash": "187ee1a2c13df368b3441e7443c1a46c4ad8d41266e733027dbdd08938719837"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/android-chrome-192x192.png",
+            "size": 6151,
+            "hash": "6ef4beac47b699653b39847b62564f9713eb307c93cca0486de7d3380edd597c"
         },
         {
             "type": "file",
@@ -1060,12 +1066,6 @@
             "name": "img/icons/apple-touch-icon-120x120.png",
             "size": 1359,
             "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
-        },
-        {
-            "type": "file",
-            "name": "img/icons/android-chrome-192x192.png",
-            "size": 6151,
-            "hash": "6ef4beac47b699653b39847b62564f9713eb307c93cca0486de7d3380edd597c"
         },
         {
             "type": "file",
