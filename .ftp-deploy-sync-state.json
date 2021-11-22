@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1637462050509,
+    "generatedTime": 1637548448177,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "95d7e152e015f13a97f0c1dd060424cf11c4b569239c493fa1b8283df68b207c"
+            "hash": "0ccc56fe5d9e5f56abb56dfb7a7ddee9eb63afb75a8a036aec9bbcb762adf944"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.678df25eb9c6728f5b49e2bb34a17302.js",
+            "name": "precache-manifest.2c4c985f3f424f88b2b4a48a7db9e923.js",
             "size": 17016,
-            "hash": "3ff575919e4629e7012d91e0e0682a825b41a150637f84dc9efe17a1525352cd"
+            "hash": "a85419f1401640c3ca7772d6eaa927e656eb2b23a110a68907cbd5716205b170"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "624780ae37c81d1924b35c4d3af5d2102ad284122c76640fd19a08ecbf2f7da3"
+            "hash": "23bba78cf431396b11fc9e356649207c0e1350832f2824c4eb3f55ae8c4e3bcd"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "78e6b0efd63f95075b54d56df1a8c463e3fe6b552bbca531918ab2ca82934161"
+            "hash": "f5d15263904cf6ba02f7ec1ecf6375d557fad31126fcc3324d10e65c6171941d"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "74197fbd236c4cd5f432e9e70f34e4492b83e6d9b66ee8c7b184956d76fde9a4"
+            "hash": "2a46a3d2dac3b3d6109cf3761f1eb5f7dd1bb880249aaee193059d7793131c81"
         },
         {
             "type": "file",
@@ -541,15 +541,15 @@
         },
         {
             "type": "file",
-            "name": "img/mario-kart.87114096.png",
-            "size": 9705,
-            "hash": "3994f3e5ef980b2994525a762d2b2a435141fad40cba49c7ee235c9feaede280"
-        },
-        {
-            "type": "file",
             "name": "img/marie.17f13741.png",
             "size": 73157,
             "hash": "73d08290232bb3de0fcc7e6c2efb5d8f428c3d537bdae25fbfb64756df8a28ef"
+        },
+        {
+            "type": "file",
+            "name": "img/mario-kart.87114096.png",
+            "size": 9705,
+            "hash": "3994f3e5ef980b2994525a762d2b2a435141fad40cba49c7ee235c9feaede280"
         },
         {
             "type": "file",
@@ -1039,9 +1039,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.bf4ca79d.js",
-            "size": 1081578,
-            "hash": "6c4544961134c9873dfbb2183ce60e10e6f0a1b26d3a1c930b805c95ece8ed78"
+            "name": "js/app.c9935444.js",
+            "size": 1081624,
+            "hash": "e7468d1dfe1c5541e7197f1073543097e1aedd782113fa2b24be525310137a49"
         },
         {
             "type": "file",
