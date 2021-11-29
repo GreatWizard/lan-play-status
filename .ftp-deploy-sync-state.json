@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1638066892997,
+    "generatedTime": 1638153281501,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "e955440ab5e8081160a65c9db326f956a0be43e46a46ff34c5900886090c0c96"
+            "hash": "63ce45df4a6361a7227f0737c350f574441b20dccf941398154b10a3a3a007f3"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.7e4bae5a12fb55529de14246ba202984.js",
+            "name": "precache-manifest.be46609d306872d285bbd018faf549a5.js",
             "size": 17016,
-            "hash": "cd8055d32e1f35b148b940fe5f70652db6d37b0b982ef1377b7482d5628abc21"
+            "hash": "48129e79e65375e6ce6d2d3dd668df99cfab866d9e9839b78cd794593bb82060"
         },
         {
             "type": "file",
@@ -89,31 +89,31 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "f137edbe8402f04bab26805f6fbc499ace08369d8130bbd597ac7412e3a5ba03"
+            "hash": "ad57075a3cb8f18932ec4e3b38fa378ec2f8b129e3d452048b0d9110e48661c1"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "71bdde2f51a7a123a11b41a4003d7de5a3c01e7a50c6daeff78d1481985933d0"
+            "hash": "e95b571a7a3262949d41aefef83b32a9f9f1948295fbc646792a73718559e01d"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "59c42c7fdf6a89e97b345e4ad4acacd7d5f26995f4ad7af4c4b559a02f399c9f"
-        },
-        {
-            "type": "file",
-            "name": "css/app.0593d79b.css",
-            "size": 4313,
-            "hash": "9f04c17bc3056e8544e8e045ce68f8c7b13fd52522077a4dc51942db7e2c14b9"
+            "hash": "e33db1d40b595e75fe774617f70c7a60642b56e68e7427163b9d031367ba1ce2"
         },
         {
             "type": "file",
             "name": "data/servers.json",
             "size": 7636,
             "hash": "4e8ee58b34c758535e4402656e87f1bb28e8d95df6de9be697f922c5ae38e5ce"
+        },
+        {
+            "type": "file",
+            "name": "css/app.0593d79b.css",
+            "size": 4313,
+            "hash": "9f04c17bc3056e8544e8e045ce68f8c7b13fd52522077a4dc51942db7e2c14b9"
         },
         {
             "type": "file",
@@ -529,15 +529,15 @@
         },
         {
             "type": "file",
-            "name": "img/luigi-ssbu.b3800c1f.png",
-            "size": 7536,
-            "hash": "a5fd44952ecd83c7b6b730a8475cf1b06e18b315ff25d15c1551f8a0408401f9"
-        },
-        {
-            "type": "file",
             "name": "img/luigi.37202b17.png",
             "size": 31882,
             "hash": "b331f712f5a69b802a19975c7dfb073a8ed6d40536288f9c12966ffb2476ca9e"
+        },
+        {
+            "type": "file",
+            "name": "img/luigi-ssbu.b3800c1f.png",
+            "size": 7536,
+            "hash": "a5fd44952ecd83c7b6b730a8475cf1b06e18b315ff25d15c1551f8a0408401f9"
         },
         {
             "type": "file",
@@ -1003,15 +1003,15 @@
         },
         {
             "type": "file",
-            "name": "img/yoshi-kart.cfbbbb39.png",
-            "size": 9391,
-            "hash": "62772287fb15cb5771a4399d53be6d0d4ff9b8f2a550ffcaae3770e3c0189dd1"
-        },
-        {
-            "type": "file",
             "name": "img/yoshi-ssbu.9c9af558.png",
             "size": 5533,
             "hash": "edc57314f813001a626e1d17ed73e4fbe9f500e02fcd260ef679ad973ed69860"
+        },
+        {
+            "type": "file",
+            "name": "img/yoshi-kart.cfbbbb39.png",
+            "size": 9391,
+            "hash": "62772287fb15cb5771a4399d53be6d0d4ff9b8f2a550ffcaae3770e3c0189dd1"
         },
         {
             "type": "file",
@@ -1039,9 +1039,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.8ce7c50b.js",
-            "size": 1084393,
-            "hash": "0b372f381188090f7145bbddf61b9bc3d811a22fc82fe2c55a247694ba01bf70"
+            "name": "js/app.ab0bdbe4.js",
+            "size": 1084511,
+            "hash": "2b9c42835f646b27f3209813a79038512a2435a95e7a64a8843d2adcc06f3365"
         },
         {
             "type": "file",
@@ -1057,15 +1057,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/android-chrome-512x512.png",
-            "size": 16638,
-            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
-        },
-        {
-            "type": "file",
             "name": "img/icons/apple-touch-icon-120x120.png",
             "size": 1359,
             "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/android-chrome-512x512.png",
+            "size": 16638,
+            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
         },
         {
             "type": "file",
