@@ -660,7 +660,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/manifest.json"
   },
   {
-    "revision": "98ee0559abca401513ca8b52e7b78916",
+    "revision": "3fd3b356aa6ee409a07913661157e3f3",
     "url": "/proxy.php"
   },
   {
