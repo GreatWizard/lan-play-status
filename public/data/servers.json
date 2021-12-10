@@ -7,13 +7,6 @@
     "type": "rust"
   },
   {
-    "ip": "m0348.servegame.com",
-    "port": 11451,
-    "flag": "nl",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "frog-skins.com",
     "port": 11451,
     "flag": "us",
@@ -182,6 +175,13 @@
     "type": "rust"
   },
   {
+    "ip": "m0348.servegame.com",
+    "port": 11451,
+    "flag": "nl",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": " games.initlab.org",
     "port": 11451,
     "flag": "bg",
@@ -245,6 +245,13 @@
     "type": "rust"
   },
   {
+    "ip": "lanplay.degepii.ml",
+    "port": 11451,
+    "flag": "au",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lebzul.duckdns.org",
     "port": 11450,
     "flag": "pa",
@@ -300,6 +307,13 @@
     "type": "rust"
   },
   {
+    "ip": "asypost.kmdns.net",
+    "port": 11452,
+    "flag": "cn",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "switchlanplay-tw.ddns.net",
     "port": 11451,
     "flag": "tw",
@@ -327,7 +341,7 @@
     "platform": "switch",
     "type": "rust"
   },
-   {
+  {
     "ip": "switch-lan.online",
     "port": 11451,
     "flag": "ru",
@@ -411,7 +425,7 @@
     "platform": "switch",
     "type": "dotnet"
   },
-{
+  {
     "ip": "lan2.imperialcommand.xyz",
     "port": 11451,
     "flag": "ph",
@@ -424,19 +438,5 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
-  },
-  {
-    "ip": "asypost.kmdns.net",
-    "port": 11452,
-    "flag": "cn",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "lanplay.degepii.ml",
-    "port": 11451,
-    "flag": "au",
-    "platform": "switch",
-    "type": "rust"
   }
 ]
