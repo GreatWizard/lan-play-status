@@ -7,6 +7,13 @@
     "type": "rust"
   },
   {
+    "ip": "m0348.servegame.com",
+    "port": 11451,
+    "flag": "nl",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "frog-skins.com",
     "port": 11451,
     "flag": "us",
@@ -422,6 +429,13 @@
     "ip": "asypost.kmdns.net",
     "port": 11452,
     "flag": "cn",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "lanplay.degepii.ml",
+    "port": 11451,
+    "flag": "au",
     "platform": "switch",
     "type": "rust"
   }
