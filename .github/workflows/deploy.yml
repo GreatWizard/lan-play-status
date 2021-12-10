@@ -42,12 +42,15 @@ jobs:
           check-name: test
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           wait-interval: 10
-      - name: Deploy on github-pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Clean ftp
+        uses: StephanThierry/ftp-delete-action@v2.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist/
-          exclude_assets: "proxy.php"
+          host: ${{ secrets.FTP_SERVER }}
+          user: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          workingDir: /www
+          remoteFiles: "precache-manifest.*.js;.ftp-deploy-sync-state.json"
+          remoteDirectories: "js;css"
       - name: Deploy on ftp
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
         with:
@@ -56,5 +59,10 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: dist/
           server-dir: www/
-          dangerous-clean-slate: true
           exclude: CNAME
+      - name: Deploy on github-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist/
+          exclude_assets: "proxy.php"
