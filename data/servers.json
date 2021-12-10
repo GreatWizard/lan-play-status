@@ -7,13 +7,6 @@
     "type": "rust"
   },
   {
-    "ip": "m0348.servegame.com",
-    "port": 11451,
-    "flag": "nl",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "frog-skins.com",
     "port": 11451,
     "flag": "us",
