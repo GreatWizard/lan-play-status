@@ -2,9 +2,9 @@ name: Update Games List
 
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: "0 2 * * *"
   push:
-    branches: ['auto_update_games']
+    branches: ["auto_update_games"]
 
 jobs:
   build:
@@ -35,7 +35,7 @@ jobs:
           token: ${{ secrets.PAT }}
           commit-message: Auto-update games
           branch: auto-games-update
-          title: '[Bot] Update Games List'
+          title: "[Bot] Update Games List"
       - name: Enable Pull Request Automerge
         if: steps.cpr.outputs.pull-request-operation == 'created'
         uses: peter-evans/enable-pull-request-automerge@v1
