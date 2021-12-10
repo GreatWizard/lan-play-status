@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1639160235939,
+    "generatedTime": 1639160430616,
     "data": [
         {
             "type": "file",
@@ -1111,12 +1111,6 @@
         },
         {
             "type": "file",
-            "name": "img/icons/msapplication-icon-144x144.png",
-            "size": 2132,
-            "hash": "e02368dd7e5dc3c1dcc35515e54f68fe802b7f655395c58450647ee234ca070b"
-        },
-        {
-            "type": "file",
             "name": "img/icons/mstile-150x150.png",
             "size": 2067,
             "hash": "66416c8ecb1df6caed80e0e2bb4b01ef4b9b1573d0f46911de252226c1410f65"
@@ -1126,6 +1120,12 @@
             "name": "img/icons/safari-pinned-tab.svg",
             "size": 2131,
             "hash": "5817ca734258ebd3f984b843961e7bbe8a3bb2f1df9316cb419d09b456314cdd"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/msapplication-icon-144x144.png",
+            "size": 2132,
+            "hash": "e02368dd7e5dc3c1dcc35515e54f68fe802b7f655395c58450647ee234ca070b"
         }
     ]
 }
