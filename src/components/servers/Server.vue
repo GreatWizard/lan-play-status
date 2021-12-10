@@ -210,7 +210,7 @@ export default {
     async restRefresh() {
       let url = `${this.server.ip}:${this.server.port}`;
       if (this.status === -1 || this.status === 1) {
-        url = `/proxy.php?address=${url}`;
+        url = `http://lan-play.com/proxy.php?address=${url}`;
       } else {
         url = `//${url}`;
       }
