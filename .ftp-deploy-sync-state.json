@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1639158894578,
+    "generatedTime": 1639159379305,
     "data": [
         {
             "type": "file",
@@ -32,14 +32,14 @@
             "name": "css"
         },
         {
+            "type": "folder",
+            "name": "data"
+        },
+        {
             "type": "file",
             "name": "favicon.ico",
             "size": 15086,
             "hash": "98a397620cf8cae109c29386255888e796b6c78c4563e5ebd754336859b005cc"
-        },
-        {
-            "type": "folder",
-            "name": "data"
         },
         {
             "type": "file",
@@ -48,14 +48,14 @@
             "hash": "019fc8a9879f5e0d3016436ed16b4ae0e0cc959da1eb3925706ca2b5afaa7b88"
         },
         {
+            "type": "folder",
+            "name": "img"
+        },
+        {
             "type": "file",
             "name": "index.html",
             "size": 2987,
             "hash": "d91ec9f626d286c44e7b6c6fd59ae7afc4d6602394777b44ff980439aeaf7c6d"
-        },
-        {
-            "type": "folder",
-            "name": "img"
         },
         {
             "type": "folder",
