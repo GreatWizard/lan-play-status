@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1644546879562,
+    "generatedTime": 1644572978613,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "dedca8f0ab8d68e748cce5172c6b42342ece1b0ad595760fef81f55a48769122"
+            "hash": "1323d13b8ec4ba52d03bc23cd0d280a142f0044971c0a969b34099dcef41168e"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.b5af578060d2417b0c93f2601054aedb.js",
+            "name": "precache-manifest.dcdb76d2bb67eacb5321027dc8d62f23.js",
             "size": 17016,
-            "hash": "fb6b69d5530e90adc2a721a9206cab9af1d643d19df752d970513e6fc11d86c1"
+            "hash": "359e5782615691a6fad00ec88b9676df965c85a70293c7594b6c973358fbd7f9"
         },
         {
             "type": "file",
@@ -89,7 +89,7 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "eefb6791f0f462782364e9702a1232be0155d2e39f0d14be463c2c4e587d05b0"
+            "hash": "6164a1fcf55c861d892ef1b1eec0c9d745534f87ec3fa725b23e9f9fecb89a92"
         },
         {
             "type": "file",
@@ -112,8 +112,8 @@
         {
             "type": "file",
             "name": "data/servers.json",
-            "size": 7884,
-            "hash": "69254ce5dbb476c7c03633cf1dec1f050269b4b71e83911489017a5116320bc5"
+            "size": 7760,
+            "hash": "c905a097ea9c21ea5c4808744ad1e78a4d5b2b3464b3c900fc23c22303549aad"
         },
         {
             "type": "file",
@@ -1039,9 +1039,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.d640e95e.js",
-            "size": 1128537,
-            "hash": "4494ef3c27fff67da5338a9732a75fe4ff0ae9b8baafac52ca92bdbbfd0c6416"
+            "name": "js/app.951921fe.js",
+            "size": 1127540,
+            "hash": "5bf56231c34dc9f48428f16c87fcc125938fe60b0bd93891e9da3bf7a9308660"
         },
         {
             "type": "file",
