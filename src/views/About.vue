@@ -30,15 +30,5 @@
         {{ $t("pages.about.client.ldnmitmGithub") }}
       </a>
     </p>
-    <h2>{{ $t("pages.about.website.title") }}</h2>
-    <p>
-      <a
-        href="https://github.com/GreatWizard/lan-play-status"
-        target="=_blank"
-        rel="noreferrer noopener"
-      >
-        {{ $t("pages.about.website.text") }}
-      </a>
-    </p>
   </div>
 </template>

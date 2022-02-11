@@ -89,12 +89,7 @@
       >.
     </p>
     <p>
-      After you downloaded it extract to the root of your SD card (Atmosphere/
-      Reinx only) and the module should load on your next reboot.
-    </p>
-    <p>
-      You already have ldn_mitm if you are using SXOS just go to SXOS menu then
-      options and enable online play option.
+      After you downloaded it extract to the root of your SD card and the module should load on your next reboot.
     </p>
     <p>
       After that you just launch your game of choice and select local wireless

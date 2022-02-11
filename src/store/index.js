@@ -29,7 +29,7 @@ const serverMapping = ({
     type,
     games,
     comment,
-    highlight: ip === "switch.lan-play.com"
+    highlight: false
   };
 };
 

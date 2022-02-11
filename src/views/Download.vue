@@ -33,7 +33,6 @@
         https://github.com/spacemeowx2/ldn_mitm#version-table
       </a>
     </p>
-    <em>{{ $t("pages.download.switchModule.sxos") }}</em>
   </div>
 </template>
 

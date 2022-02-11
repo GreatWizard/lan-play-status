@@ -1,12 +1,5 @@
 [
   {
-    "ip": "switch.lan-play.com",
-    "port": 11451,
-    "flag": "fr",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "frog-skins.com",
     "port": 11451,
     "flag": "us",

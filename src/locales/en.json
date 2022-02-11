@@ -50,8 +50,7 @@
       },
       "switchModule": {
         "title": "Switch Sysmodule and Homebrew (ldn_mitm)",
-        "text": "For the ldn_mitm compatibility list and links, please visit ",
-        "sxos": "(or you can use SX-OS v2.9.5+)"
+        "text": "For the ldn_mitm compatibility list and links, please visit "
       }
     },
     "installSwitch": {
@@ -73,10 +72,6 @@
         "text": "The client is provided by spacemeowx2:",
         "clientGithub": "LAN Play Client on Github",
         "ldnmitmGithub": "ldn_mitm on Github"
-      },
-      "website": {
-        "title": "The status website",
-        "text": "This website (lan-play.com) is provided by GreatWizard."
       }
     },
     "notFound": {
