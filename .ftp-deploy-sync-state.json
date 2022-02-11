@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1644572978613,
+    "generatedTime": 1644576246182,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "1323d13b8ec4ba52d03bc23cd0d280a142f0044971c0a969b34099dcef41168e"
+            "hash": "3796fe361fb402c4215bdb678fb8dc1ff17c58a913240a03c032397319dffc6b"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.dcdb76d2bb67eacb5321027dc8d62f23.js",
+            "name": "precache-manifest.3584fcbc72bc81c6316af26f01390715.js",
             "size": 17016,
-            "hash": "359e5782615691a6fad00ec88b9676df965c85a70293c7594b6c973358fbd7f9"
+            "hash": "dc251bddb690c2ca4161960bec792282d237ac36497db37cc32cea103fc7c3ef"
         },
         {
             "type": "file",
@@ -81,15 +81,15 @@
         },
         {
             "type": "file",
-            "name": "robots.txt",
-            "size": 24,
-            "hash": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f"
+            "name": "service-worker.js",
+            "size": 1070,
+            "hash": "2bfe2659eac5f8f829408c40a5eec608ccaf50fa1d55c9ae6c916186ffcc7c47"
         },
         {
             "type": "file",
-            "name": "service-worker.js",
-            "size": 1070,
-            "hash": "6164a1fcf55c861d892ef1b1eec0c9d745534f87ec3fa725b23e9f9fecb89a92"
+            "name": "robots.txt",
+            "size": 24,
+            "hash": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f"
         },
         {
             "type": "file",
@@ -1039,9 +1039,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.951921fe.js",
-            "size": 1127540,
-            "hash": "5bf56231c34dc9f48428f16c87fcc125938fe60b0bd93891e9da3bf7a9308660"
+            "name": "js/app.cd25405c.js",
+            "size": 1126588,
+            "hash": "2682b694654f70e403577df3dede45daccfd7700d5fb0f56d785b8029c7c7361"
         },
         {
             "type": "file",
@@ -1063,12 +1063,6 @@
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon-120x120.png",
-            "size": 1359,
-            "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
-        },
-        {
-            "type": "file",
             "name": "img/icons/apple-touch-icon-152x152.png",
             "size": 2005,
             "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
@@ -1078,6 +1072,12 @@
             "name": "img/icons/apple-touch-icon-180x180.png",
             "size": 1567,
             "hash": "940ca26f385a497ba06cdc4d0fa15e4f09603d21c7bfe41623226e11bb0196df"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon-120x120.png",
+            "size": 1359,
+            "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
         },
         {
             "type": "file",
