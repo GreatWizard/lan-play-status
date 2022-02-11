@@ -78,8 +78,8 @@
       >.
     </p>
     <p>
-      If you blindly upgraded AMS without checking compatibility, you will need to use 
-      untested/unsupported nightly builds of ldn_mitm, which are
+      If you blindly upgraded AMS without checking compatibility, you will need
+      to use untested/unsupported nightly builds of ldn_mitm, which are
       <a
         href="https://github.com/spacemeowx2/ldn_mitm/actions"
         target="_blank"
@@ -89,7 +89,8 @@
       >.
     </p>
     <p>
-      After you downloaded it extract to the root of your SD card and the module should load on your next reboot.
+      After you downloaded it extract to the root of your SD card and the module
+      should load on your next reboot.
     </p>
     <p>
       After that you just launch your game of choice and select local wireless
