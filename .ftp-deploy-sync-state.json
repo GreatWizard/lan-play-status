@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1646534274646,
+    "generatedTime": 1646620948408,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "28a2031e4065a64718801ec1d7c7acea70da4b4873c0636ef699cfabc43c6adc"
+            "hash": "bee46a1bc7dc7af0f7d9cd219dbaf6af114d915bc975e4fdeff7f19064795ced"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.c380a265c7077e0138848605732da0e9.js",
+            "name": "precache-manifest.4d8c594a1409976c0478e446c6825122.js",
             "size": 17016,
-            "hash": "c2b814c14fb2aaa22f701f1dd3cd5036b6bc99232b18ac5343752249d8b300f8"
+            "hash": "c81147d5874fcfe853397216ded57b0eaf3f9fd5a5ce87fdc0c8d3f9a4b4f988"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "ba87b8c89787e0e1fdd589197d05ab8ca554b6550b5fce14a7bac24d397cfc1b"
+            "hash": "44aef961d6ab9d40ad5a5b1fa35ed793a33c5d9810730731582e4b0c9756298b"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "484234b1a11956dbc8c6fd9ff33a5a83fb9f2dae5398711d6106eeff6b06e553"
+            "hash": "5fdbee1dcb34d0ec03a93c3cec167bfaeff5af75874002169e691cc79933598a"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "c8a56403962755d8ca47479bf8139882319521296097a2babf0dfe1c7e6272cc"
+            "hash": "dcb8023fa0ab8f16736cf99ac4935891e11ba52b6c48696dbb4719a3617fac1b"
         },
         {
             "type": "file",
@@ -297,15 +297,15 @@
         },
         {
             "type": "file",
-            "name": "img/duckhunt-ssbu.1863163e.png",
-            "size": 7954,
-            "hash": "f8bcc37248b15503887e6e563d6c408104b4701b058ae1079f6832f0aaaacbae"
-        },
-        {
-            "type": "file",
             "name": "img/es.35df1cce.svg",
             "size": 12615,
             "hash": "ee4fd44803cf2851e912fa0694a6bdd13f357b0f648b6e1851580fd04945b50e"
+        },
+        {
+            "type": "file",
+            "name": "img/duckhunt-ssbu.1863163e.png",
+            "size": 7954,
+            "hash": "f8bcc37248b15503887e6e563d6c408104b4701b058ae1079f6832f0aaaacbae"
         },
         {
             "type": "file",
@@ -367,15 +367,15 @@
         },
         {
             "type": "file",
-            "name": "img/id.7943db38.svg",
-            "size": 605,
-            "hash": "5021d54b840994f617940ea97e01ae6453fb168772b0687c92115fcce82e1da5"
-        },
-        {
-            "type": "file",
             "name": "img/ike-ssbu.76977bf6.png",
             "size": 8346,
             "hash": "f2907172697ebbb885d8ce556a7bbc0827135a1979e04fe58b544dff04edfeb1"
+        },
+        {
+            "type": "file",
+            "name": "img/id.7943db38.svg",
+            "size": 605,
+            "hash": "5021d54b840994f617940ea97e01ae6453fb168772b0687c92115fcce82e1da5"
         },
         {
             "type": "file",
@@ -535,15 +535,15 @@
         },
         {
             "type": "file",
-            "name": "img/luigi.37202b17.png",
-            "size": 31882,
-            "hash": "b331f712f5a69b802a19975c7dfb073a8ed6d40536288f9c12966ffb2476ca9e"
-        },
-        {
-            "type": "file",
             "name": "img/marie.17f13741.png",
             "size": 73157,
             "hash": "73d08290232bb3de0fcc7e6c2efb5d8f428c3d537bdae25fbfb64756df8a28ef"
+        },
+        {
+            "type": "file",
+            "name": "img/luigi.37202b17.png",
+            "size": 31882,
+            "hash": "b331f712f5a69b802a19975c7dfb073a8ed6d40536288f9c12966ffb2476ca9e"
         },
         {
             "type": "file",
@@ -811,15 +811,15 @@
         },
         {
             "type": "file",
-            "name": "img/settings1.1f6f8ca1.jpg",
-            "size": 67250,
-            "hash": "8accbce1fda3721d53bd42626d95b42bc2322bca614fa72ba7fcfb5301dfa3fe"
-        },
-        {
-            "type": "file",
             "name": "img/settings1.9b0ae184.jpg",
             "size": 63872,
             "hash": "a63444f8ccc4dd509101e5271fef9addcf7e12371e63766b4b024d714db78c8f"
+        },
+        {
+            "type": "file",
+            "name": "img/settings1.1f6f8ca1.jpg",
+            "size": 67250,
+            "hash": "8accbce1fda3721d53bd42626d95b42bc2322bca614fa72ba7fcfb5301dfa3fe"
         },
         {
             "type": "file",
@@ -835,15 +835,15 @@
         },
         {
             "type": "file",
-            "name": "img/settings3.29954755.jpg",
-            "size": 62559,
-            "hash": "66662022823463031bc6ea20f966c0c79903581f1b602fa70599cbdb908ff99e"
-        },
-        {
-            "type": "file",
             "name": "img/settings3.3be79b02.jpg",
             "size": 54407,
             "hash": "39a32f1b51a244fcfb43a117eadf680e125603f2e521265b7118b2ea13120526"
+        },
+        {
+            "type": "file",
+            "name": "img/settings3.29954755.jpg",
+            "size": 62559,
+            "hash": "66662022823463031bc6ea20f966c0c79903581f1b602fa70599cbdb908ff99e"
         },
         {
             "type": "file",
@@ -1039,9 +1039,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.19d200cd.js",
-            "size": 1144099,
-            "hash": "18866dcf9e250aa885b333c6e02324f091772eb0d474bd1342db86b0de27e930"
+            "name": "js/app.ed84619e.js",
+            "size": 1144321,
+            "hash": "ccad86bd5eeb13a375b369d52141f6dec0fe951395420aa7689e5794f203347b"
         },
         {
             "type": "file",
