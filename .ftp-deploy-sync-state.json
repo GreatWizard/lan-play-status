@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1647052607089,
+    "generatedTime": 1647138957945,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "de0ebfd1f67fa33057b6d279bda1eba645bd76795c397541d144154b5025b693"
+            "hash": "dc465322097d9d9408650d4d3c7e0f13b7447a94559f0aca39650ebc850effd6"
         },
         {
             "type": "folder",
@@ -63,15 +63,15 @@
         },
         {
             "type": "file",
-            "name": "manifest.json",
-            "size": 342,
-            "hash": "aca3a680087847a8f0a752f28344c9190826f7c3456a1c4a0cb13b13f08fc32a"
+            "name": "precache-manifest.8f39db417bcfa3ba6359c4708695bf8d.js",
+            "size": 17016,
+            "hash": "a976183464e33c8299c0433f3b68170ccd0e5b2a4e170a18b3ecdd017dd24ce8"
         },
         {
             "type": "file",
-            "name": "precache-manifest.73fe989096cf5dacb11d22f495d50b10.js",
-            "size": 17016,
-            "hash": "ce66693010feab5e926c044a1fa3fed3fd339d3fb2be3c13111cfbe766852ded"
+            "name": "manifest.json",
+            "size": 342,
+            "hash": "aca3a680087847a8f0a752f28344c9190826f7c3456a1c4a0cb13b13f08fc32a"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "fb44e170d9f81b950082d4090c6cc19672a609a3d5bc8beb351af2efcabf758e"
+            "hash": "feaad3b326bdefdf8892a605f1542e0d1a6f1d70a4548e8eb2a49689d427a56a"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "0190733c96308bc07a808766845e645e997d7bfd1ff0c53268c5fca1310f210f"
+            "hash": "910ed9eb3af9c7d64d91a434c2710137592418efefedbbbc70e6f1c89c213122"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "8839f9d709f50d71b41ab50a8d40a9deb7fc01ad4355c9b2d38f65f7317baf19"
+            "hash": "82bfe2dc2389c59184f79084328ddf01fe99dd10f0af43336d1828a6dda1be53"
         },
         {
             "type": "file",
@@ -333,6 +333,12 @@
         },
         {
             "type": "file",
+            "name": "img/ganondorf-ssbu.0ab05cf2.png",
+            "size": 8074,
+            "hash": "51f0415dd8d781b56a4e32f9b7906cbd0655174dd3d43eac79de4aa825505e3e"
+        },
+        {
+            "type": "file",
             "name": "img/greninja-ssbu.d950421a.png",
             "size": 7357,
             "hash": "194e1c3dc6a8c63529833c6963ff5d8e8194363af031817a891b91b981f486bd"
@@ -342,12 +348,6 @@
             "name": "img/hero-ssbu.3a25573b.png",
             "size": 22487,
             "hash": "97c4ef934201baec4088781272465b01897d1b0dc118a44a528db23ad992eaa4"
-        },
-        {
-            "type": "file",
-            "name": "img/ganondorf-ssbu.0ab05cf2.png",
-            "size": 8074,
-            "hash": "51f0415dd8d781b56a4e32f9b7906cbd0655174dd3d43eac79de4aa825505e3e"
         },
         {
             "type": "file",
@@ -1039,9 +1039,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.1f50603f.js",
-            "size": 1148482,
-            "hash": "140564923d888f71af43c4f68da585febd26d0993c2755950a3ff1db1a84c585"
+            "name": "js/app.02f9e1bb.js",
+            "size": 1148590,
+            "hash": "7e621e281c019733da326f004ab78a8b3695842956c58a1a9398b78d05d29df8"
         },
         {
             "type": "file",
