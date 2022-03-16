@@ -14,6 +14,13 @@
     "type": "rust"
   },
   {
+    "ip": "tekn0.net",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "crypt51.corafamily.com",
     "port": 11452,
     "flag": "us",
