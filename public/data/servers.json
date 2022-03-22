@@ -431,5 +431,12 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
+  },
+  {
+    "ip": "canalstream.ddns.net",
+    "port": 11451,
+    "flag": "re",
+    "platform": "switch",
+    "type": "rust"
   }
 ]
