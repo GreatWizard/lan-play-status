@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1648004260330,
+    "generatedTime": 1648027627731,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "e309dd2aa518eab1245b2df56059f59c63c3bb6ab510b016e9b302381800a4d2"
+            "hash": "4e6a54269d73983eea56a79d5681fa94aa6f866cf9b9a9b6fd8661f9a34fee7d"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.3f58c9f080195d369a475c030c9fef71.js",
+            "name": "precache-manifest.de35bea18df01e5ba14cbd0cd7b4ca2b.js",
             "size": 17016,
-            "hash": "de7b54ea22128dfcb165d64e867d8a76bdd32112ee1f577705516ff7145e4c12"
+            "hash": "dad9e48a7089a88d4114980f783b0bf835efe3cd04100d3b633e8a874ff20b86"
         },
         {
             "type": "file",
@@ -89,7 +89,7 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "01d3a4ccf6c07cea0e94c6e3990ac9965e2625ced0fe9030938c038be829264d"
+            "hash": "8c2901a5e475bc35719c9c2d110f70e450fe495622cd31c9a852de8fe40b6525"
         },
         {
             "type": "file",
@@ -112,8 +112,8 @@
         {
             "type": "file",
             "name": "data/servers.json",
-            "size": 7760,
-            "hash": "c905a097ea9c21ea5c4808744ad1e78a4d5b2b3464b3c900fc23c22303549aad"
+            "size": 7874,
+            "hash": "5abe497f64f81f4186c8c41d9da506df55b8d8e3c5dff55fd80fc456c760bbbb"
         },
         {
             "type": "file",
@@ -123,9 +123,9 @@
         },
         {
             "type": "file",
-            "name": "img/au.c2fe8f19.svg",
+            "name": "img/au.64c2ac4e.svg",
             "size": 2839,
-            "hash": "268c2a9924bca329ebe2d2ebdd615c2668286c6ab2d42c5f912c242246b946fb"
+            "hash": "2d75d5396528dc14fffc07ca77bd5d8fce804ea825b125874d0a4b94e4bcd25a"
         },
         {
             "type": "file",
@@ -141,9 +141,9 @@
         },
         {
             "type": "file",
-            "name": "img/bg.b2729f16.svg",
+            "name": "img/bg.557dbfa9.svg",
             "size": 647,
-            "hash": "5169b3de2654e527f3377925c00f909dc1b7f1814fbe04485a3ff37376e5767f"
+            "hash": "307aec586e1fc845fc9524506e9dbdce020519d381b4c7b7f9995a6df14109be"
         },
         {
             "type": "file",
@@ -183,9 +183,9 @@
         },
         {
             "type": "file",
-            "name": "img/br.65163045.svg",
+            "name": "img/br.e7f3b2e0.svg",
             "size": 2860,
-            "hash": "ace13f390cb09a98b8585365aaa33a461b05dbada4e83d2a7803b1ff104c84fa"
+            "hash": "e88fe1fa91106f460d3a1861e6cd412ec345605dfb7d238a30f669ced6eecf02"
         },
         {
             "type": "file",
@@ -195,9 +195,9 @@
         },
         {
             "type": "file",
-            "name": "img/ca.7898d2bd.svg",
+            "name": "img/ca.5405c1bb.svg",
             "size": 816,
-            "hash": "021778d118a29356a78bfe6ba488fedb3d4c3d0fdfaff86bb25e9d932c4b2003"
+            "hash": "d87e27676ca6098faf01b53c122b9778ef36c65fa8750467b1b48ae137eda3a5"
         },
         {
             "type": "file",
@@ -231,9 +231,9 @@
         },
         {
             "type": "file",
-            "name": "img/cn.c5ea0f73.svg",
+            "name": "img/cn.72adf593.svg",
             "size": 854,
-            "hash": "71f16d73cbbb72963ba60b42087e7ae69a3ba32f950c7a740cb4f528dae031ee"
+            "hash": "6cdb9aa9a92ab6d7356a7356ee2876ef88bb299c4b78a6499ae319da3d65b035"
         },
         {
             "type": "file",
@@ -261,9 +261,9 @@
         },
         {
             "type": "file",
-            "name": "img/de.c360f786.svg",
+            "name": "img/de.e0735c98.svg",
             "size": 405,
-            "hash": "6e81429d01bfd99546b3cb309db8f224fab38c8cc3e735cac8a3eb7cf9e1e941"
+            "hash": "ff9d9044f3612f13fe7c7bba12d57b1bafb1b13b21feced1bb768de7f8c8a408"
         },
         {
             "type": "file",
@@ -303,9 +303,9 @@
         },
         {
             "type": "file",
-            "name": "img/es.35df1cce.svg",
+            "name": "img/es.829c00d1.svg",
             "size": 12615,
-            "hash": "ee4fd44803cf2851e912fa0694a6bdd13f357b0f648b6e1851580fd04945b50e"
+            "hash": "7319fef6e98256b049949e57537e362086e08d0cce1abd83dfd7f4158f644f50"
         },
         {
             "type": "file",
@@ -327,9 +327,9 @@
         },
         {
             "type": "file",
-            "name": "img/fr.cbf847bc.svg",
+            "name": "img/fr.054f9a5c.svg",
             "size": 410,
-            "hash": "3104287a0c73a3c26865bf9bd131544492ba5970c5304239d76d222a23675c3c"
+            "hash": "35d057e3ae0fe76a7711d1f42435c0063e36a4f74741f1a3a65f762ef71f718d"
         },
         {
             "type": "file",
@@ -351,9 +351,9 @@
         },
         {
             "type": "file",
-            "name": "img/hk.d8c4e3fc.svg",
+            "name": "img/hk.8fd8563f.svg",
             "size": 2094,
-            "hash": "7ad7385ec79fc4ecbc9bd9068e9f5e3a8d4beb965736dfef2d847d749a851d48"
+            "hash": "d8fba09a2edd1297a6ba45e6ce99c12e7def06771543f8a1b21df95a710dfe28"
         },
         {
             "type": "file",
@@ -367,9 +367,9 @@
         },
         {
             "type": "file",
-            "name": "img/id.7943db38.svg",
+            "name": "img/id.3998c1a6.svg",
             "size": 605,
-            "hash": "5021d54b840994f617940ea97e01ae6453fb168772b0687c92115fcce82e1da5"
+            "hash": "e6598c91e482fc200824c73ab82b210af615eea2838a4e56f8674c90aa39b29f"
         },
         {
             "type": "file",
@@ -625,9 +625,9 @@
         },
         {
             "type": "file",
-            "name": "img/nl.5ed12067.svg",
+            "name": "img/nl.0f0d5c45.svg",
             "size": 647,
-            "hash": "733863d02e3f0bbc12ae93c0bb6e52e76d7d8ffea8a62ed6d78efa3669dda947"
+            "hash": "c498d9b5a06731e3d2c215b1bc67666cff5da70388117ac017a799aa36fb3d7c"
         },
         {
             "type": "file",
@@ -643,9 +643,9 @@
         },
         {
             "type": "file",
-            "name": "img/pa.7d5c0fd0.svg",
+            "name": "img/pa.7e829b7a.svg",
             "size": 871,
-            "hash": "c02561030d1c80cf033fa3f2356eaacf9074ff26ec5e703c3decdb5c76b82729"
+            "hash": "753279e87ca8f86f72c510706ecbf0e1c34609c45977c817d4c24dd23e6087b2"
         },
         {
             "type": "file",
@@ -673,9 +673,9 @@
         },
         {
             "type": "file",
-            "name": "img/ph.b3fbb80c.svg",
+            "name": "img/ph.f57fccb7.svg",
             "size": 3976,
-            "hash": "54f46b44ed6517deabf2f4ad305748c696f3a0c19d62f0aad0254c25a6296233"
+            "hash": "09d11cce6207bb525efc764ae688cad2cfef220475f2dd63023b8ee99a1d1e49"
         },
         {
             "type": "file",
@@ -709,9 +709,9 @@
         },
         {
             "type": "file",
-            "name": "img/pl.7af289e2.svg",
+            "name": "img/pl.f293b139.svg",
             "size": 607,
-            "hash": "f83793af8f039635d43cbfae993fca7ba8e0069170a93167043a337349b340b7"
+            "hash": "d2f5a4c333b15d987e971eefa68a3c1a48d4ab9cff8d5b225865bc8cb6dd5ee7"
         },
         {
             "type": "file",
@@ -787,9 +787,9 @@
         },
         {
             "type": "file",
-            "name": "img/ru.a88ec6cd.svg",
+            "name": "img/ru.707b18a8.svg",
             "size": 647,
-            "hash": "f41b0fb50ac88d01ee305f7b7aa76a812ef5244efb59fadcb7807849c3a9c750"
+            "hash": "e022b10d724c02bb5db4228230df83e5a7f5d6ffa1bac6ede7418f8e726366b7"
         },
         {
             "type": "file",
@@ -937,15 +937,15 @@
         },
         {
             "type": "file",
-            "name": "img/tw.8862e0af.svg",
+            "name": "img/tw.44eb4e2e.svg",
             "size": 1005,
-            "hash": "17c88910a15dd022dfd7702fa18d496929ce9ccc073ba126563625c14a72123f"
+            "hash": "58feed500f2d2a550e5d38cb2215e2c9eeec8d21f8d49b243a068fa2c9bada2b"
         },
         {
             "type": "file",
-            "name": "img/us.290ea922.svg",
+            "name": "img/us.c49164ce.svg",
             "size": 2760,
-            "hash": "10212b34400b73fbcd714529aa382e3ef636405b3814a86480e76472f0ad4d10"
+            "hash": "69e09d41b9f5fad06ff3eea848b3f3fba168027a8273acea7c853cfb13974e3f"
         },
         {
             "type": "file",
@@ -961,9 +961,9 @@
         },
         {
             "type": "file",
-            "name": "img/vn.af713530.svg",
+            "name": "img/vn.5f6f3fcc.svg",
             "size": 799,
-            "hash": "e47fd01d390873e95a169243f35a022ee95bf77f0f35f65e052cbfc75887ac9f"
+            "hash": "21a311b734230406f52f8f8606035552643adc300c9bbb41fe2308c8ca3abc65"
         },
         {
             "type": "file",
@@ -1039,15 +1039,15 @@
         },
         {
             "type": "file",
-            "name": "js/app.1f9c590c.js",
-            "size": 1153612,
-            "hash": "12a667a4a898dac76774746988e4f604f4ef4237098ce3017b1b3e30cff8f36a"
+            "name": "js/app.779adae9.js",
+            "size": 1154271,
+            "hash": "c8c6f86c89f539678b3df6a627b48a4a2427c3a897fd5a16bb6d78a2552adb29"
         },
         {
             "type": "file",
-            "name": "js/chunk-vendors.6e5909a0.js",
-            "size": 222063,
-            "hash": "187ee1a2c13df368b3441e7443c1a46c4ad8d41266e733027dbdd08938719837"
+            "name": "js/chunk-vendors.c8824640.js",
+            "size": 255192,
+            "hash": "dc6c21f9f1f3e9107b5b7022c65fa871e30692265c56bbeefe5737adae62d933"
         },
         {
             "type": "file",
