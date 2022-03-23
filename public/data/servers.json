@@ -446,4 +446,11 @@
     "platform": "switch",
     "type": "rust"
   },
+  {
+    "ip": "canalstream.ddns.net",
+    "port": 11451,
+    "flag": "re",
+    "platform": "switch",
+    "type": "rust"
+  }
 ]
