@@ -41,7 +41,7 @@
     "flagpack-core": "^1.0.0",
     "geoip-country": "^4.0.11",
     "he": "^1.2.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "prettier": "^1.19.1",
     "sass-loader": "^8.0.2",
     "sitemap-webpack-plugin": "^1.1.0",
