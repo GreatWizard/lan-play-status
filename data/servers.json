@@ -189,6 +189,13 @@
     "type": "rust"
   },
   {
+    "ip": "canalstream.ddns.net",
+    "port": 11451,
+    "flag": "re",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lanplay.ddns.net",
     "port": 11451,
     "flag": "br",
@@ -239,6 +246,13 @@
   },
   {
     "ip": "lanplaybr.ddns.net",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "herbertfx.ddns.net",
     "port": 11451,
     "flag": "br",
     "platform": "switch",
@@ -438,19 +452,5 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
-  },
-  {
-    "ip": "herbertfx.ddns.net",
-    "port": 11451,
-    "flag": "br",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "canalstream.ddns.net",
-    "port": 11451,
-    "flag": "re",
-    "platform": "switch",
-    "type": "rust"
   }
 ]
