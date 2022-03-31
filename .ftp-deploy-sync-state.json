@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1648609220776,
+    "generatedTime": 1648695469375,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "b4cda2379cd023749946de508e89c323bf8fdf3d33378841da345408cf6f8066"
+            "hash": "797bfcf182e1166968b72fcd7d5c031505f0d2eba1c90a2a392fb4e76d4e488a"
         },
         {
             "type": "folder",
@@ -69,9 +69,15 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.75c220dcd9303539d4616ec73bda6a4b.js",
+            "name": "precache-manifest.1b0a3db7d333e61a6cc32b0dce9ae10a.js",
             "size": 17111,
-            "hash": "fc3c7a30a9f6c0a8de0e38eb391f8260d3a1080a392d2b473c6c8213d8b9e46b"
+            "hash": "953ba8425a9f5601d46805e53067f94f942ff7a8bbec94e9b3d4f496f2688925"
+        },
+        {
+            "type": "file",
+            "name": "proxy.php",
+            "size": 4861,
+            "hash": "55b616d3caa524017c8bc23fe176febe803effa49dbe6af3d0afb56ee167ead4"
         },
         {
             "type": "file",
@@ -83,25 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "c9ccd0fb884ef2e34b53afa4b643e66ac1c44931b716dd7f1a8c6198a819ffac"
-        },
-        {
-            "type": "file",
-            "name": "proxy.php",
-            "size": 4861,
-            "hash": "55b616d3caa524017c8bc23fe176febe803effa49dbe6af3d0afb56ee167ead4"
+            "hash": "23e12cee8674ee36b97eecd3f961db97d27809f65eddfadd0e33e66cfce59436"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "23943f510f99cec2ad7b8e52f0bf89a9e80278adfc5d8aa21f5c26a08e087b1d"
+            "hash": "e0daf10736485e19646bff9a1dd892fbd0c4a13a00c22a514a5890c1c8890256"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "c3734cc3388b91cc0f329dd5c007519fb7c3a3049886f89096f23fed6d788c7d"
+            "hash": "14e85b49f4f01b30d5ddb7910fbe39f96816bf9e8fd8213d7530948cd9326c30"
         },
         {
             "type": "file",
@@ -1045,15 +1045,21 @@
         },
         {
             "type": "file",
-            "name": "js/app.8c14a049.js",
-            "size": 1158450,
-            "hash": "71ed47709d3036bd8ceff6dfc2cc43c04ecb0bade02546d8ff0b6de3519a5a9d"
+            "name": "js/app.f4b1c1e4.js",
+            "size": 1158530,
+            "hash": "bbc70ab477e2dc7fcb648495c3b8611761c5de4984b48d70217b4eff44a15ca9"
         },
         {
             "type": "file",
             "name": "js/chunk-vendors.c8824640.js",
             "size": 255192,
             "hash": "dc6c21f9f1f3e9107b5b7022c65fa871e30692265c56bbeefe5737adae62d933"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/android-chrome-192x192.png",
+            "size": 6151,
+            "hash": "6ef4beac47b699653b39847b62564f9713eb307c93cca0486de7d3380edd597c"
         },
         {
             "type": "file",
@@ -1072,12 +1078,6 @@
             "name": "img/icons/apple-touch-icon-152x152.png",
             "size": 2005,
             "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
-        },
-        {
-            "type": "file",
-            "name": "img/icons/android-chrome-192x192.png",
-            "size": 6151,
-            "hash": "6ef4beac47b699653b39847b62564f9713eb307c93cca0486de7d3380edd597c"
         },
         {
             "type": "file",
