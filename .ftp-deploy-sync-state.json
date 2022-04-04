@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1648954564293,
+    "generatedTime": 1649041610518,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "acfb4500f06ed9e29c1e2877a98d4512674a991f6f0b88642fa407b5f164f051"
+            "hash": "700170d900430d6e77055b06e8640211c82c16d9edfc0ffa92538add85e35d45"
         },
         {
             "type": "folder",
@@ -69,15 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.63fbadf1d0e97a7b40c470b1066772a5.js",
+            "name": "precache-manifest.924c1414b1bfd30fd1059fc59e5d0cdf.js",
             "size": 17111,
-            "hash": "4f1e773897c9da13309d3dd405dd3412e3801dad4b0b656e3a690df3960b7ed3"
-        },
-        {
-            "type": "file",
-            "name": "proxy.php",
-            "size": 4861,
-            "hash": "55b616d3caa524017c8bc23fe176febe803effa49dbe6af3d0afb56ee167ead4"
+            "hash": "612c12a3e2922ce692df8eb95cfc9c4be23d873b96656f04839a257c77677267"
         },
         {
             "type": "file",
@@ -87,21 +81,27 @@
         },
         {
             "type": "file",
+            "name": "proxy.php",
+            "size": 4861,
+            "hash": "55b616d3caa524017c8bc23fe176febe803effa49dbe6af3d0afb56ee167ead4"
+        },
+        {
+            "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "49085964482912177296ad3236519c47ce8814fb860a866f5d5868876dcecae8"
+            "hash": "c74ea9cbed49f4348b4bf144af5250c9b2d4329ac62ef82469b51b0247328be1"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "76a6d3de904211142b3a3eb6537a752f61b0154549a71642ed18ce4ac8fe969b"
+            "hash": "9a30d64c2f70314b72ba34450db79ee2d7662a00a6b20e3e6e2b802fc242708e"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
-            "size": 317,
-            "hash": "c31e17c16143b145b42581c77c9d7876e78c04e449cf435b3d26ccae1252fe46"
+            "size": 316,
+            "hash": "ada4c7a8c473edf09b75369bc2238ac583c71fb71738f1d30159b45349bd863c"
         },
         {
             "type": "file",
@@ -123,15 +123,15 @@
         },
         {
             "type": "file",
-            "name": "img/au.64c2ac4e.svg",
-            "size": 2839,
-            "hash": "2d75d5396528dc14fffc07ca77bd5d8fce804ea825b125874d0a4b94e4bcd25a"
-        },
-        {
-            "type": "file",
             "name": "img/banjokazooie-ssbu.0cbb217e.png",
             "size": 23412,
             "hash": "4c49a2f2862f1b6a244d9255ae2ea952a998c2e65075b4207f5391c0f15b5d38"
+        },
+        {
+            "type": "file",
+            "name": "img/au.64c2ac4e.svg",
+            "size": 2839,
+            "hash": "2d75d5396528dc14fffc07ca77bd5d8fce804ea825b125874d0a4b94e4bcd25a"
         },
         {
             "type": "file",
@@ -147,15 +147,15 @@
         },
         {
             "type": "file",
-            "name": "img/blathers.94111c74.png",
-            "size": 19332,
-            "hash": "9d8d7772a1dbd3a53608feef832ce00d585b2ab0a2767378f5d367f0ef355a58"
-        },
-        {
-            "type": "file",
             "name": "img/boo.523b1624.png",
             "size": 38169,
             "hash": "eb66f308c368ec3f8a0715953c2c427226f81205f7f37e2c3cf17e01219bb461"
+        },
+        {
+            "type": "file",
+            "name": "img/blathers.94111c74.png",
+            "size": 19332,
+            "hash": "9d8d7772a1dbd3a53608feef832ce00d585b2ab0a2767378f5d367f0ef355a58"
         },
         {
             "type": "file",
@@ -207,15 +207,15 @@
         },
         {
             "type": "file",
-            "name": "img/captainfalcon-ssbu.d5d97cb6.png",
-            "size": 9208,
-            "hash": "a3820401dbb1e178b50198f9bca9ba7f00086388719eeeded80e9cbed99e1284"
-        },
-        {
-            "type": "file",
             "name": "img/charizard-ssbu.56c96ced.png",
             "size": 4161,
             "hash": "66b1a0e3268df12aca8dd82c54f113594dcf498416fa37ee280065c5fbd0af7d"
+        },
+        {
+            "type": "file",
+            "name": "img/captainfalcon-ssbu.d5d97cb6.png",
+            "size": 9208,
+            "hash": "a3820401dbb1e178b50198f9bca9ba7f00086388719eeeded80e9cbed99e1284"
         },
         {
             "type": "file",
@@ -991,15 +991,15 @@
         },
         {
             "type": "file",
-            "name": "img/wiifittrainer-ssbu.c366f8b0.png",
-            "size": 5688,
-            "hash": "0a47de6873cb02de81cf5966969ce46b8bf8a1e336fe70ade5ebf8b45a7d2970"
-        },
-        {
-            "type": "file",
             "name": "img/wolf-ssbu.b2317412.png",
             "size": 8583,
             "hash": "c22d8930958d1233e337cca9daf199b0afcde9d1e069f20e7695e57960457a62"
+        },
+        {
+            "type": "file",
+            "name": "img/wiifittrainer-ssbu.c366f8b0.png",
+            "size": 5688,
+            "hash": "0a47de6873cb02de81cf5966969ce46b8bf8a1e336fe70ade5ebf8b45a7d2970"
         },
         {
             "type": "file",
@@ -1045,9 +1045,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.35d113bd.js",
-            "size": 1163111,
-            "hash": "42b39b000d8d0d4c33220ad84c6b53ac820f0ba2f002548da978c714141e6989"
+            "name": "js/app.14c8361f.js",
+            "size": 1163156,
+            "hash": "dc83e19cce7c5a6787928e3a1224a2f0a0980b55c3a6af93068ea264ae9c8377"
         },
         {
             "type": "file",
