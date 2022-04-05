@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1649041610518,
+    "generatedTime": 1649127469780,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "700170d900430d6e77055b06e8640211c82c16d9edfc0ffa92538add85e35d45"
+            "hash": "6cee908c17a7e51d0fb5b503fc2c64b8fdedbee6569ea8df4ceb09fd8707ff4f"
         },
         {
             "type": "folder",
@@ -69,15 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.924c1414b1bfd30fd1059fc59e5d0cdf.js",
+            "name": "precache-manifest.506ee10db68344f6d7d9a42888894056.js",
             "size": 17111,
-            "hash": "612c12a3e2922ce692df8eb95cfc9c4be23d873b96656f04839a257c77677267"
-        },
-        {
-            "type": "file",
-            "name": "robots.txt",
-            "size": 24,
-            "hash": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f"
+            "hash": "db81e9b6ed194d515d03a6be7608cde4fbf53275a1899c993c58195c6bf288d4"
         },
         {
             "type": "file",
@@ -87,21 +81,27 @@
         },
         {
             "type": "file",
+            "name": "robots.txt",
+            "size": 24,
+            "hash": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f"
+        },
+        {
+            "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "c74ea9cbed49f4348b4bf144af5250c9b2d4329ac62ef82469b51b0247328be1"
+            "hash": "6f5dd3d5eee486e1a41a09fb154c7e1a539c860faf87a27d02015d4c02383180"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "9a30d64c2f70314b72ba34450db79ee2d7662a00a6b20e3e6e2b802fc242708e"
+            "hash": "fcbc9c2b2eb8fda736f07c01e7de9f2d26e7c44365bc236466f8e2f4c856685b"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
-            "size": 316,
-            "hash": "ada4c7a8c473edf09b75369bc2238ac583c71fb71738f1d30159b45349bd863c"
+            "size": 317,
+            "hash": "48c3e36740f1e3d5d9d87cd390207ac1ccd44d19ec55d97e6460245898f006b1"
         },
         {
             "type": "file",
@@ -123,15 +123,15 @@
         },
         {
             "type": "file",
-            "name": "img/banjokazooie-ssbu.0cbb217e.png",
-            "size": 23412,
-            "hash": "4c49a2f2862f1b6a244d9255ae2ea952a998c2e65075b4207f5391c0f15b5d38"
-        },
-        {
-            "type": "file",
             "name": "img/au.64c2ac4e.svg",
             "size": 2839,
             "hash": "2d75d5396528dc14fffc07ca77bd5d8fce804ea825b125874d0a4b94e4bcd25a"
+        },
+        {
+            "type": "file",
+            "name": "img/banjokazooie-ssbu.0cbb217e.png",
+            "size": 23412,
+            "hash": "4c49a2f2862f1b6a244d9255ae2ea952a998c2e65075b4207f5391c0f15b5d38"
         },
         {
             "type": "file",
@@ -147,15 +147,15 @@
         },
         {
             "type": "file",
-            "name": "img/boo.523b1624.png",
-            "size": 38169,
-            "hash": "eb66f308c368ec3f8a0715953c2c427226f81205f7f37e2c3cf17e01219bb461"
-        },
-        {
-            "type": "file",
             "name": "img/blathers.94111c74.png",
             "size": 19332,
             "hash": "9d8d7772a1dbd3a53608feef832ce00d585b2ab0a2767378f5d367f0ef355a58"
+        },
+        {
+            "type": "file",
+            "name": "img/boo.523b1624.png",
+            "size": 38169,
+            "hash": "eb66f308c368ec3f8a0715953c2c427226f81205f7f37e2c3cf17e01219bb461"
         },
         {
             "type": "file",
@@ -174,12 +174,6 @@
             "name": "img/bowser.fc7ed05e.png",
             "size": 32128,
             "hash": "6a87627fe8bbf62fe848a917633d9f9c23d8527080167a998b0fc8b51602427f"
-        },
-        {
-            "type": "file",
-            "name": "img/bowserjr-ssbu.e56705d8.png",
-            "size": 6352,
-            "hash": "7d83780cd5178ef016a54274cefaf02f62b3259723c765e68b42a73396574e75"
         },
         {
             "type": "file",
@@ -207,21 +201,27 @@
         },
         {
             "type": "file",
-            "name": "img/charizard-ssbu.56c96ced.png",
-            "size": 4161,
-            "hash": "66b1a0e3268df12aca8dd82c54f113594dcf498416fa37ee280065c5fbd0af7d"
-        },
-        {
-            "type": "file",
             "name": "img/captainfalcon-ssbu.d5d97cb6.png",
             "size": 9208,
             "hash": "a3820401dbb1e178b50198f9bca9ba7f00086388719eeeded80e9cbed99e1284"
         },
         {
             "type": "file",
+            "name": "img/charizard-ssbu.56c96ced.png",
+            "size": 4161,
+            "hash": "66b1a0e3268df12aca8dd82c54f113594dcf498416fa37ee280065c5fbd0af7d"
+        },
+        {
+            "type": "file",
             "name": "img/chrom-ssbu.fd6e2f36.png",
             "size": 6609,
             "hash": "ca38bf0e0dfba52a6056b047cc287a936dd16cd04d1fe4204aebacdc423e221b"
+        },
+        {
+            "type": "file",
+            "name": "img/bowserjr-ssbu.e56705d8.png",
+            "size": 6352,
+            "hash": "7d83780cd5178ef016a54274cefaf02f62b3259723c765e68b42a73396574e75"
         },
         {
             "type": "file",
@@ -991,15 +991,15 @@
         },
         {
             "type": "file",
-            "name": "img/wolf-ssbu.b2317412.png",
-            "size": 8583,
-            "hash": "c22d8930958d1233e337cca9daf199b0afcde9d1e069f20e7695e57960457a62"
-        },
-        {
-            "type": "file",
             "name": "img/wiifittrainer-ssbu.c366f8b0.png",
             "size": 5688,
             "hash": "0a47de6873cb02de81cf5966969ce46b8bf8a1e336fe70ade5ebf8b45a7d2970"
+        },
+        {
+            "type": "file",
+            "name": "img/wolf-ssbu.b2317412.png",
+            "size": 8583,
+            "hash": "c22d8930958d1233e337cca9daf199b0afcde9d1e069f20e7695e57960457a62"
         },
         {
             "type": "file",
@@ -1045,9 +1045,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.14c8361f.js",
-            "size": 1163156,
-            "hash": "dc83e19cce7c5a6787928e3a1224a2f0a0980b55c3a6af93068ea264ae9c8377"
+            "name": "js/app.72f0850c.js",
+            "size": 1163262,
+            "hash": "a7007f142e28052b9a3697b2c4bdbd6998254751711575b545b01fcddd21c652"
         },
         {
             "type": "file",
