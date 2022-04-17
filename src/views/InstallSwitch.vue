@@ -62,6 +62,13 @@
       If this continues to fail, join #help on the lan-play discord for further
       assistance.
     </p>
+    <p>
+     <strong>
+       Some system combinations no longer show IConnection, but work perfectly 
+       fine. If you do not see an IConnection, but believe you configured everything properly
+       try playing anyway.
+     </strong>
+    </p>
     <h2>{{ $t("pages.installSwitch.module.title", { prefix: "5 - " }) }}</h2>
     <p>
       You will need to download ldn_mitm if you wish to play to play games that
