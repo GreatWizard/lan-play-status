@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1651119210578,
+    "generatedTime": 1651288856284,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "bae513f9e9b6a968aafcebecdda0fe3508e520383056736ca1ddc2375059b3e2"
+            "hash": "703052a913547ca491aed9b094e7d5e52dfc89c245a5ba85abb0f11886d8fca2"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.0deb448b8075b76c9315992308ae4598.js",
+            "name": "precache-manifest.fdb14364b1f493e27dfd58b95dfeaaf1.js",
             "size": 17111,
-            "hash": "95b2c99b1dcf6142d121fe326b431a003225fec13730b90165ddef8a47d6880f"
+            "hash": "b8b55a13d4e372cccbb9153d6d7d20f3300fa3d24df0d411ed36a5b1576b4841"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "d7233df2e2d450de0a1b8cd1009798c06a59226767de2f0f89401ddad0eb0d7f"
+            "hash": "bea337750f529f3dbd9fbcc0d64d2a35a15ecaca01baa215cd2250577dc781a4"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "aa1d2d84fd3ff0e4f90a7dd92c344269ccd6e7169b307124722a321c3a32e566"
+            "hash": "0fa519a4e461de43b9981b7c25e45540b6b00ce432272573f1d3f6a787f53144"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "50cd6b642e1db9a5ff5ed032a0c7fa75e3f0a677d6b1f6ebae4d37025b768db0"
+            "hash": "c4e73e6579535e697fe3792c0adf076481d1a5eeda7763f193cec1cce56ac159"
         },
         {
             "type": "file",
@@ -625,15 +625,15 @@
         },
         {
             "type": "file",
-            "name": "img/no-cover.c97c7c1d.jpg",
-            "size": 34002,
-            "hash": "5c4356d2725af14fdc1ae87a6ae9921b54d4306c1039705b85fcfdd4f016dfe0"
-        },
-        {
-            "type": "file",
             "name": "img/nl.0f0d5c45.svg",
             "size": 647,
             "hash": "c498d9b5a06731e3d2c215b1bc67666cff5da70388117ac017a799aa36fb3d7c"
+        },
+        {
+            "type": "file",
+            "name": "img/no-cover.c97c7c1d.jpg",
+            "size": 34002,
+            "hash": "5c4356d2725af14fdc1ae87a6ae9921b54d4306c1039705b85fcfdd4f016dfe0"
         },
         {
             "type": "file",
@@ -985,15 +985,15 @@
         },
         {
             "type": "file",
-            "name": "img/whatsapp.eafe62b5.svg",
-            "size": 1152,
-            "hash": "79c28d91f5e9934da8b6ba43056113061ae23659e838c78cbee495cba8ebf720"
-        },
-        {
-            "type": "file",
             "name": "img/wiifittrainer-ssbu.c366f8b0.png",
             "size": 5688,
             "hash": "0a47de6873cb02de81cf5966969ce46b8bf8a1e336fe70ade5ebf8b45a7d2970"
+        },
+        {
+            "type": "file",
+            "name": "img/whatsapp.eafe62b5.svg",
+            "size": 1152,
+            "hash": "79c28d91f5e9934da8b6ba43056113061ae23659e838c78cbee495cba8ebf720"
         },
         {
             "type": "file",
@@ -1045,21 +1045,15 @@
         },
         {
             "type": "file",
-            "name": "js/app.def7c8f9.js",
-            "size": 1179940,
-            "hash": "7bcc901d54af3f0a66f357cb228531601b4f27ca67e8029d9f0769c44fbaa6ab"
+            "name": "js/app.e6b841c9.js",
+            "size": 1183475,
+            "hash": "25a189aced64f8f85afa701d4f36d8447a2456a44feb9ca1485de62bd29c7fa6"
         },
         {
             "type": "file",
             "name": "js/chunk-vendors.c8824640.js",
             "size": 255192,
             "hash": "dc6c21f9f1f3e9107b5b7022c65fa871e30692265c56bbeefe5737adae62d933"
-        },
-        {
-            "type": "file",
-            "name": "img/icons/android-chrome-192x192.png",
-            "size": 6151,
-            "hash": "6ef4beac47b699653b39847b62564f9713eb307c93cca0486de7d3380edd597c"
         },
         {
             "type": "file",
@@ -1078,6 +1072,12 @@
             "name": "img/icons/apple-touch-icon-152x152.png",
             "size": 2005,
             "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/android-chrome-192x192.png",
+            "size": 6151,
+            "hash": "6ef4beac47b699653b39847b62564f9713eb307c93cca0486de7d3380edd597c"
         },
         {
             "type": "file",
