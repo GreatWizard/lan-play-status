@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1652584819139,
+    "generatedTime": 1652670354397,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "ec26148eb583c08de83c6e9f5f89751a5a20aa3ba3dff98d83ce5814f4c0f41e"
+            "hash": "43afc1f3aebe5448afca514a67dfeeb50609d2eb4c70cbab85b51c97e3b29668"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.40f217dcbf2205966a917169d79c977a.js",
+            "name": "precache-manifest.be970047d7b5abffb0c286fc0a25a167.js",
             "size": 17111,
-            "hash": "0f128175f7ae1393487c969d17aad83d07a6597271911ef5cbcca1a3d3530835"
+            "hash": "d6066fcca03169b6c52443a45fc6f32a39e6d3b10fff145dc742afe8a2460a2b"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "5525aef8aa9245c0703f963a26dd3d5c308b716646c3fd37d32e237894490b66"
+            "hash": "eb11320ce25a896ac8b118134f79e59402ae6a4bd43d5837812cc96870acc506"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "3c3484870bf1dc1f895587f1b13ccd7fa328cda2c5ff38c47d06928d8c652fd1"
+            "hash": "e477df1a69aa2c6dfd0d04e39e47541703f2f826eedaae3d9856f46c6c60207d"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
-            "size": 317,
-            "hash": "228dbcfe0efa981fdf15aa01d1f895116d2ed38c155f91b5691581d4c12ccd7d"
+            "size": 318,
+            "hash": "47df2492bbb4c2ab2447491da696ee0eb6ff045bf52b450fbadc2006c0cfed60"
         },
         {
             "type": "file",
@@ -1045,9 +1045,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.8c90448d.js",
-            "size": 1192084,
-            "hash": "1c841ac398a85e9753a1dcda919c409690ddccd5a71823541a9f0daff9f28c6f"
+            "name": "js/app.d47973c8.js",
+            "size": 1192641,
+            "hash": "5d0b38a0da62c0efb3be83258bfcb27791a2a631d834d978263c13c29c48e1ae"
         },
         {
             "type": "file",
