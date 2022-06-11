@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1654831505254,
+    "generatedTime": 1654917713242,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "249388407f1cf674d635ec6e2943301a47927b86f5c2d8a66945f4b24943debe"
+            "hash": "873c6335ed9e47deb986c4ef998fa15c61b86e2435e37da2022bf410dbc700ee"
         },
         {
             "type": "folder",
@@ -63,15 +63,15 @@
         },
         {
             "type": "file",
-            "name": "manifest.json",
-            "size": 342,
-            "hash": "aca3a680087847a8f0a752f28344c9190826f7c3456a1c4a0cb13b13f08fc32a"
+            "name": "precache-manifest.9b1058b544a91169788788b466f2fdec.js",
+            "size": 17111,
+            "hash": "386f5174615f7aa46f08283e8dcf1a5cbc88f476aae88ef9ce102e232b23ac52"
         },
         {
             "type": "file",
-            "name": "precache-manifest.56249d4279ba6797fad38211fe3c7afa.js",
-            "size": 17111,
-            "hash": "1af6442d981208e76bbac2f41eed2b23a690bd4c6384413391e5b06f891eff8d"
+            "name": "manifest.json",
+            "size": 342,
+            "hash": "aca3a680087847a8f0a752f28344c9190826f7c3456a1c4a0cb13b13f08fc32a"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "da71d815809b1c1755501b84a7fda1828afb0f27b154bbc08d9ebef2df275e41"
+            "hash": "b1fc38047f097d104f125f383a1056137e00265f90089cf6f1f03cb2bc33055a"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "d13cf299a691480a55c6c368e1b8e36903076c9520c805e4fea7fd342721cadf"
+            "hash": "9997666777bb34f60eb7342a0717a354feec6b0ec5fb281008700714cde42f5f"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "aecfc62481f20c4e37d0e96f840cc49768bba997b2d9db391e4e352dbfa72df8"
+            "hash": "0dbb99cc4f2b3071c9bbc104e3e2e5447d612fed8547e200b75516e6af38f0f6"
         },
         {
             "type": "file",
@@ -1045,9 +1045,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.805d7d9f.js",
+            "name": "js/app.78691c94.js",
             "size": 1202384,
-            "hash": "201123cb544f7738d2c00e0d6cd24caceaa2342a7bfccd28781af1d0b0dd079d"
+            "hash": "65190ddabc2b5293d27c61ffa33c6e4bb2db0998b97ecae97f77a05c70696d38"
         },
         {
             "type": "file",
@@ -1105,6 +1105,12 @@
         },
         {
             "type": "file",
+            "name": "img/icons/favicon-16x16.png",
+            "size": 284,
+            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
+        },
+        {
+            "type": "file",
             "name": "img/icons/favicon-32x32.png",
             "size": 493,
             "hash": "6ca16294cb53573040299e65a7f636779423146624ddf3589addc0313f09b8c7"
@@ -1114,12 +1120,6 @@
             "name": "img/icons/msapplication-icon-144x144.png",
             "size": 2132,
             "hash": "e02368dd7e5dc3c1dcc35515e54f68fe802b7f655395c58450647ee234ca070b"
-        },
-        {
-            "type": "file",
-            "name": "img/icons/favicon-16x16.png",
-            "size": 284,
-            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
         },
         {
             "type": "file",
