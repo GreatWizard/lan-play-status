@@ -335,14 +335,14 @@
     "type": "rust"
   },
   {
-    "ip": "lanplay.cpalm.org",
+    "ip": "lp1.cpalm.org",
     "port": 11451,
     "flag": "tw",
     "platform": "switch",
     "type": "rust"
   },
   {
-    "ip": "lanplay.cpalm.org",
+    "ip": "lp2.cpalm.org",
     "port": 11456,
     "flag": "tw",
     "platform": "switch",
