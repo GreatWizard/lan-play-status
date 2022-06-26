@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1656261113447,
+    "generatedTime": 1656261177785,
     "data": [
         {
             "type": "file",
@@ -919,15 +919,15 @@
         },
         {
             "type": "file",
-            "name": "img/tom-nook.0a411df2.png",
-            "size": 16439,
-            "hash": "48f01a69a22d78e86d76d2c91998281d5910d63fcbbd4e31bdea7c3b9ce380ac"
-        },
-        {
-            "type": "file",
             "name": "img/toad.44514c83.png",
             "size": 26659,
             "hash": "07fc4f69d885a24f75d2ded92a5d4ceb698f82749b3fb6085382035d21847c7d"
+        },
+        {
+            "type": "file",
+            "name": "img/tom-nook.0a411df2.png",
+            "size": 16439,
+            "hash": "48f01a69a22d78e86d76d2c91998281d5910d63fcbbd4e31bdea7c3b9ce380ac"
         },
         {
             "type": "file",
