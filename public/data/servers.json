@@ -459,5 +459,12 @@
     "flag": "us",
     "platform": "switch",
     "type": "rust"
+  },
+  {
+    "ip": "nxslimez.shop",
+    "port": 11451,
+    "flag": "gb",
+    "platform": "ps4",
+    "type": "dotnet"
   }
 ]
