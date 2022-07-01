@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1656560837607,
+    "generatedTime": 1656647984372,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "a0e77673243a3be568500375814d1ad5471f18842fa61f5024fffd0c0b29c0a4"
+            "hash": "02dc4644fe246c3621f233089ff90ff50cb959ff0f1f768b998b1934716fc1b9"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.eec18276622a49d22b0e0aa7691ce669.js",
+            "name": "precache-manifest.c1883c8cf254b78570e9bacf160680ff.js",
             "size": 17111,
-            "hash": "5483095d9683ba8124fd967c0c5c438dd3ae4566fb7d08f68d8f41c7a9bf86a3"
+            "hash": "5235cc2eb687bd6f98e811ecf947ae582922006700ac49a141144c8f4457aa61"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "c88eed1d4f4121e5c8a70d8afa8f9dc7d8ea78c546f02a9dd97a2a0320ef1675"
+            "hash": "940a3e239e70cd74c69812337065071d3a372b59baa80563714d91d5dd3a9d4d"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "05ea5a85816055e60b578e921efed6c1d1f259b28d397b78df0b4ae98e748016"
+            "hash": "6a5dfb3aa3e5880a25af7d42ea4be3b1a4dcb1542428d250ea14e4d8170a2aab"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "20dba1c2461946a8990ee952aa803e60c25cc7833dd3bda02045771801144d8e"
+            "hash": "becc039f20cdcadd90b23f73970fdd502c6cb7301e8899df0918bfbb1d75b272"
         },
         {
             "type": "file",
@@ -123,15 +123,15 @@
         },
         {
             "type": "file",
-            "name": "img/banjokazooie-ssbu.0cbb217e.png",
-            "size": 23412,
-            "hash": "4c49a2f2862f1b6a244d9255ae2ea952a998c2e65075b4207f5391c0f15b5d38"
-        },
-        {
-            "type": "file",
             "name": "img/au.64c2ac4e.svg",
             "size": 2839,
             "hash": "2d75d5396528dc14fffc07ca77bd5d8fce804ea825b125874d0a4b94e4bcd25a"
+        },
+        {
+            "type": "file",
+            "name": "img/banjokazooie-ssbu.0cbb217e.png",
+            "size": 23412,
+            "hash": "4c49a2f2862f1b6a244d9255ae2ea952a998c2e65075b4207f5391c0f15b5d38"
         },
         {
             "type": "file",
@@ -303,6 +303,12 @@
         },
         {
             "type": "file",
+            "name": "img/es.829c00d1.svg",
+            "size": 12615,
+            "hash": "7319fef6e98256b049949e57537e362086e08d0cce1abd83dfd7f4158f644f50"
+        },
+        {
+            "type": "file",
             "name": "img/falco-ssbu.63e852fb.png",
             "size": 6371,
             "hash": "8cedb2060cf667e83a9ae452345ce3c3661b728cbd77328186bca3857c4432c7"
@@ -312,12 +318,6 @@
             "name": "img/felyne.142b0fba.png",
             "size": 12376,
             "hash": "b142790ccbfcb3756e8b47b509f698d8407feb66e336c6ae4b2c6c67479ca837"
-        },
-        {
-            "type": "file",
-            "name": "img/es.829c00d1.svg",
-            "size": 12615,
-            "hash": "7319fef6e98256b049949e57537e362086e08d0cce1abd83dfd7f4158f644f50"
         },
         {
             "type": "file",
@@ -985,12 +985,6 @@
         },
         {
             "type": "file",
-            "name": "img/whatsapp.eafe62b5.svg",
-            "size": 1152,
-            "hash": "79c28d91f5e9934da8b6ba43056113061ae23659e838c78cbee495cba8ebf720"
-        },
-        {
-            "type": "file",
             "name": "img/wiifittrainer-ssbu.c366f8b0.png",
             "size": 5688,
             "hash": "0a47de6873cb02de81cf5966969ce46b8bf8a1e336fe70ade5ebf8b45a7d2970"
@@ -1045,15 +1039,21 @@
         },
         {
             "type": "file",
-            "name": "js/app.a85ef535.js",
-            "size": 1219166,
-            "hash": "bae8beca0a44ae3a71acc8345c454f1d7bc3549b402ac004a47c913e9bd8e3de"
+            "name": "js/app.d5dee769.js",
+            "size": 1220106,
+            "hash": "d655af5b8307193c685aec9cda79d2c05dbd52c28199759fe45eb20951447718"
         },
         {
             "type": "file",
             "name": "js/chunk-vendors.c8824640.js",
             "size": 255192,
             "hash": "dc6c21f9f1f3e9107b5b7022c65fa871e30692265c56bbeefe5737adae62d933"
+        },
+        {
+            "type": "file",
+            "name": "img/whatsapp.eafe62b5.svg",
+            "size": 1152,
+            "hash": "79c28d91f5e9934da8b6ba43056113061ae23659e838c78cbee495cba8ebf720"
         },
         {
             "type": "file",
@@ -1069,15 +1069,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon-120x120.png",
-            "size": 1359,
-            "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
-        },
-        {
-            "type": "file",
             "name": "img/icons/apple-touch-icon-152x152.png",
             "size": 2005,
             "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon-120x120.png",
+            "size": 1359,
+            "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
         },
         {
             "type": "file",
