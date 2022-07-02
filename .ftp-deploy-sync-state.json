@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1656647984372,
+    "generatedTime": 1656733789065,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "02dc4644fe246c3621f233089ff90ff50cb959ff0f1f768b998b1934716fc1b9"
+            "hash": "ebb8172f4554b878ea6c8342d696c6d97fd834e8e5a4a5fcb43062bf233b4512"
         },
         {
             "type": "folder",
@@ -63,15 +63,15 @@
         },
         {
             "type": "file",
-            "name": "manifest.json",
-            "size": 342,
-            "hash": "aca3a680087847a8f0a752f28344c9190826f7c3456a1c4a0cb13b13f08fc32a"
+            "name": "precache-manifest.b26142fcd21ef7b715185750713df0a1.js",
+            "size": 17111,
+            "hash": "a8f038a5f39b4bc92b1c795973796fd690920a2fff451b6201bc70d7757c5499"
         },
         {
             "type": "file",
-            "name": "precache-manifest.c1883c8cf254b78570e9bacf160680ff.js",
-            "size": 17111,
-            "hash": "5235cc2eb687bd6f98e811ecf947ae582922006700ac49a141144c8f4457aa61"
+            "name": "manifest.json",
+            "size": 342,
+            "hash": "aca3a680087847a8f0a752f28344c9190826f7c3456a1c4a0cb13b13f08fc32a"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "940a3e239e70cd74c69812337065071d3a372b59baa80563714d91d5dd3a9d4d"
+            "hash": "8c21df838bebd7155f077c97d488414e4103cf2afc6a7418d222a5db55fcbd97"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "6a5dfb3aa3e5880a25af7d42ea4be3b1a4dcb1542428d250ea14e4d8170a2aab"
+            "hash": "8e76a56d43f7514492d879fd981510157b344960c0962a5ca7ce0d8553362d36"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "becc039f20cdcadd90b23f73970fdd502c6cb7301e8899df0918bfbb1d75b272"
+            "hash": "f0b3bcd5a88e575897e1d7b8831c5c03afbbff6198a779a03c2bfd79ec0ba06e"
         },
         {
             "type": "file",
@@ -445,15 +445,15 @@
         },
         {
             "type": "file",
-            "name": "img/joker-ssbu.92f72332.png",
-            "size": 16397,
-            "hash": "3aa91dbf3fb5260edd2a877b5fbf9ceff2ffe95dbfe9b4a6f96cfcadea4a7978"
-        },
-        {
-            "type": "file",
             "name": "img/ken-ssbu.86b1228e.png",
             "size": 10843,
             "hash": "6ad9d2cd8c286eded1de572aa17d3e87318937dd2641b7a6322855bc7b6e60ca"
+        },
+        {
+            "type": "file",
+            "name": "img/joker-ssbu.92f72332.png",
+            "size": 16397,
+            "hash": "3aa91dbf3fb5260edd2a877b5fbf9ceff2ffe95dbfe9b4a6f96cfcadea4a7978"
         },
         {
             "type": "file",
@@ -985,6 +985,12 @@
         },
         {
             "type": "file",
+            "name": "img/whatsapp.eafe62b5.svg",
+            "size": 1152,
+            "hash": "79c28d91f5e9934da8b6ba43056113061ae23659e838c78cbee495cba8ebf720"
+        },
+        {
+            "type": "file",
             "name": "img/wiifittrainer-ssbu.c366f8b0.png",
             "size": 5688,
             "hash": "0a47de6873cb02de81cf5966969ce46b8bf8a1e336fe70ade5ebf8b45a7d2970"
@@ -1027,33 +1033,27 @@
         },
         {
             "type": "file",
-            "name": "img/zelda-ssbu.7790a038.png",
-            "size": 9213,
-            "hash": "a6cfcbb0ddb449efdfb2df58c473740fb244133db769e192c044da4e615d3b77"
-        },
-        {
-            "type": "file",
             "name": "img/zerosuitsamus-ssbu.bbf03a68.png",
             "size": 8531,
             "hash": "1fb5c6c392c1a9356372da9aee0de54a70365e74acc0b85882ce0f3723aaaed3"
         },
         {
             "type": "file",
-            "name": "js/app.d5dee769.js",
-            "size": 1220106,
-            "hash": "d655af5b8307193c685aec9cda79d2c05dbd52c28199759fe45eb20951447718"
+            "name": "img/zelda-ssbu.7790a038.png",
+            "size": 9213,
+            "hash": "a6cfcbb0ddb449efdfb2df58c473740fb244133db769e192c044da4e615d3b77"
+        },
+        {
+            "type": "file",
+            "name": "js/app.27f07176.js",
+            "size": 1220538,
+            "hash": "c66e8d310cc6845312da663211a57d43865cdc2d460048170ad29fdbb5d6c84b"
         },
         {
             "type": "file",
             "name": "js/chunk-vendors.c8824640.js",
             "size": 255192,
             "hash": "dc6c21f9f1f3e9107b5b7022c65fa871e30692265c56bbeefe5737adae62d933"
-        },
-        {
-            "type": "file",
-            "name": "img/whatsapp.eafe62b5.svg",
-            "size": 1152,
-            "hash": "79c28d91f5e9934da8b6ba43056113061ae23659e838c78cbee495cba8ebf720"
         },
         {
             "type": "file",
@@ -1069,15 +1069,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon-152x152.png",
-            "size": 2005,
-            "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
-        },
-        {
-            "type": "file",
             "name": "img/icons/apple-touch-icon-120x120.png",
             "size": 1359,
             "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon-152x152.png",
+            "size": 2005,
+            "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
         },
         {
             "type": "file",
