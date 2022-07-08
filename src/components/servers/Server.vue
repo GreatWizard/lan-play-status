@@ -152,8 +152,12 @@ export default {
       return undefined;
     },
     platform() {
-      if (this.server.platform === "ps4") {
-        return "PS4";
+      if (
+        this.server.platform === "ps4" ||
+        this.server.platform === "ps5" ||
+        this.server.platform === "playstation"
+      ) {
+        return "PlayStation";
       } else if (this.server.platform === "switch") {
         return "Switch";
       }
