@@ -20,11 +20,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/browserconfig.xml"
   },
   {
-    "revision": "919321057201112eae2b",
+    "revision": "c95a7f2288ae77fd282d",
     "url": "/css/app.db4da641.css"
   },
   {
-    "revision": "c197d641486baec8248429001a43cdba",
+    "revision": "ac98f1f412e4f4371cbb45a5f329a741",
     "url": "/data/servers.json"
   },
   {
@@ -440,10 +440,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/pyra-ssbu.31513faf.png"
   },
   {
-    "revision": "269ab5777b30385d6aee75b100c71d69",
-    "url": "/img/re.269ab577.svg"
-  },
-  {
     "revision": "1bd8445ba197ffcb92ff1f6bc64758d7",
     "url": "/img/red-cap.1bd8445b.png"
   },
@@ -648,12 +644,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/zerosuitsamus-ssbu.bbf03a68.png"
   },
   {
-    "revision": "cea694dbdef8cb9efcab96c44bde5122",
+    "revision": "77b87aba0dc8b004cef83782736a10c5",
     "url": "/index.html"
   },
   {
-    "revision": "919321057201112eae2b",
-    "url": "/js/app.8a99ab7f.js"
+    "revision": "c95a7f2288ae77fd282d",
+    "url": "/js/app.22f5e8ba.js"
   },
   {
     "revision": "3fc557c776db33c95caf",

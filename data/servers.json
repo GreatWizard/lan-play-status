@@ -42,6 +42,13 @@
     "type": "rust"
   },
   {
+    "ip": "lan.teknik.app",
+    "port": 11451,
+    "flag": "us",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lan-play.tk",
     "port": 11451,
     "flag": "ca",
@@ -191,7 +198,7 @@
   {
     "ip": "canalstream.ddns.net",
     "port": 11451,
-    "flag": "re",
+    "flag": "fr",
     "platform": "switch",
     "type": "rust"
   },
@@ -261,7 +268,7 @@
   {
     "ip": "lanplay.degepii.ml",
     "port": 11451,
-    "flag": "au",
+    "flag": "de",
     "platform": "switch",
     "type": "rust"
   },
@@ -351,7 +358,7 @@
   {
     "ip": "edgymin.ga",
     "port": 11451,
-    "flag": "ru",
+    "flag": "nl",
     "platform": "switch",
     "type": "rust"
   },
@@ -433,6 +440,13 @@
     "type": "dotnet"
   },
   {
+    "ip": "nxslimez.shop",
+    "port": 11451,
+    "flag": "de",
+    "platform": "ps4",
+    "type": "dotnet"
+  },
+  {
     "ip": "kirbfeels.throwbackcountdown.com",
     "port": 11451,
     "flag": "us",
@@ -452,12 +466,5 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
-  },
-  {
-    "ip": "lan.teknik.app",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "rust"
   }
 ]
