@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/browserconfig.xml"
   },
   {
-    "revision": "c95a7f2288ae77fd282d",
-    "url": "/css/app.db4da641.css"
+    "revision": "c53c612ad10d22109ff4",
+    "url": "/css/app.a7424f34.css"
   },
   {
     "revision": "ac98f1f412e4f4371cbb45a5f329a741",
@@ -428,6 +428,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/pl.f293b139.svg"
   },
   {
+    "revision": "48313957c9b0a1963a8d87fab6a65323",
+    "url": "/img/playstation.48313957.png"
+  },
+  {
     "revision": "0fa73d8adb035a52f7ff6c6fd9c73743",
     "url": "/img/pokemontrainer-ssbu.0fa73d8a.png"
   },
@@ -644,12 +648,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/zerosuitsamus-ssbu.bbf03a68.png"
   },
   {
-    "revision": "77b87aba0dc8b004cef83782736a10c5",
+    "revision": "28da068124563b1396f64e29095ea8a8",
     "url": "/index.html"
   },
   {
-    "revision": "c95a7f2288ae77fd282d",
-    "url": "/js/app.22f5e8ba.js"
+    "revision": "c53c612ad10d22109ff4",
+    "url": "/js/app.28b79c66.js"
   },
   {
     "revision": "3fc557c776db33c95caf",
