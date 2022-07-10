@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1657337015466,
+    "generatedTime": 1657424367812,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "2e163bb063409191a624857ff401dc80f1427279ec9023c63b9f521f613f158c"
+            "hash": "b0b67829d8a04453f10475fa6c812a6c5c045f8f821adcd892bbde88293a9d46"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.50859fda39542ef92bc49d9f4d582b74.js",
+            "name": "precache-manifest.01621e598a25347f0bea0f70c1021737.js",
             "size": 17120,
-            "hash": "cf7aacbc12c7c7ec04c725e8dfc3b10463e1cda95907b8a9d37e40f97eb285b6"
+            "hash": "2e78dcc3627b4ffd1f1cdc8d2f49c9c868c5c07cfe37ff763a3bbbec88157119"
         },
         {
             "type": "file",
@@ -87,21 +87,21 @@
         },
         {
             "type": "file",
+            "name": "service-worker.js",
+            "size": 1070,
+            "hash": "07c29460ccf69febe8c8c177480e8b22eb765bd19bad5ecf8cf1a4666dcf099e"
+        },
+        {
+            "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "f5d0dd7a10eeb8b5c97e6dd1072498c37213ad1249a769aa888aed3c2994731a"
+            "hash": "51073fabb35f519ce192d0d2023b7629f33854b66e3ad3b8d32a3fa66f5c6b8a"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "328e12161e816fdf54752ef9d2dbf9fb1e1cb9dcd0ec830620c535441c80d9e4"
-        },
-        {
-            "type": "file",
-            "name": "service-worker.js",
-            "size": 1070,
-            "hash": "44ce33d9b1a6760977cadba7062cc1fa08b12b294188f0c3596a7523151dd1a5"
+            "hash": "5c167f9e7a2fb94cf614152c3a43c8e14c593e11e91a2d36a800df26826cff52"
         },
         {
             "type": "file",
@@ -949,15 +949,15 @@
         },
         {
             "type": "file",
-            "name": "img/villager-ssbu.ac6e53b5.png",
-            "size": 5714,
-            "hash": "81d0bf36677aac12d4f7081dede397007f2d63effddc0a8124007fba4f64d459"
-        },
-        {
-            "type": "file",
             "name": "img/us.c49164ce.svg",
             "size": 2760,
             "hash": "69e09d41b9f5fad06ff3eea848b3f3fba168027a8273acea7c853cfb13974e3f"
+        },
+        {
+            "type": "file",
+            "name": "img/villager-ssbu.ac6e53b5.png",
+            "size": 5714,
+            "hash": "81d0bf36677aac12d4f7081dede397007f2d63effddc0a8124007fba4f64d459"
         },
         {
             "type": "file",
@@ -1045,9 +1045,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.8288ae5e.js",
-            "size": 1220392,
-            "hash": "cc8a22a5511ea0863ea167256346d04b58b9bfdabeaa98e4d50da17c0bf89d96"
+            "name": "js/app.91e24fd3.js",
+            "size": 1221759,
+            "hash": "a876a9fc9de72050f6401b0aea54eb1810b979e660c16a4021452eb20127abdc"
         },
         {
             "type": "file",
