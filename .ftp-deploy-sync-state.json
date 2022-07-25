@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1658634206846,
+    "generatedTime": 1658721180356,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "cee98d9d9151008048e201fe0cb28bf6ba23baa17813df37d4147105fbaf92d1"
+            "hash": "29c4a644ddabb8f3316ef8a408d73f6c834d3e2d3d2559992d0149b2c48c8d0e"
         },
         {
             "type": "folder",
@@ -63,21 +63,21 @@
         },
         {
             "type": "file",
-            "name": "manifest.json",
-            "size": 342,
-            "hash": "aca3a680087847a8f0a752f28344c9190826f7c3456a1c4a0cb13b13f08fc32a"
-        },
-        {
-            "type": "file",
-            "name": "precache-manifest.d929f7e01f449cfad4204d04ecfd7e93.js",
+            "name": "precache-manifest.f7af412a86cbdb0cc750af1e58bfcd5e.js",
             "size": 17120,
-            "hash": "039c3f0601356fb42377c2b1f496deccb4b4ee2e57dcb1e0238dce4955027f29"
+            "hash": "8594e18a7ed5ac881c8f3a08d567d7c69a995ead689504c24e9a0ae94cb89245"
         },
         {
             "type": "file",
             "name": "proxy.php",
             "size": 4861,
             "hash": "55b616d3caa524017c8bc23fe176febe803effa49dbe6af3d0afb56ee167ead4"
+        },
+        {
+            "type": "file",
+            "name": "manifest.json",
+            "size": 342,
+            "hash": "aca3a680087847a8f0a752f28344c9190826f7c3456a1c4a0cb13b13f08fc32a"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "d7d57f532a002e520419973aa8e419a74356dab8faa0f7ae1e3bf3e646ee5da4"
+            "hash": "d0bf4c5cebd46f1d317eb5617e43d33a266942e04b0b2f1a4c1a6078b7ebfc79"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "36dd39e23a4d5d2c7f779dba1d5cacaa7d2ccb75301096ee213e88f37c57a9b4"
+            "hash": "1fbbdf919c9e04542626a1efda32d4ce70b5c48fad1e57fae6ccb9c5f39b9e93"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
-            "size": 317,
-            "hash": "dbcba215d4f65e05f7aa01f81c0573c320ee5f225269ec3fe7fe551cfcfbb574"
+            "size": 318,
+            "hash": "54ee9c5787848cd9c8d64156a1a3dcb53a93cfbf4e42d830a269242079dccbce"
         },
         {
             "type": "file",
@@ -841,15 +841,15 @@
         },
         {
             "type": "file",
-            "name": "img/settings3.29954755.jpg",
-            "size": 62559,
-            "hash": "66662022823463031bc6ea20f966c0c79903581f1b602fa70599cbdb908ff99e"
-        },
-        {
-            "type": "file",
             "name": "img/settings3.3be79b02.jpg",
             "size": 54407,
             "hash": "39a32f1b51a244fcfb43a117eadf680e125603f2e521265b7118b2ea13120526"
+        },
+        {
+            "type": "file",
+            "name": "img/settings3.29954755.jpg",
+            "size": 62559,
+            "hash": "66662022823463031bc6ea20f966c0c79903581f1b602fa70599cbdb908ff99e"
         },
         {
             "type": "file",
@@ -1045,9 +1045,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.eb599407.js",
-            "size": 1227631,
-            "hash": "6b65d70de71e2421c950196ae4b687f4e69dc8865ee0a399c82c72db7f53dc8a"
+            "name": "js/app.12147b31.js",
+            "size": 1231862,
+            "hash": "7baa7e0c98963eed4909084438bb7e756875a8dd82b313fb47cc556faa82cb29"
         },
         {
             "type": "file",
@@ -1123,15 +1123,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/mstile-150x150.png",
-            "size": 2067,
-            "hash": "66416c8ecb1df6caed80e0e2bb4b01ef4b9b1573d0f46911de252226c1410f65"
-        },
-        {
-            "type": "file",
             "name": "img/icons/safari-pinned-tab.svg",
             "size": 2131,
             "hash": "5817ca734258ebd3f984b843961e7bbe8a3bb2f1df9316cb419d09b456314cdd"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/mstile-150x150.png",
+            "size": 2067,
+            "hash": "66416c8ecb1df6caed80e0e2bb4b01ef4b9b1573d0f46911de252226c1410f65"
         }
     ]
 }
