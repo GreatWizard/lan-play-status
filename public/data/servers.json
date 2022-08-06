@@ -189,7 +189,7 @@
     "type": "rust"
   },
   {
-    "ip": " games.initlab.org",
+    "ip": "games.initlab.org",
     "port": 11451,
     "flag": "bg",
     "platform": "switch",
