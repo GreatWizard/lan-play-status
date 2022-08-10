@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1660016936267,
+    "generatedTime": 1660100958045,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "992cca9aa98f826443416954ba72e383693db87525d78ae7d208f56c4a830df6"
+            "hash": "eadc16489a03303c94dffcea60e4e098979336bb2140e8bc2152c4ebb0ffa337"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.238ba25bde4ec2d2390f55c0cc9bd8f6.js",
+            "name": "precache-manifest.0879400cdfa2b783e603cd8d9df5b906.js",
             "size": 17120,
-            "hash": "3b5650d7ab24a6c38b10e5e8980db32f2a6b4e5ba22dd7115fdaf7688eba3a1a"
+            "hash": "4eb45577bbae5376c87ee44f9d73c4557a5a9de72f88281c986153a852995436"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "3dbc7c5dc59cb1f849755fe9c035e92c13240f0eb304d19eb36036882cd313e1"
+            "hash": "76b877b02c48d4a66521e74c28b701587bd953b06e7b24b58cf8357dfa868841"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "967ad36d5cc48c18f61d2813d22891d9affb40c2f76fae264879f2da791d106c"
+            "hash": "ca28dde831ed002b7b27903b4119aa2bc91a1b4b00d81fa5aa8da994541ee3cb"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "b983563ec829fe84d0741389730b431ab12e050a9c4e3e6e55ec53b68ed0208e"
+            "hash": "58ff2f83c4265835cd220032dbaac8c68c8ca66f73554ac6e4127ab180ad6e53"
         },
         {
             "type": "file",
@@ -123,12 +123,6 @@
         },
         {
             "type": "file",
-            "name": "img/au.64c2ac4e.svg",
-            "size": 2839,
-            "hash": "2d75d5396528dc14fffc07ca77bd5d8fce804ea825b125874d0a4b94e4bcd25a"
-        },
-        {
-            "type": "file",
             "name": "img/banjokazooie-ssbu.0cbb217e.png",
             "size": 23412,
             "hash": "4c49a2f2862f1b6a244d9255ae2ea952a998c2e65075b4207f5391c0f15b5d38"
@@ -138,6 +132,12 @@
             "name": "img/bayonetta-ssbu.90b020e0.png",
             "size": 10594,
             "hash": "2abd5c80975fd6b7a38f9bd98cc539ecb69be0f94f16a1e0e5873cdb6e7023a8"
+        },
+        {
+            "type": "file",
+            "name": "img/au.64c2ac4e.svg",
+            "size": 2839,
+            "hash": "2d75d5396528dc14fffc07ca77bd5d8fce804ea825b125874d0a4b94e4bcd25a"
         },
         {
             "type": "file",
@@ -1045,9 +1045,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.ab5f8cc6.js",
-            "size": 1243264,
-            "hash": "68b951417e2262cc9722a86fadc706372717eb2259c68427e9a5e5a426c3c65b"
+            "name": "js/app.5213cee4.js",
+            "size": 1243371,
+            "hash": "cb5025de434cbffc4379aa41173d2defe5eeb05adb6e3f247ca0762bc008f910"
         },
         {
             "type": "file",
