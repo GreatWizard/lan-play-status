@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1660621890618,
+    "generatedTime": 1660708940478,
     "data": [
         {
             "type": "file",
@@ -52,14 +52,20 @@
             "name": "img"
         },
         {
+            "type": "file",
+            "name": "index.html",
+            "size": 2987,
+            "hash": "8f0472986145356b4f223a5cd265c5db648f9e3cff927aff63fe537a24868b19"
+        },
+        {
             "type": "folder",
             "name": "js"
         },
         {
             "type": "file",
-            "name": "index.html",
-            "size": 2987,
-            "hash": "581fad981478b2bbdd97bc510975ea53242f2f4cf75775894f86138b87f222cf"
+            "name": "precache-manifest.6f149d2d7c72fdf5b0df0992e08d72a4.js",
+            "size": 17120,
+            "hash": "4ac26a3011daeedc1ad3c3f5eb4cdc07c06a8fc63b04e99786b04d6d1468b468"
         },
         {
             "type": "file",
@@ -81,27 +87,21 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.79ff36df5c6f28f44875fee4e1dc8403.js",
-            "size": 17120,
-            "hash": "bb791e35071b6097ccda97989437a95e49e27d72c2306918fe0c075e089f5e46"
-        },
-        {
-            "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "3bf5a1300d5247a4c645daca5707454d64b2433547d85917cb207741879d5e30"
+            "hash": "36f7887291d3009926ee82940899d63b932b5aa68511240f4dd26c0a9dcfd1fe"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "9b795cff7baa6a609f9b282ce39d00af6340a3979a449d1da490da0bee017049"
+            "hash": "4de782f606c6ce029be7436ebdb0ce4347ebfe434c9af71ac98710034298396a"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "c5501b72c87ccb39e674ee26f7f3c0a5b9c97c8dc44bfe26978d5aed4eee8c78"
+            "hash": "cd06b7603aadf40185695d6ffc72ea9281adece007abca0c319f681c25c73adb"
         },
         {
             "type": "file",
@@ -391,15 +391,15 @@
         },
         {
             "type": "file",
-            "name": "img/inkling-girl.5417ec70.png",
-            "size": 76892,
-            "hash": "e3f7539e8fa9fda9b0cf80ee51b8253c344f19e3f9bf44897796c40557958225"
-        },
-        {
-            "type": "file",
             "name": "img/inkling-squid.fbe49bc0.png",
             "size": 39986,
             "hash": "6747360232d71229cbe5755d5d69bff8df3f1e44e3b68abb8ea2c3b4118bc205"
+        },
+        {
+            "type": "file",
+            "name": "img/inkling-girl.5417ec70.png",
+            "size": 76892,
+            "hash": "e3f7539e8fa9fda9b0cf80ee51b8253c344f19e3f9bf44897796c40557958225"
         },
         {
             "type": "file",
@@ -1045,9 +1045,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.09b1e207.js",
-            "size": 1247371,
-            "hash": "09badf525b9f79ae7ce0cfe023f0f20772a9e661e70ead98d9db2e54e7b1a1a0"
+            "name": "js/app.4fcbc5e4.js",
+            "size": 1248307,
+            "hash": "8692f130688a5651f79bbe8bf4bc7b90a6fbc1a1223b7042ae4d737097722690"
         },
         {
             "type": "file",
