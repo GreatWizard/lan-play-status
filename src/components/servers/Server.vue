@@ -38,12 +38,6 @@
       <td class="hide--on-mobile" :data-tooltip="country">
         <country-flag :code="server.flag" class="icon" />
       </td>
-      <td class="hide--on-mobile" :data-tooltip="platform">
-        <img
-          class="icon"
-          :src="require(`@/assets/icons/${server.platform.toLowerCase()}.png`)"
-        />
-      </td>
       <td>
         <span v-if="ping >= 0">
           {{ ping }}<span class="hide--on-mobile"> ms</span>

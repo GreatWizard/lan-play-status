@@ -5,7 +5,6 @@
         <th>{{ $t("servers.table.server") }}</th>
         <th>{{ $t("servers.table.status") }}</th>
         <th class="hide--on-mobile">{{ $t("servers.table.country") }}</th>
-        <th class="hide--on-mobile">{{ $t("servers.table.platform") }}</th>
         <th>{{ $t("servers.table.ping") }}</th>
         <th>{{ $t("servers.table.uptime") }}</th>
       </tr>
