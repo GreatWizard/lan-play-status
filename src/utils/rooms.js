@@ -27,7 +27,7 @@ const getPlayers = _room => {
     _room.contentId === "0100b04011742000"
   ) {
     return _room.nodes.map(
-      ({ characterName, rank }) => `${characterName} (HR${rank})`
+      ({ characterName, rank, masterRank }) => `${characterName} (HR${rank} MR${masterRank})`
     );
   }
   return _room.nodes.map(({ playerName }) => playerName);
@@ -115,8 +115,8 @@ const AdvertiseDataMap = _gameId => {
       };
     case "0100b04011742000":
       return data => {
-        const [header, , ranks, user] = data.split("00000004");
-        let result = { rank: hexToInt(ranks.substr(0, 4)) };
+        const [header, , ranks, user, masterRanks] = data.split("00000004");
+        let result = { rank: hexToInt(ranks.substr(0, 4)), masterRank: hexToInt(masterRanks.substr(0, 4)) };
         if (header?.length > 44) {
           // 44: unlocked ; 60: locked
           result.code = `${header.charAt(45)}${header.charAt(
@@ -162,6 +162,7 @@ const sanitizeData = _room => {
       _room.contentId = "0100b04011742000";
       const players = data[1];
       const ranks = data[2];
+      const masterRanks = data[4];
       const newNodes = [];
       let index = 0;
       let cursor = 0;
@@ -176,7 +177,8 @@ const sanitizeData = _room => {
           newNodes.push({
             playerName: _room.nodes[index].playerName,
             characterName,
-            rank: hexToInt(ranks.substr(index * 4, 4))
+            rank: hexToInt(ranks.substr(index * 4, 4)),
+            masterRank: hexToInt(masterRanks.substr(index * 4, 4))
           });
         } else {
           cursor = -1;
