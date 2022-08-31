@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1661833511424,
+    "generatedTime": 1661920584364,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "eeaee2c86cf0d0b0efb75b1123a5fd81aa62c934258ace72c0c0670f613e18df"
+            "hash": "73818e2e1a163d71c60b913148df2fd25e0bc7c32a53af1bea6a129f681de8f9"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.7584ec5acb0f4100e3993e89372716ff.js",
+            "name": "precache-manifest.0b3bdcb00e0e25007c2baa80faf02170.js",
             "size": 17120,
-            "hash": "fd6ad40e6f45f1efd1011de3733b109c31291d8ff83813c7c551938def78e2e9"
+            "hash": "92d106fde7e6acb323cb7e06a2e24bb68dd99f0d8d3319e531e0b73aa0697a78"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "c8be1843953b762bbda884cd02341c6d048bb311f0f88b98c99e77e63e5a41e4"
+            "hash": "417940ecf2098090e611fef1cc8c2904b7516d18ea46d5dc2eb98f03444a7ae1"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "c4cd96227af8c57726cf73fb3603bd7a6bc02273322080f38955c9b22bd9d0da"
+            "hash": "04bdf37e400f40e981a1b8cee73bdca97586281cc1ec8baef091b62c5cff1fba"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "d749e5e9deeb67c693ef8abb3b682f5922ff35620192c94cff0cf6459c88e70b"
+            "hash": "cdcb69de9960975d4f012e03cf985f18675dec73d4211c01e17d15bbafe44d5e"
         },
         {
             "type": "file",
@@ -1045,9 +1045,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.09e27cca.js",
-            "size": 1261083,
-            "hash": "2a6dbcbe04ff52fa16c4e6f0e41f4349182714c333e6b749951100c5987ed781"
+            "name": "js/app.395ba10e.js",
+            "size": 1261899,
+            "hash": "5d7eaa8591a69015352f3b7855a68738fa0ee39989215d576bdcc4a6c3daa458"
         },
         {
             "type": "file",
@@ -1105,15 +1105,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/favicon-16x16.png",
-            "size": 284,
-            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
-        },
-        {
-            "type": "file",
             "name": "img/icons/favicon-32x32.png",
             "size": 493,
             "hash": "6ca16294cb53573040299e65a7f636779423146624ddf3589addc0313f09b8c7"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/favicon-16x16.png",
+            "size": 284,
+            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
         },
         {
             "type": "file",
