@@ -1,3 +1,4 @@
+# Edit Request
 # LAN Play Status
 
 ![](https://img.shields.io/badge/switch-lan--play-orange.svg)
