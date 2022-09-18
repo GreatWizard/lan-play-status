@@ -35,7 +35,7 @@
       to sleep and waking it up.
     </p>
     <p>
-      If everything is good, you should see
+      If everything is good, you should see (review bold notes in this section)
       <strong>IConnection::IConnection</strong> on your lan-play client. It will
       look like:
     </p>
@@ -51,16 +51,12 @@
     <p>
       If you do not, verify your switch settings, ensure there is no autoconnect
       profile for a different wireless profile but that autoconnect
-      <b>IS</b> enabled for the lanplay profile, and try playing a game. Failing
+      <b>IS</b> enabled for the lanplay profile, and <strong>try playing a game</strong>. Failing
       this, try rebooting your switch.
       <strong>
         Failing the internet and/or DNS connectivity test on your switch
-        <b>DOES NOT MATTER</b> and can be ignored.
+        DOES NOT MATTER and can be ignored.
       </strong>
-    </p>
-    <p>
-      If this continues to fail, join #help on the lan-play discord for further
-      assistance.
     </p>
     <p>
       <strong>
@@ -68,6 +64,10 @@
         fine. If you do not see an IConnection, but believe you configured
         everything properly try playing anyway.
       </strong>
+    </p>
+    <p>
+      If you cannot join or create lobbies after asking someone to play with you, join #help on the lan-play discord for further
+      assistance. Note: You must ask people to play with you or to join others.
     </p>
     <h2>{{ $t("pages.installSwitch.module.title", { prefix: "5 - " }) }}</h2>
     <p>
