@@ -20,11 +20,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/browserconfig.xml"
   },
   {
-    "revision": "1060f7c4c567e155df45",
+    "revision": "573154f76991a31857ea",
     "url": "/css/app.e2a63a8d.css"
   },
   {
-    "revision": "447afb304d9633bc3d3e906b74eaa931",
+    "revision": "2e910f2f538dacbac9186b1f5ce15a66",
     "url": "/data/servers.json"
   },
   {
@@ -652,16 +652,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/zerosuitsamus-ssbu.bbf03a68.png"
   },
   {
-    "revision": "de6296ccf1403339e8393d5bdfe21b17",
+    "revision": "0d138ad4a30fb1689f2870357d7839c2",
     "url": "/index.html"
   },
   {
-    "revision": "1060f7c4c567e155df45",
-    "url": "/js/app.2d646d7f.js"
+    "revision": "573154f76991a31857ea",
+    "url": "/js/app.c2d88126.js"
   },
   {
-    "revision": "3fc557c776db33c95caf",
-    "url": "/js/chunk-vendors.f3b0d55d.js"
+    "revision": "4cef4ed8e5e692c54f02",
+    "url": "/js/chunk-vendors.c40f0db7.js"
   },
   {
     "revision": "9cf6ef03a14462077cb6474e022efad3",

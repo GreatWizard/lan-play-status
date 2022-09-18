@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1663517681332,
+    "generatedTime": 1663518589105,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "75155bb472291ba97cd37f292a49d0cb99c63e6b6ff7f6ed6098bb6c78e057cd"
+            "hash": "1f51c6990819f1b86356ca2ad90afb07b1353028e6e81a63a1ecacbcc3a3c928"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.7d05a7e801f3c7d1fad4811a78ed03f6.js",
+            "name": "precache-manifest.77318a1f705430bbd04690f9a9a59406.js",
             "size": 17215,
-            "hash": "cd8570e6d81eb4fe4357194942a9913a60ae7ffd93527764025d4501babe0a69"
+            "hash": "2266d87480be54c83652e0afd8ea230bbca5b49cb812357c4e12b3bbb673f27a"
         },
         {
             "type": "file",
@@ -89,7 +89,7 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "089220073f96d8c6cf48b52ff68b6f206708c98dd7198589c1bbab3e463e69f6"
+            "hash": "559fc839a39fffb2ab5b8ffba0e81279b0adb9c839c034eda11bc0f136c9cf45"
         },
         {
             "type": "file",
@@ -112,8 +112,8 @@
         {
             "type": "file",
             "name": "data/servers.json",
-            "size": 8483,
-            "hash": "af8d2e54781076eff4b74c666e25a0291102cefa26600a57bd42ebcb915eb296"
+            "size": 8400,
+            "hash": "869f4f59e3f93693e3c5cf16d823dc4059e7f15d7064f02af83d496b35c12894"
         },
         {
             "type": "file",
@@ -165,15 +165,15 @@
         },
         {
             "type": "file",
-            "name": "img/bowser.fc7ed05e.png",
-            "size": 32128,
-            "hash": "6a87627fe8bbf62fe848a917633d9f9c23d8527080167a998b0fc8b51602427f"
-        },
-        {
-            "type": "file",
             "name": "img/bowser-ssbu.a020a0c3.png",
             "size": 7858,
             "hash": "94f1fcda94c57666891913abc4b1f22b9a6f387bcb60504dd051e5bd817c0b09"
+        },
+        {
+            "type": "file",
+            "name": "img/bowser.fc7ed05e.png",
+            "size": 32128,
+            "hash": "6a87627fe8bbf62fe848a917633d9f9c23d8527080167a998b0fc8b51602427f"
         },
         {
             "type": "file",
@@ -189,15 +189,15 @@
         },
         {
             "type": "file",
-            "name": "img/ca.5405c1bb.svg",
-            "size": 816,
-            "hash": "d87e27676ca6098faf01b53c122b9778ef36c65fa8750467b1b48ae137eda3a5"
-        },
-        {
-            "type": "file",
             "name": "img/byleth-ssbu.b641ea7e.png",
             "size": 8915,
             "hash": "3cfca956b0bc44f96935bb2fbcb76feefe2671de4756031c03d3d67bfd436841"
+        },
+        {
+            "type": "file",
+            "name": "img/ca.5405c1bb.svg",
+            "size": 816,
+            "hash": "d87e27676ca6098faf01b53c122b9778ef36c65fa8750467b1b48ae137eda3a5"
         },
         {
             "type": "file",
@@ -637,15 +637,15 @@
         },
         {
             "type": "file",
-            "name": "img/olimar-ssbu.db3e5e0b.png",
-            "size": 8355,
-            "hash": "218e81196960a48d565aa92db3aaf0b19ba0849ebb3c4759b91aacb7e46a834e"
-        },
-        {
-            "type": "file",
             "name": "img/no-cover.c97c7c1d.jpg",
             "size": 34002,
             "hash": "5c4356d2725af14fdc1ae87a6ae9921b54d4306c1039705b85fcfdd4f016dfe0"
+        },
+        {
+            "type": "file",
+            "name": "img/olimar-ssbu.db3e5e0b.png",
+            "size": 8355,
+            "hash": "218e81196960a48d565aa92db3aaf0b19ba0849ebb3c4759b91aacb7e46a834e"
         },
         {
             "type": "file",
@@ -1051,13 +1051,13 @@
         },
         {
             "type": "file",
-            "name": "js/app.2d646d7f.js",
-            "size": 1269562,
-            "hash": "cac0a45b7b1ccbd2a6af260fd906b4e85f2b9897e92cee1b824d12b6edd6af31"
+            "name": "js/app.c2d88126.js",
+            "size": 1278900,
+            "hash": "d27fe5b29cc74b538c92361a40fdf79775b4e4cc66cd0b019f48a12f5b45265d"
         },
         {
             "type": "file",
-            "name": "js/chunk-vendors.f3b0d55d.js",
+            "name": "js/chunk-vendors.c40f0db7.js",
             "size": 183712,
             "hash": "b8e46c4a04cc10f2443d7ffe8b2eecb15dd895dc1c8ca69e21575602aa383633"
         },
