@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1663517669898,
+    "generatedTime": 1663517681332,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "89ddc9ec82ada77a3a75be06358c6a4418805c754d6d51f821f773ba48a046f0"
+            "hash": "75155bb472291ba97cd37f292a49d0cb99c63e6b6ff7f6ed6098bb6c78e057cd"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.1cbe99db664915972a25c4fec37e6dfa.js",
+            "name": "precache-manifest.7d05a7e801f3c7d1fad4811a78ed03f6.js",
             "size": 17215,
-            "hash": "1a0fb347bc49ccf39384c66acf8e114353c5120ed2da7f495aab03f85104aa49"
+            "hash": "cd8570e6d81eb4fe4357194942a9913a60ae7ffd93527764025d4501babe0a69"
         },
         {
             "type": "file",
@@ -89,7 +89,7 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "bfffacbf75a94a1ccaebf1a2a68a46af96e76828029358eca8b31a78a5d56f1e"
+            "hash": "089220073f96d8c6cf48b52ff68b6f206708c98dd7198589c1bbab3e463e69f6"
         },
         {
             "type": "file",
@@ -112,8 +112,8 @@
         {
             "type": "file",
             "name": "data/servers.json",
-            "size": 8488,
-            "hash": "8fa9ebda0ffb1208d2ee5579e6142930876278dd16f95e01a9825e9c2ff942f5"
+            "size": 8483,
+            "hash": "af8d2e54781076eff4b74c666e25a0291102cefa26600a57bd42ebcb915eb296"
         },
         {
             "type": "file",
@@ -165,15 +165,15 @@
         },
         {
             "type": "file",
-            "name": "img/bowser-ssbu.a020a0c3.png",
-            "size": 7858,
-            "hash": "94f1fcda94c57666891913abc4b1f22b9a6f387bcb60504dd051e5bd817c0b09"
-        },
-        {
-            "type": "file",
             "name": "img/bowser.fc7ed05e.png",
             "size": 32128,
             "hash": "6a87627fe8bbf62fe848a917633d9f9c23d8527080167a998b0fc8b51602427f"
+        },
+        {
+            "type": "file",
+            "name": "img/bowser-ssbu.a020a0c3.png",
+            "size": 7858,
+            "hash": "94f1fcda94c57666891913abc4b1f22b9a6f387bcb60504dd051e5bd817c0b09"
         },
         {
             "type": "file",
@@ -189,15 +189,15 @@
         },
         {
             "type": "file",
-            "name": "img/byleth-ssbu.b641ea7e.png",
-            "size": 8915,
-            "hash": "3cfca956b0bc44f96935bb2fbcb76feefe2671de4756031c03d3d67bfd436841"
-        },
-        {
-            "type": "file",
             "name": "img/ca.5405c1bb.svg",
             "size": 816,
             "hash": "d87e27676ca6098faf01b53c122b9778ef36c65fa8750467b1b48ae137eda3a5"
+        },
+        {
+            "type": "file",
+            "name": "img/byleth-ssbu.b641ea7e.png",
+            "size": 8915,
+            "hash": "3cfca956b0bc44f96935bb2fbcb76feefe2671de4756031c03d3d67bfd436841"
         },
         {
             "type": "file",
@@ -475,15 +475,15 @@
         },
         {
             "type": "file",
-            "name": "img/link-ssbu.2926fc2b.png",
-            "size": 9038,
-            "hash": "d999c34d1ea9df2b345497e4a4bdbbd3fff06b38d40f226a78d0e728aee97e91"
-        },
-        {
-            "type": "file",
             "name": "img/kk-slider.33b05664.png",
             "size": 10367,
             "hash": "f0a9b9c3a84c2297aa57cacb7570646513c74eb35a2842e7fed6147b957a69da"
+        },
+        {
+            "type": "file",
+            "name": "img/link-ssbu.2926fc2b.png",
+            "size": 9038,
+            "hash": "d999c34d1ea9df2b345497e4a4bdbbd3fff06b38d40f226a78d0e728aee97e91"
         },
         {
             "type": "file",
@@ -571,6 +571,12 @@
         },
         {
             "type": "file",
+            "name": "img/marth-ssbu.2c151e69.png",
+            "size": 7675,
+            "hash": "2076d95e2fdc68650f37ac63212788fbcd4b64d4bfd1c9b26221b5f4631cb17a"
+        },
+        {
+            "type": "file",
             "name": "img/megaman-ssbu.66681249.png",
             "size": 5443,
             "hash": "db1e4775886a769e3bf704664d3d23c1182be23b796a090bee953aaeac2b1e55"
@@ -580,12 +586,6 @@
             "name": "img/melynx.5e0ab152.png",
             "size": 12767,
             "hash": "aabac49248289a2e4b4cb026d807fb7efc05b30f2101e04b97db81187d57dd3d"
-        },
-        {
-            "type": "file",
-            "name": "img/marth-ssbu.2c151e69.png",
-            "size": 7675,
-            "hash": "2076d95e2fdc68650f37ac63212788fbcd4b64d4bfd1c9b26221b5f4631cb17a"
         },
         {
             "type": "file",
@@ -637,15 +637,15 @@
         },
         {
             "type": "file",
-            "name": "img/no-cover.c97c7c1d.jpg",
-            "size": 34002,
-            "hash": "5c4356d2725af14fdc1ae87a6ae9921b54d4306c1039705b85fcfdd4f016dfe0"
-        },
-        {
-            "type": "file",
             "name": "img/olimar-ssbu.db3e5e0b.png",
             "size": 8355,
             "hash": "218e81196960a48d565aa92db3aaf0b19ba0849ebb3c4759b91aacb7e46a834e"
+        },
+        {
+            "type": "file",
+            "name": "img/no-cover.c97c7c1d.jpg",
+            "size": 34002,
+            "hash": "5c4356d2725af14fdc1ae87a6ae9921b54d4306c1039705b85fcfdd4f016dfe0"
         },
         {
             "type": "file",
@@ -865,6 +865,12 @@
         },
         {
             "type": "file",
+            "name": "img/sheik-ssbu.c09b2c0f.png",
+            "size": 8588,
+            "hash": "318444f789a7d9a09477e054eb08f3f7c12b15d1c24bcdea476480dd6829915f"
+        },
+        {
+            "type": "file",
             "name": "img/shulk-ssbu.b68262b0.png",
             "size": 9607,
             "hash": "ab493e5f10a98c800b495caa6ab6ea4b2e3be1965453a8b8e1bff4f1982b25d1"
@@ -874,12 +880,6 @@
             "name": "img/simon-ssbu.7be60cae.png",
             "size": 9347,
             "hash": "aacefa3419fce35ad5fcee3792666a0579b8eb3038a4263881b7fe5f1f7e62dd"
-        },
-        {
-            "type": "file",
-            "name": "img/sheik-ssbu.c09b2c0f.png",
-            "size": 8588,
-            "hash": "318444f789a7d9a09477e054eb08f3f7c12b15d1c24bcdea476480dd6829915f"
         },
         {
             "type": "file",
@@ -1051,9 +1051,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.5fade89f.js",
-            "size": 1269567,
-            "hash": "ec438fa91732c0996476be16f6d4eaa583bde0b137b81e99d21c1d2da00cde52"
+            "name": "js/app.2d646d7f.js",
+            "size": 1269562,
+            "hash": "cac0a45b7b1ccbd2a6af260fd906b4e85f2b9897e92cee1b824d12b6edd6af31"
         },
         {
             "type": "file",
