@@ -2,7 +2,7 @@
     {
     "ip": "switchbros.ddns.net",
     "port": 11451,
-    "flag": "us",
+    "flag": "de",
     "platform": "switch",
     "type": "rust"
   },
