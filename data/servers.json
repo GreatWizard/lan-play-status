@@ -140,7 +140,7 @@
     "type": "rust"
   },
   {
-    "ip": "layer8.fail",
+    "ip": "localhorst.guru",
     "port": 11451,
     "flag": "de",
     "platform": "switch",
