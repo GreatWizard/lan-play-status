@@ -280,6 +280,14 @@
     "type": "rust"
   },
   {
+    "ip": "ldn.346lab.org",
+    "port": 11451,
+    "flag": "jp",
+    "platform": "switch",
+    "type": "rust",
+    "comment": ""
+  },
+  {
     "ip": "lanplay.verdandi.icu",
     "port": 11451,
     "flag": "cn",

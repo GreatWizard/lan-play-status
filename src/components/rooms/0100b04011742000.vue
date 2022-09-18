@@ -5,7 +5,7 @@
     class="icon"
     alt="🔒"
   />
-  HR{{ advertiseData.rank }}
+  HR{{ advertiseData.rank }} MR{{ advertiseData.masterRank }}
 </template>
 
 <script>
