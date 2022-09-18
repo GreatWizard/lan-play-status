@@ -140,7 +140,7 @@
     "type": "rust"
   },
   {
-    "ip": "localhorst.guru",
+    "ip": "layer8.fail",
     "port": 11451,
     "flag": "de",
     "platform": "switch",
@@ -278,6 +278,14 @@
     "flag": "pa",
     "platform": "switch",
     "type": "rust"
+  },
+  {
+    "ip": "ldn.346lab.org",
+    "port": 11451,
+    "flag": "jp",
+    "platform": "switch",
+    "type": "rust",
+    "comment": ""
   },
   {
     "ip": "lanplay.verdandi.icu",
