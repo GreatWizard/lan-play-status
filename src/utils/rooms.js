@@ -27,7 +27,8 @@ const getPlayers = _room => {
     _room.contentId === "0100b04011742000"
   ) {
     return _room.nodes.map(
-      ({ characterName, rank, masterRank }) => `${characterName} (HR${rank} MR${masterRank})`
+      ({ characterName, rank, masterRank }) =>
+        `${characterName} (HR${rank} MR${masterRank})`
     );
   }
   return _room.nodes.map(({ playerName }) => playerName);
@@ -116,7 +117,10 @@ const AdvertiseDataMap = _gameId => {
     case "0100b04011742000":
       return data => {
         const [header, , ranks, user, masterRanks] = data.split("00000004");
-        let result = { rank: hexToInt(ranks.substr(0, 4)), masterRank: hexToInt(masterRanks.substr(0, 4)) };
+        let result = {
+          rank: hexToInt(ranks.substr(0, 4)),
+          masterRank: hexToInt(masterRanks.substr(0, 4))
+        };
         if (header?.length > 44) {
           // 44: unlocked ; 60: locked
           result.code = `${header.charAt(45)}${header.charAt(
