@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1664166650125,
+    "generatedTime": 1664252157293,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "7b895a6730928e454c204415e8b7e4a1a6416f7fa62000ca845c1c88b66fd8f0"
+            "hash": "b8a9f53477adb63c3f918a56d509fdceea7b54f5c67c6b15c1a42b4afd3b7a69"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.6336aef0bd7ccbc662a381ef5c4761c3.js",
+            "name": "precache-manifest.b00a5a64e0a77623dc045dfe170925ac.js",
             "size": 17215,
-            "hash": "fa9b67b49ab61d2f87c7dc560a4c85cfd7b57ada34db57a1cccbffe51db3a8fc"
+            "hash": "09c0ac201c2bc38f1ba0416b87fbf620c4d47a99bb26b281a31ad605e6da8eae"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "834f376e92b3aa91498f3fd64b77dc782c77b7f6d9c54241cb822aac5001e8cd"
+            "hash": "19bbc920fb3884d189d90dbabae63ab0bf80b80495486b458ac5d9fee3a36de6"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "e660c32faf4701692fd51159bd5edc19469b955e456bb4b74b909cc86cd71176"
+            "hash": "b839d2cd812a7e9ce4ca124a316058517ee53a23b1f3ae3dd5790a09b5872ece"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "be9ab86591255c463037ddb1358ed8f25049a263e81c8e231cacc155a65bbf2f"
+            "hash": "47610ca95ba2ee2c617deb7e53e6c80f2edb1368c9e2d39d3f7eddea7a8da867"
         },
         {
             "type": "file",
@@ -135,15 +135,15 @@
         },
         {
             "type": "file",
-            "name": "img/bg.557dbfa9.svg",
-            "size": 647,
-            "hash": "307aec586e1fc845fc9524506e9dbdce020519d381b4c7b7f9995a6df14109be"
-        },
-        {
-            "type": "file",
             "name": "img/bayonetta-ssbu.90b020e0.png",
             "size": 10594,
             "hash": "2abd5c80975fd6b7a38f9bd98cc539ecb69be0f94f16a1e0e5873cdb6e7023a8"
+        },
+        {
+            "type": "file",
+            "name": "img/bg.557dbfa9.svg",
+            "size": 647,
+            "hash": "307aec586e1fc845fc9524506e9dbdce020519d381b4c7b7f9995a6df14109be"
         },
         {
             "type": "file",
@@ -165,15 +165,15 @@
         },
         {
             "type": "file",
-            "name": "img/bowser.fc7ed05e.png",
-            "size": 32128,
-            "hash": "6a87627fe8bbf62fe848a917633d9f9c23d8527080167a998b0fc8b51602427f"
-        },
-        {
-            "type": "file",
             "name": "img/bowser-ssbu.a020a0c3.png",
             "size": 7858,
             "hash": "94f1fcda94c57666891913abc4b1f22b9a6f387bcb60504dd051e5bd817c0b09"
+        },
+        {
+            "type": "file",
+            "name": "img/bowser.fc7ed05e.png",
+            "size": 32128,
+            "hash": "6a87627fe8bbf62fe848a917633d9f9c23d8527080167a998b0fc8b51602427f"
         },
         {
             "type": "file",
@@ -1009,27 +1009,27 @@
         },
         {
             "type": "file",
-            "name": "img/world-flags-globe.f17c62e2.png",
-            "size": 50962,
-            "hash": "e95b5e90d20e3970bcbf86ddf523f76c3a6ed5c20e1482532567cbbfb614bc4c"
-        },
-        {
-            "type": "file",
             "name": "img/yoshi-kart.cfbbbb39.png",
             "size": 9391,
             "hash": "62772287fb15cb5771a4399d53be6d0d4ff9b8f2a550ffcaae3770e3c0189dd1"
         },
         {
             "type": "file",
-            "name": "img/yoshi-ssbu.9c9af558.png",
-            "size": 5533,
-            "hash": "edc57314f813001a626e1d17ed73e4fbe9f500e02fcd260ef679ad973ed69860"
+            "name": "img/world-flags-globe.f17c62e2.png",
+            "size": 50962,
+            "hash": "e95b5e90d20e3970bcbf86ddf523f76c3a6ed5c20e1482532567cbbfb614bc4c"
         },
         {
             "type": "file",
             "name": "img/yoshi.b710928d.png",
             "size": 54323,
             "hash": "e896853e422a586656077a4af8349fa234e382f6852178219e874c552559180e"
+        },
+        {
+            "type": "file",
+            "name": "img/yoshi-ssbu.9c9af558.png",
+            "size": 5533,
+            "hash": "edc57314f813001a626e1d17ed73e4fbe9f500e02fcd260ef679ad973ed69860"
         },
         {
             "type": "file",
@@ -1051,9 +1051,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.ff64d673.js",
-            "size": 1284993,
-            "hash": "e9e965d9c969e4d1c3c6f0198fd8a6c281bfa1f323ba229125e075a404ba4649"
+            "name": "js/app.992d1d16.js",
+            "size": 1285505,
+            "hash": "bea4244e726f634cf845d5778ce16d92ccc55e5c01c6b49188ab12cdf9ab3262"
         },
         {
             "type": "file",
