@@ -471,5 +471,12 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
+  },
+  {
+    "ip": "switchbros.ddns.net",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
   }
 ]
