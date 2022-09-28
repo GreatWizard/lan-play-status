@@ -100,7 +100,7 @@
   {
     "ip": "badps4lanplay.ml",
     "port": 22451,
-    "flag": "fr",
+    "flag": "nl",
     "platform": "ps4",
     "type": "rust"
   },
@@ -198,7 +198,7 @@
   {
     "ip": "canalstream.ddns.net",
     "port": 11451,
-    "flag": "fr",
+    "flag": "re",
     "platform": "switch",
     "type": "rust"
   },
@@ -342,7 +342,7 @@
   {
     "ip": "switchlanplay-tw.ddns.net",
     "port": 11451,
-    "flag": "tw",
+    "flag": "jp",
     "platform": "switch",
     "type": "rust"
   },
@@ -378,6 +378,13 @@
     "ip": "switchlanplay.sephirot.pl",
     "port": 11451,
     "flag": "pl",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "switchbros.ddns.net",
+    "port": 11451,
+    "flag": "de",
     "platform": "switch",
     "type": "rust"
   },
@@ -447,7 +454,7 @@
   {
     "ip": "nxslimez.shop",
     "port": 11451,
-    "flag": "de",
+    "flag": "us",
     "platform": "ps4",
     "type": "dotnet"
   },
