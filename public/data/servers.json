@@ -478,5 +478,13 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
+  },
+  {
+    "ip": "pokemon.wkzcommunity.com",
+    "port": 11451,
+    "flag": "uk",
+    "platform": "switch",
+    "type": "dotnet",
+    "games": ["01008DB008C2c000", "0100ABF008968000"]
   }
 ]
