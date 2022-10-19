@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1666067081897,
+    "generatedTime": 1666153594489,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "641ecdb1de08d51d7c05cbae6c8698a8d87dafadd27163378de7444e685d5a30"
+            "hash": "6f692362c6bb9bef1db324976248efa5271a233e822563cb51f2c896ccc0c6f7"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.4707450103cba4c5fac911c9048162dd.js",
+            "name": "precache-manifest.6d7e9c96ed4c49410d90cc8272b36613.js",
             "size": 17310,
-            "hash": "89ebe351f6d3edf565fbeeef7dc03cffcee52825a1e7dd8fd650f37b8f1ada15"
+            "hash": "5a9f10086428c89656e2bf01440e457f7fe7bf5ee7eba2646421efe583460161"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "bcec8fffa6b5e8849736e11e771f6b6e3061b517e1c56de6b51a184ff6a8bbd0"
+            "hash": "6d2775b6ded9d71f7446cb40d30e00a6eeca4026425f47d0e4d7d38dba6c6d9e"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "a9661425a4ff9ad465574189f0fdd262aa5ccbe1d488de2dc3d3a5a7c84ce83d"
+            "hash": "1acdb10048edc600c5452838f2e7ba01974cfbeb0154c02f57bff227647da35c"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "7f79b4aa68522debe9cb70aad72a90e4634794ec9455618c5413848087c275b2"
+            "hash": "88a930d21997e0db3600bce0398355005785dc48f5846ebb6bb19299bea246a3"
         },
         {
             "type": "file",
@@ -799,15 +799,15 @@
         },
         {
             "type": "file",
-            "name": "img/ru.707b18a8.svg",
-            "size": 647,
-            "hash": "e022b10d724c02bb5db4228230df83e5a7f5d6ffa1bac6ede7418f8e726366b7"
-        },
-        {
-            "type": "file",
             "name": "img/roy-ssbu.26c858cf.png",
             "size": 7548,
             "hash": "e1768d5d91505bbea109eef43013dc40b4ed807c3b10a26e67e4a94aaaf9a1e1"
+        },
+        {
+            "type": "file",
+            "name": "img/ru.707b18a8.svg",
+            "size": 647,
+            "hash": "e022b10d724c02bb5db4228230df83e5a7f5d6ffa1bac6ede7418f8e726366b7"
         },
         {
             "type": "file",
@@ -1057,9 +1057,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.69641687.js",
-            "size": 1303215,
-            "hash": "88426ee07e096d4df5f5ce066e2e30554d6a961e7993957cec95e499efba8a93"
+            "name": "js/app.7d7ec0d2.js",
+            "size": 1303636,
+            "hash": "bd503caac8e98f10b96e6649eb00e7f992d90dd4b8048eb0791225a4d2e291b6"
         },
         {
             "type": "file",
@@ -1075,18 +1075,6 @@
         },
         {
             "type": "file",
-            "name": "img/icons/android-chrome-512x512.png",
-            "size": 16638,
-            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
-        },
-        {
-            "type": "file",
-            "name": "img/icons/apple-touch-icon-120x120.png",
-            "size": 1359,
-            "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
-        },
-        {
-            "type": "file",
             "name": "img/icons/apple-touch-icon-152x152.png",
             "size": 2005,
             "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
@@ -1096,6 +1084,18 @@
             "name": "img/icons/apple-touch-icon-180x180.png",
             "size": 1567,
             "hash": "940ca26f385a497ba06cdc4d0fa15e4f09603d21c7bfe41623226e11bb0196df"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/android-chrome-512x512.png",
+            "size": 16638,
+            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon-120x120.png",
+            "size": 1359,
+            "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
         },
         {
             "type": "file",
