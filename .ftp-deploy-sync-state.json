@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1667188254716,
+    "generatedTime": 1667276081257,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "f0b583a181280f86d85aebe12a81bdd329d6cc075ea7f4540f5b374a5e1eb4f6"
+            "hash": "f6eb796072942269cab0331ebd43247ee9d26317b1d2d2f22cd007333f7e5c98"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.290492d802208a93bc25c2b7a4946f6e.js",
+            "name": "precache-manifest.f2c37f3d73c4a1502fd097f0b11449a1.js",
             "size": 17310,
-            "hash": "56569b0f41f4ad29cb4faf941e6c6fe39d656d5ca22f2e50ae987708dec22044"
+            "hash": "e1d62f70ac516f0f4ae1e5432599a03accf073197137b4bc0fc58c4d1315e778"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "b2892cb0d34e799238307280d505f030b8c617ca6f837d7d3ab084150c3c0c18"
+            "hash": "61f83a075bab3a3cf0a5767a94c02e09f782b642476f5c81b6533f56e5b273c3"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "7d90c92e04525529c27bb69c848cfb25bac084928a22bde2d18cf1fba6fa588a"
+            "hash": "8c599c5e0ea0e7dc475a8e4dd5c82816768f1ee0797841e3fdd8f307dc375d44"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "e8d7a97d919e40cd37335b4e542896fa560f6b4abb6c671d5e765a319bbb997a"
+            "hash": "1e8ff6fe24978c1ddd0890532dfd45feaa69805afbf50bf866d0ecaea15f8fed"
         },
         {
             "type": "file",
@@ -985,6 +985,12 @@
         },
         {
             "type": "file",
+            "name": "img/wario-kart.1d30eda0.png",
+            "size": 10901,
+            "hash": "6b90b2e2c376245aaac8bfaf0643449e2c8d77cf0979a051411180663e127269"
+        },
+        {
+            "type": "file",
             "name": "img/wario-ssbu.35cb7401.png",
             "size": 9412,
             "hash": "12021dd4cdf781820e78e18bfbddb130507929a72f03899db8377ff826ccf3d2"
@@ -997,15 +1003,15 @@
         },
         {
             "type": "file",
-            "name": "img/wario-kart.1d30eda0.png",
-            "size": 10901,
-            "hash": "6b90b2e2c376245aaac8bfaf0643449e2c8d77cf0979a051411180663e127269"
-        },
-        {
-            "type": "file",
             "name": "img/wiifittrainer-ssbu.c366f8b0.png",
             "size": 5688,
             "hash": "0a47de6873cb02de81cf5966969ce46b8bf8a1e336fe70ade5ebf8b45a7d2970"
+        },
+        {
+            "type": "file",
+            "name": "img/wolf-ssbu.b2317412.png",
+            "size": 8583,
+            "hash": "c22d8930958d1233e337cca9daf199b0afcde9d1e069f20e7695e57960457a62"
         },
         {
             "type": "file",
@@ -1018,12 +1024,6 @@
             "name": "img/yoshi-kart.cfbbbb39.png",
             "size": 9391,
             "hash": "62772287fb15cb5771a4399d53be6d0d4ff9b8f2a550ffcaae3770e3c0189dd1"
-        },
-        {
-            "type": "file",
-            "name": "img/wolf-ssbu.b2317412.png",
-            "size": 8583,
-            "hash": "c22d8930958d1233e337cca9daf199b0afcde9d1e069f20e7695e57960457a62"
         },
         {
             "type": "file",
@@ -1057,9 +1057,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.7a275b12.js",
+            "name": "js/app.44ec5b4d.js",
             "size": 1313634,
-            "hash": "d61fc1a38ecfe426093c6b8d67b0e01c9bac3d926701df6e5985c775fcfd46f6"
+            "hash": "6060e5838d77cccf0809b400f2df78f0e5041c70c68fa8678f16065ba8af9e72"
         },
         {
             "type": "file",
