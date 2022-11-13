@@ -31,13 +31,16 @@
     <Install type="switch" />
     <h2>{{ $t("pages.installSwitch.test.title", { prefix: "4 - " }) }}</h2>
     <p>
-      You can test if you have setup everything correctly by putting your Switch
-      to sleep and waking it up.
+      If you believe you have followed the instructions so far, you can try to
+      play a LAN game, such as Mario Kart. Sometimes you may see output in the 
+      client, like <strong>IConnection::IConnection</strong>, which indicates
+      your switch is connected. Not all system combinations will show this.
     </p>
     <p>
-      If everything is good, you should see (review bold notes in this section)
-      <strong>IConnection::IConnection</strong> on your lan-play client. It will
-      look like:
+      <strong>
+        Failing the internet and/or DNS connectivity test on your switch DOES
+        NOT MATTER and can be ignored.
+      </strong>
     </p>
     <Terminal
       title="user@linux: ~/Downloads"
@@ -49,27 +52,9 @@
 [DEBUG]: IConnection::~IConnection"
     />
     <p>
-      If you do not, verify your switch settings, ensure there is no autoconnect
-      profile for a different wireless profile but that autoconnect
-      <b>IS</b> enabled for the lanplay profile, and
-      <strong>try playing a game</strong>. Failing this, try rebooting your
-      switch.
-      <strong>
-        Failing the internet and/or DNS connectivity test on your switch DOES
-        NOT MATTER and can be ignored.
-      </strong>
-    </p>
-    <p>
-      <strong>
-        Some system combinations no longer show IConnection, but work perfectly
-        fine. If you do not see an IConnection, but believe you configured
-        everything properly try playing anyway.
-      </strong>
-    </p>
-    <p>
       If you cannot join or create lobbies after asking someone to play with
-      you, join #help on the lan-play discord for further assistance. Note: You
-      must ask people to play with you or to join others.
+      you, join #help on the lan-play discord for further assistance. <strong>Note: You
+      must ask people to play with you or to join others.</strong>
     </p>
     <h2>{{ $t("pages.installSwitch.module.title", { prefix: "5 - " }) }}</h2>
     <p>
