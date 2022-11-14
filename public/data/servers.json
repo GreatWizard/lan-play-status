@@ -478,5 +478,12 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
+  },
+  {
+    "ip": "nx.inesistencecity.es",
+    "port": 10086,
+    "flag": "es",
+    "platform": "switch",
+    "type": "node"
   }
 ]
