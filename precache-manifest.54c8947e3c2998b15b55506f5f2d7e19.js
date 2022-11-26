@@ -20,11 +20,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/browserconfig.xml"
   },
   {
-    "revision": "33061fd72654280f4e08",
+    "revision": "48232e791ca6beab564f",
     "url": "/css/app.e2a63a8d.css"
   },
   {
-    "revision": "99eb08d0549f4ebadbfdaf7a233f0b02",
+    "revision": "6007901ae0b8e865fd8c1f5d6bd3d72a",
     "url": "/data/servers.json"
   },
   {
@@ -180,8 +180,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/ganondorf-ssbu.0ab05cf2.png"
   },
   {
-    "revision": "0eeac730e062811edef5b5d0b59b7ac7",
-    "url": "/img/gb.0eeac730.svg"
+    "revision": "30556795f8ab40498990d8076913920b",
+    "url": "/img/gb-ukm.30556795.svg"
   },
   {
     "revision": "d950421a04ffb639bd8f5ce4a96a53af",
@@ -656,12 +656,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/zerosuitsamus-ssbu.bbf03a68.png"
   },
   {
-    "revision": "fa0bc5f929a779f8a20ee1760371c06d",
+    "revision": "c7c26203cde379c28fbcf546b7dd7efb",
     "url": "/index.html"
   },
   {
-    "revision": "33061fd72654280f4e08",
-    "url": "/js/app.4d5812ff.js"
+    "revision": "48232e791ca6beab564f",
+    "url": "/js/app.5a5ac9a1.js"
   },
   {
     "revision": "4cef4ed8e5e692c54f02",
