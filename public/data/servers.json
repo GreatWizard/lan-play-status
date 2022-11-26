@@ -65,7 +65,7 @@
   {
     "ip": "lan.imperialcommand.xyz",
     "port": 11451,
-    "flag": "ca",
+    "flag": "us",
     "platform": "switch",
     "type": "rust"
   },
@@ -268,7 +268,7 @@
   {
     "ip": "lanplay.degepii.ml",
     "port": 11451,
-    "flag": "de",
+    "flag": "nl",
     "platform": "switch",
     "type": "rust"
   },
@@ -389,6 +389,28 @@
     "type": "rust"
   },
   {
+    "ip": "switchbros.ddns.net",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "erdbeerbaerlp.de",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "pokemon.wkzcommunity.com",
+    "port": 11451,
+    "flag": "gb",
+    "platform": "switch",
+    "type": "dotnet",
+    "games": ["01008DB008C2c000", "0100ABF008968000"]
+  },
+  {
     "ip": "joinsg.net",
     "port": 11451,
     "flag": "us",
@@ -445,6 +467,13 @@
     "type": "node"
   },
   {
+    "ip": "nx.inesistencecity.es",
+    "port": 10086,
+    "flag": "es",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
     "ip": "switch.jayseateam.nl",
     "port": 11452,
     "flag": "nl",
@@ -468,7 +497,7 @@
   {
     "ip": "lan2.imperialcommand.xyz",
     "port": 11451,
-    "flag": "ph",
+    "flag": "us",
     "platform": "switch",
     "type": "dotnet"
   },
