@@ -109,12 +109,12 @@ Server IP: 149.91.81.201"
   <p>
     If you omit the <code>--relay-server-addr</code> option, the application
     will prompt you to enter the relay server address. You can choose the server
-    you want from our <a href="http://lan-play.com/">list of servers</a> or any 
+    you want from our <a href="http://lan-play.com/">list of servers</a> or any
     other server you may know of.
   </p>
   <p>
-    You need to run the client administratively and possibly allow it through your
-    firewall. If the client exits right away, ensure you are running as an
+    You need to run the client administratively and possibly allow it through
+    your firewall. If the client exits right away, ensure you are running as an
     administrator or root and pasting in the server correctly.
   </p>
   <h2>{{ $t("install.games.title", { prefix: "3 - " }) }}</h2>

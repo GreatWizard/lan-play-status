@@ -32,7 +32,7 @@
     <h2>{{ $t("pages.installSwitch.test.title", { prefix: "4 - " }) }}</h2>
     <p>
       If you believe you have followed the instructions so far, you can try to
-      play a LAN game, such as Mario Kart. Sometimes you may see output in the 
+      play a LAN game, such as Mario Kart. Sometimes you may see output in the
       client, like <strong>IConnection::IConnection</strong>, which indicates
       your switch is connected. Not all system combinations will show this.
     </p>
@@ -53,8 +53,10 @@
     />
     <p>
       If you cannot join or create lobbies after asking someone to play with
-      you, join #help on the lan-play discord for further assistance. <strong>Note: You
-      must ask people to play with you or to join others.</strong>
+      you, join #help on the lan-play discord for further assistance.
+      <strong
+        >Note: You must ask people to play with you or to join others.</strong
+      >
     </p>
     <h2>{{ $t("pages.installSwitch.module.title", { prefix: "5 - " }) }}</h2>
     <p>
