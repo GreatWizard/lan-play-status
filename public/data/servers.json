@@ -405,7 +405,7 @@
   {
     "ip": "pokemon.wkzcommunity.com",
     "port": 11451,
-    "flag": "gb",
+    "flag": "gb-ukm",
     "platform": "switch",
     "type": "dotnet",
     "games": ["01008DB008C2c000", "0100ABF008968000"]
