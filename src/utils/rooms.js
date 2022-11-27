@@ -1,7 +1,7 @@
 import { getGameId } from "./games";
 import { hexToUtf8, hexToUtf16, hexToAscii, hexToInt } from "./hex";
 
-const getHostPlayerName = _room => {
+const getHostPlayerName = (_room) => {
   let hostPlayerName = _room.hostPlayerName;
   if (
     // Fix for DRAGON BALL FighterZ
@@ -13,7 +13,7 @@ const getHostPlayerName = _room => {
   return hostPlayerName;
 };
 
-const getPlayers = _room => {
+const getPlayers = (_room) => {
   if (
     // DRAGON BALL FighterZ
     _room.contentId === "0100a250097f0000" ||
@@ -34,31 +34,42 @@ const getPlayers = _room => {
   return _room.nodes.map(({ playerName }) => playerName);
 };
 
-const AdvertiseDataMap = _gameId => {
+const AdvertiseDataMap = (_gameId) => {
   switch (_gameId) {
     // Animal Crossing: New Horizons
     case "01006f8002326000":
-      return data => {
+      return (data) => {
         const island = hexToUtf16(data.slice(28 * 2));
         const code = data.charAt(557) === "1";
         return {
           island,
-          code
+          code,
         };
       };
     // Minecraft
     case "0100d71004694000":
-      return data => {
+      return (data) => {
         const world = hexToUtf8(data.slice(96));
         const version = hexToUtf8(data.slice(320));
         return {
           world,
-          version
+          version,
+        };
+      };
+    // Pokémon Scarlet / Violet
+    case "0100a3d008c5c000":
+    case "01008f6008c5e000":
+      return (data) => {
+        const code = `${data.charAt(185)}${data.charAt(187)}${data.charAt(
+          189
+        )}${data.charAt(191)}`;
+        return {
+          code,
         };
       };
     // Rocket League
     case "01005ee0036ec000":
-      return data => {
+      return (data) => {
         let json = JSON.parse(hexToAscii(data));
         let map = json.ServerMap.toLowerCase();
         if (map.startsWith("park_")) {
@@ -115,11 +126,11 @@ const AdvertiseDataMap = _gameId => {
         return json;
       };
     case "0100b04011742000":
-      return data => {
+      return (data) => {
         const [header, , ranks, user, masterRanks] = data.split("00000004");
         let result = {
           rank: hexToInt(ranks.substr(0, 4)),
-          masterRank: hexToInt(masterRanks.substr(0, 4))
+          masterRank: hexToInt(masterRanks.substr(0, 4)),
         };
         if (header?.length > 44) {
           // 44: unlocked ; 60: locked
@@ -138,17 +149,20 @@ const AdvertiseDataMap = _gameId => {
   }
 };
 
-const getAdvertiseData = _room => {
+const getAdvertiseData = (_room) => {
   let { contentId, advertiseData } = _room;
   let gameId = getGameId(contentId);
   return AdvertiseDataMap(gameId)(advertiseData);
 };
 
-const sanitizeData = _room => {
+const sanitizeData = (_room) => {
   if (_room.contentId === "ffffffffffffffff") {
     if (_room.advertiseData === "ffff0000") {
       // DRAGON BALL FighterZ
       _room.contentId = "0100a250097f0000";
+    } else if (_room.advertiseData.startsWith("005c150002")) {
+      // Pokémon Scarlet / Violet
+      _room.contentId = "0100a3d008c5c000"; // 01008f6008c5e000
     } else if (
       _room.advertiseData.startsWith("7b") &&
       _room.advertiseData.endsWith("7d")
@@ -182,7 +196,7 @@ const sanitizeData = _room => {
             playerName: _room.nodes[index].playerName,
             characterName,
             rank: hexToInt(ranks.substr(index * 4, 4)),
-            masterRank: hexToInt(masterRanks.substr(index * 4, 4))
+            masterRank: hexToInt(masterRanks.substr(index * 4, 4)),
           });
         } else {
           cursor = -1;
