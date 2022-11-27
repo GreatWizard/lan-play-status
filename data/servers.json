@@ -389,13 +389,6 @@
     "type": "rust"
   },
   {
-    "ip": "switchbros.ddns.net",
-    "port": 11451,
-    "flag": "de",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "erdbeerbaerlp.de",
     "port": 11451,
     "flag": "de",
