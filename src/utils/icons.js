@@ -37,6 +37,7 @@ const IconsMap = (_gameId) => {
     case "01008db008c2C000":
     case "0100a3d008c5c000":
     case "01008f6008c5e000":
+    case "01001f5010dfa000":
       return ["red-cap"];
     // Super Smash Bros. Ultimate
     case "01006a800016e000":
