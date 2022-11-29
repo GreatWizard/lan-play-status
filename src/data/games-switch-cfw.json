@@ -99,6 +99,14 @@
   { "title": "PixARK" },
   { "title": "Poisoft Thud Card", "ds": true },
   { "title": "Pokémon: Legends Arceus", "lang": "EN" },
+  {
+    "title": "Pokémon Scarlet",
+    "source": "https://assets.nintendo.eu/image/upload/f_auto/q_auto/v1/MNS/NOE/70010000053967/1.1_ProductTile_Switch_PokemonScarlet_KeyArt_enNOE"
+  },
+  {
+    "title": "Pokémon Violet",
+    "source": "https://assets.nintendo.eu/image/upload/f_auto/q_auto/v1/MNS/NOE/70010000053972/1.1_ProductTile_Switch_PokemonViolet_KeyArt_enNOE"
+  },
   { "title": "Portal Knights" },
   {
     "title": "Pro Yakyuu Famista Evolution (JP)",
