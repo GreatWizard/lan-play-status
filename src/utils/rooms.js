@@ -161,8 +161,11 @@ const sanitizeData = (_room) => {
       // DRAGON BALL FighterZ
       _room.contentId = "0100a250097f0000";
     } else if (_room.advertiseData.startsWith("005c150002")) {
-      // Pokémon Scarlet / Violet
-      _room.contentId = "0100a3d008c5c000"; // 01008f6008c5e000
+      // Pokémon Scarlet
+      _room.contentId = "0100a3d008c5c000";
+    } else if (_room.advertiseData.startsWith("005c150003")) {
+      // Pokémon Violet
+      _room.contentId = "01008f6008c5e000"; // 
     } else if (
       _room.advertiseData.startsWith("7b") &&
       _room.advertiseData.endsWith("7d")
