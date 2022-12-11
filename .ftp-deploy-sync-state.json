@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1670666708980,
+    "generatedTime": 1670727210562,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "c80ec8dd11f3da1c2d9cc435ba621085dd76a33b46598c4de9e8da6db867e915"
+            "hash": "bb505925dcb88ffe367b856cab6428555a2c6bcd892dceb94662a97f347c4c01"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.8e79ca997a3b2d4b05589b4158ef1e3d.js",
+            "name": "precache-manifest.512e03f98833ccf74ff737785e20ba93.js",
             "size": 17314,
-            "hash": "a67c61fc7db0850ec7b7a6229a190de26af7e1c46629c68ce049f266b4aafb96"
+            "hash": "4d8b8fc1e02783f95f6130060dc17267b8a484dc518882d0714a7618f6fb8b9d"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "d1751e4738be0e5e2d11a6abbc85b67ea1af804cc483e8f53d2671232829c618"
+            "hash": "4010bc687a4b57ab4cbf09e452646da1d818275eea5cbc989f7307336719d4f7"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "5ed49cfd6a4329ccc5c6e0f51d69aa9c1c9c1a7aea6ddafd4eadb590e207d71e"
+            "hash": "6bd0b10a8c8077a18caaa7ff89c51372972a380d529a723f5d37748787f603f7"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 316,
-            "hash": "ecba21eb716a984e7786d467729fe0e7ea1a188150eb59b4415e521591bf3443"
+            "hash": "2e70938a782b7e2725374035ca8c7f34b970bb817809a7601151fd80cea3f891"
         },
         {
             "type": "file",
@@ -985,12 +985,6 @@
         },
         {
             "type": "file",
-            "name": "img/wario-kart.1d30eda0.png",
-            "size": 10901,
-            "hash": "6b90b2e2c376245aaac8bfaf0643449e2c8d77cf0979a051411180663e127269"
-        },
-        {
-            "type": "file",
             "name": "img/wario-ssbu.35cb7401.png",
             "size": 9412,
             "hash": "12021dd4cdf781820e78e18bfbddb130507929a72f03899db8377ff826ccf3d2"
@@ -1000,6 +994,12 @@
             "name": "img/whatsapp.eafe62b5.svg",
             "size": 1152,
             "hash": "79c28d91f5e9934da8b6ba43056113061ae23659e838c78cbee495cba8ebf720"
+        },
+        {
+            "type": "file",
+            "name": "img/wario-kart.1d30eda0.png",
+            "size": 10901,
+            "hash": "6b90b2e2c376245aaac8bfaf0643449e2c8d77cf0979a051411180663e127269"
         },
         {
             "type": "file",
@@ -1015,6 +1015,12 @@
         },
         {
             "type": "file",
+            "name": "img/world-flags-globe.f17c62e2.png",
+            "size": 50962,
+            "hash": "e95b5e90d20e3970bcbf86ddf523f76c3a6ed5c20e1482532567cbbfb614bc4c"
+        },
+        {
+            "type": "file",
             "name": "img/yoshi-kart.cfbbbb39.png",
             "size": 9391,
             "hash": "62772287fb15cb5771a4399d53be6d0d4ff9b8f2a550ffcaae3770e3c0189dd1"
@@ -1024,12 +1030,6 @@
             "name": "img/yoshi-ssbu.9c9af558.png",
             "size": 5533,
             "hash": "edc57314f813001a626e1d17ed73e4fbe9f500e02fcd260ef679ad973ed69860"
-        },
-        {
-            "type": "file",
-            "name": "img/world-flags-globe.f17c62e2.png",
-            "size": 50962,
-            "hash": "e95b5e90d20e3970bcbf86ddf523f76c3a6ed5c20e1482532567cbbfb614bc4c"
         },
         {
             "type": "file",
@@ -1057,9 +1057,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.a13e9ef1.js",
+            "name": "js/app.e899e826.js",
             "size": 1345599,
-            "hash": "0a05837072547ac2be4c719c071d768e1e137eb4481f7fcc87a4c9244af066e0"
+            "hash": "6eadc84a56ed125b8bd235eb66affa0aa1114633f304919b146403a844355cdc"
         },
         {
             "type": "file",
@@ -1069,15 +1069,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/android-chrome-192x192.png",
-            "size": 6151,
-            "hash": "6ef4beac47b699653b39847b62564f9713eb307c93cca0486de7d3380edd597c"
-        },
-        {
-            "type": "file",
             "name": "img/icons/android-chrome-512x512.png",
             "size": 16638,
             "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon-152x152.png",
+            "size": 2005,
+            "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
         },
         {
             "type": "file",
@@ -1087,9 +1087,9 @@
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon-152x152.png",
-            "size": 2005,
-            "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
+            "name": "img/icons/android-chrome-192x192.png",
+            "size": 6151,
+            "hash": "6ef4beac47b699653b39847b62564f9713eb307c93cca0486de7d3380edd597c"
         },
         {
             "type": "file",
