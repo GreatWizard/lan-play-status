@@ -7,6 +7,13 @@
     "type": "rust"
   },
   {
+    "ip": "calvin991.ddns.net",
+    "port": 11451,
+    "flag": "tw",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "joinsg.net",
     "port": 11453,
     "flag": "us",
