@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1672713536980,
+    "generatedTime": 1672800189415,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "29eb22ec7e494b0e6988c79d43e86671e5c4347d90e95fe74e2c8e1567853f2c"
+            "hash": "0d93a0b71e21b27228da38928eb8265ba741a014298520406352699c7746db2d"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.bfe33feb9570430454da776dcd1e1f46.js",
+            "name": "precache-manifest.1a697e7070d21d4ed38de00e328458bc.js",
             "size": 17314,
-            "hash": "b193698142327393a32f778fe29863afb35b12c4059fcd81ba3e6615a9b8fdcd"
+            "hash": "7e74844ed7ac939bb9c3d004250e49ea27a35e5e9b0df52dd7214e63c965bbc9"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "40cb5b1710b3efcbd297e9b5d1cbcd05f3e75ee478144ec22aa070a999ed7b12"
+            "hash": "4f9a853eea540308a0fc9004711ffc4323811c979f1fd6b7364b97d4f68dfff5"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "4282234e8557f00833f06f6e1ddb272165f5f18757cc52a6b7d48182c6f8e5bc"
+            "hash": "912343817babfba25a1d6ebd85016ed18d23e29b352ebcf192a0bf9a9bc79ab9"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 316,
-            "hash": "0eb73fd6822bf5ccc3762c45e874083d35705575cdfb72c83ca6b9a5a24a8d85"
+            "hash": "60e69c434fe3e72c60df228ab43e716fee75f0bf1393ec4575a892a1fe2cfb89"
         },
         {
             "type": "file",
@@ -787,15 +787,15 @@
         },
         {
             "type": "file",
-            "name": "img/rosalina.dbc6b4e6.png",
-            "size": 27097,
-            "hash": "1262f6e2a47e49b141c9e379da4a563716bf5968c659c57caf53dce4d04f11b6"
-        },
-        {
-            "type": "file",
             "name": "img/rosalina-ssbu.d844471c.png",
             "size": 7431,
             "hash": "7a4aadcc7e03dd5640ec0dc43843f3414421bd78896bb6ec577e1a11a4bf8305"
+        },
+        {
+            "type": "file",
+            "name": "img/rosalina.dbc6b4e6.png",
+            "size": 27097,
+            "hash": "1262f6e2a47e49b141c9e379da4a563716bf5968c659c57caf53dce4d04f11b6"
         },
         {
             "type": "file",
@@ -1057,9 +1057,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.79547a1f.js",
-            "size": 1357893,
-            "hash": "1fbbdec22b00e49c3c0d18fca98c6d2b95a07bacf01123266a1a96ae56d371c2"
+            "name": "js/app.bfaf8b56.js",
+            "size": 1358215,
+            "hash": "50384deec0c7018297e18cd1cd396ee2a3e089de9df39ddf5528de1d47e9a2ee"
         },
         {
             "type": "file",
@@ -1075,15 +1075,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/android-chrome-512x512.png",
-            "size": 16638,
-            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
-        },
-        {
-            "type": "file",
             "name": "img/icons/apple-touch-icon-120x120.png",
             "size": 1359,
             "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/android-chrome-512x512.png",
+            "size": 16638,
+            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
         },
         {
             "type": "file",
