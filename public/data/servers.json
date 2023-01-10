@@ -500,5 +500,12 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
+  },
+  {
+    "ip": "konakona.ddns.net",
+    "port": 11451,
+    "flag": "cn",
+    "platform": "switch",
+    "type": "rust"
   }
 ]
