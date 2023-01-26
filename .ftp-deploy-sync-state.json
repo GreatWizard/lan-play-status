@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1674614561111,
+    "generatedTime": 1674701033199,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "dd25b070843763c75352f58853fd3c9f42893aef6defe9adde3e6d696f9a1be7"
+            "hash": "3c81d091ae458a9053f94abdfa662d68be60560132f26e63d7fd1870faa3c2de"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.1c569bca34c09053a054613fbfe22def.js",
+            "name": "precache-manifest.e7ea2558c0be559437ab3818089975f6.js",
             "size": 17314,
-            "hash": "f0c473f4de0c4f20934428dede2b3f5eefd00da9d6f7e1051b2bc69804109b89"
+            "hash": "2ad8d38d0d383983d6745ab5e94519b20f38877fb0f3644a6ad2ca957df87eb8"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "ec7c166cb85175179e03a933172acc64ba6e27a81483245f4ea98bf7df51f3a7"
+            "hash": "6bac229af75ac313f23746df75b8793eb0148a6c077f25533f9f4f537135f4bd"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "10f039b6a30c34f4e0a18a4ec1f3c4e1b523859b6a9beba9d772abe25ba8888f"
+            "hash": "4f2eaa49fd2202f6a469a2b6b4b44f183ad34f15122fbab4f8c097a3d11846df"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "889e0791cc84af2430ca2f2e8f62b72e31c7968864457d1de32530843c645176"
+            "hash": "a7598d426dc727f619f896ae724d6ef534f80b166b41a4abf3ca839b8594523d"
         },
         {
             "type": "file",
@@ -385,15 +385,15 @@
         },
         {
             "type": "file",
-            "name": "img/inkling-boy.e9033bad.png",
-            "size": 76331,
-            "hash": "ce49d356596e22bd544cba6706131b5a7fb965fc879c3b01881b3d2a2c772c44"
-        },
-        {
-            "type": "file",
             "name": "img/incineroar-ssbu.18318c1b.png",
             "size": 8489,
             "hash": "d9e0c41050fae182b8c1219893fa556b0618e431eeb1020ea517e97fa14cf531"
+        },
+        {
+            "type": "file",
+            "name": "img/inkling-boy.e9033bad.png",
+            "size": 76331,
+            "hash": "ce49d356596e22bd544cba6706131b5a7fb965fc879c3b01881b3d2a2c772c44"
         },
         {
             "type": "file",
@@ -541,15 +541,15 @@
         },
         {
             "type": "file",
-            "name": "img/luigi-ssbu.b3800c1f.png",
-            "size": 7536,
-            "hash": "a5fd44952ecd83c7b6b730a8475cf1b06e18b315ff25d15c1551f8a0408401f9"
-        },
-        {
-            "type": "file",
             "name": "img/luigi.37202b17.png",
             "size": 31882,
             "hash": "b331f712f5a69b802a19975c7dfb073a8ed6d40536288f9c12966ffb2476ca9e"
+        },
+        {
+            "type": "file",
+            "name": "img/luigi-ssbu.b3800c1f.png",
+            "size": 7536,
+            "hash": "a5fd44952ecd83c7b6b730a8475cf1b06e18b315ff25d15c1551f8a0408401f9"
         },
         {
             "type": "file",
@@ -565,15 +565,15 @@
         },
         {
             "type": "file",
-            "name": "img/mario-ssbu.6751b746.png",
-            "size": 8477,
-            "hash": "8f8bd0224925669255fb19157028a258a5ece1e309febf3042ca57d081a05a27"
-        },
-        {
-            "type": "file",
             "name": "img/mario.b21304ac.png",
             "size": 28209,
             "hash": "76c7ee2f9a7d45a86c743345aadfbdc63295b2c7c7004f5d2d3ee0e7ec91e345"
+        },
+        {
+            "type": "file",
+            "name": "img/mario-ssbu.6751b746.png",
+            "size": 8477,
+            "hash": "8f8bd0224925669255fb19157028a258a5ece1e309febf3042ca57d081a05a27"
         },
         {
             "type": "file",
@@ -715,15 +715,15 @@
         },
         {
             "type": "file",
-            "name": "img/pl.f293b139.svg",
-            "size": 607,
-            "hash": "d2f5a4c333b15d987e971eefa68a3c1a48d4ab9cff8d5b225865bc8cb6dd5ee7"
-        },
-        {
-            "type": "file",
             "name": "img/playstation.48313957.png",
             "size": 6790,
             "hash": "44799224a120c7f281fcb23a9e8daaae1a39faaf37488d0f25d267961a004847"
+        },
+        {
+            "type": "file",
+            "name": "img/pl.f293b139.svg",
+            "size": 607,
+            "hash": "d2f5a4c333b15d987e971eefa68a3c1a48d4ab9cff8d5b225865bc8cb6dd5ee7"
         },
         {
             "type": "file",
@@ -787,15 +787,15 @@
         },
         {
             "type": "file",
-            "name": "img/rosalina.dbc6b4e6.png",
-            "size": 27097,
-            "hash": "1262f6e2a47e49b141c9e379da4a563716bf5968c659c57caf53dce4d04f11b6"
-        },
-        {
-            "type": "file",
             "name": "img/rosalina-ssbu.d844471c.png",
             "size": 7431,
             "hash": "7a4aadcc7e03dd5640ec0dc43843f3414421bd78896bb6ec577e1a11a4bf8305"
+        },
+        {
+            "type": "file",
+            "name": "img/rosalina.dbc6b4e6.png",
+            "size": 27097,
+            "hash": "1262f6e2a47e49b141c9e379da4a563716bf5968c659c57caf53dce4d04f11b6"
         },
         {
             "type": "file",
@@ -847,15 +847,15 @@
         },
         {
             "type": "file",
-            "name": "img/settings3.29954755.jpg",
-            "size": 62559,
-            "hash": "66662022823463031bc6ea20f966c0c79903581f1b602fa70599cbdb908ff99e"
-        },
-        {
-            "type": "file",
             "name": "img/settings2.efbf7c05.jpg",
             "size": 53454,
             "hash": "312a6932fed5de02e6940ebd1f4124f015972dbc986dfa21f721e969e09fa9c5"
+        },
+        {
+            "type": "file",
+            "name": "img/settings3.29954755.jpg",
+            "size": 62559,
+            "hash": "66662022823463031bc6ea20f966c0c79903581f1b602fa70599cbdb908ff99e"
         },
         {
             "type": "file",
@@ -889,15 +889,15 @@
         },
         {
             "type": "file",
-            "name": "img/sonic-ssbu.908f8143.png",
-            "size": 5495,
-            "hash": "820b1331421b8ce6352f5ec7d618dee73872a69e0336b42ec4bbcaaeee45334f"
-        },
-        {
-            "type": "file",
             "name": "img/snake-ssbu.1bcd8904.png",
             "size": 9386,
             "hash": "405686c11665268f2e979c72eba9ac1b2239697f8fe09ee50137f0334b3a376e"
+        },
+        {
+            "type": "file",
+            "name": "img/sonic-ssbu.908f8143.png",
+            "size": 5495,
+            "hash": "820b1331421b8ce6352f5ec7d618dee73872a69e0336b42ec4bbcaaeee45334f"
         },
         {
             "type": "file",
@@ -985,12 +985,6 @@
         },
         {
             "type": "file",
-            "name": "img/wario-kart.1d30eda0.png",
-            "size": 10901,
-            "hash": "6b90b2e2c376245aaac8bfaf0643449e2c8d77cf0979a051411180663e127269"
-        },
-        {
-            "type": "file",
             "name": "img/wario-ssbu.35cb7401.png",
             "size": 9412,
             "hash": "12021dd4cdf781820e78e18bfbddb130507929a72f03899db8377ff826ccf3d2"
@@ -1003,6 +997,12 @@
         },
         {
             "type": "file",
+            "name": "img/wario-kart.1d30eda0.png",
+            "size": 10901,
+            "hash": "6b90b2e2c376245aaac8bfaf0643449e2c8d77cf0979a051411180663e127269"
+        },
+        {
+            "type": "file",
             "name": "img/wiifittrainer-ssbu.c366f8b0.png",
             "size": 5688,
             "hash": "0a47de6873cb02de81cf5966969ce46b8bf8a1e336fe70ade5ebf8b45a7d2970"
@@ -1012,6 +1012,12 @@
             "name": "img/wolf-ssbu.b2317412.png",
             "size": 8583,
             "hash": "c22d8930958d1233e337cca9daf199b0afcde9d1e069f20e7695e57960457a62"
+        },
+        {
+            "type": "file",
+            "name": "img/world-flags-globe.f17c62e2.png",
+            "size": 50962,
+            "hash": "e95b5e90d20e3970bcbf86ddf523f76c3a6ed5c20e1482532567cbbfb614bc4c"
         },
         {
             "type": "file",
@@ -1045,21 +1051,15 @@
         },
         {
             "type": "file",
-            "name": "img/world-flags-globe.f17c62e2.png",
-            "size": 50962,
-            "hash": "e95b5e90d20e3970bcbf86ddf523f76c3a6ed5c20e1482532567cbbfb614bc4c"
-        },
-        {
-            "type": "file",
             "name": "img/zerosuitsamus-ssbu.bbf03a68.png",
             "size": 8531,
             "hash": "1fb5c6c392c1a9356372da9aee0de54a70365e74acc0b85882ce0f3723aaaed3"
         },
         {
             "type": "file",
-            "name": "js/app.13587bc2.js",
+            "name": "js/app.7f07369d.js",
             "size": 1375230,
-            "hash": "34596c7545aa4e9a3551ec65d68a20989e251c4f1ea64ec0371112d16ceeec5d"
+            "hash": "6d3d98dd7f8a1c479b9d60719f028145e9a91fbf7e16d37ad56b378c41f86031"
         },
         {
             "type": "file",
