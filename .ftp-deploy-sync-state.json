@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1675306094880,
+    "generatedTime": 1675392711019,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "1f916d912c7f8111a34a177a64b42f4010b8875ab7046e712894b0eb659e7d02"
+            "hash": "18bd2753cc9fd416c600cb40f9667c7f4b1e94fa42036dcb34e75471b3837cf9"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.06b620068b94fd7cc7d6877eaca4c251.js",
+            "name": "precache-manifest.bcf9e9f32f7a96896030aeefa20532cf.js",
             "size": 17314,
-            "hash": "f55b80aae18c7762bc4772e5fcf200ebaa8cfc220cfd323371494602dcd81200"
+            "hash": "5af456ae7e9ac11b06a2d8a8e081a6cb618f72318ba45c7cb69c4edb59ea4bb1"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "0445617b8c4e07260b5f76816906541a3e9526b997c242fd1e3146e22fb2f569"
+            "hash": "2cc04d2fc98082fc1a1d73ed53c5b4bf3dbfe12e1a2655d35392875167decd0f"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "4d56105012e59b1263f614066da8415379f0580e2eb52f37a772f71dcd23d9e8"
+            "hash": "4a27f5f795fbc976aaca27f4c30142a741f5dec2fb3c421308cb4d457f971c80"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
-            "size": 316,
-            "hash": "798c6b98eb5d281bd4da665a713c1c7fbe82bf2d43d616ff036789f0ba51b6b8"
+            "size": 317,
+            "hash": "44f330be6b4ca2a58b20a3aec798bf31f088fd392c94507d14efd09f5f6ce633"
         },
         {
             "type": "file",
@@ -291,15 +291,15 @@
         },
         {
             "type": "file",
-            "name": "img/drmario-ssbu.37fc5043.png",
-            "size": 8989,
-            "hash": "64b9cd953da94230609847d0da1dd240f82d80d614359118c6dce14452c693be"
-        },
-        {
-            "type": "file",
             "name": "img/duckhunt-ssbu.1863163e.png",
             "size": 7954,
             "hash": "f8bcc37248b15503887e6e563d6c408104b4701b058ae1079f6832f0aaaacbae"
+        },
+        {
+            "type": "file",
+            "name": "img/drmario-ssbu.37fc5043.png",
+            "size": 8989,
+            "hash": "64b9cd953da94230609847d0da1dd240f82d80d614359118c6dce14452c693be"
         },
         {
             "type": "file",
@@ -823,15 +823,15 @@
         },
         {
             "type": "file",
-            "name": "img/sephiroth-ssbu.c1690479.png",
-            "size": 13256,
-            "hash": "980fcb70c6c92bfa4f2ab97a3065a6026e57b5a213bb7c5667d7f32ca35f8427"
-        },
-        {
-            "type": "file",
             "name": "img/settings1.1f6f8ca1.jpg",
             "size": 67250,
             "hash": "8accbce1fda3721d53bd42626d95b42bc2322bca614fa72ba7fcfb5301dfa3fe"
+        },
+        {
+            "type": "file",
+            "name": "img/sephiroth-ssbu.c1690479.png",
+            "size": 13256,
+            "hash": "980fcb70c6c92bfa4f2ab97a3065a6026e57b5a213bb7c5667d7f32ca35f8427"
         },
         {
             "type": "file",
@@ -1009,21 +1009,21 @@
         },
         {
             "type": "file",
-            "name": "img/world-flags-globe.f17c62e2.png",
-            "size": 50962,
-            "hash": "e95b5e90d20e3970bcbf86ddf523f76c3a6ed5c20e1482532567cbbfb614bc4c"
-        },
-        {
-            "type": "file",
             "name": "img/wolf-ssbu.b2317412.png",
             "size": 8583,
             "hash": "c22d8930958d1233e337cca9daf199b0afcde9d1e069f20e7695e57960457a62"
         },
         {
             "type": "file",
-            "name": "img/yoshi-kart.cfbbbb39.png",
-            "size": 9391,
-            "hash": "62772287fb15cb5771a4399d53be6d0d4ff9b8f2a550ffcaae3770e3c0189dd1"
+            "name": "img/world-flags-globe.f17c62e2.png",
+            "size": 50962,
+            "hash": "e95b5e90d20e3970bcbf86ddf523f76c3a6ed5c20e1482532567cbbfb614bc4c"
+        },
+        {
+            "type": "file",
+            "name": "img/yoshi-ssbu.9c9af558.png",
+            "size": 5533,
+            "hash": "edc57314f813001a626e1d17ed73e4fbe9f500e02fcd260ef679ad973ed69860"
         },
         {
             "type": "file",
@@ -1033,9 +1033,9 @@
         },
         {
             "type": "file",
-            "name": "img/yoshi-ssbu.9c9af558.png",
-            "size": 5533,
-            "hash": "edc57314f813001a626e1d17ed73e4fbe9f500e02fcd260ef679ad973ed69860"
+            "name": "img/yoshi-kart.cfbbbb39.png",
+            "size": 9391,
+            "hash": "62772287fb15cb5771a4399d53be6d0d4ff9b8f2a550ffcaae3770e3c0189dd1"
         },
         {
             "type": "file",
@@ -1057,9 +1057,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.75282da1.js",
+            "name": "js/app.f563814f.js",
             "size": 1382312,
-            "hash": "4ef247069d48fd40cd6e303da19db2a57066d4da49c7b555c25e78773e4f6f87"
+            "hash": "80f8a81b1beb7e717c8afca671107e2cbc57c0f642f78a9fd4ebff2bdcc50f5d"
         },
         {
             "type": "file",
@@ -1093,12 +1093,6 @@
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon-60x60.png",
-            "size": 679,
-            "hash": "5ff0a87d94c2753e9ef192b802dd8c87b0876053d54ed2d642869e899d112119"
-        },
-        {
-            "type": "file",
             "name": "img/icons/apple-touch-icon-180x180.png",
             "size": 1567,
             "hash": "940ca26f385a497ba06cdc4d0fa15e4f09603d21c7bfe41623226e11bb0196df"
@@ -1126,6 +1120,12 @@
             "name": "img/icons/favicon-32x32.png",
             "size": 493,
             "hash": "6ca16294cb53573040299e65a7f636779423146624ddf3589addc0313f09b8c7"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon-60x60.png",
+            "size": 679,
+            "hash": "5ff0a87d94c2753e9ef192b802dd8c87b0876053d54ed2d642869e899d112119"
         },
         {
             "type": "file",
