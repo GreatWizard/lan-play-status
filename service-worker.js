@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.b36201a91c417337350864c0be61e84c.js"
+  "/precache-manifest.808132ce0b89b7de6c41c1e02aa93b43.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "lan-play-status"});
