@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1675997793521,
+    "generatedTime": 1676083425531,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "384a6b084b41e58ed68849dc87f3fb78e09f1299d26169d65c1aea83044331d7"
+            "hash": "51a1db9be018dc0350e7f170f29c9a632c57eb0e0db1542c9c63069f8fd19158"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.5405e5d5e16be33afc904cbc910bd08e.js",
+            "name": "precache-manifest.919aef8bc517f9b6e3f9ec0461130bbc.js",
             "size": 17314,
-            "hash": "83ccfdc8b6abe3402e819cf2e33c78869661f7246af846c50a6f9593864e2998"
+            "hash": "613889a8a5ee70b72b598b8cfe04e5363a4b9358301acea7dd574e406430b60b"
         },
         {
             "type": "file",
@@ -87,21 +87,21 @@
         },
         {
             "type": "file",
-            "name": "service-worker.js",
-            "size": 1070,
-            "hash": "61e8dcddb3210674db45e652d9345ab5d47189562f40605889f64998cdee1905"
+            "name": "sitemap.xml",
+            "size": 1552,
+            "hash": "129a8ad3fda116d4b32f102422322edf8bc433dc0e76121ca25f182b69872a08"
         },
         {
             "type": "file",
-            "name": "sitemap.xml",
-            "size": 1552,
-            "hash": "33a51f783f909b2580d48766b424c85babeb6f14fde8d5cdfad01eb18cf1cafd"
+            "name": "service-worker.js",
+            "size": 1070,
+            "hash": "48690072efffab7e063c605898b9a24c714f1d920ed8c944b73365ce90479f09"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
-            "size": 316,
-            "hash": "ba16edddd0c92112e5de03ff4b8592cb731fdd18ece95401526e479f6195008b"
+            "size": 317,
+            "hash": "b9c6fd1c4d3f4171991cfba838ffca75f4804a3d0a3ae07a85c7d322c1b37006"
         },
         {
             "type": "file",
@@ -153,15 +153,15 @@
         },
         {
             "type": "file",
-            "name": "img/boo.523b1624.png",
-            "size": 38169,
-            "hash": "eb66f308c368ec3f8a0715953c2c427226f81205f7f37e2c3cf17e01219bb461"
-        },
-        {
-            "type": "file",
             "name": "img/bowser-kart.3aa3dc31.png",
             "size": 13998,
             "hash": "890fa227d4796667c1fac6e1a50a63d9e4c9e65c220d93b00d900c77e0063d3e"
+        },
+        {
+            "type": "file",
+            "name": "img/boo.523b1624.png",
+            "size": 38169,
+            "hash": "eb66f308c368ec3f8a0715953c2c427226f81205f7f37e2c3cf17e01219bb461"
         },
         {
             "type": "file",
@@ -919,15 +919,15 @@
         },
         {
             "type": "file",
-            "name": "img/timmy.859085de.png",
-            "size": 19102,
-            "hash": "83305029fe2f586177d38f1363a13e2cf5ea0ac0405338ef101c6746ba475fc0"
-        },
-        {
-            "type": "file",
             "name": "img/toad-kart.b1af4b4b.png",
             "size": 7492,
             "hash": "d2cd9594bb12476ab64f50ffbab8ddc238871053beeaa4b2162cc93371134c7c"
+        },
+        {
+            "type": "file",
+            "name": "img/timmy.859085de.png",
+            "size": 19102,
+            "hash": "83305029fe2f586177d38f1363a13e2cf5ea0ac0405338ef101c6746ba475fc0"
         },
         {
             "type": "file",
@@ -1057,9 +1057,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.794dfaf0.js",
-            "size": 1388669,
-            "hash": "04d9d70462046c59a48e9863ec22a36c30d5f45c96baba5bb67f04f8208208b6"
+            "name": "js/app.d2f7cf33.js",
+            "size": 1390817,
+            "hash": "04cf759b5fbaf7912a6025610b4478a1cccddd793a357bee043af089d8396a4e"
         },
         {
             "type": "file",
@@ -1072,6 +1072,12 @@
             "name": "img/icons/android-chrome-192x192.png",
             "size": 6151,
             "hash": "6ef4beac47b699653b39847b62564f9713eb307c93cca0486de7d3380edd597c"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/android-chrome-512x512.png",
+            "size": 16638,
+            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
         },
         {
             "type": "file",
@@ -1093,12 +1099,6 @@
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon-60x60.png",
-            "size": 679,
-            "hash": "5ff0a87d94c2753e9ef192b802dd8c87b0876053d54ed2d642869e899d112119"
-        },
-        {
-            "type": "file",
             "name": "img/icons/apple-touch-icon-76x76.png",
             "size": 980,
             "hash": "852f9da2305ab21aaf8c5732b61a66dc009b67e6d059526ea51317b7dbd0f84a"
@@ -1108,6 +1108,12 @@
             "name": "img/icons/apple-touch-icon.png",
             "size": 1988,
             "hash": "41dce4dde90145d0959fc84f7e79e9b114fc3cb5ce9ea9af050d1ebf90618921"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon-60x60.png",
+            "size": 679,
+            "hash": "5ff0a87d94c2753e9ef192b802dd8c87b0876053d54ed2d642869e899d112119"
         },
         {
             "type": "file",
@@ -1138,12 +1144,6 @@
             "name": "img/icons/safari-pinned-tab.svg",
             "size": 2131,
             "hash": "5817ca734258ebd3f984b843961e7bbe8a3bb2f1df9316cb419d09b456314cdd"
-        },
-        {
-            "type": "file",
-            "name": "img/icons/android-chrome-512x512.png",
-            "size": 16638,
-            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
         }
     ]
 }
