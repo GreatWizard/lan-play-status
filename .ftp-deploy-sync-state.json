@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1678558150437,
+    "generatedTime": 1678558113683,
     "data": [
         {
             "type": "file",
@@ -1009,15 +1009,15 @@
         },
         {
             "type": "file",
-            "name": "img/world-flags-globe.f17c62e2.png",
-            "size": 50962,
-            "hash": "e95b5e90d20e3970bcbf86ddf523f76c3a6ed5c20e1482532567cbbfb614bc4c"
-        },
-        {
-            "type": "file",
             "name": "img/wolf-ssbu.b2317412.png",
             "size": 8583,
             "hash": "c22d8930958d1233e337cca9daf199b0afcde9d1e069f20e7695e57960457a62"
+        },
+        {
+            "type": "file",
+            "name": "img/world-flags-globe.f17c62e2.png",
+            "size": 50962,
+            "hash": "e95b5e90d20e3970bcbf86ddf523f76c3a6ed5c20e1482532567cbbfb614bc4c"
         },
         {
             "type": "file",
@@ -1039,15 +1039,15 @@
         },
         {
             "type": "file",
-            "name": "img/younglink-ssbu.b91675e5.png",
-            "size": 7377,
-            "hash": "a379a76b74d519ce6fad037df99cc73f05c5a2c3cdc585f4cbe384036df38d65"
-        },
-        {
-            "type": "file",
             "name": "img/zelda-ssbu.7790a038.png",
             "size": 9213,
             "hash": "a6cfcbb0ddb449efdfb2df58c473740fb244133db769e192c044da4e615d3b77"
+        },
+        {
+            "type": "file",
+            "name": "img/younglink-ssbu.b91675e5.png",
+            "size": 7377,
+            "hash": "a379a76b74d519ce6fad037df99cc73f05c5a2c3cdc585f4cbe384036df38d65"
         },
         {
             "type": "file",
@@ -1075,15 +1075,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon-120x120.png",
-            "size": 1359,
-            "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
-        },
-        {
-            "type": "file",
             "name": "img/icons/android-chrome-512x512.png",
             "size": 16638,
             "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon-120x120.png",
+            "size": 1359,
+            "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
         },
         {
             "type": "file",
@@ -1099,12 +1099,6 @@
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon-76x76.png",
-            "size": 980,
-            "hash": "852f9da2305ab21aaf8c5732b61a66dc009b67e6d059526ea51317b7dbd0f84a"
-        },
-        {
-            "type": "file",
             "name": "img/icons/apple-touch-icon-60x60.png",
             "size": 679,
             "hash": "5ff0a87d94c2753e9ef192b802dd8c87b0876053d54ed2d642869e899d112119"
@@ -1117,21 +1111,27 @@
         },
         {
             "type": "file",
+            "name": "img/icons/apple-touch-icon-76x76.png",
+            "size": 980,
+            "hash": "852f9da2305ab21aaf8c5732b61a66dc009b67e6d059526ea51317b7dbd0f84a"
+        },
+        {
+            "type": "file",
             "name": "img/icons/favicon-16x16.png",
             "size": 284,
             "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
         },
         {
             "type": "file",
-            "name": "img/icons/msapplication-icon-144x144.png",
-            "size": 2132,
-            "hash": "e02368dd7e5dc3c1dcc35515e54f68fe802b7f655395c58450647ee234ca070b"
-        },
-        {
-            "type": "file",
             "name": "img/icons/favicon-32x32.png",
             "size": 493,
             "hash": "6ca16294cb53573040299e65a7f636779423146624ddf3589addc0313f09b8c7"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/msapplication-icon-144x144.png",
+            "size": 2132,
+            "hash": "e02368dd7e5dc3c1dcc35515e54f68fe802b7f655395c58450647ee234ca070b"
         },
         {
             "type": "file",
