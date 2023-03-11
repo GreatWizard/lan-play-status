@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[lan-play-status.en-json]
+[o:lan-play:p:lan-play-status:r:en-json]
 file_filter = src/locales/<lang>.json
 minimum_perc = 0
 source_file = src/locales/en.json
