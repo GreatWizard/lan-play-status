@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1679452574781,
+    "generatedTime": 1679625469923,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "4b8bd4dd32c02615ae7a66ccf362257123497971e6f3dac911badc76abec5d1c"
+            "hash": "171e60038c44c9bbc0726aeb614576ed042759ae4c769cb7b568572283e5c87b"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.989dc63f0e7e83d4f37ca3c6862698ff.js",
+            "name": "precache-manifest.0058814675e8eef894a59272207e140d.js",
             "size": 17314,
-            "hash": "3da72a794e97dd5eb1623dd314b429694ab5711d5695524d3a8cd3c33e6c16d4"
+            "hash": "1a748ac5efab708918830cd1a45f535e2b4276c515c4206c00af3dd8b131b4df"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "0cf65bbf78f03078237b2d71aa1ff3e0b5dac4346819f15eb921e0eaf6452415"
+            "hash": "81961c9aa1a034e31402eb7ca0fb0b78911e6180a64a75648f089a9ede9ac9d8"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "c51267529f45dc3be7b8bc5503779be0992655d657dddbe0f831cfe981c0e854"
+            "hash": "c9510445c2df3a26d9d54fd837314550970468358f847aa0549212f024492318"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "02a6bbddea569dc94ae61fced9446922ff19dd6e13ac649e0efef459c2cf75c6"
+            "hash": "c6224df981831b0f6e03774d94a24418116377f3f70dbfbdbce04ab97a513f9d"
         },
         {
             "type": "file",
@@ -141,15 +141,15 @@
         },
         {
             "type": "file",
-            "name": "img/bg.557dbfa9.svg",
-            "size": 647,
-            "hash": "307aec586e1fc845fc9524506e9dbdce020519d381b4c7b7f9995a6df14109be"
-        },
-        {
-            "type": "file",
             "name": "img/blathers.94111c74.png",
             "size": 19332,
             "hash": "9d8d7772a1dbd3a53608feef832ce00d585b2ab0a2767378f5d367f0ef355a58"
+        },
+        {
+            "type": "file",
+            "name": "img/bg.557dbfa9.svg",
+            "size": 647,
+            "hash": "307aec586e1fc845fc9524506e9dbdce020519d381b4c7b7f9995a6df14109be"
         },
         {
             "type": "file",
@@ -159,15 +159,15 @@
         },
         {
             "type": "file",
-            "name": "img/bowser-ssbu.a020a0c3.png",
-            "size": 7858,
-            "hash": "94f1fcda94c57666891913abc4b1f22b9a6f387bcb60504dd051e5bd817c0b09"
-        },
-        {
-            "type": "file",
             "name": "img/bowser-kart.3aa3dc31.png",
             "size": 13998,
             "hash": "890fa227d4796667c1fac6e1a50a63d9e4c9e65c220d93b00d900c77e0063d3e"
+        },
+        {
+            "type": "file",
+            "name": "img/bowser-ssbu.a020a0c3.png",
+            "size": 7858,
+            "hash": "94f1fcda94c57666891913abc4b1f22b9a6f387bcb60504dd051e5bd817c0b09"
         },
         {
             "type": "file",
@@ -643,15 +643,15 @@
         },
         {
             "type": "file",
-            "name": "img/no-cover.c97c7c1d.jpg",
-            "size": 34002,
-            "hash": "5c4356d2725af14fdc1ae87a6ae9921b54d4306c1039705b85fcfdd4f016dfe0"
-        },
-        {
-            "type": "file",
             "name": "img/olimar-ssbu.db3e5e0b.png",
             "size": 8355,
             "hash": "218e81196960a48d565aa92db3aaf0b19ba0849ebb3c4759b91aacb7e46a834e"
+        },
+        {
+            "type": "file",
+            "name": "img/no-cover.c97c7c1d.jpg",
+            "size": 34002,
+            "hash": "5c4356d2725af14fdc1ae87a6ae9921b54d4306c1039705b85fcfdd4f016dfe0"
         },
         {
             "type": "file",
@@ -667,15 +667,15 @@
         },
         {
             "type": "file",
-            "name": "img/peach-kart.a1240568.png",
-            "size": 14086,
-            "hash": "b1d681385138905d1473534c2e00eab706420a0930cc6be1acc0f85fe2bd73e0"
-        },
-        {
-            "type": "file",
             "name": "img/peach-ssbu.45af3d4c.png",
             "size": 8265,
             "hash": "a48c3339be7524e3849811901fdacf2a83852ace95b5c034528edee7e39bd66a"
+        },
+        {
+            "type": "file",
+            "name": "img/peach-kart.a1240568.png",
+            "size": 14086,
+            "hash": "b1d681385138905d1473534c2e00eab706420a0930cc6be1acc0f85fe2bd73e0"
         },
         {
             "type": "file",
@@ -751,6 +751,12 @@
         },
         {
             "type": "file",
+            "name": "img/red-cap.1bd8445b.png",
+            "size": 9046,
+            "hash": "f0bf9bda713c5b1c1fded97dce75c0aeb3d408bb6ff77e172060b2cf95805e56"
+        },
+        {
+            "type": "file",
             "name": "img/richter-ssbu.add76089.png",
             "size": 8280,
             "hash": "a6253037770a5b399ae1fcbd1378d2e0e3ef48db21e231d1de194f952d0998d1"
@@ -760,12 +766,6 @@
             "name": "img/ridley-ssbu.a98a0db1.png",
             "size": 5276,
             "hash": "a920ec007383d7a8547d767cb8bd3f67a787e970e9695a03f46cc9289c1eb999"
-        },
-        {
-            "type": "file",
-            "name": "img/red-cap.1bd8445b.png",
-            "size": 9046,
-            "hash": "f0bf9bda713c5b1c1fded97dce75c0aeb3d408bb6ff77e172060b2cf95805e56"
         },
         {
             "type": "file",
@@ -841,15 +841,15 @@
         },
         {
             "type": "file",
-            "name": "img/settings2.efbf7c05.jpg",
-            "size": 53454,
-            "hash": "312a6932fed5de02e6940ebd1f4124f015972dbc986dfa21f721e969e09fa9c5"
-        },
-        {
-            "type": "file",
             "name": "img/settings2.1035d313.jpg",
             "size": 28689,
             "hash": "05954b8edb64049833d1b9be6aa002b9e6a2f33b9dc217598d0b093520d124c2"
+        },
+        {
+            "type": "file",
+            "name": "img/settings2.efbf7c05.jpg",
+            "size": 53454,
+            "hash": "312a6932fed5de02e6940ebd1f4124f015972dbc986dfa21f721e969e09fa9c5"
         },
         {
             "type": "file",
@@ -1057,9 +1057,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.c3d9b215.js",
+            "name": "js/app.b33e9475.js",
             "size": 1387997,
-            "hash": "5865156d9b94970107ddc63e80e04ba1fea0d75d1c589f7cb6a47132cbd620e1"
+            "hash": "31286f368ce368cbe2c069249a53452fa466e631b580264541726c834d8632c3"
         },
         {
             "type": "file",
@@ -1075,6 +1075,12 @@
         },
         {
             "type": "file",
+            "name": "img/icons/android-chrome-512x512.png",
+            "size": 16638,
+            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
+        },
+        {
+            "type": "file",
             "name": "img/icons/apple-touch-icon-120x120.png",
             "size": 1359,
             "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
@@ -1087,15 +1093,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/android-chrome-512x512.png",
-            "size": 16638,
-            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
-        },
-        {
-            "type": "file",
             "name": "img/icons/apple-touch-icon-180x180.png",
             "size": 1567,
             "hash": "940ca26f385a497ba06cdc4d0fa15e4f09603d21c7bfe41623226e11bb0196df"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon-60x60.png",
+            "size": 679,
+            "hash": "5ff0a87d94c2753e9ef192b802dd8c87b0876053d54ed2d642869e899d112119"
         },
         {
             "type": "file",
@@ -1126,12 +1132,6 @@
             "name": "img/icons/msapplication-icon-144x144.png",
             "size": 2132,
             "hash": "e02368dd7e5dc3c1dcc35515e54f68fe802b7f655395c58450647ee234ca070b"
-        },
-        {
-            "type": "file",
-            "name": "img/icons/apple-touch-icon-60x60.png",
-            "size": 679,
-            "hash": "5ff0a87d94c2753e9ef192b802dd8c87b0876053d54ed2d642869e899d112119"
         },
         {
             "type": "file",
