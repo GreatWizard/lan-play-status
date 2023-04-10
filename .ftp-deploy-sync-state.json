@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1681007670985,
+    "generatedTime": 1681093933262,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "8b83358430c17835ffd60064d45af38294ee176880c54c4b52d4a4310075d048"
+            "hash": "4ea690ffca3ad478cb82132ac7c6a6aaf29f1d8ec1e6c2f97a7debdd5349d141"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.d681d3512afa6c209482c856f4f0f224.js",
+            "name": "precache-manifest.4b16b84124c11fcc79a30ec95e46e0c0.js",
             "size": 17314,
-            "hash": "4e5c4295fb1080a55f7953b472ae3d85439be25bf4c8cbdc6cb8bcbe7258e323"
+            "hash": "f52a5ce0afa77c8e0995664d9a76f04297381f30741d69e01eb45b6883007270"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "8314fa062ca01f43bfee1dad8ebedd3dd4ddabb63d14a4e4e7668da8c5809157"
+            "hash": "578bf85fac91e0cb03176c0b2d333da7b31b0226b35717d0a3af0b9e7e828a0d"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "32910fe7651fbbdfea9207c4e0f4a38e00d55d866473759276c1dcfbdbc140e0"
+            "hash": "c6863ecf564960e71caf173c7cbb754700822bb4c1d35f2f9c914d41b12f9aeb"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 316,
-            "hash": "2eb459c2115b797e0a7d50fffac5ea492944289d65f89324949a6bb719946072"
+            "hash": "36c21dd147a374712890fe47836077d6c0fa43dbc7dfc2b8e4c96b90335e8b99"
         },
         {
             "type": "file",
@@ -385,15 +385,15 @@
         },
         {
             "type": "file",
-            "name": "img/inkling-boy.e9033bad.png",
-            "size": 76331,
-            "hash": "ce49d356596e22bd544cba6706131b5a7fb965fc879c3b01881b3d2a2c772c44"
-        },
-        {
-            "type": "file",
             "name": "img/incineroar-ssbu.18318c1b.png",
             "size": 8489,
             "hash": "d9e0c41050fae182b8c1219893fa556b0618e431eeb1020ea517e97fa14cf531"
+        },
+        {
+            "type": "file",
+            "name": "img/inkling-boy.e9033bad.png",
+            "size": 76331,
+            "hash": "ce49d356596e22bd544cba6706131b5a7fb965fc879c3b01881b3d2a2c772c44"
         },
         {
             "type": "file",
@@ -1057,9 +1057,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.3dfd83b5.js",
+            "name": "js/app.c6c0fab1.js",
             "size": 1398813,
-            "hash": "53fba988a654a4a865ab637551c78bf6e44281659a622779a10b820dce02cc89"
+            "hash": "7e34c8d8617a6e83d1280c4028804f3edf818520ba26b7e2ea9b81896cf5e08f"
         },
         {
             "type": "file",
