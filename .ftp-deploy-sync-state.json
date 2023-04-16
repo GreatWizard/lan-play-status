@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1681439558631,
+    "generatedTime": 1681612664034,
     "data": [
         {
             "type": "file",
@@ -55,11 +55,17 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "aef7ee3cdf7d3e0f91abcc737f453fb17acb535810925221e506577a5c67b91a"
+            "hash": "9966da1416ea4cc7bfac3ff375d710cd569b2b807206492409afc44ed04625e2"
         },
         {
             "type": "folder",
             "name": "js"
+        },
+        {
+            "type": "file",
+            "name": "precache-manifest.368a619206812ada13e51e17573b35b8.js",
+            "size": 17314,
+            "hash": "ca2d04c1acc4dd17c2dac18b1178d6ccddaf5db6dca71a29769adbad4140f87f"
         },
         {
             "type": "file",
@@ -69,9 +75,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.965329f1e01127d4d316edbc04439ff0.js",
-            "size": 17314,
-            "hash": "acff8cc95c855ececf85a41ebd5ecfe7b53a8985f8fe990df714c4d9ad55bf53"
+            "name": "proxy.php",
+            "size": 4861,
+            "hash": "55b616d3caa524017c8bc23fe176febe803effa49dbe6af3d0afb56ee167ead4"
         },
         {
             "type": "file",
@@ -81,27 +87,21 @@
         },
         {
             "type": "file",
-            "name": "proxy.php",
-            "size": 4861,
-            "hash": "55b616d3caa524017c8bc23fe176febe803effa49dbe6af3d0afb56ee167ead4"
-        },
-        {
-            "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "7482c4a1f2562cba1255e3d20d5e76ceea40ebcc10d335f290d46ac56fd61a54"
+            "hash": "73a91f58f7eb0f6dd943d5c9aecce39897048c0f4d687f52b57e38c9bf1e3695"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "969c14804587cfa9cebb775f7dcf30557189124f3d3974d8002838f92f1fef59"
+            "hash": "c02b675cf41aa1ef75febcbe892ecbd45683d2bb27d903a36ad4d7ac39b92209"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "cce77f5e86de48d567e999278f835f95af13f47a7b005696ab6433bd87f27e8f"
+            "hash": "689a5f647e421d5d8a2e518abfcaec4bd2a2f6060a158ab9a9c8ac61cee53538"
         },
         {
             "type": "file",
@@ -1057,15 +1057,21 @@
         },
         {
             "type": "file",
-            "name": "js/app.b81fd770.js",
-            "size": 1399689,
-            "hash": "56d8c4601a6fd56de2be52a009d012c194fa13669f6196310457a410f99033bd"
+            "name": "js/app.5a76c2d9.js",
+            "size": 1399719,
+            "hash": "89812d98af4a3e98fd12d3bdd3f7ebc08b280f42b4775329e46eaec1fe0e5a63"
         },
         {
             "type": "file",
             "name": "js/chunk-vendors.c40f0db7.js",
             "size": 183712,
             "hash": "b8e46c4a04cc10f2443d7ffe8b2eecb15dd895dc1c8ca69e21575602aa383633"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/android-chrome-192x192.png",
+            "size": 6151,
+            "hash": "6ef4beac47b699653b39847b62564f9713eb307c93cca0486de7d3380edd597c"
         },
         {
             "type": "file",
@@ -1084,12 +1090,6 @@
             "name": "img/icons/apple-touch-icon-152x152.png",
             "size": 2005,
             "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
-        },
-        {
-            "type": "file",
-            "name": "img/icons/android-chrome-192x192.png",
-            "size": 6151,
-            "hash": "6ef4beac47b699653b39847b62564f9713eb307c93cca0486de7d3380edd597c"
         },
         {
             "type": "file",
