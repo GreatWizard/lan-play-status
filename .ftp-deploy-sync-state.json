@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1681612664034,
+    "generatedTime": 1681698933632,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "9966da1416ea4cc7bfac3ff375d710cd569b2b807206492409afc44ed04625e2"
+            "hash": "2f0d144d89db461175fab95cd9ae4c80bac2b2ec99aa2bd353ab90c28114a505"
         },
         {
             "type": "folder",
@@ -63,15 +63,15 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.368a619206812ada13e51e17573b35b8.js",
-            "size": 17314,
-            "hash": "ca2d04c1acc4dd17c2dac18b1178d6ccddaf5db6dca71a29769adbad4140f87f"
-        },
-        {
-            "type": "file",
             "name": "manifest.json",
             "size": 342,
             "hash": "aca3a680087847a8f0a752f28344c9190826f7c3456a1c4a0cb13b13f08fc32a"
+        },
+        {
+            "type": "file",
+            "name": "precache-manifest.fc8e0724275f0ec525f6213d1db5d326.js",
+            "size": 17314,
+            "hash": "9607e51d5b9f87dda3aa222fc48f2649bc861fbe470e9a2536740a5caa35a095"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "73a91f58f7eb0f6dd943d5c9aecce39897048c0f4d687f52b57e38c9bf1e3695"
+            "hash": "ca4623c3662de5c3de246bc70a86b41cb809c118d0434d7b814ba3ccbe4e1988"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "c02b675cf41aa1ef75febcbe892ecbd45683d2bb27d903a36ad4d7ac39b92209"
+            "hash": "94212bdcf3a7912273a3078873cd87ab272d8e71894952bb7c9be80df2903e56"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "689a5f647e421d5d8a2e518abfcaec4bd2a2f6060a158ab9a9c8ac61cee53538"
+            "hash": "92dd665212c1a81f5002a037ce3c1aee7242ed49dd96050836038953a8f1eb66"
         },
         {
             "type": "file",
@@ -991,12 +991,6 @@
         },
         {
             "type": "file",
-            "name": "img/wario-ssbu.35cb7401.png",
-            "size": 9412,
-            "hash": "12021dd4cdf781820e78e18bfbddb130507929a72f03899db8377ff826ccf3d2"
-        },
-        {
-            "type": "file",
             "name": "img/whatsapp.eafe62b5.svg",
             "size": 1152,
             "hash": "79c28d91f5e9934da8b6ba43056113061ae23659e838c78cbee495cba8ebf720"
@@ -1009,21 +1003,27 @@
         },
         {
             "type": "file",
+            "name": "img/wario-ssbu.35cb7401.png",
+            "size": 9412,
+            "hash": "12021dd4cdf781820e78e18bfbddb130507929a72f03899db8377ff826ccf3d2"
+        },
+        {
+            "type": "file",
             "name": "img/wolf-ssbu.b2317412.png",
             "size": 8583,
             "hash": "c22d8930958d1233e337cca9daf199b0afcde9d1e069f20e7695e57960457a62"
         },
         {
             "type": "file",
-            "name": "img/world-flags-globe.f17c62e2.png",
-            "size": 50962,
-            "hash": "e95b5e90d20e3970bcbf86ddf523f76c3a6ed5c20e1482532567cbbfb614bc4c"
-        },
-        {
-            "type": "file",
             "name": "img/yoshi-kart.cfbbbb39.png",
             "size": 9391,
             "hash": "62772287fb15cb5771a4399d53be6d0d4ff9b8f2a550ffcaae3770e3c0189dd1"
+        },
+        {
+            "type": "file",
+            "name": "img/world-flags-globe.f17c62e2.png",
+            "size": 50962,
+            "hash": "e95b5e90d20e3970bcbf86ddf523f76c3a6ed5c20e1482532567cbbfb614bc4c"
         },
         {
             "type": "file",
@@ -1057,9 +1057,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.5a76c2d9.js",
-            "size": 1399719,
-            "hash": "89812d98af4a3e98fd12d3bdd3f7ebc08b280f42b4775329e46eaec1fe0e5a63"
+            "name": "js/app.b9fd2ea5.js",
+            "size": 1406557,
+            "hash": "ffc2a5bdacd8d67a7bd11366c48532b780f3af45a17f3cb72f2bb0fa52a35521"
         },
         {
             "type": "file",
