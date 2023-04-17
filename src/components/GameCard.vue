@@ -74,19 +74,16 @@ export default {
           .replace("Snk", "SNK")
           .replace("Fighterz", "FighterZ")
           .replace("EaSportsFifa1", "EASportsFifa1")
-          .replace("ChikiChikiBoxyRacers", "_ChikiChikiBoxyRacers")
           .replace("Mudrunner", "MudRunner")
           .replace("ReMarsTered", "ReMarstered")
           .replace("DukeNukem3D", "DukeNukem3d")
           .replace("Cruisn", "CrusiN");
 
-        if (this.game.lang) {
-          title = `${title}_${this.game.lang}`;
-        }
-
-        return `https://cdn01.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_${
+        return `https://fs-prod-cdn.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_${
           this.game.ds ? "download_software" : "5"
-        }/SQ_NSwitch${this.game.ds ? "DS" : ""}_${title}_image500w.jpg`;
+        }/${this.game.format || "SQ"}_NSwitch${
+          this.game.ds ? "DS" : ""
+        }_${title}_${this.game.lang ? `${this.game.lang}_` : ""}image500w.jpg`;
       }
 
       return undefined;
