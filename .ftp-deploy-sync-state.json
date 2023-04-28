@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1682476551882,
+    "generatedTime": 1682649396172,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "95ae52fa3f18719f75f33d823b0df007b7bebe7472049439c9bff93831281442"
+            "hash": "6ec0f0580fcffaf90ad51deba6178fda7458f0eb7bb2c3fed28a48d1d4e4e257"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.b953eaa3b8798233100375f73856f0e2.js",
+            "name": "precache-manifest.9ede671cf50d7eb4b12b0550e738c76a.js",
             "size": 17314,
-            "hash": "bc51a8c1da5c27f32202c99ef8efac35a963285951b37bce8826d37759cfaed4"
+            "hash": "b87e73a5a327ea98fcf7b8415c5b37159619a521fe552ffacbe166c09f07dffd"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "da4f66b993cc6daca43965c2267377c3d2c0b6dc0032f10d8bb9ecad852daec2"
+            "hash": "ee036efbb7e1f902e5f595ff9f43a5135c154526d12ac3431fd213dcf961e2c1"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "408b16dbee0b127779d064889957e0dae70832a6b9caca064802c6e5e2502151"
+            "hash": "e813c89fabf143de757cd61e88d9e8bf9b40f2b319512504a4bba8ce96a3cb31"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
             "size": 317,
-            "hash": "8adf99468476d342772ffe1732d2f3aaed05f38ce1b67d9f41eb287f1e82055f"
+            "hash": "d6807dfd1485ce8be9cd9985f5f548db18429d784f73884d81e2481dcfe741d3"
         },
         {
             "type": "file",
@@ -673,15 +673,15 @@
         },
         {
             "type": "file",
-            "name": "img/peach.217d6153.png",
-            "size": 31823,
-            "hash": "3749000c33fca12842173504954cdfcaa6d83884f037eb3109213604ec370d6b"
-        },
-        {
-            "type": "file",
             "name": "img/peach-ssbu.45af3d4c.png",
             "size": 8265,
             "hash": "a48c3339be7524e3849811901fdacf2a83852ace95b5c034528edee7e39bd66a"
+        },
+        {
+            "type": "file",
+            "name": "img/peach.217d6153.png",
+            "size": 31823,
+            "hash": "3749000c33fca12842173504954cdfcaa6d83884f037eb3109213604ec370d6b"
         },
         {
             "type": "file",
@@ -1057,9 +1057,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.4a7b7c77.js",
-            "size": 1418324,
-            "hash": "516438e762a0ef9cc4e97acc1c146a107a7b4dff1005876c8f565e5f9ad935f3"
+            "name": "js/app.79c9b4b3.js",
+            "size": 1418484,
+            "hash": "d3695bf3385f04d03683e39f9c6b7a8edec70087fc3e4a8822eee9d57454b61e"
         },
         {
             "type": "file",
@@ -1105,6 +1105,12 @@
         },
         {
             "type": "file",
+            "name": "img/icons/apple-touch-icon-76x76.png",
+            "size": 980,
+            "hash": "852f9da2305ab21aaf8c5732b61a66dc009b67e6d059526ea51317b7dbd0f84a"
+        },
+        {
+            "type": "file",
             "name": "img/icons/apple-touch-icon.png",
             "size": 1988,
             "hash": "41dce4dde90145d0959fc84f7e79e9b114fc3cb5ce9ea9af050d1ebf90618921"
@@ -1120,12 +1126,6 @@
             "name": "img/icons/favicon-32x32.png",
             "size": 493,
             "hash": "6ca16294cb53573040299e65a7f636779423146624ddf3589addc0313f09b8c7"
-        },
-        {
-            "type": "file",
-            "name": "img/icons/apple-touch-icon-76x76.png",
-            "size": 980,
-            "hash": "852f9da2305ab21aaf8c5732b61a66dc009b67e6d059526ea51317b7dbd0f84a"
         },
         {
             "type": "file",
