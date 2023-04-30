@@ -1,11 +1,4 @@
 [
-   {
-    "ip": "game.014.fr",
-    "port": 11451,
-    "flag": "fr",
-    "platform": "switch",
-    "type": "rust"
-  },
   {
     "ip": "frog-skins.com",
     "port": 11451,
@@ -106,6 +99,13 @@
   },
   {
     "ip": "badswitchlanplay.ml",
+    "port": 11451,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "game.014.fr",
     "port": 11451,
     "flag": "fr",
     "platform": "switch",
