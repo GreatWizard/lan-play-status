@@ -1,12 +1,5 @@
 [
   {
-    "ip": "switch.firesamuraiserver.site",
-    "port": 11451,
-    "flag": "br",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "frog-skins.com",
     "port": 11451,
     "flag": "us",
@@ -274,6 +267,13 @@
   },
   {
     "ip": "herbertfx.ddns.net",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "switch.firesamuraiserver.site",
     "port": 11451,
     "flag": "br",
     "platform": "switch",
