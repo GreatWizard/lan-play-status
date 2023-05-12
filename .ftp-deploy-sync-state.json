@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1683253949280,
+    "generatedTime": 1683858783212,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "d999ecf2f85e6404759d0cf51f13ae2a4c1176fe03597fb6868444ed97b78459"
+            "hash": "0dc67f0c8ddafabce815d25e2f0dab5ffecaab8f6a602a214137f5bb3dce81fb"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.6c44f8dee7ed9ddd0270b3ff4c074392.js",
+            "name": "precache-manifest.660ac7a080978eb905da2a54e26f11c4.js",
             "size": 17314,
-            "hash": "e9e17f0819577065d79fe47ab09212bf8e3b6aff7640e4ba6e0fb347fefbf4dc"
+            "hash": "be0b2df4369bc09a6a4912afccb7613003de7e422a34f58585dacdacb4642a8e"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "24f4024b2f5fdf18b073881cf96707ec84f260b48cc88f748a4255f3008b4d2c"
+            "hash": "848c015b6ab8482b4fb847bef3808feb12e356f1bb5a000160382dd0d3ff27d0"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "6832df58d79c45f40f734cd6d990ce83d42c91061e09f50375849df99c3a2d4c"
+            "hash": "a4240a8ade062467a19850248636163e4bf91c3476b7d26d13c62d5e6d0b4b45"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
-            "size": 316,
-            "hash": "0da3797a10728705e9f9d6ee79585b715b3675c0dfc764f1a6abc5bf657a3178"
+            "size": 317,
+            "hash": "7b01e12a58b877d7c2044404309bd37358168a79ca87b128dea24c249b857bfc"
         },
         {
             "type": "file",
@@ -279,15 +279,15 @@
         },
         {
             "type": "file",
-            "name": "img/donkeykong-ssbu.aca85cfa.png",
-            "size": 5357,
-            "hash": "3274fd84ba00fddf6eb4caa34bc953355536cf8b4fcf504869ca890b95f1953e"
-        },
-        {
-            "type": "file",
             "name": "img/donkey-kart.ec464b3a.png",
             "size": 12519,
             "hash": "5150161cd10ba440e6d05e294a77c62069b7a92a7d2bdd12171a138e8ae5520e"
+        },
+        {
+            "type": "file",
+            "name": "img/donkeykong-ssbu.aca85cfa.png",
+            "size": 5357,
+            "hash": "3274fd84ba00fddf6eb4caa34bc953355536cf8b4fcf504869ca890b95f1953e"
         },
         {
             "type": "file",
@@ -655,15 +655,15 @@
         },
         {
             "type": "file",
-            "name": "img/palutena-ssbu.3c5c1ba8.png",
-            "size": 10224,
-            "hash": "fba77ebd5cf8b84a838e79720c8fda2ea2811952c2e47cf78fd707ad0e3fdda9"
-        },
-        {
-            "type": "file",
             "name": "img/pa.7e829b7a.svg",
             "size": 871,
             "hash": "753279e87ca8f86f72c510706ecbf0e1c34609c45977c817d4c24dd23e6087b2"
+        },
+        {
+            "type": "file",
+            "name": "img/palutena-ssbu.3c5c1ba8.png",
+            "size": 10224,
+            "hash": "fba77ebd5cf8b84a838e79720c8fda2ea2811952c2e47cf78fd707ad0e3fdda9"
         },
         {
             "type": "file",
@@ -1057,9 +1057,9 @@
         },
         {
             "type": "file",
-            "name": "js/app.d9cbae44.js",
+            "name": "js/app.64c60f9b.js",
             "size": 1419822,
-            "hash": "5ceb8048c340da1de6137775e16b46a262072cb4353d98686345d8b1cdc20b4a"
+            "hash": "360fa91eecdbf4e2006375a1cbc5ce5a99213c8826607ada7ef97f2e8dc5159c"
         },
         {
             "type": "file",
@@ -1087,12 +1087,6 @@
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon-152x152.png",
-            "size": 2005,
-            "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
-        },
-        {
-            "type": "file",
             "name": "img/icons/apple-touch-icon-180x180.png",
             "size": 1567,
             "hash": "940ca26f385a497ba06cdc4d0fa15e4f09603d21c7bfe41623226e11bb0196df"
@@ -1102,6 +1096,12 @@
             "name": "img/icons/apple-touch-icon-60x60.png",
             "size": 679,
             "hash": "5ff0a87d94c2753e9ef192b802dd8c87b0876053d54ed2d642869e899d112119"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon-152x152.png",
+            "size": 2005,
+            "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
         },
         {
             "type": "file",
@@ -1117,12 +1117,6 @@
         },
         {
             "type": "file",
-            "name": "img/icons/favicon-16x16.png",
-            "size": 284,
-            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
-        },
-        {
-            "type": "file",
             "name": "img/icons/favicon-32x32.png",
             "size": 493,
             "hash": "6ca16294cb53573040299e65a7f636779423146624ddf3589addc0313f09b8c7"
@@ -1132,6 +1126,12 @@
             "name": "img/icons/msapplication-icon-144x144.png",
             "size": 2132,
             "hash": "e02368dd7e5dc3c1dcc35515e54f68fe802b7f655395c58450647ee234ca070b"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/favicon-16x16.png",
+            "size": 284,
+            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
         },
         {
             "type": "file",
