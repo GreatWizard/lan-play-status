@@ -7,6 +7,13 @@
     "type": "rust"
   },
   {
+    "ip": "switch.nvds.be",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "calvin991.ddns.net",
     "port": 11451,
     "flag": "tw",
