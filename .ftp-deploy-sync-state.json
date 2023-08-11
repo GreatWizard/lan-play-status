@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1691635051243,
+    "generatedTime": 1691720450817,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "0ad1091bfb5d30e6f18f64a1495fdf04c7432cb2ef5bf5d431faebb611a5aed0"
+            "hash": "5f29a252935e7f9e441fb161554fedc54545641d949a8ab8887a1e5ce28e276b"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.aa0eb2e884969176cba8aa2711bfb69c.js",
+            "name": "precache-manifest.26962425399ac43186e004e89c714fe4.js",
             "size": 17314,
-            "hash": "de204980ef1549e54d868559304aff3b3fab6329ae6608709ddf2de38a5d8680"
+            "hash": "7343b047eac5c2b01bdb84cb628751ebe1325d6f6c24afe70d5de4d2c9cf8bf0"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "0f08322e1493c6e39cc41bd94be21dbaeac76380cbc9183d9fd57d9e31880b13"
+            "hash": "1eb65cbb32baf3c63dcbe2759267d346d1cda3460cd9a3923d83cd5f659226fb"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "230ca2d562a54fe3037cf3ead197ff2ab59d1bd45198d7f3756e07e7fc68dbe0"
+            "hash": "2a3f5761d266beeb4849a7f2b9e3a589dd0fa8ac4092df5175271985d7e445a2"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
-            "size": 316,
-            "hash": "64f796310329d0a7e2ddbca881b5af5b6c59ad1687121d60664dc588d0e0255d"
+            "size": 317,
+            "hash": "c7602e4096ef0ecf93e746a756fb71e49596e4a843b0e674f9371ccd2d837987"
         },
         {
             "type": "file",
@@ -117,12 +117,6 @@
         },
         {
             "type": "file",
-            "name": "img/404.c1049fde.jpg",
-            "size": 43169,
-            "hash": "2c9a227fe1b100364c8966aaad75c141f15e9abdf61ab9a68f6f0f150efcad0c"
-        },
-        {
-            "type": "file",
             "name": "img/au.64c2ac4e.svg",
             "size": 2839,
             "hash": "2d75d5396528dc14fffc07ca77bd5d8fce804ea825b125874d0a4b94e4bcd25a"
@@ -135,15 +129,21 @@
         },
         {
             "type": "file",
-            "name": "img/bg.557dbfa9.svg",
-            "size": 647,
-            "hash": "307aec586e1fc845fc9524506e9dbdce020519d381b4c7b7f9995a6df14109be"
+            "name": "img/404.c1049fde.jpg",
+            "size": 43169,
+            "hash": "2c9a227fe1b100364c8966aaad75c141f15e9abdf61ab9a68f6f0f150efcad0c"
         },
         {
             "type": "file",
             "name": "img/bayonetta-ssbu.90b020e0.png",
             "size": 10594,
             "hash": "2abd5c80975fd6b7a38f9bd98cc539ecb69be0f94f16a1e0e5873cdb6e7023a8"
+        },
+        {
+            "type": "file",
+            "name": "img/bg.557dbfa9.svg",
+            "size": 647,
+            "hash": "307aec586e1fc845fc9524506e9dbdce020519d381b4c7b7f9995a6df14109be"
         },
         {
             "type": "file",
@@ -171,15 +171,15 @@
         },
         {
             "type": "file",
-            "name": "img/bowserjr-ssbu.e56705d8.png",
-            "size": 6352,
-            "hash": "7d83780cd5178ef016a54274cefaf02f62b3259723c765e68b42a73396574e75"
-        },
-        {
-            "type": "file",
             "name": "img/bowser.fc7ed05e.png",
             "size": 32128,
             "hash": "6a87627fe8bbf62fe848a917633d9f9c23d8527080167a998b0fc8b51602427f"
+        },
+        {
+            "type": "file",
+            "name": "img/bowserjr-ssbu.e56705d8.png",
+            "size": 6352,
+            "hash": "7d83780cd5178ef016a54274cefaf02f62b3259723c765e68b42a73396574e75"
         },
         {
             "type": "file",
@@ -189,15 +189,15 @@
         },
         {
             "type": "file",
-            "name": "img/byleth-ssbu.b641ea7e.png",
-            "size": 8915,
-            "hash": "3cfca956b0bc44f96935bb2fbcb76feefe2671de4756031c03d3d67bfd436841"
-        },
-        {
-            "type": "file",
             "name": "img/ca.5405c1bb.svg",
             "size": 816,
             "hash": "d87e27676ca6098faf01b53c122b9778ef36c65fa8750467b1b48ae137eda3a5"
+        },
+        {
+            "type": "file",
+            "name": "img/byleth-ssbu.b641ea7e.png",
+            "size": 8915,
+            "hash": "3cfca956b0bc44f96935bb2fbcb76feefe2671de4756031c03d3d67bfd436841"
         },
         {
             "type": "file",
@@ -649,15 +649,15 @@
         },
         {
             "type": "file",
-            "name": "img/pa.7e829b7a.svg",
-            "size": 871,
-            "hash": "753279e87ca8f86f72c510706ecbf0e1c34609c45977c817d4c24dd23e6087b2"
-        },
-        {
-            "type": "file",
             "name": "img/olimar-ssbu.db3e5e0b.png",
             "size": 8355,
             "hash": "218e81196960a48d565aa92db3aaf0b19ba0849ebb3c4759b91aacb7e46a834e"
+        },
+        {
+            "type": "file",
+            "name": "img/pa.7e829b7a.svg",
+            "size": 871,
+            "hash": "753279e87ca8f86f72c510706ecbf0e1c34609c45977c817d4c24dd23e6087b2"
         },
         {
             "type": "file",
@@ -787,6 +787,12 @@
         },
         {
             "type": "file",
+            "name": "img/rosalina.dbc6b4e6.png",
+            "size": 27097,
+            "hash": "1262f6e2a47e49b141c9e379da4a563716bf5968c659c57caf53dce4d04f11b6"
+        },
+        {
+            "type": "file",
             "name": "img/rosalina-ssbu.d844471c.png",
             "size": 7431,
             "hash": "7a4aadcc7e03dd5640ec0dc43843f3414421bd78896bb6ec577e1a11a4bf8305"
@@ -796,12 +802,6 @@
             "name": "img/roy-ssbu.26c858cf.png",
             "size": 7548,
             "hash": "e1768d5d91505bbea109eef43013dc40b4ed807c3b10a26e67e4a94aaaf9a1e1"
-        },
-        {
-            "type": "file",
-            "name": "img/rosalina.dbc6b4e6.png",
-            "size": 27097,
-            "hash": "1262f6e2a47e49b141c9e379da4a563716bf5968c659c57caf53dce4d04f11b6"
         },
         {
             "type": "file",
@@ -847,15 +847,15 @@
         },
         {
             "type": "file",
-            "name": "img/settings3.29954755.jpg",
-            "size": 62559,
-            "hash": "66662022823463031bc6ea20f966c0c79903581f1b602fa70599cbdb908ff99e"
-        },
-        {
-            "type": "file",
             "name": "img/settings2.efbf7c05.jpg",
             "size": 53454,
             "hash": "312a6932fed5de02e6940ebd1f4124f015972dbc986dfa21f721e969e09fa9c5"
+        },
+        {
+            "type": "file",
+            "name": "img/settings3.29954755.jpg",
+            "size": 62559,
+            "hash": "66662022823463031bc6ea20f966c0c79903581f1b602fa70599cbdb908ff99e"
         },
         {
             "type": "file",
@@ -877,15 +877,15 @@
         },
         {
             "type": "file",
-            "name": "img/simon-ssbu.7be60cae.png",
-            "size": 9347,
-            "hash": "aacefa3419fce35ad5fcee3792666a0579b8eb3038a4263881b7fe5f1f7e62dd"
-        },
-        {
-            "type": "file",
             "name": "img/shulk-ssbu.b68262b0.png",
             "size": 9607,
             "hash": "ab493e5f10a98c800b495caa6ab6ea4b2e3be1965453a8b8e1bff4f1982b25d1"
+        },
+        {
+            "type": "file",
+            "name": "img/simon-ssbu.7be60cae.png",
+            "size": 9347,
+            "hash": "aacefa3419fce35ad5fcee3792666a0579b8eb3038a4263881b7fe5f1f7e62dd"
         },
         {
             "type": "file",
@@ -979,21 +979,9 @@
         },
         {
             "type": "file",
-            "name": "img/vn.5f6f3fcc.svg",
-            "size": 799,
-            "hash": "21a311b734230406f52f8f8606035552643adc300c9bbb41fe2308c8ca3abc65"
-        },
-        {
-            "type": "file",
             "name": "img/wario-kart.1d30eda0.png",
             "size": 10901,
             "hash": "6b90b2e2c376245aaac8bfaf0643449e2c8d77cf0979a051411180663e127269"
-        },
-        {
-            "type": "file",
-            "name": "img/whatsapp.eafe62b5.svg",
-            "size": 1152,
-            "hash": "79c28d91f5e9934da8b6ba43056113061ae23659e838c78cbee495cba8ebf720"
         },
         {
             "type": "file",
@@ -1003,15 +991,33 @@
         },
         {
             "type": "file",
-            "name": "img/wiifittrainer-ssbu.c366f8b0.png",
-            "size": 5688,
-            "hash": "0a47de6873cb02de81cf5966969ce46b8bf8a1e336fe70ade5ebf8b45a7d2970"
+            "name": "img/vn.5f6f3fcc.svg",
+            "size": 799,
+            "hash": "21a311b734230406f52f8f8606035552643adc300c9bbb41fe2308c8ca3abc65"
+        },
+        {
+            "type": "file",
+            "name": "img/whatsapp.eafe62b5.svg",
+            "size": 1152,
+            "hash": "79c28d91f5e9934da8b6ba43056113061ae23659e838c78cbee495cba8ebf720"
         },
         {
             "type": "file",
             "name": "img/wolf-ssbu.b2317412.png",
             "size": 8583,
             "hash": "c22d8930958d1233e337cca9daf199b0afcde9d1e069f20e7695e57960457a62"
+        },
+        {
+            "type": "file",
+            "name": "img/wiifittrainer-ssbu.c366f8b0.png",
+            "size": 5688,
+            "hash": "0a47de6873cb02de81cf5966969ce46b8bf8a1e336fe70ade5ebf8b45a7d2970"
+        },
+        {
+            "type": "file",
+            "name": "img/world-flags-globe.f17c62e2.png",
+            "size": 50962,
+            "hash": "e95b5e90d20e3970bcbf86ddf523f76c3a6ed5c20e1482532567cbbfb614bc4c"
         },
         {
             "type": "file",
@@ -1027,12 +1033,6 @@
         },
         {
             "type": "file",
-            "name": "img/world-flags-globe.f17c62e2.png",
-            "size": 50962,
-            "hash": "e95b5e90d20e3970bcbf86ddf523f76c3a6ed5c20e1482532567cbbfb614bc4c"
-        },
-        {
-            "type": "file",
             "name": "img/yoshi.b710928d.png",
             "size": 54323,
             "hash": "e896853e422a586656077a4af8349fa234e382f6852178219e874c552559180e"
@@ -1045,21 +1045,21 @@
         },
         {
             "type": "file",
-            "name": "img/zelda-ssbu.7790a038.png",
-            "size": 9213,
-            "hash": "a6cfcbb0ddb449efdfb2df58c473740fb244133db769e192c044da4e615d3b77"
-        },
-        {
-            "type": "file",
             "name": "img/zerosuitsamus-ssbu.bbf03a68.png",
             "size": 8531,
             "hash": "1fb5c6c392c1a9356372da9aee0de54a70365e74acc0b85882ce0f3723aaaed3"
         },
         {
             "type": "file",
-            "name": "js/app.1b11c0b5.js",
-            "size": 1495879,
-            "hash": "f1b8dfa8d350adb7854262b29776f24c456176875fa281cb4082c40a37c8d759"
+            "name": "img/zelda-ssbu.7790a038.png",
+            "size": 9213,
+            "hash": "a6cfcbb0ddb449efdfb2df58c473740fb244133db769e192c044da4e615d3b77"
+        },
+        {
+            "type": "file",
+            "name": "js/app.d4064542.js",
+            "size": 1497285,
+            "hash": "6b868ddea0ad0286fba51c489934e0bb54b04907c505bcb99be31c137f8acd89"
         },
         {
             "type": "file",
@@ -1075,15 +1075,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon-120x120.png",
-            "size": 1359,
-            "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
-        },
-        {
-            "type": "file",
             "name": "img/icons/android-chrome-512x512.png",
             "size": 16638,
             "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon-120x120.png",
+            "size": 1359,
+            "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
         },
         {
             "type": "file",
@@ -1105,12 +1105,6 @@
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon-76x76.png",
-            "size": 980,
-            "hash": "852f9da2305ab21aaf8c5732b61a66dc009b67e6d059526ea51317b7dbd0f84a"
-        },
-        {
-            "type": "file",
             "name": "img/icons/apple-touch-icon.png",
             "size": 1988,
             "hash": "41dce4dde90145d0959fc84f7e79e9b114fc3cb5ce9ea9af050d1ebf90618921"
@@ -1120,6 +1114,12 @@
             "name": "img/icons/favicon-16x16.png",
             "size": 284,
             "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon-76x76.png",
+            "size": 980,
+            "hash": "852f9da2305ab21aaf8c5732b61a66dc009b67e6d059526ea51317b7dbd0f84a"
         },
         {
             "type": "file",
@@ -1135,15 +1135,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/safari-pinned-tab.svg",
-            "size": 2131,
-            "hash": "5817ca734258ebd3f984b843961e7bbe8a3bb2f1df9316cb419d09b456314cdd"
-        },
-        {
-            "type": "file",
             "name": "img/icons/mstile-150x150.png",
             "size": 2067,
             "hash": "66416c8ecb1df6caed80e0e2bb4b01ef4b9b1573d0f46911de252226c1410f65"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/safari-pinned-tab.svg",
+            "size": 2131,
+            "hash": "5817ca734258ebd3f984b843961e7bbe8a3bb2f1df9316cb419d09b456314cdd"
         }
     ]
 }
