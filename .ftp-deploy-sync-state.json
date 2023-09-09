@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1694053342813,
+    "generatedTime": 1694226036480,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "9bf9a48dcd3fd66ef59053278c01c83c12b845c0e791e459502d7cbb0d997cea"
+            "hash": "6261dbcd387f08a1f0d6f07a694824f877fab6444a39a376a21e9aa1f4de4335"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.c363de0fce7a0a195f0a150413676741.js",
+            "name": "precache-manifest.56845f6bba92c7f174b274e05c3ac1dc.js",
             "size": 17314,
-            "hash": "97a6c7cb942064c43f67858f8191c86ca77db40bccc30daa8d6fdc4c57dd92b0"
+            "hash": "47826ad1e03a340a6d71e62427433e11c676d6b8d02b77b8c4c61a18ca429b38"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "aacf046aa217ea081bb35c95fb379d3a154c90b2fd9c82171fffba7f634e7369"
+            "hash": "695303bcbfebb4c852234a3b31c6248b499a02b3308ee5e5f76a09926bf72ac3"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "6d9d19c2cc4750ae8d64d8cebc3178c5a963d09d804b69a54d529e1a6f3ad9a2"
+            "hash": "a673953fccd43ebd1c4b012f11144c8ac2d82bb22e11ca4afd8597a152a172ee"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
-            "size": 317,
-            "hash": "305371771e793e05c1d5a7938c7489936cd439320b39bcccff44631a459ad93d"
+            "size": 316,
+            "hash": "7affc10abbf9e235506ecb84e9e0aca533421a3b6431cf015add767a2f80f658"
         },
         {
             "type": "file",
@@ -129,15 +129,15 @@
         },
         {
             "type": "file",
-            "name": "img/banjokazooie-ssbu.0cbb217e.png",
-            "size": 23412,
-            "hash": "4c49a2f2862f1b6a244d9255ae2ea952a998c2e65075b4207f5391c0f15b5d38"
-        },
-        {
-            "type": "file",
             "name": "img/bayonetta-ssbu.90b020e0.png",
             "size": 10594,
             "hash": "2abd5c80975fd6b7a38f9bd98cc539ecb69be0f94f16a1e0e5873cdb6e7023a8"
+        },
+        {
+            "type": "file",
+            "name": "img/banjokazooie-ssbu.0cbb217e.png",
+            "size": 23412,
+            "hash": "4c49a2f2862f1b6a244d9255ae2ea952a998c2e65075b4207f5391c0f15b5d38"
         },
         {
             "type": "file",
@@ -255,15 +255,15 @@
         },
         {
             "type": "file",
-            "name": "img/de.e0735c98.svg",
-            "size": 405,
-            "hash": "ff9d9044f3612f13fe7c7bba12d57b1bafb1b13b21feced1bb768de7f8c8a408"
-        },
-        {
-            "type": "file",
             "name": "img/darksamus-ssbu.ca2531b3.png",
             "size": 6985,
             "hash": "6f86c92246335f16b6114a1fbf9165fa6fd6112b56328b4d1ac2bf999e2f44cb"
+        },
+        {
+            "type": "file",
+            "name": "img/de.e0735c98.svg",
+            "size": 405,
+            "hash": "ff9d9044f3612f13fe7c7bba12d57b1bafb1b13b21feced1bb768de7f8c8a408"
         },
         {
             "type": "file",
@@ -368,10 +368,6 @@
             "hash": "2688cf10b32ec51f55baa157922237574fad7ddad3d08980557faa6b6c78816f"
         },
         {
-            "type": "folder",
-            "name": "img/icons"
-        },
-        {
             "type": "file",
             "name": "img/id.3998c1a6.svg",
             "size": 605,
@@ -382,6 +378,10 @@
             "name": "img/ike-ssbu.76977bf6.png",
             "size": 8346,
             "hash": "f2907172697ebbb885d8ce556a7bbc0827135a1979e04fe58b544dff04edfeb1"
+        },
+        {
+            "type": "folder",
+            "name": "img/icons"
         },
         {
             "type": "file",
@@ -400,12 +400,6 @@
             "name": "img/inkling-girl.5417ec70.png",
             "size": 76892,
             "hash": "e3f7539e8fa9fda9b0cf80ee51b8253c344f19e3f9bf44897796c40557958225"
-        },
-        {
-            "type": "file",
-            "name": "img/inkling-squid.fbe49bc0.png",
-            "size": 39986,
-            "hash": "6747360232d71229cbe5755d5d69bff8df3f1e44e3b68abb8ea2c3b4118bc205"
         },
         {
             "type": "file",
@@ -451,6 +445,12 @@
         },
         {
             "type": "file",
+            "name": "img/inkling-squid.fbe49bc0.png",
+            "size": 39986,
+            "hash": "6747360232d71229cbe5755d5d69bff8df3f1e44e3b68abb8ea2c3b4118bc205"
+        },
+        {
+            "type": "file",
             "name": "img/joker-ssbu.92f72332.png",
             "size": 16397,
             "hash": "3aa91dbf3fb5260edd2a877b5fbf9ceff2ffe95dbfe9b4a6f96cfcadea4a7978"
@@ -487,27 +487,27 @@
         },
         {
             "type": "file",
-            "name": "img/link-ssbu.2926fc2b.png",
-            "size": 9038,
-            "hash": "d999c34d1ea9df2b345497e4a4bdbbd3fff06b38d40f226a78d0e728aee97e91"
-        },
-        {
-            "type": "file",
             "name": "img/littlemac-ssbu.6524ca37.png",
             "size": 9211,
             "hash": "d8dffaa8d466958762c28b643261a55939a57766e502b73e5b52bccd69b030f2"
         },
         {
             "type": "file",
-            "name": "img/lock.0a5edbf4.png",
-            "size": 5944,
-            "hash": "43dc6048b44e6e95db55c970f756223465f8f92ce7fc95378cd970548d0d69ac"
+            "name": "img/link-ssbu.2926fc2b.png",
+            "size": 9038,
+            "hash": "d999c34d1ea9df2b345497e4a4bdbbd3fff06b38d40f226a78d0e728aee97e91"
         },
         {
             "type": "file",
             "name": "img/logo.f64272e3.png",
             "size": 7398,
             "hash": "e5480a54cf761b91335a597f6126d5b1529bb62a32806cd5a7b24e2c32e62cac"
+        },
+        {
+            "type": "file",
+            "name": "img/lock.0a5edbf4.png",
+            "size": 5944,
+            "hash": "43dc6048b44e6e95db55c970f756223465f8f92ce7fc95378cd970548d0d69ac"
         },
         {
             "type": "file",
@@ -748,12 +748,6 @@
             "name": "img/re.269ab577.svg",
             "size": 410,
             "hash": "036c5061e712b8dd72c66b5a4583d2dfd1f3853faff62dc4d59d05895695fab2"
-        },
-        {
-            "type": "file",
-            "name": "img/red-cap.1bd8445b.png",
-            "size": 9046,
-            "hash": "f0bf9bda713c5b1c1fded97dce75c0aeb3d408bb6ff77e172060b2cf95805e56"
         },
         {
             "type": "file",
@@ -1027,6 +1021,12 @@
         },
         {
             "type": "file",
+            "name": "img/yoshi-ssbu.9c9af558.png",
+            "size": 5533,
+            "hash": "edc57314f813001a626e1d17ed73e4fbe9f500e02fcd260ef679ad973ed69860"
+        },
+        {
+            "type": "file",
             "name": "img/yoshi.b710928d.png",
             "size": 54323,
             "hash": "e896853e422a586656077a4af8349fa234e382f6852178219e874c552559180e"
@@ -1036,12 +1036,6 @@
             "name": "img/younglink-ssbu.b91675e5.png",
             "size": 7377,
             "hash": "a379a76b74d519ce6fad037df99cc73f05c5a2c3cdc585f4cbe384036df38d65"
-        },
-        {
-            "type": "file",
-            "name": "img/yoshi-ssbu.9c9af558.png",
-            "size": 5533,
-            "hash": "edc57314f813001a626e1d17ed73e4fbe9f500e02fcd260ef679ad973ed69860"
         },
         {
             "type": "file",
@@ -1057,15 +1051,21 @@
         },
         {
             "type": "file",
-            "name": "js/app.b90bc497.js",
-            "size": 1502374,
-            "hash": "9de29b3fd75932a9bdaf2fee1b2e65785cf7c61ffbe989dfc94a1d1aba366e70"
+            "name": "js/app.c8ed071f.js",
+            "size": 1502447,
+            "hash": "e205d9e2740718785b854d37704fdc9eda92c19680dd34705a972c4d7a5037ed"
         },
         {
             "type": "file",
             "name": "js/chunk-vendors.c40f0db7.js",
             "size": 183712,
             "hash": "b8e46c4a04cc10f2443d7ffe8b2eecb15dd895dc1c8ca69e21575602aa383633"
+        },
+        {
+            "type": "file",
+            "name": "img/red-cap.1bd8445b.png",
+            "size": 9046,
+            "hash": "f0bf9bda713c5b1c1fded97dce75c0aeb3d408bb6ff77e172060b2cf95805e56"
         },
         {
             "type": "file",
@@ -1081,15 +1081,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon-152x152.png",
-            "size": 2005,
-            "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
-        },
-        {
-            "type": "file",
             "name": "img/icons/apple-touch-icon-120x120.png",
             "size": 1359,
             "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon-152x152.png",
+            "size": 2005,
+            "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
         },
         {
             "type": "file",
@@ -1117,12 +1117,6 @@
         },
         {
             "type": "file",
-            "name": "img/icons/favicon-16x16.png",
-            "size": 284,
-            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
-        },
-        {
-            "type": "file",
             "name": "img/icons/favicon-32x32.png",
             "size": 493,
             "hash": "6ca16294cb53573040299e65a7f636779423146624ddf3589addc0313f09b8c7"
@@ -1132,6 +1126,12 @@
             "name": "img/icons/msapplication-icon-144x144.png",
             "size": 2132,
             "hash": "e02368dd7e5dc3c1dcc35515e54f68fe802b7f655395c58450647ee234ca070b"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/favicon-16x16.png",
+            "size": 284,
+            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
         },
         {
             "type": "file",
