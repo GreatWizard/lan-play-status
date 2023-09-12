@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1694226036480,
+    "generatedTime": 1694485333063,
     "data": [
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2987,
-            "hash": "6261dbcd387f08a1f0d6f07a694824f877fab6444a39a376a21e9aa1f4de4335"
+            "hash": "10fd86de61d1afdf3720d47dfd72548bbb5c6dcc088c8b7dcd5d6369ede19012"
         },
         {
             "type": "folder",
@@ -69,9 +69,9 @@
         },
         {
             "type": "file",
-            "name": "precache-manifest.56845f6bba92c7f174b274e05c3ac1dc.js",
+            "name": "precache-manifest.774d58d66830c7fab537be7a3691b87d.js",
             "size": 17314,
-            "hash": "47826ad1e03a340a6d71e62427433e11c676d6b8d02b77b8c4c61a18ca429b38"
+            "hash": "30549534b5c4117db073cb7c21e5c5ae68f269855809749433f33e47bef32dce"
         },
         {
             "type": "file",
@@ -89,19 +89,19 @@
             "type": "file",
             "name": "service-worker.js",
             "size": 1070,
-            "hash": "695303bcbfebb4c852234a3b31c6248b499a02b3308ee5e5f76a09926bf72ac3"
+            "hash": "7e09895337fcf2682d9b23b4132855dca721ed0740d34c20087f769866815e7a"
         },
         {
             "type": "file",
             "name": "sitemap.xml",
             "size": 1552,
-            "hash": "a673953fccd43ebd1c4b012f11144c8ac2d82bb22e11ca4afd8597a152a172ee"
+            "hash": "445a80a12b4eaa860f499e769b3c4c8707586d8e200cb8672003326fb8811355"
         },
         {
             "type": "file",
             "name": "sitemap.xml.gz",
-            "size": 316,
-            "hash": "7affc10abbf9e235506ecb84e9e0aca533421a3b6431cf015add767a2f80f658"
+            "size": 317,
+            "hash": "5cfed0598de90463ff45290d6b9ff2d69954d9b81ea02d46d840df107f6fb543"
         },
         {
             "type": "file",
@@ -129,15 +129,15 @@
         },
         {
             "type": "file",
-            "name": "img/bayonetta-ssbu.90b020e0.png",
-            "size": 10594,
-            "hash": "2abd5c80975fd6b7a38f9bd98cc539ecb69be0f94f16a1e0e5873cdb6e7023a8"
-        },
-        {
-            "type": "file",
             "name": "img/banjokazooie-ssbu.0cbb217e.png",
             "size": 23412,
             "hash": "4c49a2f2862f1b6a244d9255ae2ea952a998c2e65075b4207f5391c0f15b5d38"
+        },
+        {
+            "type": "file",
+            "name": "img/bayonetta-ssbu.90b020e0.png",
+            "size": 10594,
+            "hash": "2abd5c80975fd6b7a38f9bd98cc539ecb69be0f94f16a1e0e5873cdb6e7023a8"
         },
         {
             "type": "file",
@@ -368,6 +368,10 @@
             "hash": "2688cf10b32ec51f55baa157922237574fad7ddad3d08980557faa6b6c78816f"
         },
         {
+            "type": "folder",
+            "name": "img/icons"
+        },
+        {
             "type": "file",
             "name": "img/id.3998c1a6.svg",
             "size": 605,
@@ -378,10 +382,6 @@
             "name": "img/ike-ssbu.76977bf6.png",
             "size": 8346,
             "hash": "f2907172697ebbb885d8ce556a7bbc0827135a1979e04fe58b544dff04edfeb1"
-        },
-        {
-            "type": "folder",
-            "name": "img/icons"
         },
         {
             "type": "file",
@@ -400,6 +400,12 @@
             "name": "img/inkling-girl.5417ec70.png",
             "size": 76892,
             "hash": "e3f7539e8fa9fda9b0cf80ee51b8253c344f19e3f9bf44897796c40557958225"
+        },
+        {
+            "type": "file",
+            "name": "img/inkling-squid.fbe49bc0.png",
+            "size": 39986,
+            "hash": "6747360232d71229cbe5755d5d69bff8df3f1e44e3b68abb8ea2c3b4118bc205"
         },
         {
             "type": "file",
@@ -445,12 +451,6 @@
         },
         {
             "type": "file",
-            "name": "img/inkling-squid.fbe49bc0.png",
-            "size": 39986,
-            "hash": "6747360232d71229cbe5755d5d69bff8df3f1e44e3b68abb8ea2c3b4118bc205"
-        },
-        {
-            "type": "file",
             "name": "img/joker-ssbu.92f72332.png",
             "size": 16397,
             "hash": "3aa91dbf3fb5260edd2a877b5fbf9ceff2ffe95dbfe9b4a6f96cfcadea4a7978"
@@ -487,27 +487,27 @@
         },
         {
             "type": "file",
-            "name": "img/littlemac-ssbu.6524ca37.png",
-            "size": 9211,
-            "hash": "d8dffaa8d466958762c28b643261a55939a57766e502b73e5b52bccd69b030f2"
-        },
-        {
-            "type": "file",
             "name": "img/link-ssbu.2926fc2b.png",
             "size": 9038,
             "hash": "d999c34d1ea9df2b345497e4a4bdbbd3fff06b38d40f226a78d0e728aee97e91"
         },
         {
             "type": "file",
-            "name": "img/logo.f64272e3.png",
-            "size": 7398,
-            "hash": "e5480a54cf761b91335a597f6126d5b1529bb62a32806cd5a7b24e2c32e62cac"
+            "name": "img/littlemac-ssbu.6524ca37.png",
+            "size": 9211,
+            "hash": "d8dffaa8d466958762c28b643261a55939a57766e502b73e5b52bccd69b030f2"
         },
         {
             "type": "file",
             "name": "img/lock.0a5edbf4.png",
             "size": 5944,
             "hash": "43dc6048b44e6e95db55c970f756223465f8f92ce7fc95378cd970548d0d69ac"
+        },
+        {
+            "type": "file",
+            "name": "img/logo.f64272e3.png",
+            "size": 7398,
+            "hash": "e5480a54cf761b91335a597f6126d5b1529bb62a32806cd5a7b24e2c32e62cac"
         },
         {
             "type": "file",
@@ -748,6 +748,12 @@
             "name": "img/re.269ab577.svg",
             "size": 410,
             "hash": "036c5061e712b8dd72c66b5a4583d2dfd1f3853faff62dc4d59d05895695fab2"
+        },
+        {
+            "type": "file",
+            "name": "img/red-cap.1bd8445b.png",
+            "size": 9046,
+            "hash": "f0bf9bda713c5b1c1fded97dce75c0aeb3d408bb6ff77e172060b2cf95805e56"
         },
         {
             "type": "file",
@@ -1003,12 +1009,6 @@
         },
         {
             "type": "file",
-            "name": "img/wolf-ssbu.b2317412.png",
-            "size": 8583,
-            "hash": "c22d8930958d1233e337cca9daf199b0afcde9d1e069f20e7695e57960457a62"
-        },
-        {
-            "type": "file",
             "name": "img/world-flags-globe.f17c62e2.png",
             "size": 50962,
             "hash": "e95b5e90d20e3970bcbf86ddf523f76c3a6ed5c20e1482532567cbbfb614bc4c"
@@ -1039,6 +1039,12 @@
         },
         {
             "type": "file",
+            "name": "img/wolf-ssbu.b2317412.png",
+            "size": 8583,
+            "hash": "c22d8930958d1233e337cca9daf199b0afcde9d1e069f20e7695e57960457a62"
+        },
+        {
+            "type": "file",
             "name": "img/zelda-ssbu.7790a038.png",
             "size": 9213,
             "hash": "a6cfcbb0ddb449efdfb2df58c473740fb244133db769e192c044da4e615d3b77"
@@ -1051,21 +1057,15 @@
         },
         {
             "type": "file",
-            "name": "js/app.c8ed071f.js",
-            "size": 1502447,
-            "hash": "e205d9e2740718785b854d37704fdc9eda92c19680dd34705a972c4d7a5037ed"
+            "name": "js/app.eb6d56c7.js",
+            "size": 1511444,
+            "hash": "5e965d73fad5253bce0b541da482d8b8499f4560a3acf96c57946e517bbf0155"
         },
         {
             "type": "file",
             "name": "js/chunk-vendors.c40f0db7.js",
             "size": 183712,
             "hash": "b8e46c4a04cc10f2443d7ffe8b2eecb15dd895dc1c8ca69e21575602aa383633"
-        },
-        {
-            "type": "file",
-            "name": "img/red-cap.1bd8445b.png",
-            "size": 9046,
-            "hash": "f0bf9bda713c5b1c1fded97dce75c0aeb3d408bb6ff77e172060b2cf95805e56"
         },
         {
             "type": "file",
@@ -1117,6 +1117,12 @@
         },
         {
             "type": "file",
+            "name": "img/icons/favicon-16x16.png",
+            "size": 284,
+            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
+        },
+        {
+            "type": "file",
             "name": "img/icons/favicon-32x32.png",
             "size": 493,
             "hash": "6ca16294cb53573040299e65a7f636779423146624ddf3589addc0313f09b8c7"
@@ -1126,12 +1132,6 @@
             "name": "img/icons/msapplication-icon-144x144.png",
             "size": 2132,
             "hash": "e02368dd7e5dc3c1dcc35515e54f68fe802b7f655395c58450647ee234ca070b"
-        },
-        {
-            "type": "file",
-            "name": "img/icons/favicon-16x16.png",
-            "size": 284,
-            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
         },
         {
             "type": "file",
