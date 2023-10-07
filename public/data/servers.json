@@ -105,6 +105,13 @@
     "type": "rust"
   },
   {
+    "ip": "game.014.fr",
+    "port": 11451,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "badps4lanplay.ml",
     "port": 22451,
     "flag": "nl",
