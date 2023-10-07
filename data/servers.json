@@ -182,6 +182,13 @@
     "type": "rust"
   },
   {
+    "ip": "switch.nvds.be",
+    "port": 11451,
+    "flag": "de",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "switch.jayseateam.nl",
     "port": 11451,
     "flag": "nl",
