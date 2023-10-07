@@ -287,6 +287,13 @@
     "type": "rust"
   },
   {
+    "ip": "switch.firesamuraiserver.site",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lanplay.degepii.ml",
     "port": 11451,
     "flag": "nl",
