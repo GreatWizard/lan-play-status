@@ -8,13 +8,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js 14
+      - name: Use Node.js 16
         uses: actions/setup-node@v2
         with:
-          node-version: 14.x
-          cache: yarn
-      - name: Yarn Install
-        run: yarn install
+          node-version: 16.x
+          cache: pnpm
+      - name: pnpm install
+        run: pnpm install --frozen-lockfile
       - name: Push translations
         uses: transifex/cli-action@v1
         with:
@@ -27,7 +27,7 @@ jobs:
           token: ${{ secrets.TX_TOKEN }}
           args: pull
       - name: Build
-        run: yarn build
+        run: pnpm build
       - name: Wait on tests
         uses: lewagon/wait-on-check-action@v0.2
         with: 

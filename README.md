@@ -7,43 +7,20 @@
 [![Liberapay](http://img.shields.io/liberapay/patrons/GreatWizard.svg?logo=liberapay)](https://liberapay.com/GreatWizard/)
 
 ## Project setup
-
 ```
-yarn install
+pnpm install
 ```
 
 ### Compiles and hot-reloads for development
-
 ```
-yarn run serve
+pnpm run serve
 ```
 
 ### Compiles and minifies for production
-
 ```
-yarn run build
-```
-
-### Run your tests
-
-```
-yarn run test
+pnpm run build
 ```
 
 ### Lints and fixes files
-
 ```
-yarn run lint
-```
-
-### Run your end-to-end tests
-
-```
-yarn run test:e2e
-```
-
-### Run your unit tests
-
-```
-yarn run test:unit
-```
+pnpm run lint

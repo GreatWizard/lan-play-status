@@ -85,7 +85,7 @@ export default {
   components: {
     CopyButton,
     Room,
-    CountryFlag
+    CountryFlag,
   },
   data() {
     return {
@@ -93,12 +93,12 @@ export default {
       timerServer: undefined,
       status: undefined,
       ping: undefined,
-      data: undefined
+      data: undefined,
     };
   },
   props: {
     server: Object,
-    monitors: Array
+    monitors: Array,
   },
   computed: {
     fullAddress() {
@@ -116,7 +116,7 @@ export default {
       if (this.server.games?.length > 0) {
         infos += `\n${this.server.games
           .map(
-            gameId =>
+            (gameId) =>
               this.games.find(({ id }) => id === gameId.toLowerCase()).name
           )
           .filter((v, i, l) => l.indexOf(v) === i)
@@ -137,7 +137,7 @@ export default {
       let monitor =
         this.monitors &&
         this.monitors.find(
-          monitor =>
+          (monitor) =>
             monitor.friendly_name === `${this.server.ip}:${this.server.port}`
         );
       if (monitor && monitor.all_time_uptime_ratio) {
@@ -156,7 +156,7 @@ export default {
         return "Switch";
       }
       return undefined;
-    }
+    },
   },
   methods: {
     async gqlRefresh() {
@@ -173,14 +173,14 @@ export default {
             {
               method: "POST",
               headers: {
-                "Content-Type": "application/json"
+                "Content-Type": "application/json",
               },
-              body: JSON.stringify({ query: queryRoom })
+              body: JSON.stringify({ query: queryRoom }),
             }
           );
           roomsData = await response.json();
           roomsData = roomsData.data.room;
-          roomsData.map(room => sanitizeData(room));
+          roomsData.map((room) => sanitizeData(room));
         } catch (e) {
           roomsData = [];
         }
@@ -189,7 +189,7 @@ export default {
         this.data = {
           active: data.serverInfo.online - data.serverInfo.idle,
           ...data.serverInfo,
-          rooms: roomsData
+          rooms: roomsData,
         };
 
         if (this.status === undefined) {
@@ -244,12 +244,12 @@ export default {
 
         if (this.server.type === "node") {
           this.data = {
-            ...data
+            ...data,
           };
         } else if (this.server.type === "rust") {
           this.data = {
             active: data.online - data.idle,
-            ...data
+            ...data,
           };
         } else if (this.server.type === "dotnet") {
           this.data = { online: data.clientCount };
@@ -268,17 +268,21 @@ export default {
         this.ping = 0;
         this.data = {};
       }
-    }
+    },
   },
   created() {
-    if (this.server.type === "rust") {
-      this.gqlRefresh();
-    } else {
-      this.restRefresh();
+    try {
+      if (this.server.type === "rust") {
+        this.gqlRefresh();
+      } else {
+        this.restRefresh();
+      }
+    } catch (e) {
+      // no-op
     }
   },
   beforeUnmount() {
     clearInterval(this.timerServer);
-  }
+  },
 };
 </script>

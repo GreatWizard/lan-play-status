@@ -1,4 +1,4 @@
-const IconsMap = (_gameId) => {
+const IconsMap = _gameId => {
   switch (_gameId) {
     // Animal Crossing
     case "01006f8002326000":
@@ -8,7 +8,7 @@ const IconsMap = (_gameId) => {
         "kk-slider",
         "timmy",
         "tom-nook",
-        "tommy",
+        "tommy"
       ];
     // Mario Kart
     case "0100152000022000":
@@ -21,7 +21,7 @@ const IconsMap = (_gameId) => {
         "rosalina-kart",
         "toad-kart",
         "wario-kart",
-        "yoshi-kart",
+        "yoshi-kart"
       ];
     // Monster Hunter
     case "0100c3800049c000":
@@ -129,7 +129,7 @@ const IconsMap = (_gameId) => {
         "yoshi-ssbu",
         "younglink-ssbu",
         "zelda-ssbu",
-        "zerosuitsamus-ssbu",
+        "zerosuitsamus-ssbu"
       ];
     // Luigi's Mansion
     case "0100dca0064a6000":
@@ -146,7 +146,7 @@ const IconsMap = (_gameId) => {
         "inkling-girl",
         "inkling-squid",
         "marie",
-        "callie",
+        "callie"
       ];
     default:
       return undefined;

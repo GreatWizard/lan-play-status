@@ -1,6 +1,9 @@
+const { defineConfig } = require('@vue/cli-service')
 const SitemapPlugin = require("sitemap-webpack-plugin").default;
 
-module.exports = {
+module.exports = defineConfig({
+  transpileDependencies: true,
+
   productionSourceMap: false,
 
   configureWebpack: {
@@ -56,4 +59,4 @@ module.exports = {
       fullInstall: true
     }
   }
-};
+})

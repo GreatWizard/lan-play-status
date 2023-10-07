@@ -17,17 +17,17 @@ import { queryRoom } from "@/queries";
 
 export default {
   components: {
-    LobbyRoom
+    LobbyRoom,
   },
   data() {
     return {
       timerServer: undefined,
-      data: {}
+      data: {},
     };
   },
   props: {
     server: Object,
-    gameIds: Array
+    gameIds: Array,
   },
   methods: {
     async gqlRefresh() {
@@ -39,13 +39,13 @@ export default {
             {
               method: "POST",
               headers: {
-                "Content-Type": "application/json"
+                "Content-Type": "application/json",
               },
-              body: JSON.stringify({ query: queryRoom })
+              body: JSON.stringify({ query: queryRoom }),
             }
           );
           roomsData = await response.json();
-          roomsData = roomsData.data.room.filter(room => {
+          roomsData = roomsData.data.room.filter((room) => {
             room = sanitizeData(room);
             return this.gameIds.includes(room.contentId);
           });
@@ -54,7 +54,7 @@ export default {
         }
 
         this.data = {
-          rooms: roomsData
+          rooms: roomsData,
         };
 
         if (this.status === undefined) {
@@ -68,15 +68,19 @@ export default {
         this.timerServer = setInterval(this.gqlRefresh, 300000);
         this.data = {};
       }
-    }
+    },
   },
   created() {
-    if (this.server.type === "rust") {
-      this.gqlRefresh();
+    try {
+      if (this.server.type === "rust") {
+        this.gqlRefresh();
+      }
+    } catch (e) {
+      // no-op
     }
   },
   beforeUnmount() {
     clearInterval(this.timerServer);
-  }
+  },
 };
 </script>
