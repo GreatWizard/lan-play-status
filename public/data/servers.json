@@ -161,6 +161,13 @@
     "type": "rust"
   },
   {
+    "ip": "switchfr.servegame.com",
+    "port": 11451,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "switch-lanyplay-de.ddns.net",
     "port": 11451,
     "flag": "de",
