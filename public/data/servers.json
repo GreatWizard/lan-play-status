@@ -1,5 +1,12 @@
 [
   {
+    "ip": "glmbxecurity.duckdns.org",
+    "port": 11451,
+    "flag": "es",
+    "platform": "switch",
+    "type": "rust"
+  }
+  {
     "ip": "frog-skins.com",
     "port": 11451,
     "flag": "us",
