@@ -14,6 +14,13 @@
     "type": "rust"
   },
   {
+    "ip": "cobeta-beta.duckdns.org",
+    "port": 11451,
+    "flag": "ua",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "joinsg.net",
     "port": 11453,
     "flag": "us",
