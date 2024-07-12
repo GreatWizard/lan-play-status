@@ -14,13 +14,6 @@
     "type": "rust"
   },
   {
-    "ip": "joinsg.net",
-    "port": 11453,
-    "flag": "us",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "crypt51.corafamily.com",
     "port": 11452,
     "flag": "us",
@@ -444,13 +437,6 @@
     "platform": "switch",
     "type": "dotnet",
     "games": ["01008DB008C2c000", "0100ABF008968000"]
-  },
-  {
-    "ip": "joinsg.net",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "node"
   },
   {
     "ip": "switch.z5z.info",
