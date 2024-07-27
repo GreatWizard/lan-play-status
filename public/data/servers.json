@@ -210,6 +210,13 @@
     "type": "rust"
   },
   {
+    "ip": "switch.r3ps4j.nl",
+    "port": 11451,
+    "flag": "nl",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lanplayserver.if6-dev.tk",
     "port": 11451,
     "flag": "nl",
@@ -474,6 +481,13 @@
     "type": "node"
   },
   {
+    "ip": "switch.r3ps4j.nl",
+    "port": 11452,
+    "flag": "nl",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
     "ip": "lanplay.duckdns.org",
     "port": 11451,
     "flag": "br",
@@ -511,6 +525,13 @@
   {
     "ip": "switch.jayseateam.nl",
     "port": 11452,
+    "flag": "nl",
+    "platform": "switch",
+    "type": "dotnet"
+  },
+  {
+    "ip": "switch.r3ps4j.nl",
+    "port": 11453,
     "flag": "nl",
     "platform": "switch",
     "type": "dotnet"
