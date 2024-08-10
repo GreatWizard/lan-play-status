@@ -149,7 +149,7 @@
   {
     "ip": "lan.nonny.horse",
     "port": 11451,
-    "flag": "de",
+    "flag": "fi",
     "platform": "switch",
     "type": "rust"
   },
