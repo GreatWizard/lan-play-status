@@ -35,13 +35,6 @@
     "type": "rust"
   },
   {
-    "ip": "switch.exabytes.space",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "tekn0.net",
     "port": 11451,
     "flag": "us",
