@@ -542,5 +542,12 @@
     "flag": "au",
     "platform": "switch",
     "type": "dotnet"
+  },
+  {
+    "ip": "muitxobem-lanplay.ddns.net",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch",
+    "type": "node"
   }
 ]
