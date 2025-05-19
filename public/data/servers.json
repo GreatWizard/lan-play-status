@@ -543,4 +543,11 @@
     "platform": "switch",
     "type": "dotnet"
   }
+    {
+    "ip": "es1.acorsahostinges.de",
+    "port": 11451,
+    "flag": "es",
+    "platform": "switch",
+    "type": "rust"
+  }
 ]
