@@ -14,13 +14,6 @@
     "type": "rust"
   },
   {
-    "ip": "joinsg.net",
-    "port": 11453,
-    "flag": "us",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "crypt51.corafamily.com",
     "port": 11452,
     "flag": "us",
@@ -30,13 +23,6 @@
   {
     "ip": "dojo.humblefist.com",
     "port": 11452,
-    "flag": "us",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
-    "ip": "switch.exabytes.space",
-    "port": 11451,
     "flag": "us",
     "platform": "switch",
     "type": "rust"
@@ -112,10 +98,24 @@
     "type": "rust"
   },
   {
+    "ip": "es1.acorsahostinges.de",
+    "port": 11451,
+    "flag": "es",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "badps4lanplay.ml",
     "port": 22451,
     "flag": "nl",
     "platform": "ps4",
+    "type": "rust"
+  },
+  {
+    "ip": "switch.r3ps4j.nl",
+    "port": 11451,
+    "flag": "nl",
+    "platform": "switch",
     "type": "rust"
   },
   {
@@ -149,7 +149,7 @@
   {
     "ip": "lan.nonny.horse",
     "port": 11451,
-    "flag": "de",
+    "flag": "fi",
     "platform": "switch",
     "type": "rust"
   },
@@ -234,6 +234,13 @@
     "ip": "canalstream.ddns.net",
     "port": 11451,
     "flag": "re",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
+    "ip": "cobeta-beta.duckdns.org",
+    "port": 11451,
+    "flag": "ua",
     "platform": "switch",
     "type": "rust"
   },
@@ -338,7 +345,7 @@
   {
     "ip": "tgceo.cn",
     "port": 11451,
-    "flag": "cn",
+    "flag": "hk",
     "platform": "switch",
     "type": "rust",
     "games": ["0100b04011742000"]
@@ -346,7 +353,7 @@
   {
     "ip": "tgceo.cn",
     "port": 11452,
-    "flag": "cn",
+    "flag": "hk",
     "platform": "switch",
     "type": "rust",
     "games": ["0100b04011742000"]
@@ -354,7 +361,7 @@
   {
     "ip": "tgceo.cn",
     "port": 11458,
-    "flag": "cn",
+    "flag": "hk",
     "platform": "switch",
     "type": "rust",
     "games": ["0100f8f0000a2000", "01003c700009c000", "01003bc0000a0000"]
@@ -362,7 +369,7 @@
   {
     "ip": "tgceo.cn",
     "port": 11460,
-    "flag": "cn",
+    "flag": "hk",
     "platform": "switch",
     "type": "rust",
     "games": ["0100152000022000", "010075100e8ec000"]
@@ -438,19 +445,19 @@
     "type": "rust"
   },
   {
+    "ip": "switch.dralle.fr",
+    "port": 11451,
+    "flag": "fr",
+    "platform": "switch",
+    "type": "dotnet"
+  },
+  {
     "ip": "pokemon.wkzcommunity.com",
     "port": 11451,
     "flag": "gb-ukm",
     "platform": "switch",
     "type": "dotnet",
     "games": ["01008DB008C2c000", "0100ABF008968000"]
-  },
-  {
-    "ip": "joinsg.net",
-    "port": 11451,
-    "flag": "us",
-    "platform": "switch",
-    "type": "node"
   },
   {
     "ip": "switch.z5z.info",
@@ -474,7 +481,21 @@
     "type": "node"
   },
   {
+    "ip": "switch.r3ps4j.nl",
+    "port": 11452,
+    "flag": "nl",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
     "ip": "lanplay.duckdns.org",
+    "port": 11451,
+    "flag": "br",
+    "platform": "switch",
+    "type": "node"
+  },
+  {
+    "ip": "muitxobem-lanplay.ddns.net",
     "port": 11451,
     "flag": "br",
     "platform": "switch",
@@ -511,6 +532,13 @@
   {
     "ip": "switch.jayseateam.nl",
     "port": 11452,
+    "flag": "nl",
+    "platform": "switch",
+    "type": "dotnet"
+  },
+  {
+    "ip": "switch.r3ps4j.nl",
+    "port": 11453,
     "flag": "nl",
     "platform": "switch",
     "type": "dotnet"
