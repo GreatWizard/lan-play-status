@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BingSiteAuth.xml"
   },
   {
-    "revision": "33a3bcb9430caa62259f8df816a4fe9b",
+    "revision": "1f94a34a2a2ebe2b84b342256c80d3e2",
     "url": "/CNAME"
   },
   {
