@@ -7,36 +7,36 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v5
       - name: Use Node.js 14
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v6
         with:
           node-version: 14.x
           cache: yarn
       - name: Yarn Install
         run: yarn install
       - name: Push translations
-        uses: transifex/cli-action@v1
+        uses: transifex/cli-action@v2
         with:
           token: ${{ secrets.TX_TOKEN }}
           args: push
       - run: rm -rf /tmp/tx
       - name: Pull translations
-        uses: transifex/cli-action@v1
+        uses: transifex/cli-action@v2
         with:
           token: ${{ secrets.TX_TOKEN }}
           args: pull
       - name: Build
         run: yarn build
       - name: Wait on tests
-        uses: lewagon/wait-on-check-action@v0.2
+        uses: lewagon/wait-on-check-action@v1.4.1
         with: 
           ref: master
           check-name: test
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           wait-interval: 10
       - name: Clean ftp
-        uses: StephanThierry/ftp-delete-action@v2.0
+        uses: StephanThierry/ftp-delete-action@v2.1
         with:
           host: ${{ secrets.FTP_SERVER }}
           user: ${{ secrets.FTP_USERNAME }}
@@ -45,7 +45,7 @@ jobs:
           remoteFiles: "precache-manifest.*.js;.ftp-deploy-sync-state.json"
           remoteDirectories: "js;css"
       - name: Deploy on ftp
-        uses: SamKirkland/FTP-Deploy-Action@4.2.0
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
@@ -54,7 +54,7 @@ jobs:
           server-dir: www/
           exclude: CNAME
       - name: Deploy on github-pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist/
