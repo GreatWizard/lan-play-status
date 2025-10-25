@@ -391,7 +391,7 @@
   {
     "ip": "switchlanplay-tw.ddns.net",
     "port": 11451,
-    "flag": "jp",
+    "flag": "tw",
     "platform": "switch",
     "type": "rust"
   },
