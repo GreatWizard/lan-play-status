@@ -8,13 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - name: Use Node.js 14
-        uses: actions/setup-node@v6
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v6
         with:
-          node-version: 14.x
-          cache: yarn
-      - name: Yarn Install
-        run: yarn install
+          node-version-file: package.json
+      - run: pnpm install
       - name: Push translations
         uses: transifex/cli-action@v2
         with:
@@ -27,7 +25,7 @@ jobs:
           token: ${{ secrets.TX_TOKEN }}
           args: pull
       - name: Build
-        run: yarn build
+        run: pnpm run build
       - name: Wait on tests
         uses: lewagon/wait-on-check-action@v1.4.1
         with: 

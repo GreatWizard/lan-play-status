@@ -11,14 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - name: Use Node.js 14
-        uses: actions/setup-node@v6
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v6
         with:
-          node-version: 14.x
-          cache: yarn
-      - name: Yarn Install
-        run: yarn install
+          node-version-file: package.json
+      - run: pnpm install
       - run: ./generate-games.sh
+      - run: pnpm run format
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v7

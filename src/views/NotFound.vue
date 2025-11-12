@@ -1,16 +1,12 @@
 <template>
   <div class="not-found">
-    <h1>{{ $t("pages.notFound.title") }}</h1>
-    <p>{{ $t("pages.notFound.text") }}</p>
+    <h1>{{ $t('pages.notFound.title') }}</h1>
+    <p>{{ $t('pages.notFound.text') }}</p>
     <p>
-      {{ $t("pages.notFound.return") }}
-      <router-link to="/">{{ $t("pages.notFound.homepage") }}</router-link>
+      {{ $t('pages.notFound.return') }}
+      <router-link to="/">{{ $t('pages.notFound.homepage') }}</router-link>
     </p>
-    <img
-      alt="Link is dead"
-      class="image--fullwidth"
-      :src="require(`@/assets/404.jpg`)"
-    />
+    <img alt="Link is dead" class="image--fullwidth" src="@/assets/404.jpg" />
   </div>
 </template>
 

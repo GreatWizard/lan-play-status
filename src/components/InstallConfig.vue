@@ -1,14 +1,14 @@
 <template>
   <h2>
-    {{ $t("install.configuration.title", { prefix: "1 - ", type: this.type }) }}
+    {{ $t('install.configuration.title', { prefix: '1 - ', type: this.type }) }}
   </h2>
-  <p>{{ $t("install.configuration.text") }}</p>
+  <p>{{ $t('install.configuration.text') }}</p>
   <p>
     <em>{{
-      $t("install.configuration.note", {
-        start: "10.13.0.1",
-        end: "10.13.255.254",
-        gateway: "10.13.37.1"
+      $t('install.configuration.note', {
+        start: '10.13.0.1',
+        end: '10.13.255.254',
+        gateway: '10.13.37.1',
       })
     }}</em>
   </p>
@@ -44,7 +44,7 @@ $t("install.configuration.settings.dns.title", { owner: this.owner })
           address: this.secondary
         })
 }}</pre>
-  <p>{{ $t("install.configuration.screenshots") }}</p>
+  <p>{{ $t('install.configuration.screenshots') }}</p>
 </template>
 
 <script>
@@ -53,7 +53,7 @@ export default {
     type: String,
     owner: String,
     primary: String,
-    secondary: String
-  }
-};
+    secondary: String,
+  },
+}
 </script>

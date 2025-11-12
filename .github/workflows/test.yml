@@ -5,14 +5,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - name: Use Node.js 14
-        uses: actions/setup-node@v6
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v6
         with:
-          node-version: 14.x
-          cache: yarn
-      - name: Yarn Install
-        run: yarn install --frozen-lockfile
+          node-version-file: package.json
+      - run: pnpm install
       - name: Lint
-        run: yarn lint
+        run: pnpm run lint
       - name: Run unit tests
-        run: yarn test:unit
+        run: pnpm run test:unit

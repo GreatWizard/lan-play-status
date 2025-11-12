@@ -1,34 +1,26 @@
 <template>
   <span ref="dataToCopy">{{ data }}</span
-  >&nbsp;<button
-    class="copy-button hide--on-mobile"
-    :data-tooltip="$t('general.copy')"
-  >
-    <img
-      :alt="$t('general.copy')"
-      class="icon"
-      :src="require(`@/assets/icons/copy.png`)"
-      v-on:click="copy"
-    />
+  >&nbsp;<button class="copy-button hide--on-mobile" :data-tooltip="$t('general.copy')">
+    <img :alt="$t('general.copy')" class="icon" src="@/assets/icons/copy.png" v-on:click="copy" />
   </button>
 </template>
 
 <script>
 export default {
   props: {
-    data: String
+    data: String,
   },
   methods: {
     copy() {
-      let el = this.$refs.dataToCopy;
-      let range = document.createRange();
-      range.selectNode(el);
-      window.getSelection().addRange(range);
-      document.execCommand("copy");
-      window.getSelection().removeAllRanges();
-    }
-  }
-};
+      let el = this.$refs.dataToCopy
+      let range = document.createRange()
+      range.selectNode(el)
+      window.getSelection().addRange(range)
+      document.execCommand('copy')
+      window.getSelection().removeAllRanges()
+    },
+  },
+}
 </script>
 
 <style scoped lang="scss">
