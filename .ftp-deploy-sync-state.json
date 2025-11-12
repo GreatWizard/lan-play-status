@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1762971775844,
+    "generatedTime": 1762972372015,
     "data": [
         {
             "type": "file",
@@ -55,19 +55,19 @@
             "type": "file",
             "name": "index.html",
             "size": 2277,
-            "hash": "abbd7eacec4a634fc7ea20e2dd3b259d951b14e192dd5c83122671f9d0f26fd9"
-        },
-        {
-            "type": "file",
-            "name": "proxy.php",
-            "size": 4861,
-            "hash": "55b616d3caa524017c8bc23fe176febe803effa49dbe6af3d0afb56ee167ead4"
+            "hash": "c4206547cd16ae54788f725aa6de36c02f062ba5631ff1a2810e1d2c2fa589ce"
         },
         {
             "type": "file",
             "name": "manifest.json",
             "size": 443,
             "hash": "706fa9b0d077102790ee4e79dccc7b460dac407c5a8eae73ee05c0c1326a77d2"
+        },
+        {
+            "type": "file",
+            "name": "proxy.php",
+            "size": 4861,
+            "hash": "55b616d3caa524017c8bc23fe176febe803effa49dbe6af3d0afb56ee167ead4"
         },
         {
             "type": "file",
@@ -245,15 +245,15 @@
         },
         {
             "type": "file",
-            "name": "assets/ganondorf-ssbu-D3G4argj.png",
-            "size": 8074,
-            "hash": "51f0415dd8d781b56a4e32f9b7906cbd0655174dd3d43eac79de4aa825505e3e"
-        },
-        {
-            "type": "file",
             "name": "assets/fox-ssbu-CvwV5KY6.png",
             "size": 8859,
             "hash": "8bf6c72a0b767d390da1710b1836f7d41295686d7eacc5843f210bbc50ff74e7"
+        },
+        {
+            "type": "file",
+            "name": "assets/ganondorf-ssbu-D3G4argj.png",
+            "size": 8074,
+            "hash": "51f0415dd8d781b56a4e32f9b7906cbd0655174dd3d43eac79de4aa825505e3e"
         },
         {
             "type": "file",
@@ -287,9 +287,9 @@
         },
         {
             "type": "file",
-            "name": "assets/index-CfeUtBAb.js",
-            "size": 2496735,
-            "hash": "b6a2fdd51b617e5a03d2e4d8b60765f11e6efd0338a7e4c3a2d61033c7b9ccc9"
+            "name": "assets/index-BG4WyGmM.js",
+            "size": 2496764,
+            "hash": "ff366ce818cf3fd2d3f40777bc846771dd548ffb20ca1e8827cd803525cec36b"
         },
         {
             "type": "file",
@@ -443,15 +443,15 @@
         },
         {
             "type": "file",
-            "name": "assets/luigi-mansion-DqsgM4OX.png",
-            "size": 66990,
-            "hash": "c604c13ca3dc22804af290466eaf13540f045f6b418a8aa6784444c976a766f1"
-        },
-        {
-            "type": "file",
             "name": "assets/luigi-ssbu-r_x-5gbx.png",
             "size": 7536,
             "hash": "a5fd44952ecd83c7b6b730a8475cf1b06e18b315ff25d15c1551f8a0408401f9"
+        },
+        {
+            "type": "file",
+            "name": "assets/luigi-mansion-DqsgM4OX.png",
+            "size": 66990,
+            "hash": "c604c13ca3dc22804af290466eaf13540f045f6b418a8aa6784444c976a766f1"
         },
         {
             "type": "file",
@@ -503,15 +503,15 @@
         },
         {
             "type": "file",
-            "name": "assets/mh-ticket-BMPf-uS8.png",
-            "size": 4912,
-            "hash": "afb37a5001e1d940ea4ad55a529fcd0e72ba2ec2d2ae3e812fa4a63a90cfbb1c"
-        },
-        {
-            "type": "file",
             "name": "assets/mewtwo-ssbu-BvOGBsog.png",
             "size": 4933,
             "hash": "1608b356fc120bf6f4f06b475dbe9816a3d232a54bb6fd8f932456f02c2c82db"
+        },
+        {
+            "type": "file",
+            "name": "assets/mh-ticket-BMPf-uS8.png",
+            "size": 4912,
+            "hash": "afb37a5001e1d940ea4ad55a529fcd0e72ba2ec2d2ae3e812fa4a63a90cfbb1c"
         },
         {
             "type": "file",
@@ -957,9 +957,9 @@
         },
         {
             "type": "file",
-            "name": "img/icons/favicon-32x32.png",
-            "size": 493,
-            "hash": "6ca16294cb53573040299e65a7f636779423146624ddf3589addc0313f09b8c7"
+            "name": "img/icons/favicon-16x16.png",
+            "size": 284,
+            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
         },
         {
             "type": "file",
@@ -969,15 +969,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/favicon-16x16.png",
-            "size": 284,
-            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
-        },
-        {
-            "type": "file",
             "name": "img/icons/mstile-150x150.png",
             "size": 2067,
             "hash": "66416c8ecb1df6caed80e0e2bb4b01ef4b9b1573d0f46911de252226c1410f65"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/favicon-32x32.png",
+            "size": 493,
+            "hash": "6ca16294cb53573040299e65a7f636779423146624ddf3589addc0313f09b8c7"
         },
         {
             "type": "file",
