@@ -1,19 +1,19 @@
 <template>
   <div class="games">
-    <h1>{{ $t("pages.gamesSwitch.title") }}</h1>
-    <h2>{{ $t("pages.gamesSwitch.lan.title") }}</h2>
+    <h1>{{ $t('pages.gamesSwitch.title') }}</h1>
+    <h2>{{ $t('pages.gamesSwitch.lan.title') }}</h2>
     <div class="cards">
       <GameCard
-        v-for="game in gamesSwitchOfw"
+        v-for="game in this.gamesStore.gamesSwitchOfw"
         :game="game"
         :key="game.title"
         type="switch"
       />
     </div>
-    <h2>{{ $t("pages.gamesSwitch.wan.title") }}</h2>
+    <h2>{{ $t('pages.gamesSwitch.wan.title') }}</h2>
     <div class="cards">
       <GameCard
-        v-for="game in gamesSwitchCfw"
+        v-for="game in this.gamesStore.gamesSwitchCfw"
         :game="game"
         :key="game.title"
         type="switch"
@@ -23,17 +23,16 @@
 </template>
 
 <script>
-import GameCard from "@/components/GameCard.vue";
+import GameCard from '@/components/GameCard.vue'
+import { useGamesStore } from '@/stores/games'
 
 export default {
   components: {
-    GameCard
+    GameCard,
   },
-  data: function() {
-    return {
-      gamesSwitchOfw: this.$store.state.gamesSwitchOfw,
-      gamesSwitchCfw: this.$store.state.gamesSwitchCfw
-    };
-  }
-};
+  setup() {
+    const gamesStore = useGamesStore()
+    return { gamesStore }
+  },
+}
 </script>

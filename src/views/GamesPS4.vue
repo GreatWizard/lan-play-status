@@ -1,10 +1,10 @@
 <template>
   <div class="games">
-    <h1>{{ $t("pages.gamesPS4.title") }}</h1>
-    <h2>{{ $t("pages.gamesPS4.lan.title") }}</h2>
+    <h1>{{ $t('pages.gamesPS4.title') }}</h1>
+    <h2>{{ $t('pages.gamesPS4.lan.title') }}</h2>
     <div class="cards">
       <GameCard
-        v-for="game in gamesPS4"
+        v-for="game in this.gamesStore.gamesPS4"
         :game="game"
         :key="game.title"
         type="ps4"
@@ -14,16 +14,16 @@
 </template>
 
 <script>
-import GameCard from "@/components/GameCard.vue";
+import GameCard from '@/components/GameCard.vue'
+import { useGamesStore } from '@/stores/games'
 
 export default {
-  components: {
-    GameCard
+  setup() {
+    const gamesStore = useGamesStore()
+    return { gamesStore }
   },
-  data: function() {
-    return {
-      gamesPS4: this.$store.state.gamesPS4
-    };
-  }
-};
+  components: {
+    GameCard,
+  },
+}
 </script>

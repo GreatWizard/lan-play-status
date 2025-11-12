@@ -9,41 +9,41 @@
 ## Project setup
 
 ```
-yarn install
+pnpm install
 ```
 
 ### Compiles and hot-reloads for development
 
 ```
-yarn run serve
+pnpm run dev
 ```
 
 ### Compiles and minifies for production
 
 ```
-yarn run build
+pnpm run build
 ```
 
 ### Run your tests
 
 ```
-yarn run test
+pnpm run test
 ```
 
 ### Lints and fixes files
 
 ```
-yarn run lint
+pnpm run lint
 ```
 
 ### Run your end-to-end tests
 
 ```
-yarn run test:e2e
+pnpm run test:e2e
 ```
 
 ### Run your unit tests
 
 ```
-yarn run test:unit
+pnpm run test:unit
 ```

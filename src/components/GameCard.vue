@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <img
-      :src="game.asset ? require(`@/assets/games/${game.asset}`) : image"
+      :src="game.asset ? getAsset(`/assets/games/${game.asset}`) : image"
       class="card__image"
       alt=""
     />
@@ -14,80 +14,93 @@
 
 <script>
 const capitalize = ([first, ...rest]) =>
-  first ? first.toUpperCase() + rest.join("").toLowerCase() : "";
+  first ? first.toUpperCase() + rest.join('').toLowerCase() : ''
+
+const assets = Object.entries(import.meta.glob('@/assets/games/*.jpg', { eager: true }))
 
 export default {
   props: {
     game: Object,
-    type: String
+    type: String,
+  },
+  setup() {
+    return {
+      getAsset(path) {
+        const imageEntry = assets.find(([key]) => key.endsWith(path))
+
+        if (imageEntry) {
+          return imageEntry[1].default
+        }
+      },
+    }
   },
   computed: {
     message() {
-      let key = `games.${this.type}.${this.game.title}`;
-      let value = this.$t(key);
+      let key = `games.${this.type}.${this.game.title}`
+      let value = this.$t(key)
       if (value !== key) {
-        return value;
+        return value
       }
-      return undefined;
+      return undefined
     },
     image() {
-      if (this.type === "ps4") {
-        return `${this.game.source}?w=620`;
-      } else if (this.type === "switch") {
+      if (this.type === 'ps4') {
+        return `${this.game.source}?w=620`
+      } else if (this.type === 'switch') {
         if (this.game.source) {
-          return this.game.source;
+          return this.game.source
         }
         let title = this.game.title
           // Remove diactrics
-          .normalize("NFD")
-          .replace(/[\u0300-\u036f]/g, "")
+          .normalize('NFD')
+          .replace(/[\u0300-\u036f]/g, '')
           // Fix strange names
-          .replace(/\+/g, "and")
-          .replace(/&/g, "and")
-          .replace(/'n'/g, "n ")
-          .replace(/ 'EM/g, "em")
+          .replace(/\+/g, 'and')
+          .replace(/&/g, 'and')
+          .replace(/'n'/g, 'n ')
+          .replace(/ 'EM/g, 'em')
           // Remove useless chars
-          .replace(/:|'|®|™|!/g, "")
+          .replace(/:|'|®|™|!/g, '')
           // Replace delimiter by space
-          .replace(/-|\.|\//g, " ")
+          .replace(/-|\.|\//g, ' ')
           // Capitalize
-          .split(" ")
-          .map(s => capitalize(s))
-          .join("")
+          .split(' ')
+          .map((s) => capitalize(s))
+          .join('')
           // Fix roman numbers
-          .replace("Iii", "III")
-          .replace("Iv", "IV")
-          .replace("CivilizationVi", "CivilizationVI")
+          .replace('Iii', 'III')
+          .replace('Iv', 'IV')
+          .replace('CivilizationVi', 'CivilizationVI')
           // Fix specifics namings
-          .replace("3d", "3D")
-          .replace("Ark", "ARK")
-          .replace("ark", "ARK")
-          .replace("MARKed", "Marked")
-          .replace("Rmx", "RMX")
-          .replace("Dx", "DX")
-          .replace("Korg", "KORG")
-          .replace("Nba2k", "NBA2K")
-          .replace("Gp18", "gp18")
-          .replace("SuperDragonBall", "Superdragonball")
-          .replace("Gp1", "GP1")
-          .replace("Gp2", "GP2")
-          .replace("Snk", "SNK")
-          .replace("Fighterz", "FighterZ")
-          .replace("EaSportsFifa1", "EASportsFifa1")
-          .replace("Mudrunner", "MudRunner")
-          .replace("ReMarsTered", "ReMarstered")
-          .replace("DukeNukem3D", "DukeNukem3d")
-          .replace("Cruisn", "CrusiN");
+          .replace('3d', '3D')
+          .replace('Ark', 'ARK')
+          .replace('ark', 'ARK')
+          .replace('MARKed', 'Marked')
+          .replace('Rmx', 'RMX')
+          .replace('Dx', 'DX')
+          .replace('Korg', 'KORG')
+          .replace('Nba2k', 'NBA2K')
+          .replace('Gp18', 'gp18')
+          .replace('SuperDragonBall', 'Superdragonball')
+          .replace('Gp1', 'GP1')
+          .replace('Gp2', 'GP2')
+          .replace('Snk', 'SNK')
+          .replace('Fighterz', 'FighterZ')
+          .replace('EaSportsFifa1', 'EASportsFifa1')
+          .replace('Mudrunner', 'MudRunner')
+          .replace('ReMarsTered', 'ReMarstered')
+          .replace('DukeNukem3D', 'DukeNukem3d')
+          .replace('Cruisn', 'CrusiN')
 
         return `https://fs-prod-cdn.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_${
-          this.game.ds ? "download_software" : "5"
-        }/${this.game.format || "SQ"}_NSwitch${
-          this.game.ds ? "DS" : ""
-        }_${title}_${this.game.lang ? `${this.game.lang}_` : ""}image500w.jpg`;
+          this.game.ds ? 'download_software' : '5'
+        }/${this.game.format || 'SQ'}_NSwitch${
+          this.game.ds ? 'DS' : ''
+        }_${title}_${this.game.lang ? `${this.game.lang}_` : ''}image500w.jpg`
       }
 
-      return undefined;
-    }
-  }
-};
+      return undefined
+    },
+  },
+}
 </script>

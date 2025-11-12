@@ -1,51 +1,48 @@
 <template>
   <div class="app">
     <div class="nav">
-      <router-link to="/">{{ $t("navigation.home") }}</router-link> |
-      <router-link to="/lobbies">{{ $t("navigation.lobbies") }}</router-link> |
-      <router-link to="/games-switch">{{
-        $t("navigation.gamesSwitch")
-      }}</router-link>
+      <router-link to="/">{{ $t('navigation.home') }}</router-link> |
+      <router-link to="/lobbies">{{ $t('navigation.lobbies') }}</router-link> |
+      <router-link to="/games-switch">{{ $t('navigation.gamesSwitch') }}</router-link>
       |
-      <router-link to="/games-ps4">{{ $t("navigation.gamesPS4") }}</router-link>
+      <router-link to="/games-ps4">{{ $t('navigation.gamesPS4') }}</router-link>
       |
-      <router-link to="/download">{{ $t("navigation.download") }}</router-link>
+      <router-link to="/download">{{ $t('navigation.download') }}</router-link>
       |
-      <router-link to="/install-switch">{{
-        $t("navigation.installSwitch")
-      }}</router-link>
+      <router-link to="/install-switch">{{ $t('navigation.installSwitch') }}</router-link>
       |
-      <router-link to="/install-ps4">{{
-        $t("navigation.installPS4")
-      }}</router-link>
+      <router-link to="/install-ps4">{{ $t('navigation.installPS4') }}</router-link>
       |
-      <router-link to="/about">{{ $t("navigation.about") }}</router-link>
+      <router-link to="/about">{{ $t('navigation.about') }}</router-link>
     </div>
     <router-view />
   </div>
 </template>
 
 <script>
-import Konami from "./konami";
+import Konami from '@/konami'
+import { useServersStore } from '@/stores/servers'
 
 export default {
+  setup() {
+    return { serversStore: useServersStore() }
+  },
   mounted() {
     Konami(undefined, {
-      callback: this.loadHiddenServers
-    });
+      callback: this.loadHiddenServers,
+    })
   },
   methods: {
     loadHiddenServers() {
-      this.loadHidden = true;
-      this.$store.commit("loadHiddenServers");
-    }
-  }
-};
+      this.serversStore.loadHiddenServers()
+    },
+  },
+}
 </script>
 
 <style lang="scss">
 html {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -71,6 +68,7 @@ a {
 
 .nav {
   padding: 30px;
+
   a {
     &.router-link-exact-active {
       color: rgb(255, 112, 67);
@@ -79,10 +77,12 @@ a {
 }
 
 $tooltip-bottom: 80%;
+
 [data-tooltip] {
   position: relative;
   z-index: 2;
   cursor: pointer;
+
   /* Hide the tooltip content by default */
   &:before,
   &:after {
@@ -90,6 +90,7 @@ $tooltip-bottom: 80%;
     opacity: 0;
     pointer-events: none;
   }
+
   /* Position tooltip above the element */
   &:before {
     position: absolute;
@@ -108,7 +109,9 @@ $tooltip-bottom: 80%;
     text-align: center;
     font-size: 14px;
     line-height: 1.2;
-  } /* Triangle hack to make tooltip look like a speech bubble */
+  }
+
+  /* Triangle hack to make tooltip look like a speech bubble */
   &:after {
     position: absolute;
     bottom: $tooltip-bottom;
@@ -119,10 +122,12 @@ $tooltip-bottom: 80%;
     border-top: 5px solid hsla(0, 0%, 20%, 0.9);
     border-right: 5px solid transparent;
     border-left: 5px solid transparent;
-    content: " ";
+    content: ' ';
     font-size: 0;
     line-height: 0;
-  } /* Show tooltip content on hover */
+  }
+
+  /* Show tooltip content on hover */
   &:hover:before,
   &:hover:after {
     visibility: visible;
@@ -135,27 +140,33 @@ table {
   width: 100%;
   max-width: 800px;
   margin: 0px auto;
+
   td,
   th {
     border-bottom: 1px solid rgb(58, 58, 58);
     padding: 8px;
     text-align: center;
     font-size: 0.9rem;
+
     @media only screen and (max-width: 768px) {
       padding: 2px;
     }
   }
+
   tr.highlight {
     td {
       font-weight: bold;
     }
   }
+
   tr:nth-child(even) {
     background-color: rgb(28, 30, 31);
   }
+
   tr:hover {
     background-color: rgb(34, 36, 37);
   }
+
   th {
     padding: 12px;
     background-color: rgb(95, 67, 57);
@@ -211,6 +222,7 @@ button {
   .hide--on-mobile {
     display: none;
   }
+
   .inline-block--on-mobile {
     display: block;
   }
@@ -229,26 +241,32 @@ pre {
     background-color: rgb(255, 255, 255);
     color: rgb(44, 62, 80);
   }
+
   a {
     color: rgb(33, 33, 33);
   }
+
   table {
     th,
     td {
       border-color: rgb(221, 221, 221);
     }
+
     tr:nth-child(even) {
       background-color: rgb(242, 242, 242);
     }
+
     tr:hover {
       background-color: rgb(221, 221, 221);
     }
   }
+
   button {
     background-color: rgb(255, 255, 255);
     color: rgb(33, 33, 33);
     border-color: rgb(87, 87, 87);
   }
+
   code,
   pre {
     background-color: rgba(225, 235, 238, 0.9);
