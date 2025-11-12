@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1762975251437,
+    "generatedTime": 1762975639988,
     "data": [
         {
             "type": "file",
@@ -54,8 +54,8 @@
         {
             "type": "file",
             "name": "index.html",
-            "size": 2277,
-            "hash": "237c12ccca2cd260c067f1e697f48cb282bdec03befa972d3f690bdee647f5da"
+            "size": 2245,
+            "hash": "51c2170c4c3ca0eb4ea3b46403e58d370ba7bfaaf88300a04f5801356fa4e1c5"
         },
         {
             "type": "file",
@@ -107,12 +107,6 @@
         },
         {
             "type": "file",
-            "name": "assets/bowser-CKuBUVmS.png",
-            "size": 32128,
-            "hash": "6a87627fe8bbf62fe848a917633d9f9c23d8527080167a998b0fc8b51602427f"
-        },
-        {
-            "type": "file",
             "name": "assets/bowser-kart-CQsqhimS.png",
             "size": 13998,
             "hash": "890fa227d4796667c1fac6e1a50a63d9e4c9e65c220d93b00d900c77e0063d3e"
@@ -122,6 +116,12 @@
             "name": "assets/bowser-ssbu-W6Fb6rmo.png",
             "size": 7858,
             "hash": "94f1fcda94c57666891913abc4b1f22b9a6f387bcb60504dd051e5bd817c0b09"
+        },
+        {
+            "type": "file",
+            "name": "assets/bowser-CKuBUVmS.png",
+            "size": 32128,
+            "hash": "6a87627fe8bbf62fe848a917633d9f9c23d8527080167a998b0fc8b51602427f"
         },
         {
             "type": "file",
@@ -203,15 +203,15 @@
         },
         {
             "type": "file",
-            "name": "assets/donkeykong-ssbu-DS4zEh5j.png",
-            "size": 5357,
-            "hash": "3274fd84ba00fddf6eb4caa34bc953355536cf8b4fcf504869ca890b95f1953e"
-        },
-        {
-            "type": "file",
             "name": "assets/drmario-ssbu-mxM0ogeI.png",
             "size": 8989,
             "hash": "64b9cd953da94230609847d0da1dd240f82d80d614359118c6dce14452c693be"
+        },
+        {
+            "type": "file",
+            "name": "assets/donkeykong-ssbu-DS4zEh5j.png",
+            "size": 5357,
+            "hash": "3274fd84ba00fddf6eb4caa34bc953355536cf8b4fcf504869ca890b95f1953e"
         },
         {
             "type": "file",
@@ -251,15 +251,15 @@
         },
         {
             "type": "file",
-            "name": "assets/ganondorf-ssbu-D3G4argj.png",
-            "size": 8074,
-            "hash": "51f0415dd8d781b56a4e32f9b7906cbd0655174dd3d43eac79de4aa825505e3e"
-        },
-        {
-            "type": "file",
             "name": "assets/greninja-ssbu-CSNI-GyY.png",
             "size": 7357,
             "hash": "194e1c3dc6a8c63529833c6963ff5d8e8194363af031817a891b91b981f486bd"
+        },
+        {
+            "type": "file",
+            "name": "assets/ganondorf-ssbu-D3G4argj.png",
+            "size": 8074,
+            "hash": "51f0415dd8d781b56a4e32f9b7906cbd0655174dd3d43eac79de4aa825505e3e"
         },
         {
             "type": "file",
@@ -515,15 +515,15 @@
         },
         {
             "type": "file",
-            "name": "assets/minmin-ssbu-C5wBVme5.png",
-            "size": 12179,
-            "hash": "c499ab7136c1d6cdae0f56222ca6833511cc7eb047abefaffe1c171ce403f3b6"
-        },
-        {
-            "type": "file",
             "name": "assets/miifighter-ssbu-3CZU93NF.png",
             "size": 5654,
             "hash": "5ca4ba584d9593996127b8656ea397f163f9f1628a61267f97748f659a6de1ff"
+        },
+        {
+            "type": "file",
+            "name": "assets/minmin-ssbu-C5wBVme5.png",
+            "size": 12179,
+            "hash": "c499ab7136c1d6cdae0f56222ca6833511cc7eb047abefaffe1c171ce403f3b6"
         },
         {
             "type": "file",
@@ -915,21 +915,9 @@
         },
         {
             "type": "file",
-            "name": "img/icons/android-chrome-512x512.png",
-            "size": 16638,
-            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
-        },
-        {
-            "type": "file",
             "name": "img/icons/apple-touch-icon-120x120.png",
             "size": 1359,
             "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
-        },
-        {
-            "type": "file",
-            "name": "img/icons/apple-touch-icon-180x180.png",
-            "size": 1567,
-            "hash": "940ca26f385a497ba06cdc4d0fa15e4f09603d21c7bfe41623226e11bb0196df"
         },
         {
             "type": "file",
@@ -939,9 +927,21 @@
         },
         {
             "type": "file",
+            "name": "img/icons/android-chrome-512x512.png",
+            "size": 16638,
+            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
+        },
+        {
+            "type": "file",
             "name": "img/icons/apple-touch-icon-60x60.png",
             "size": 679,
             "hash": "5ff0a87d94c2753e9ef192b802dd8c87b0876053d54ed2d642869e899d112119"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon-180x180.png",
+            "size": 1567,
+            "hash": "940ca26f385a497ba06cdc4d0fa15e4f09603d21c7bfe41623226e11bb0196df"
         },
         {
             "type": "file",
@@ -951,15 +951,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon.png",
-            "size": 1988,
-            "hash": "41dce4dde90145d0959fc84f7e79e9b114fc3cb5ce9ea9af050d1ebf90618921"
-        },
-        {
-            "type": "file",
             "name": "img/icons/favicon-16x16.png",
             "size": 284,
             "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon.png",
+            "size": 1988,
+            "hash": "41dce4dde90145d0959fc84f7e79e9b114fc3cb5ce9ea9af050d1ebf90618921"
         },
         {
             "type": "file",
