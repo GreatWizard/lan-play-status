@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1762967745470,
+    "generatedTime": 1762971775844,
     "data": [
         {
             "type": "file",
@@ -55,19 +55,19 @@
             "type": "file",
             "name": "index.html",
             "size": 2277,
-            "hash": "907205d3fcb6c4beff27aab9986f6c036af608405812464e2d2fe92e02bcb140"
-        },
-        {
-            "type": "file",
-            "name": "manifest.json",
-            "size": 443,
-            "hash": "706fa9b0d077102790ee4e79dccc7b460dac407c5a8eae73ee05c0c1326a77d2"
+            "hash": "abbd7eacec4a634fc7ea20e2dd3b259d951b14e192dd5c83122671f9d0f26fd9"
         },
         {
             "type": "file",
             "name": "proxy.php",
             "size": 4861,
             "hash": "55b616d3caa524017c8bc23fe176febe803effa49dbe6af3d0afb56ee167ead4"
+        },
+        {
+            "type": "file",
+            "name": "manifest.json",
+            "size": 443,
+            "hash": "706fa9b0d077102790ee4e79dccc7b460dac407c5a8eae73ee05c0c1326a77d2"
         },
         {
             "type": "file",
@@ -227,15 +227,15 @@
         },
         {
             "type": "file",
-            "name": "assets/falco-ssbu-rmn_F-Ar.png",
-            "size": 6371,
-            "hash": "8cedb2060cf667e83a9ae452345ce3c3661b728cbd77328186bca3857c4432c7"
-        },
-        {
-            "type": "file",
             "name": "assets/es-Bzg5qM7N.svg",
             "size": 11489,
             "hash": "33f087b8bf6e0f7f95a76c48cd9961fbd63c0b311c56b5e1d715cba3fe0dcf1b"
+        },
+        {
+            "type": "file",
+            "name": "assets/falco-ssbu-rmn_F-Ar.png",
+            "size": 6371,
+            "hash": "8cedb2060cf667e83a9ae452345ce3c3661b728cbd77328186bca3857c4432c7"
         },
         {
             "type": "file",
@@ -245,15 +245,15 @@
         },
         {
             "type": "file",
-            "name": "assets/fox-ssbu-CvwV5KY6.png",
-            "size": 8859,
-            "hash": "8bf6c72a0b767d390da1710b1836f7d41295686d7eacc5843f210bbc50ff74e7"
-        },
-        {
-            "type": "file",
             "name": "assets/ganondorf-ssbu-D3G4argj.png",
             "size": 8074,
             "hash": "51f0415dd8d781b56a4e32f9b7906cbd0655174dd3d43eac79de4aa825505e3e"
+        },
+        {
+            "type": "file",
+            "name": "assets/fox-ssbu-CvwV5KY6.png",
+            "size": 8859,
+            "hash": "8bf6c72a0b767d390da1710b1836f7d41295686d7eacc5843f210bbc50ff74e7"
         },
         {
             "type": "file",
@@ -287,21 +287,21 @@
         },
         {
             "type": "file",
-            "name": "assets/index-DDZdTrEI.css",
-            "size": 4189,
-            "hash": "86c459da1a64c624ae4eb88c522da5933b4534a86e9cfdf62b32ee0741b6c6b5"
+            "name": "assets/index-CfeUtBAb.js",
+            "size": 2496735,
+            "hash": "b6a2fdd51b617e5a03d2e4d8b60765f11e6efd0338a7e4c3a2d61033c7b9ccc9"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-DxQXxwST.css",
+            "size": 4145,
+            "hash": "50c786edb57f7b754b5e77c8bea2b1e979eae1247dcf9fd7428cfa5ebfa750a3"
         },
         {
             "type": "file",
             "name": "assets/inkling-boy-DORt02b3.png",
             "size": 76331,
             "hash": "ce49d356596e22bd544cba6706131b5a7fb965fc879c3b01881b3d2a2c772c44"
-        },
-        {
-            "type": "file",
-            "name": "assets/index-DwBxTrfF.js",
-            "size": 2496791,
-            "hash": "e6855b5ca08f01d7a778191ba3d87eb34b79b7729a41f581188527682ace880e"
         },
         {
             "type": "file",
@@ -317,27 +317,27 @@
         },
         {
             "type": "file",
-            "name": "assets/isabelle-QAHLKuSK.png",
-            "size": 13104,
-            "hash": "a11c6a739af38b96a8525b3b37cb093c779428c744064f02a79beb8909c960bd"
-        },
-        {
-            "type": "file",
             "name": "assets/inkling-ssbu-BeTv9sFt.png",
             "size": 7574,
             "hash": "a1d93407fa9961273426beeff572dd1c17a3da4d183fb3862ca6f1881364d944"
         },
         {
             "type": "file",
-            "name": "assets/isabelle-ssbu-DppMS9w_.png",
-            "size": 6362,
-            "hash": "1cafd2832919a6e80c6f69f3684511f5dbe9ef61d98829a5d986637d3ca7f57d"
+            "name": "assets/isabelle-QAHLKuSK.png",
+            "size": 13104,
+            "hash": "a11c6a739af38b96a8525b3b37cb093c779428c744064f02a79beb8909c960bd"
         },
         {
             "type": "file",
             "name": "assets/island-Brb3_AJX.png",
             "size": 9872,
             "hash": "c8ef4f5060de7faa42b88776ddcb68c0ef9321ac1a0ad8c62fafd87cf619a4a5"
+        },
+        {
+            "type": "file",
+            "name": "assets/isabelle-ssbu-DppMS9w_.png",
+            "size": 6362,
+            "hash": "1cafd2832919a6e80c6f69f3684511f5dbe9ef61d98829a5d986637d3ca7f57d"
         },
         {
             "type": "file",
@@ -383,15 +383,15 @@
         },
         {
             "type": "file",
-            "name": "assets/link-ssbu-X-o7JCU3.png",
-            "size": 9038,
-            "hash": "d999c34d1ea9df2b345497e4a4bdbbd3fff06b38d40f226a78d0e728aee97e91"
-        },
-        {
-            "type": "file",
             "name": "assets/kk-slider-BdHJ7EWc.png",
             "size": 10367,
             "hash": "f0a9b9c3a84c2297aa57cacb7570646513c74eb35a2842e7fed6147b957a69da"
+        },
+        {
+            "type": "file",
+            "name": "assets/link-ssbu-X-o7JCU3.png",
+            "size": 9038,
+            "hash": "d999c34d1ea9df2b345497e4a4bdbbd3fff06b38d40f226a78d0e728aee97e91"
         },
         {
             "type": "file",
@@ -425,15 +425,15 @@
         },
         {
             "type": "file",
-            "name": "assets/luigi-cFt2uZ0O.png",
-            "size": 31882,
-            "hash": "b331f712f5a69b802a19975c7dfb073a8ed6d40536288f9c12966ffb2476ca9e"
-        },
-        {
-            "type": "file",
             "name": "assets/lucina-ssbu-CPsa28ut.png",
             "size": 8438,
             "hash": "dcf86879e69066cbf6cb733cabfeb51f443ae54a51ca8c160e35a560c70678c0"
+        },
+        {
+            "type": "file",
+            "name": "assets/luigi-cFt2uZ0O.png",
+            "size": 31882,
+            "hash": "b331f712f5a69b802a19975c7dfb073a8ed6d40536288f9c12966ffb2476ca9e"
         },
         {
             "type": "file",
@@ -551,27 +551,27 @@
         },
         {
             "type": "file",
-            "name": "assets/peach-CmP1JlmB.png",
-            "size": 31823,
-            "hash": "3749000c33fca12842173504954cdfcaa6d83884f037eb3109213604ec370d6b"
-        },
-        {
-            "type": "file",
             "name": "assets/palutena-ssbu-CcoQ5yW7.png",
             "size": 10224,
             "hash": "fba77ebd5cf8b84a838e79720c8fda2ea2811952c2e47cf78fd707ad0e3fdda9"
         },
         {
             "type": "file",
-            "name": "assets/peach-ssbu-ERVQlYV2.png",
-            "size": 8265,
-            "hash": "a48c3339be7524e3849811901fdacf2a83852ace95b5c034528edee7e39bd66a"
+            "name": "assets/peach-CmP1JlmB.png",
+            "size": 31823,
+            "hash": "3749000c33fca12842173504954cdfcaa6d83884f037eb3109213604ec370d6b"
         },
         {
             "type": "file",
             "name": "assets/peach-kart-KcfgpGiH.png",
             "size": 14086,
             "hash": "b1d681385138905d1473534c2e00eab706420a0930cc6be1acc0f85fe2bd73e0"
+        },
+        {
+            "type": "file",
+            "name": "assets/peach-ssbu-ERVQlYV2.png",
+            "size": 8265,
+            "hash": "a48c3339be7524e3849811901fdacf2a83852ace95b5c034528edee7e39bd66a"
         },
         {
             "type": "file",
@@ -593,15 +593,15 @@
         },
         {
             "type": "file",
-            "name": "assets/pit-ssbu-D1nNBlr-.png",
-            "size": 8670,
-            "hash": "7114c72b5061f7e5a89178c206e4d223efc85c39a42b10934b97139977ee2bda"
-        },
-        {
-            "type": "file",
             "name": "assets/piranhaplant-ssbu-KULjQDpC.png",
             "size": 7095,
             "hash": "b8710dfdec2967b96aa50784a77cc48d5e2e231108e6dee8bae13d396811fd4d"
+        },
+        {
+            "type": "file",
+            "name": "assets/pit-ssbu-D1nNBlr-.png",
+            "size": 8670,
+            "hash": "7114c72b5061f7e5a89178c206e4d223efc85c39a42b10934b97139977ee2bda"
         },
         {
             "type": "file",
@@ -915,27 +915,27 @@
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon-120x120.png",
-            "size": 1359,
-            "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
-        },
-        {
-            "type": "file",
             "name": "img/icons/android-chrome-512x512.png",
             "size": 16638,
             "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon-180x180.png",
-            "size": 1567,
-            "hash": "940ca26f385a497ba06cdc4d0fa15e4f09603d21c7bfe41623226e11bb0196df"
+            "name": "img/icons/apple-touch-icon-120x120.png",
+            "size": 1359,
+            "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
         },
         {
             "type": "file",
             "name": "img/icons/apple-touch-icon-152x152.png",
             "size": 2005,
             "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon-180x180.png",
+            "size": 1567,
+            "hash": "940ca26f385a497ba06cdc4d0fa15e4f09603d21c7bfe41623226e11bb0196df"
         },
         {
             "type": "file",
@@ -957,9 +957,9 @@
         },
         {
             "type": "file",
-            "name": "img/icons/favicon-16x16.png",
-            "size": 284,
-            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
+            "name": "img/icons/favicon-32x32.png",
+            "size": 493,
+            "hash": "6ca16294cb53573040299e65a7f636779423146624ddf3589addc0313f09b8c7"
         },
         {
             "type": "file",
@@ -969,15 +969,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/mstile-150x150.png",
-            "size": 2067,
-            "hash": "66416c8ecb1df6caed80e0e2bb4b01ef4b9b1573d0f46911de252226c1410f65"
+            "name": "img/icons/favicon-16x16.png",
+            "size": 284,
+            "hash": "a59f728ef0558be647556bd2ddc66ad93fd66845a45a599c6dbad20c99d70169"
         },
         {
             "type": "file",
-            "name": "img/icons/favicon-32x32.png",
-            "size": 493,
-            "hash": "6ca16294cb53573040299e65a7f636779423146624ddf3589addc0313f09b8c7"
+            "name": "img/icons/mstile-150x150.png",
+            "size": 2067,
+            "hash": "66416c8ecb1df6caed80e0e2bb4b01ef4b9b1573d0f46911de252226c1410f65"
         },
         {
             "type": "file",
