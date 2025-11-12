@@ -1,5 +1,5 @@
 <template>
-  <span class="contents" v-if="status >= 0">
+  <template v-if="status >= 0">
     <tr :class="trClasses">
       <td>
         <CopyButton :data="fullAddress" />
@@ -44,15 +44,8 @@
         />
       </td>
     </tr>
-  </span>
+  </template>
 </template>
-
-<style scoped lang="scss">
-.contents {
-  display: contents;
-}
-</style>
-
 <script>
 import CopyButton from '@/components/CopyButton.vue'
 import ServersRoom from '@/components/servers/ServersRoom.vue'

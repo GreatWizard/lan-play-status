@@ -2,7 +2,7 @@
 
 import dns from 'dns'
 import geoip from 'geoip-country'
-import servers from './public/data/servers.json' with { type: 'json' }
+import servers from './src/data/servers.json' with { type: 'json' }
 
 const updateData = async function (server) {
   let { ip, port = '14451', flag, platform = 'switch', type = 'rust' } = server

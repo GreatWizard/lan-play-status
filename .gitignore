@@ -40,6 +40,6 @@ playwright-report/
 
 # Custom
 /src/assets/flags
-
 /src/locales/*
 !/src/locales/en.json
+/tmp

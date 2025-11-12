@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 
-import serversSource from '../../public/data/servers.json'
+import serversSource from '../data/servers.json'
 import { filterBy, rejectBy, truthyBy, falsyBy } from '@/utils/filters'
 
 const serverMapping = ({

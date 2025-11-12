@@ -7,7 +7,7 @@ const translationsPath = './src/locales/en.json'
 const sourcePath = './node_modules/flagpack-core/svg/l/'
 const distPath = './src/assets/flags/'
 
-import servers from './public/data/servers.json' with { type: 'json' }
+import servers from './src/data/servers.json' with { type: 'json' }
 import communities from './src/data/communities.json' with { type: 'json' }
 import translations from './src/locales/en.json' with { type: 'json' }
 
