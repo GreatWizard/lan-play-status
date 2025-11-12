@@ -84,13 +84,6 @@
     "type": "rust"
   },
   {
-    "ip": "192.168.5.71",
-    "port": 11452,
-    "flag": "fr",
-    "platform": "switch",
-    "type": "rust"
-  },
-  {
     "ip": "badswitchlanplay.ml",
     "port": 11451,
     "flag": "fr",
