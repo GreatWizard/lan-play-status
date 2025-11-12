@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1762942661908,
+    "generatedTime": 1762967745470,
     "data": [
         {
             "type": "file",
@@ -22,14 +22,14 @@
             "hash": "dc7ae81040b1ad9c3efcf3056f5f1ce8710b28f4e378b76b5d6ba39ad6150eda"
         },
         {
+            "type": "folder",
+            "name": "assets"
+        },
+        {
             "type": "file",
             "name": "browserconfig.xml",
             "size": 255,
             "hash": "06e2ae833ecfe1b1a84105a396561901e173abe9bc63d1fb1eacbf93c732244a"
-        },
-        {
-            "type": "folder",
-            "name": "css"
         },
         {
             "type": "folder",
@@ -54,24 +54,14 @@
         {
             "type": "file",
             "name": "index.html",
-            "size": 2987,
-            "hash": "535a20c45dd6e97b6408a007d564b81ce74482da490213ea39c810c4be0b3c54"
-        },
-        {
-            "type": "folder",
-            "name": "js"
+            "size": 2277,
+            "hash": "907205d3fcb6c4beff27aab9986f6c036af608405812464e2d2fe92e02bcb140"
         },
         {
             "type": "file",
             "name": "manifest.json",
-            "size": 342,
-            "hash": "aca3a680087847a8f0a752f28344c9190826f7c3456a1c4a0cb13b13f08fc32a"
-        },
-        {
-            "type": "file",
-            "name": "precache-manifest.59f7c94d289ea8f9d1fb30a5b7a16324.js",
-            "size": 17504,
-            "hash": "73bd20d960ab0f013a362ee58653739f8ec45bdc9ae724dfac1a302c7e706023"
+            "size": 443,
+            "hash": "706fa9b0d077102790ee4e79dccc7b460dac407c5a8eae73ee05c0c1326a77d2"
         },
         {
             "type": "file",
@@ -87,27 +77,825 @@
         },
         {
             "type": "file",
-            "name": "service-worker.js",
-            "size": 1070,
-            "hash": "166bd7c8b5ea2a993f76465a5bd1cd7cf33c23d99f162377460b945926dcfe1e"
+            "name": "assets/404-e4SjWQrx.jpg",
+            "size": 43169,
+            "hash": "2c9a227fe1b100364c8966aaad75c141f15e9abdf61ab9a68f6f0f150efcad0c"
         },
         {
             "type": "file",
-            "name": "sitemap.xml",
-            "size": 1552,
-            "hash": "ad0cf93f68521f8a3bba4ae8e7a4b96ccb832a33edf2974dc89be0f6f4d99a8b"
+            "name": "assets/banjokazooie-ssbu-CaBimg2z.png",
+            "size": 23412,
+            "hash": "4c49a2f2862f1b6a244d9255ae2ea952a998c2e65075b4207f5391c0f15b5d38"
         },
         {
             "type": "file",
-            "name": "sitemap.xml.gz",
-            "size": 317,
-            "hash": "ba996919fb6bbf18faad62e44456f8d05f784061be9808dd04f40383070e827b"
+            "name": "assets/bayonetta-ssbu-uHgwEZ0z.png",
+            "size": 10594,
+            "hash": "2abd5c80975fd6b7a38f9bd98cc539ecb69be0f94f16a1e0e5873cdb6e7023a8"
         },
         {
             "type": "file",
-            "name": "css/app.883e35e2.css",
-            "size": 4313,
-            "hash": "99b5b0fb9d36543c690fa598a5da4a5c6dfe24dd91355250ce3b6c3da1c54819"
+            "name": "assets/blathers-BmvLaeIw.png",
+            "size": 19332,
+            "hash": "9d8d7772a1dbd3a53608feef832ce00d585b2ab0a2767378f5d367f0ef355a58"
+        },
+        {
+            "type": "file",
+            "name": "assets/boo-B9jNPb8g.png",
+            "size": 38169,
+            "hash": "eb66f308c368ec3f8a0715953c2c427226f81205f7f37e2c3cf17e01219bb461"
+        },
+        {
+            "type": "file",
+            "name": "assets/bowser-CKuBUVmS.png",
+            "size": 32128,
+            "hash": "6a87627fe8bbf62fe848a917633d9f9c23d8527080167a998b0fc8b51602427f"
+        },
+        {
+            "type": "file",
+            "name": "assets/bowser-kart-CQsqhimS.png",
+            "size": 13998,
+            "hash": "890fa227d4796667c1fac6e1a50a63d9e4c9e65c220d93b00d900c77e0063d3e"
+        },
+        {
+            "type": "file",
+            "name": "assets/bowser-ssbu-W6Fb6rmo.png",
+            "size": 7858,
+            "hash": "94f1fcda94c57666891913abc4b1f22b9a6f387bcb60504dd051e5bd817c0b09"
+        },
+        {
+            "type": "file",
+            "name": "assets/bowserjr-ssbu-DtzmcqYO.png",
+            "size": 6352,
+            "hash": "7d83780cd5178ef016a54274cefaf02f62b3259723c765e68b42a73396574e75"
+        },
+        {
+            "type": "file",
+            "name": "assets/byleth-ssbu-Ct-3PumL.png",
+            "size": 8915,
+            "hash": "3cfca956b0bc44f96935bb2fbcb76feefe2671de4756031c03d3d67bfd436841"
+        },
+        {
+            "type": "file",
+            "name": "assets/callie-D1lCwnQ0.png",
+            "size": 72212,
+            "hash": "53d3836b52ebfc6c441b59606ebfb3cb7c4c85f9eee2c1b223d966184b9f266b"
+        },
+        {
+            "type": "file",
+            "name": "assets/captainfalcon-ssbu-4wcTPoj6.png",
+            "size": 9208,
+            "hash": "a3820401dbb1e178b50198f9bca9ba7f00086388719eeeded80e9cbed99e1284"
+        },
+        {
+            "type": "file",
+            "name": "assets/charizard-ssbu-B9I4cN1x.png",
+            "size": 4161,
+            "hash": "66b1a0e3268df12aca8dd82c54f113594dcf498416fa37ee280065c5fbd0af7d"
+        },
+        {
+            "type": "file",
+            "name": "assets/chrom-ssbu-C1w8foD-.png",
+            "size": 6609,
+            "hash": "ca38bf0e0dfba52a6056b047cc287a936dd16cd04d1fe4204aebacdc423e221b"
+        },
+        {
+            "type": "file",
+            "name": "assets/cloud-ssbu-blOk37zL.png",
+            "size": 7668,
+            "hash": "05fee40e8fb889b46aec71fd5df44edfa003d0f6bfd8fe3c0bd4bc31b67dd21d"
+        },
+        {
+            "type": "file",
+            "name": "assets/corrin-ssbu-BWpJ9bnG.png",
+            "size": 8520,
+            "hash": "dfb1264944c5612229e06649ae6933dd7374e75d834dc901002763dd17ede947"
+        },
+        {
+            "type": "file",
+            "name": "assets/daisy-ssbu-DtUtOT5a.png",
+            "size": 7602,
+            "hash": "636f270f94a96080e4cf5a58723ac3a21fb12e2fee81b2fc0fa2b14a3793acad"
+        },
+        {
+            "type": "file",
+            "name": "assets/darkpit-ssbu-DeUHjWJq.png",
+            "size": 9075,
+            "hash": "b74a89d31f6ef942a6da61454d5cb29a86e20b8bb16adb79ff4272d3838ad7dd"
+        },
+        {
+            "type": "file",
+            "name": "assets/darksamus-ssbu-wjOkRxFn.png",
+            "size": 6985,
+            "hash": "6f86c92246335f16b6114a1fbf9165fa6fd6112b56328b4d1ac2bf999e2f44cb"
+        },
+        {
+            "type": "file",
+            "name": "assets/diddykong-ssbu-DXgnGuHf.png",
+            "size": 5501,
+            "hash": "1f25c9ad0199c18b93bce6498282af35200c2d1ebac0df1bd05383f942de45a0"
+        },
+        {
+            "type": "file",
+            "name": "assets/donkey-kart-BVGjK1OD.png",
+            "size": 12519,
+            "hash": "5150161cd10ba440e6d05e294a77c62069b7a92a7d2bdd12171a138e8ae5520e"
+        },
+        {
+            "type": "file",
+            "name": "assets/donkeykong-ssbu-DS4zEh5j.png",
+            "size": 5357,
+            "hash": "3274fd84ba00fddf6eb4caa34bc953355536cf8b4fcf504869ca890b95f1953e"
+        },
+        {
+            "type": "file",
+            "name": "assets/drmario-ssbu-mxM0ogeI.png",
+            "size": 8989,
+            "hash": "64b9cd953da94230609847d0da1dd240f82d80d614359118c6dce14452c693be"
+        },
+        {
+            "type": "file",
+            "name": "assets/duckhunt-ssbu-C2gYwdsq.png",
+            "size": 7954,
+            "hash": "f8bcc37248b15503887e6e563d6c408104b4701b058ae1079f6832f0aaaacbae"
+        },
+        {
+            "type": "file",
+            "name": "assets/en-vY6xPrfa.js",
+            "size": 4353,
+            "hash": "5e432d12ab21fb8b28b8f02d8b8925e327b9c3a3d81632fa65aedf546f5b74a6"
+        },
+        {
+            "type": "file",
+            "name": "assets/falco-ssbu-rmn_F-Ar.png",
+            "size": 6371,
+            "hash": "8cedb2060cf667e83a9ae452345ce3c3661b728cbd77328186bca3857c4432c7"
+        },
+        {
+            "type": "file",
+            "name": "assets/es-Bzg5qM7N.svg",
+            "size": 11489,
+            "hash": "33f087b8bf6e0f7f95a76c48cd9961fbd63c0b311c56b5e1d715cba3fe0dcf1b"
+        },
+        {
+            "type": "file",
+            "name": "assets/felyne-4w9RRvCz.png",
+            "size": 12376,
+            "hash": "b142790ccbfcb3756e8b47b509f698d8407feb66e336c6ae4b2c6c67479ca837"
+        },
+        {
+            "type": "file",
+            "name": "assets/fox-ssbu-CvwV5KY6.png",
+            "size": 8859,
+            "hash": "8bf6c72a0b767d390da1710b1836f7d41295686d7eacc5843f210bbc50ff74e7"
+        },
+        {
+            "type": "file",
+            "name": "assets/ganondorf-ssbu-D3G4argj.png",
+            "size": 8074,
+            "hash": "51f0415dd8d781b56a4e32f9b7906cbd0655174dd3d43eac79de4aa825505e3e"
+        },
+        {
+            "type": "file",
+            "name": "assets/greninja-ssbu-CSNI-GyY.png",
+            "size": 7357,
+            "hash": "194e1c3dc6a8c63529833c6963ff5d8e8194363af031817a891b91b981f486bd"
+        },
+        {
+            "type": "file",
+            "name": "assets/hero-ssbu-DLb2iUG6.png",
+            "size": 22487,
+            "hash": "97c4ef934201baec4088781272465b01897d1b0dc118a44a528db23ad992eaa4"
+        },
+        {
+            "type": "file",
+            "name": "assets/iceclimbers-ssbu-BL_SfOXV.png",
+            "size": 6265,
+            "hash": "2688cf10b32ec51f55baa157922237574fad7ddad3d08980557faa6b6c78816f"
+        },
+        {
+            "type": "file",
+            "name": "assets/ike-ssbu-i6oIN7n5.png",
+            "size": 8346,
+            "hash": "f2907172697ebbb885d8ce556a7bbc0827135a1979e04fe58b544dff04edfeb1"
+        },
+        {
+            "type": "file",
+            "name": "assets/incineroar-ssbu-CxtQ-ik-.png",
+            "size": 8489,
+            "hash": "d9e0c41050fae182b8c1219893fa556b0618e431eeb1020ea517e97fa14cf531"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-DDZdTrEI.css",
+            "size": 4189,
+            "hash": "86c459da1a64c624ae4eb88c522da5933b4534a86e9cfdf62b32ee0741b6c6b5"
+        },
+        {
+            "type": "file",
+            "name": "assets/inkling-boy-DORt02b3.png",
+            "size": 76331,
+            "hash": "ce49d356596e22bd544cba6706131b5a7fb965fc879c3b01881b3d2a2c772c44"
+        },
+        {
+            "type": "file",
+            "name": "assets/index-DwBxTrfF.js",
+            "size": 2496791,
+            "hash": "e6855b5ca08f01d7a778191ba3d87eb34b79b7729a41f581188527682ace880e"
+        },
+        {
+            "type": "file",
+            "name": "assets/inkling-girl-CuWedxi4.png",
+            "size": 76892,
+            "hash": "e3f7539e8fa9fda9b0cf80ee51b8253c344f19e3f9bf44897796c40557958225"
+        },
+        {
+            "type": "file",
+            "name": "assets/inkling-squid-DjNaxnBk.png",
+            "size": 39986,
+            "hash": "6747360232d71229cbe5755d5d69bff8df3f1e44e3b68abb8ea2c3b4118bc205"
+        },
+        {
+            "type": "file",
+            "name": "assets/isabelle-QAHLKuSK.png",
+            "size": 13104,
+            "hash": "a11c6a739af38b96a8525b3b37cb093c779428c744064f02a79beb8909c960bd"
+        },
+        {
+            "type": "file",
+            "name": "assets/inkling-ssbu-BeTv9sFt.png",
+            "size": 7574,
+            "hash": "a1d93407fa9961273426beeff572dd1c17a3da4d183fb3862ca6f1881364d944"
+        },
+        {
+            "type": "file",
+            "name": "assets/isabelle-ssbu-DppMS9w_.png",
+            "size": 6362,
+            "hash": "1cafd2832919a6e80c6f69f3684511f5dbe9ef61d98829a5d986637d3ca7f57d"
+        },
+        {
+            "type": "file",
+            "name": "assets/island-Brb3_AJX.png",
+            "size": 9872,
+            "hash": "c8ef4f5060de7faa42b88776ddcb68c0ef9321ac1a0ad8c62fafd87cf619a4a5"
+        },
+        {
+            "type": "file",
+            "name": "assets/island-code-Dyc6rm6G.png",
+            "size": 12187,
+            "hash": "da5cfc84355684fb7e12f5a3aa19a7da2e222cdcbf3739ee762ec54640784d1b"
+        },
+        {
+            "type": "file",
+            "name": "assets/ivysaur-ssbu-BflA7Oe1.png",
+            "size": 4851,
+            "hash": "81dcea24a90dbd7359ad97a5ce42cf5e60b5189fcd4f9b3e923784c35ca4a61d"
+        },
+        {
+            "type": "file",
+            "name": "assets/jigglypuff-ssbu-DSRQzDiI.png",
+            "size": 5733,
+            "hash": "4ea0c2516057e6dfa363943b77a52dcb38729badb64e8e5f9273a5732cd365a0"
+        },
+        {
+            "type": "file",
+            "name": "assets/joker-ssbu-rJhQBNoO.png",
+            "size": 16397,
+            "hash": "3aa91dbf3fb5260edd2a877b5fbf9ceff2ffe95dbfe9b4a6f96cfcadea4a7978"
+        },
+        {
+            "type": "file",
+            "name": "assets/ken-ssbu-xSbucpxa.png",
+            "size": 10843,
+            "hash": "6ad9d2cd8c286eded1de572aa17d3e87318937dd2641b7a6322855bc7b6e60ca"
+        },
+        {
+            "type": "file",
+            "name": "assets/kingdedede-ssbu-Cnvcb1Es.png",
+            "size": 6652,
+            "hash": "0b4810fb9b29872bba3efb069a4034aa9b229b87303ed417f709907e53420d8e"
+        },
+        {
+            "type": "file",
+            "name": "assets/kingkrool-ssbu-BbXhGRHY.png",
+            "size": 5357,
+            "hash": "73b2f44d421093368841a1e670fc04c99f88bc064b3ccf7ed651d94f790a2619"
+        },
+        {
+            "type": "file",
+            "name": "assets/link-ssbu-X-o7JCU3.png",
+            "size": 9038,
+            "hash": "d999c34d1ea9df2b345497e4a4bdbbd3fff06b38d40f226a78d0e728aee97e91"
+        },
+        {
+            "type": "file",
+            "name": "assets/kk-slider-BdHJ7EWc.png",
+            "size": 10367,
+            "hash": "f0a9b9c3a84c2297aa57cacb7570646513c74eb35a2842e7fed6147b957a69da"
+        },
+        {
+            "type": "file",
+            "name": "assets/littlemac-ssbu-OaZa2xew.png",
+            "size": 9211,
+            "hash": "d8dffaa8d466958762c28b643261a55939a57766e502b73e5b52bccd69b030f2"
+        },
+        {
+            "type": "file",
+            "name": "assets/lock-DDcs_3h2.png",
+            "size": 5944,
+            "hash": "43dc6048b44e6e95db55c970f756223465f8f92ce7fc95378cd970548d0d69ac"
+        },
+        {
+            "type": "file",
+            "name": "assets/logo-7loLJbtC.png",
+            "size": 7398,
+            "hash": "e5480a54cf761b91335a597f6126d5b1529bb62a32806cd5a7b24e2c32e62cac"
+        },
+        {
+            "type": "file",
+            "name": "assets/lucario-ssbu-PytPIc5h.png",
+            "size": 7496,
+            "hash": "24c1c3347927f7fb8fc165b02f331fbc64dba89ae61422ee564c61751dd3d9ec"
+        },
+        {
+            "type": "file",
+            "name": "assets/lucas-ssbu-DEpcEmxu.png",
+            "size": 5456,
+            "hash": "19ab6dd39949c6cf31efab12a0ebaeaf5154b73c4fd6c0956523560a77421aa7"
+        },
+        {
+            "type": "file",
+            "name": "assets/luigi-cFt2uZ0O.png",
+            "size": 31882,
+            "hash": "b331f712f5a69b802a19975c7dfb073a8ed6d40536288f9c12966ffb2476ca9e"
+        },
+        {
+            "type": "file",
+            "name": "assets/lucina-ssbu-CPsa28ut.png",
+            "size": 8438,
+            "hash": "dcf86879e69066cbf6cb733cabfeb51f443ae54a51ca8c160e35a560c70678c0"
+        },
+        {
+            "type": "file",
+            "name": "assets/luigi-kart-Dt2TYQ5W.png",
+            "size": 9586,
+            "hash": "ed113db529300a660e9526008a4a9844837a6ea7696fb725e5c2067dc7ada442"
+        },
+        {
+            "type": "file",
+            "name": "assets/luigi-mansion-DqsgM4OX.png",
+            "size": 66990,
+            "hash": "c604c13ca3dc22804af290466eaf13540f045f6b418a8aa6784444c976a766f1"
+        },
+        {
+            "type": "file",
+            "name": "assets/luigi-ssbu-r_x-5gbx.png",
+            "size": 7536,
+            "hash": "a5fd44952ecd83c7b6b730a8475cf1b06e18b315ff25d15c1551f8a0408401f9"
+        },
+        {
+            "type": "file",
+            "name": "assets/marie-VfuJjhNU.png",
+            "size": 73157,
+            "hash": "73d08290232bb3de0fcc7e6c2efb5d8f428c3d537bdae25fbfb64756df8a28ef"
+        },
+        {
+            "type": "file",
+            "name": "assets/mario-kart-xJIFZBRR.png",
+            "size": 9705,
+            "hash": "3994f3e5ef980b2994525a762d2b2a435141fad40cba49c7ee235c9feaede280"
+        },
+        {
+            "type": "file",
+            "name": "assets/mario-ssbu-BLUzMiZN.png",
+            "size": 8477,
+            "hash": "8f8bd0224925669255fb19157028a258a5ece1e309febf3042ca57d081a05a27"
+        },
+        {
+            "type": "file",
+            "name": "assets/mario-w5rm8eo-.png",
+            "size": 28209,
+            "hash": "76c7ee2f9a7d45a86c743345aadfbdc63295b2c7c7004f5d2d3ee0e7ec91e345"
+        },
+        {
+            "type": "file",
+            "name": "assets/marth-ssbu-CfCE7NE0.png",
+            "size": 7675,
+            "hash": "2076d95e2fdc68650f37ac63212788fbcd4b64d4bfd1c9b26221b5f4631cb17a"
+        },
+        {
+            "type": "file",
+            "name": "assets/megaman-ssbu-C3KMPSg_.png",
+            "size": 5443,
+            "hash": "db1e4775886a769e3bf704664d3d23c1182be23b796a090bee953aaeac2b1e55"
+        },
+        {
+            "type": "file",
+            "name": "assets/melynx-BKtm7GD5.png",
+            "size": 12767,
+            "hash": "aabac49248289a2e4b4cb026d807fb7efc05b30f2101e04b97db81187d57dd3d"
+        },
+        {
+            "type": "file",
+            "name": "assets/metaknight-ssbu-ChEBjSJq.png",
+            "size": 5510,
+            "hash": "130bd91ec90792b2b1d51ce76e604bea5fccf252266fcec61a84853cf33b2d4e"
+        },
+        {
+            "type": "file",
+            "name": "assets/mh-ticket-BMPf-uS8.png",
+            "size": 4912,
+            "hash": "afb37a5001e1d940ea4ad55a529fcd0e72ba2ec2d2ae3e812fa4a63a90cfbb1c"
+        },
+        {
+            "type": "file",
+            "name": "assets/mewtwo-ssbu-BvOGBsog.png",
+            "size": 4933,
+            "hash": "1608b356fc120bf6f4f06b475dbe9816a3d232a54bb6fd8f932456f02c2c82db"
+        },
+        {
+            "type": "file",
+            "name": "assets/miifighter-ssbu-3CZU93NF.png",
+            "size": 5654,
+            "hash": "5ca4ba584d9593996127b8656ea397f163f9f1628a61267f97748f659a6de1ff"
+        },
+        {
+            "type": "file",
+            "name": "assets/minmin-ssbu-C5wBVme5.png",
+            "size": 12179,
+            "hash": "c499ab7136c1d6cdae0f56222ca6833511cc7eb047abefaffe1c171ce403f3b6"
+        },
+        {
+            "type": "file",
+            "name": "assets/mythra-ssbu-Bzhf5g_t.png",
+            "size": 4285,
+            "hash": "9b607a2cbf973faa1764f336db1c13be2319e942f6dbaffb3b61842d7e6ee501"
+        },
+        {
+            "type": "file",
+            "name": "assets/ness-ssbu-D4hw6JCO.png",
+            "size": 5448,
+            "hash": "0f212c72dc51e5e976e71483aef2906d60e76f6a59115bc7bba0cd8cea6310b3"
+        },
+        {
+            "type": "file",
+            "name": "assets/no-cover-Cid_zdkU.jpg",
+            "size": 34002,
+            "hash": "5c4356d2725af14fdc1ae87a6ae9921b54d4306c1039705b85fcfdd4f016dfe0"
+        },
+        {
+            "type": "file",
+            "name": "assets/olimar-ssbu-8-_TIG6z.png",
+            "size": 8355,
+            "hash": "218e81196960a48d565aa92db3aaf0b19ba0849ebb3c4759b91aacb7e46a834e"
+        },
+        {
+            "type": "file",
+            "name": "assets/peach-CmP1JlmB.png",
+            "size": 31823,
+            "hash": "3749000c33fca12842173504954cdfcaa6d83884f037eb3109213604ec370d6b"
+        },
+        {
+            "type": "file",
+            "name": "assets/palutena-ssbu-CcoQ5yW7.png",
+            "size": 10224,
+            "hash": "fba77ebd5cf8b84a838e79720c8fda2ea2811952c2e47cf78fd707ad0e3fdda9"
+        },
+        {
+            "type": "file",
+            "name": "assets/peach-ssbu-ERVQlYV2.png",
+            "size": 8265,
+            "hash": "a48c3339be7524e3849811901fdacf2a83852ace95b5c034528edee7e39bd66a"
+        },
+        {
+            "type": "file",
+            "name": "assets/peach-kart-KcfgpGiH.png",
+            "size": 14086,
+            "hash": "b1d681385138905d1473534c2e00eab706420a0930cc6be1acc0f85fe2bd73e0"
+        },
+        {
+            "type": "file",
+            "name": "assets/pichu-ssbu-DIV1Szpl.png",
+            "size": 6911,
+            "hash": "5bfd119bdfcaa4d0270494b7f092a57b269362ec185404fcb6b3c35d0b6f0cbf"
+        },
+        {
+            "type": "file",
+            "name": "assets/pikachin-kit-game-de-pirameki-daisakusen-D0b4lG6l.jpg",
+            "size": 52330,
+            "hash": "950ccee321d9a5cb8b9aa351d0b7f84dcd8926dae5206de6f586b1ecd8fe778f"
+        },
+        {
+            "type": "file",
+            "name": "assets/pikachu-ssbu-BtlPE2IC.png",
+            "size": 6548,
+            "hash": "21e57402251bbbc8e2555c4124437a9c2045b087f75c1954ebea1c67c4039105"
+        },
+        {
+            "type": "file",
+            "name": "assets/pit-ssbu-D1nNBlr-.png",
+            "size": 8670,
+            "hash": "7114c72b5061f7e5a89178c206e4d223efc85c39a42b10934b97139977ee2bda"
+        },
+        {
+            "type": "file",
+            "name": "assets/piranhaplant-ssbu-KULjQDpC.png",
+            "size": 7095,
+            "hash": "b8710dfdec2967b96aa50784a77cc48d5e2e231108e6dee8bae13d396811fd4d"
+        },
+        {
+            "type": "file",
+            "name": "assets/playstation-ClSEaDKE.png",
+            "size": 6790,
+            "hash": "44799224a120c7f281fcb23a9e8daaae1a39faaf37488d0f25d267961a004847"
+        },
+        {
+            "type": "file",
+            "name": "assets/pokemontrainer-ssbu-CObPUIrV.png",
+            "size": 6577,
+            "hash": "300c7c476b50d4e6e2c73bc6cc11f294a1cb14866ab1b20af1a20345ae543142"
+        },
+        {
+            "type": "file",
+            "name": "assets/pro-yakyuu-famista-evolution-C33d4ngy.jpg",
+            "size": 56827,
+            "hash": "954f193a50ae0023f1aedfaa20b3e799ea72902bbd8bd6c58bd3ec28861e1a05"
+        },
+        {
+            "type": "file",
+            "name": "assets/pyra-ssbu-BeXTxA3n.png",
+            "size": 29600,
+            "hash": "8040e3afad2e5582cddc4ecc55bb82f5d6b40bc2ae08e6d1254af0213aed4553"
+        },
+        {
+            "type": "file",
+            "name": "assets/red-cap-sXUnFFyk.png",
+            "size": 9046,
+            "hash": "f0bf9bda713c5b1c1fded97dce75c0aeb3d408bb6ff77e172060b2cf95805e56"
+        },
+        {
+            "type": "file",
+            "name": "assets/richter-ssbu-DJo8k018.png",
+            "size": 8280,
+            "hash": "a6253037770a5b399ae1fcbd1378d2e0e3ef48db21e231d1de194f952d0998d1"
+        },
+        {
+            "type": "file",
+            "name": "assets/ridley-ssbu-cafdLhZ0.png",
+            "size": 5276,
+            "hash": "a920ec007383d7a8547d767cb8bd3f67a787e970e9695a03f46cc9289c1eb999"
+        },
+        {
+            "type": "file",
+            "name": "assets/rob-ssbu-Dz6gEtYT.png",
+            "size": 6536,
+            "hash": "3c18efc1fccde3fbfcdb33d7a56c48272e1d39eec55a44d8e55e57f46a1c6760"
+        },
+        {
+            "type": "file",
+            "name": "assets/robin-ssbu-BPdtuCBn.png",
+            "size": 8121,
+            "hash": "acf3abf679817f5c2b933a193d21e4f17e04f562f2d635c7bdfec62c123ba581"
+        },
+        {
+            "type": "file",
+            "name": "assets/rosalina-CZ0Hs-aD.png",
+            "size": 27097,
+            "hash": "1262f6e2a47e49b141c9e379da4a563716bf5968c659c57caf53dce4d04f11b6"
+        },
+        {
+            "type": "file",
+            "name": "assets/rosalina-kart-BKxCjx75.png",
+            "size": 11860,
+            "hash": "085d98ba6bb7edc04ce51b8b0a1924ea406f8b5cb6b7a144011ff649c30e3fb2"
+        },
+        {
+            "type": "file",
+            "name": "assets/rosalina-ssbu-CBPjNwPJ.png",
+            "size": 7431,
+            "hash": "7a4aadcc7e03dd5640ec0dc43843f3414421bd78896bb6ec577e1a11a4bf8305"
+        },
+        {
+            "type": "file",
+            "name": "assets/roy-ssbu-DL91QaDg.png",
+            "size": 7548,
+            "hash": "e1768d5d91505bbea109eef43013dc40b4ed807c3b10a26e67e4a94aaaf9a1e1"
+        },
+        {
+            "type": "file",
+            "name": "assets/ryu-ssbu-CgOkVSTY.png",
+            "size": 11566,
+            "hash": "1718b0a66e8b80facf88622ef30b919899cc5a15d0c6715f9b645635de377b0e"
+        },
+        {
+            "type": "file",
+            "name": "assets/samus-ssbu-DJozxKxB.png",
+            "size": 7464,
+            "hash": "9eed6c9101af40c5606e73945bc07d33e3eae8ce13f94566e7a6a5173e095277"
+        },
+        {
+            "type": "file",
+            "name": "assets/sephiroth-ssbu-DZm9ebNf.png",
+            "size": 13256,
+            "hash": "980fcb70c6c92bfa4f2ab97a3065a6026e57b5a213bb7c5667d7f32ca35f8427"
+        },
+        {
+            "type": "file",
+            "name": "assets/settings1-0iNaTESC.jpg",
+            "size": 67250,
+            "hash": "8accbce1fda3721d53bd42626d95b42bc2322bca614fa72ba7fcfb5301dfa3fe"
+        },
+        {
+            "type": "file",
+            "name": "assets/settings1-BlKpTZ-d.jpg",
+            "size": 63872,
+            "hash": "a63444f8ccc4dd509101e5271fef9addcf7e12371e63766b4b024d714db78c8f"
+        },
+        {
+            "type": "file",
+            "name": "assets/settings2-BlmO7LIT.jpg",
+            "size": 53454,
+            "hash": "312a6932fed5de02e6940ebd1f4124f015972dbc986dfa21f721e969e09fa9c5"
+        },
+        {
+            "type": "file",
+            "name": "assets/settings2-c4w8ROw4.jpg",
+            "size": 28689,
+            "hash": "05954b8edb64049833d1b9be6aa002b9e6a2f33b9dc217598d0b093520d124c2"
+        },
+        {
+            "type": "file",
+            "name": "assets/settings3-B-WAtUjT.jpg",
+            "size": 54407,
+            "hash": "39a32f1b51a244fcfb43a117eadf680e125603f2e521265b7118b2ea13120526"
+        },
+        {
+            "type": "file",
+            "name": "assets/settings3-DlVFCe2d.jpg",
+            "size": 62559,
+            "hash": "66662022823463031bc6ea20f966c0c79903581f1b602fa70599cbdb908ff99e"
+        },
+        {
+            "type": "file",
+            "name": "assets/settings4-GeuvMjrA.jpg",
+            "size": 91585,
+            "hash": "850dbad0d08da0834e490f65c3e9d2eb5614a4b6559a13abf96a464d1cafc922"
+        },
+        {
+            "type": "file",
+            "name": "assets/sheik-ssbu-Czj00fpp.png",
+            "size": 8588,
+            "hash": "318444f789a7d9a09477e054eb08f3f7c12b15d1c24bcdea476480dd6829915f"
+        },
+        {
+            "type": "file",
+            "name": "assets/shulk-ssbu-CWAiF0nz.png",
+            "size": 9607,
+            "hash": "ab493e5f10a98c800b495caa6ab6ea4b2e3be1965453a8b8e1bff4f1982b25d1"
+        },
+        {
+            "type": "file",
+            "name": "assets/simon-ssbu-bo4ck_Cx.png",
+            "size": 9347,
+            "hash": "aacefa3419fce35ad5fcee3792666a0579b8eb3038a4263881b7fe5f1f7e62dd"
+        },
+        {
+            "type": "file",
+            "name": "assets/snake-ssbu-Daycn2w-.png",
+            "size": 9386,
+            "hash": "405686c11665268f2e979c72eba9ac1b2239697f8fe09ee50137f0334b3a376e"
+        },
+        {
+            "type": "file",
+            "name": "assets/sonic-ssbu-CzaChDLb.png",
+            "size": 5495,
+            "hash": "820b1331421b8ce6352f5ec7d618dee73872a69e0336b42ec4bbcaaeee45334f"
+        },
+        {
+            "type": "file",
+            "name": "assets/steve-ssbu-RVIWayF7.png",
+            "size": 5844,
+            "hash": "8b66f08a15540a807656ac66d1349af4d5e2d917ef524a9092a7df305cb89d01"
+        },
+        {
+            "type": "file",
+            "name": "assets/switch-CLM83JEx.png",
+            "size": 4172,
+            "hash": "4dc3c12d3750fadc4e43fd78ac3cb5041e6813e622d60f49768c882730e99702"
+        },
+        {
+            "type": "file",
+            "name": "assets/terry-ssbu-y8kQA7Id.png",
+            "size": 24623,
+            "hash": "02112e5b3c305c5be7ea21dc1b04a0def30058fae19dfe77d4a1c65daded8b77"
+        },
+        {
+            "type": "file",
+            "name": "assets/timmy-DWdmrUVz.png",
+            "size": 19102,
+            "hash": "83305029fe2f586177d38f1363a13e2cf5ea0ac0405338ef101c6746ba475fc0"
+        },
+        {
+            "type": "file",
+            "name": "assets/toad-DMvW7e0R.png",
+            "size": 26659,
+            "hash": "07fc4f69d885a24f75d2ded92a5d4ceb698f82749b3fb6085382035d21847c7d"
+        },
+        {
+            "type": "file",
+            "name": "assets/toad-kart-BHxi5tqR.png",
+            "size": 7492,
+            "hash": "d2cd9594bb12476ab64f50ffbab8ddc238871053beeaa4b2162cc93371134c7c"
+        },
+        {
+            "type": "file",
+            "name": "assets/tom-nook-rj0-ycom.png",
+            "size": 16439,
+            "hash": "48f01a69a22d78e86d76d2c91998281d5910d63fcbbd4e31bdea7c3b9ce380ac"
+        },
+        {
+            "type": "file",
+            "name": "assets/tommy-CibjegYb.png",
+            "size": 19138,
+            "hash": "55f8d43179db8d0f93353428e5d9a1d7a93167d285d012c92245e1df8a068c71"
+        },
+        {
+            "type": "file",
+            "name": "assets/toonlink-ssbu-BUEnBElM.png",
+            "size": 6425,
+            "hash": "675329d35df65d7d27975ca00ac21b2fabfe7d428747c38129fa6850143d31b9"
+        },
+        {
+            "type": "file",
+            "name": "assets/villager-ssbu-ccd7hYDK.png",
+            "size": 5714,
+            "hash": "81d0bf36677aac12d4f7081dede397007f2d63effddc0a8124007fba4f64d459"
+        },
+        {
+            "type": "file",
+            "name": "assets/wario-kart-KB5Fo7L_.png",
+            "size": 10901,
+            "hash": "6b90b2e2c376245aaac8bfaf0643449e2c8d77cf0979a051411180663e127269"
+        },
+        {
+            "type": "file",
+            "name": "assets/wario-ssbu-DM3AyGM1.png",
+            "size": 9412,
+            "hash": "12021dd4cdf781820e78e18bfbddb130507929a72f03899db8377ff826ccf3d2"
+        },
+        {
+            "type": "file",
+            "name": "assets/wiifittrainer-ssbu-CIATJ9ii.png",
+            "size": 5688,
+            "hash": "0a47de6873cb02de81cf5966969ce46b8bf8a1e336fe70ade5ebf8b45a7d2970"
+        },
+        {
+            "type": "file",
+            "name": "assets/wolf-ssbu-J09RaK10.png",
+            "size": 8583,
+            "hash": "c22d8930958d1233e337cca9daf199b0afcde9d1e069f20e7695e57960457a62"
+        },
+        {
+            "type": "file",
+            "name": "assets/world-flags-globe-DSM88bSw.png",
+            "size": 50962,
+            "hash": "e95b5e90d20e3970bcbf86ddf523f76c3a6ed5c20e1482532567cbbfb614bc4c"
+        },
+        {
+            "type": "file",
+            "name": "assets/yoshi-TgHWUtuL.png",
+            "size": 54323,
+            "hash": "e896853e422a586656077a4af8349fa234e382f6852178219e874c552559180e"
+        },
+        {
+            "type": "file",
+            "name": "assets/yoshi-kart-D6RXpdAz.png",
+            "size": 9391,
+            "hash": "62772287fb15cb5771a4399d53be6d0d4ff9b8f2a550ffcaae3770e3c0189dd1"
+        },
+        {
+            "type": "file",
+            "name": "assets/yoshi-ssbu-Dk8W3qZ6.png",
+            "size": 5533,
+            "hash": "edc57314f813001a626e1d17ed73e4fbe9f500e02fcd260ef679ad973ed69860"
+        },
+        {
+            "type": "file",
+            "name": "assets/younglink-ssbu-Dmp0vUj3.png",
+            "size": 7377,
+            "hash": "a379a76b74d519ce6fad037df99cc73f05c5a2c3cdc585f4cbe384036df38d65"
+        },
+        {
+            "type": "file",
+            "name": "assets/zelda-ssbu-BAIOvziM.png",
+            "size": 9213,
+            "hash": "a6cfcbb0ddb449efdfb2df58c473740fb244133db769e192c044da4e615d3b77"
+        },
+        {
+            "type": "file",
+            "name": "assets/zerosuitsamus-ssbu-D3bALtBu.png",
+            "size": 8531,
+            "hash": "1fb5c6c392c1a9356372da9aee0de54a70365e74acc0b85882ce0f3723aaaed3"
         },
         {
             "type": "file",
@@ -116,968 +904,8 @@
             "hash": "d9390afb79570b6d757df7c5ba7c21bdab4f094d742d3bf9d2a387f40a5f62ae"
         },
         {
-            "type": "file",
-            "name": "img/404.c1049fde.jpg",
-            "size": 43169,
-            "hash": "2c9a227fe1b100364c8966aaad75c141f15e9abdf61ab9a68f6f0f150efcad0c"
-        },
-        {
-            "type": "file",
-            "name": "img/au.64c2ac4e.svg",
-            "size": 2839,
-            "hash": "2d75d5396528dc14fffc07ca77bd5d8fce804ea825b125874d0a4b94e4bcd25a"
-        },
-        {
-            "type": "file",
-            "name": "img/banjokazooie-ssbu.0cbb217e.png",
-            "size": 23412,
-            "hash": "4c49a2f2862f1b6a244d9255ae2ea952a998c2e65075b4207f5391c0f15b5d38"
-        },
-        {
-            "type": "file",
-            "name": "img/bayonetta-ssbu.90b020e0.png",
-            "size": 10594,
-            "hash": "2abd5c80975fd6b7a38f9bd98cc539ecb69be0f94f16a1e0e5873cdb6e7023a8"
-        },
-        {
-            "type": "file",
-            "name": "img/bg.557dbfa9.svg",
-            "size": 647,
-            "hash": "307aec586e1fc845fc9524506e9dbdce020519d381b4c7b7f9995a6df14109be"
-        },
-        {
-            "type": "file",
-            "name": "img/blathers.94111c74.png",
-            "size": 19332,
-            "hash": "9d8d7772a1dbd3a53608feef832ce00d585b2ab0a2767378f5d367f0ef355a58"
-        },
-        {
-            "type": "file",
-            "name": "img/boo.523b1624.png",
-            "size": 38169,
-            "hash": "eb66f308c368ec3f8a0715953c2c427226f81205f7f37e2c3cf17e01219bb461"
-        },
-        {
-            "type": "file",
-            "name": "img/bowser-kart.3aa3dc31.png",
-            "size": 13998,
-            "hash": "890fa227d4796667c1fac6e1a50a63d9e4c9e65c220d93b00d900c77e0063d3e"
-        },
-        {
-            "type": "file",
-            "name": "img/bowser-ssbu.a020a0c3.png",
-            "size": 7858,
-            "hash": "94f1fcda94c57666891913abc4b1f22b9a6f387bcb60504dd051e5bd817c0b09"
-        },
-        {
-            "type": "file",
-            "name": "img/bowser.fc7ed05e.png",
-            "size": 32128,
-            "hash": "6a87627fe8bbf62fe848a917633d9f9c23d8527080167a998b0fc8b51602427f"
-        },
-        {
-            "type": "file",
-            "name": "img/bowserjr-ssbu.e56705d8.png",
-            "size": 6352,
-            "hash": "7d83780cd5178ef016a54274cefaf02f62b3259723c765e68b42a73396574e75"
-        },
-        {
-            "type": "file",
-            "name": "img/br.e7f3b2e0.svg",
-            "size": 2860,
-            "hash": "e88fe1fa91106f460d3a1861e6cd412ec345605dfb7d238a30f669ced6eecf02"
-        },
-        {
-            "type": "file",
-            "name": "img/byleth-ssbu.b641ea7e.png",
-            "size": 8915,
-            "hash": "3cfca956b0bc44f96935bb2fbcb76feefe2671de4756031c03d3d67bfd436841"
-        },
-        {
-            "type": "file",
-            "name": "img/ca.5405c1bb.svg",
-            "size": 816,
-            "hash": "d87e27676ca6098faf01b53c122b9778ef36c65fa8750467b1b48ae137eda3a5"
-        },
-        {
-            "type": "file",
-            "name": "img/callie.55e87ccc.png",
-            "size": 72212,
-            "hash": "53d3836b52ebfc6c441b59606ebfb3cb7c4c85f9eee2c1b223d966184b9f266b"
-        },
-        {
-            "type": "file",
-            "name": "img/captainfalcon-ssbu.d5d97cb6.png",
-            "size": 9208,
-            "hash": "a3820401dbb1e178b50198f9bca9ba7f00086388719eeeded80e9cbed99e1284"
-        },
-        {
-            "type": "file",
-            "name": "img/charizard-ssbu.56c96ced.png",
-            "size": 4161,
-            "hash": "66b1a0e3268df12aca8dd82c54f113594dcf498416fa37ee280065c5fbd0af7d"
-        },
-        {
-            "type": "file",
-            "name": "img/chrom-ssbu.fd6e2f36.png",
-            "size": 6609,
-            "hash": "ca38bf0e0dfba52a6056b047cc287a936dd16cd04d1fe4204aebacdc423e221b"
-        },
-        {
-            "type": "file",
-            "name": "img/cloud-ssbu.2d653694.png",
-            "size": 7668,
-            "hash": "05fee40e8fb889b46aec71fd5df44edfa003d0f6bfd8fe3c0bd4bc31b67dd21d"
-        },
-        {
-            "type": "file",
-            "name": "img/cn.72adf593.svg",
-            "size": 854,
-            "hash": "6cdb9aa9a92ab6d7356a7356ee2876ef88bb299c4b78a6499ae319da3d65b035"
-        },
-        {
-            "type": "file",
-            "name": "img/corrin-ssbu.2aa79a51.png",
-            "size": 8520,
-            "hash": "dfb1264944c5612229e06649ae6933dd7374e75d834dc901002763dd17ede947"
-        },
-        {
-            "type": "file",
-            "name": "img/daisy-ssbu.a9a7400a.png",
-            "size": 7602,
-            "hash": "636f270f94a96080e4cf5a58723ac3a21fb12e2fee81b2fc0fa2b14a3793acad"
-        },
-        {
-            "type": "file",
-            "name": "img/darkpit-ssbu.b5404aae.png",
-            "size": 9075,
-            "hash": "b74a89d31f6ef942a6da61454d5cb29a86e20b8bb16adb79ff4272d3838ad7dd"
-        },
-        {
-            "type": "file",
-            "name": "img/darksamus-ssbu.ca2531b3.png",
-            "size": 6985,
-            "hash": "6f86c92246335f16b6114a1fbf9165fa6fd6112b56328b4d1ac2bf999e2f44cb"
-        },
-        {
-            "type": "file",
-            "name": "img/de.e0735c98.svg",
-            "size": 405,
-            "hash": "ff9d9044f3612f13fe7c7bba12d57b1bafb1b13b21feced1bb768de7f8c8a408"
-        },
-        {
-            "type": "file",
-            "name": "img/diddykong-ssbu.15b83d46.png",
-            "size": 5501,
-            "hash": "1f25c9ad0199c18b93bce6498282af35200c2d1ebac0df1bd05383f942de45a0"
-        },
-        {
-            "type": "file",
-            "name": "img/discord.586627d4.svg",
-            "size": 1215,
-            "hash": "1dc39783161c952c8f5c0c9b184ace95c2d83352157c6f7f36e054b7e1b06b3a"
-        },
-        {
-            "type": "file",
-            "name": "img/donkey-kart.ec464b3a.png",
-            "size": 12519,
-            "hash": "5150161cd10ba440e6d05e294a77c62069b7a92a7d2bdd12171a138e8ae5520e"
-        },
-        {
-            "type": "file",
-            "name": "img/donkeykong-ssbu.aca85cfa.png",
-            "size": 5357,
-            "hash": "3274fd84ba00fddf6eb4caa34bc953355536cf8b4fcf504869ca890b95f1953e"
-        },
-        {
-            "type": "file",
-            "name": "img/drmario-ssbu.37fc5043.png",
-            "size": 8989,
-            "hash": "64b9cd953da94230609847d0da1dd240f82d80d614359118c6dce14452c693be"
-        },
-        {
-            "type": "file",
-            "name": "img/duckhunt-ssbu.1863163e.png",
-            "size": 7954,
-            "hash": "f8bcc37248b15503887e6e563d6c408104b4701b058ae1079f6832f0aaaacbae"
-        },
-        {
-            "type": "file",
-            "name": "img/es.829c00d1.svg",
-            "size": 12615,
-            "hash": "7319fef6e98256b049949e57537e362086e08d0cce1abd83dfd7f4158f644f50"
-        },
-        {
-            "type": "file",
-            "name": "img/falco-ssbu.63e852fb.png",
-            "size": 6371,
-            "hash": "8cedb2060cf667e83a9ae452345ce3c3661b728cbd77328186bca3857c4432c7"
-        },
-        {
-            "type": "file",
-            "name": "img/felyne.142b0fba.png",
-            "size": 12376,
-            "hash": "b142790ccbfcb3756e8b47b509f698d8407feb66e336c6ae4b2c6c67479ca837"
-        },
-        {
-            "type": "file",
-            "name": "img/fi.d535dd18.svg",
-            "size": 644,
-            "hash": "890c4ad44df7be9457beda5002f59dbf785e52078bab05b7daf9351d0ff3c130"
-        },
-        {
-            "type": "file",
-            "name": "img/fox-ssbu.edce8973.png",
-            "size": 8859,
-            "hash": "8bf6c72a0b767d390da1710b1836f7d41295686d7eacc5843f210bbc50ff74e7"
-        },
-        {
-            "type": "file",
-            "name": "img/fr.054f9a5c.svg",
-            "size": 410,
-            "hash": "35d057e3ae0fe76a7711d1f42435c0063e36a4f74741f1a3a65f762ef71f718d"
-        },
-        {
-            "type": "file",
-            "name": "img/ganondorf-ssbu.0ab05cf2.png",
-            "size": 8074,
-            "hash": "51f0415dd8d781b56a4e32f9b7906cbd0655174dd3d43eac79de4aa825505e3e"
-        },
-        {
-            "type": "file",
-            "name": "img/gb-ukm.30556795.svg",
-            "size": 1943,
-            "hash": "ada28563614382eb4f18ca714d0c848e144b7a835550720ba3c2eae67f0030a0"
-        },
-        {
-            "type": "file",
-            "name": "img/greninja-ssbu.d950421a.png",
-            "size": 7357,
-            "hash": "194e1c3dc6a8c63529833c6963ff5d8e8194363af031817a891b91b981f486bd"
-        },
-        {
-            "type": "file",
-            "name": "img/hero-ssbu.3a25573b.png",
-            "size": 22487,
-            "hash": "97c4ef934201baec4088781272465b01897d1b0dc118a44a528db23ad992eaa4"
-        },
-        {
-            "type": "file",
-            "name": "img/hk.8fd8563f.svg",
-            "size": 2094,
-            "hash": "d8fba09a2edd1297a6ba45e6ce99c12e7def06771543f8a1b21df95a710dfe28"
-        },
-        {
-            "type": "file",
-            "name": "img/iceclimbers-ssbu.b3f17eaf.png",
-            "size": 6265,
-            "hash": "2688cf10b32ec51f55baa157922237574fad7ddad3d08980557faa6b6c78816f"
-        },
-        {
             "type": "folder",
             "name": "img/icons"
-        },
-        {
-            "type": "file",
-            "name": "img/ike-ssbu.76977bf6.png",
-            "size": 8346,
-            "hash": "f2907172697ebbb885d8ce556a7bbc0827135a1979e04fe58b544dff04edfeb1"
-        },
-        {
-            "type": "file",
-            "name": "img/id.3998c1a6.svg",
-            "size": 605,
-            "hash": "e6598c91e482fc200824c73ab82b210af615eea2838a4e56f8674c90aa39b29f"
-        },
-        {
-            "type": "file",
-            "name": "img/incineroar-ssbu.18318c1b.png",
-            "size": 8489,
-            "hash": "d9e0c41050fae182b8c1219893fa556b0618e431eeb1020ea517e97fa14cf531"
-        },
-        {
-            "type": "file",
-            "name": "img/inkling-boy.e9033bad.png",
-            "size": 76331,
-            "hash": "ce49d356596e22bd544cba6706131b5a7fb965fc879c3b01881b3d2a2c772c44"
-        },
-        {
-            "type": "file",
-            "name": "img/inkling-girl.5417ec70.png",
-            "size": 76892,
-            "hash": "e3f7539e8fa9fda9b0cf80ee51b8253c344f19e3f9bf44897796c40557958225"
-        },
-        {
-            "type": "file",
-            "name": "img/inkling-squid.fbe49bc0.png",
-            "size": 39986,
-            "hash": "6747360232d71229cbe5755d5d69bff8df3f1e44e3b68abb8ea2c3b4118bc205"
-        },
-        {
-            "type": "file",
-            "name": "img/inkling-ssbu.2afa383b.png",
-            "size": 7574,
-            "hash": "a1d93407fa9961273426beeff572dd1c17a3da4d183fb3862ca6f1881364d944"
-        },
-        {
-            "type": "file",
-            "name": "img/isabelle-ssbu.ec27cd57.png",
-            "size": 6362,
-            "hash": "1cafd2832919a6e80c6f69f3684511f5dbe9ef61d98829a5d986637d3ca7f57d"
-        },
-        {
-            "type": "file",
-            "name": "img/isabelle.bada3109.png",
-            "size": 13104,
-            "hash": "a11c6a739af38b96a8525b3b37cb093c779428c744064f02a79beb8909c960bd"
-        },
-        {
-            "type": "file",
-            "name": "img/island-code.f9401332.png",
-            "size": 12187,
-            "hash": "da5cfc84355684fb7e12f5a3aa19a7da2e222cdcbf3739ee762ec54640784d1b"
-        },
-        {
-            "type": "file",
-            "name": "img/island.07155a27.png",
-            "size": 9872,
-            "hash": "c8ef4f5060de7faa42b88776ddcb68c0ef9321ac1a0ad8c62fafd87cf619a4a5"
-        },
-        {
-            "type": "file",
-            "name": "img/ivysaur-ssbu.958b7ae3.png",
-            "size": 4851,
-            "hash": "81dcea24a90dbd7359ad97a5ce42cf5e60b5189fcd4f9b3e923784c35ca4a61d"
-        },
-        {
-            "type": "file",
-            "name": "img/jigglypuff-ssbu.1c22bb56.png",
-            "size": 5733,
-            "hash": "4ea0c2516057e6dfa363943b77a52dcb38729badb64e8e5f9273a5732cd365a0"
-        },
-        {
-            "type": "file",
-            "name": "img/joker-ssbu.92f72332.png",
-            "size": 16397,
-            "hash": "3aa91dbf3fb5260edd2a877b5fbf9ceff2ffe95dbfe9b4a6f96cfcadea4a7978"
-        },
-        {
-            "type": "file",
-            "name": "img/jp.430c1769.svg",
-            "size": 637,
-            "hash": "6bd5989035c69bd8ae5c4d295e48e13112df03db62d6ec31a9426ce51abfd209"
-        },
-        {
-            "type": "file",
-            "name": "img/ken-ssbu.86b1228e.png",
-            "size": 10843,
-            "hash": "6ad9d2cd8c286eded1de572aa17d3e87318937dd2641b7a6322855bc7b6e60ca"
-        },
-        {
-            "type": "file",
-            "name": "img/kingdedede-ssbu.6d57af55.png",
-            "size": 6652,
-            "hash": "0b4810fb9b29872bba3efb069a4034aa9b229b87303ed417f709907e53420d8e"
-        },
-        {
-            "type": "file",
-            "name": "img/kingkrool-ssbu.711d5273.png",
-            "size": 5357,
-            "hash": "73b2f44d421093368841a1e670fc04c99f88bc064b3ccf7ed651d94f790a2619"
-        },
-        {
-            "type": "file",
-            "name": "img/kk-slider.33b05664.png",
-            "size": 10367,
-            "hash": "f0a9b9c3a84c2297aa57cacb7570646513c74eb35a2842e7fed6147b957a69da"
-        },
-        {
-            "type": "file",
-            "name": "img/link-ssbu.2926fc2b.png",
-            "size": 9038,
-            "hash": "d999c34d1ea9df2b345497e4a4bdbbd3fff06b38d40f226a78d0e728aee97e91"
-        },
-        {
-            "type": "file",
-            "name": "img/littlemac-ssbu.6524ca37.png",
-            "size": 9211,
-            "hash": "d8dffaa8d466958762c28b643261a55939a57766e502b73e5b52bccd69b030f2"
-        },
-        {
-            "type": "file",
-            "name": "img/lock.0a5edbf4.png",
-            "size": 5944,
-            "hash": "43dc6048b44e6e95db55c970f756223465f8f92ce7fc95378cd970548d0d69ac"
-        },
-        {
-            "type": "file",
-            "name": "img/logo.f64272e3.png",
-            "size": 7398,
-            "hash": "e5480a54cf761b91335a597f6126d5b1529bb62a32806cd5a7b24e2c32e62cac"
-        },
-        {
-            "type": "file",
-            "name": "img/lucario-ssbu.1485f97a.png",
-            "size": 7496,
-            "hash": "24c1c3347927f7fb8fc165b02f331fbc64dba89ae61422ee564c61751dd3d9ec"
-        },
-        {
-            "type": "file",
-            "name": "img/lucas-ssbu.613e9265.png",
-            "size": 5456,
-            "hash": "19ab6dd39949c6cf31efab12a0ebaeaf5154b73c4fd6c0956523560a77421aa7"
-        },
-        {
-            "type": "file",
-            "name": "img/lucina-ssbu.93a1d1f7.png",
-            "size": 8438,
-            "hash": "dcf86879e69066cbf6cb733cabfeb51f443ae54a51ca8c160e35a560c70678c0"
-        },
-        {
-            "type": "file",
-            "name": "img/luigi-kart.852cb916.png",
-            "size": 9586,
-            "hash": "ed113db529300a660e9526008a4a9844837a6ea7696fb725e5c2067dc7ada442"
-        },
-        {
-            "type": "file",
-            "name": "img/luigi-mansion.fdfba072.png",
-            "size": 66990,
-            "hash": "c604c13ca3dc22804af290466eaf13540f045f6b418a8aa6784444c976a766f1"
-        },
-        {
-            "type": "file",
-            "name": "img/luigi-ssbu.b3800c1f.png",
-            "size": 7536,
-            "hash": "a5fd44952ecd83c7b6b730a8475cf1b06e18b315ff25d15c1551f8a0408401f9"
-        },
-        {
-            "type": "file",
-            "name": "img/luigi.37202b17.png",
-            "size": 31882,
-            "hash": "b331f712f5a69b802a19975c7dfb073a8ed6d40536288f9c12966ffb2476ca9e"
-        },
-        {
-            "type": "file",
-            "name": "img/marie.17f13741.png",
-            "size": 73157,
-            "hash": "73d08290232bb3de0fcc7e6c2efb5d8f428c3d537bdae25fbfb64756df8a28ef"
-        },
-        {
-            "type": "file",
-            "name": "img/mario-kart.87114096.png",
-            "size": 9705,
-            "hash": "3994f3e5ef980b2994525a762d2b2a435141fad40cba49c7ee235c9feaede280"
-        },
-        {
-            "type": "file",
-            "name": "img/mario-ssbu.6751b746.png",
-            "size": 8477,
-            "hash": "8f8bd0224925669255fb19157028a258a5ece1e309febf3042ca57d081a05a27"
-        },
-        {
-            "type": "file",
-            "name": "img/mario.b21304ac.png",
-            "size": 28209,
-            "hash": "76c7ee2f9a7d45a86c743345aadfbdc63295b2c7c7004f5d2d3ee0e7ec91e345"
-        },
-        {
-            "type": "file",
-            "name": "img/marth-ssbu.2c151e69.png",
-            "size": 7675,
-            "hash": "2076d95e2fdc68650f37ac63212788fbcd4b64d4bfd1c9b26221b5f4631cb17a"
-        },
-        {
-            "type": "file",
-            "name": "img/megaman-ssbu.66681249.png",
-            "size": 5443,
-            "hash": "db1e4775886a769e3bf704664d3d23c1182be23b796a090bee953aaeac2b1e55"
-        },
-        {
-            "type": "file",
-            "name": "img/melynx.5e0ab152.png",
-            "size": 12767,
-            "hash": "aabac49248289a2e4b4cb026d807fb7efc05b30f2101e04b97db81187d57dd3d"
-        },
-        {
-            "type": "file",
-            "name": "img/metaknight-ssbu.8c25efcb.png",
-            "size": 5510,
-            "hash": "130bd91ec90792b2b1d51ce76e604bea5fccf252266fcec61a84853cf33b2d4e"
-        },
-        {
-            "type": "file",
-            "name": "img/mewtwo-ssbu.d5275840.png",
-            "size": 4933,
-            "hash": "1608b356fc120bf6f4f06b475dbe9816a3d232a54bb6fd8f932456f02c2c82db"
-        },
-        {
-            "type": "file",
-            "name": "img/mh-ticket.7e07568b.png",
-            "size": 4912,
-            "hash": "afb37a5001e1d940ea4ad55a529fcd0e72ba2ec2d2ae3e812fa4a63a90cfbb1c"
-        },
-        {
-            "type": "file",
-            "name": "img/miifighter-ssbu.dfbc3bdb.png",
-            "size": 5654,
-            "hash": "5ca4ba584d9593996127b8656ea397f163f9f1628a61267f97748f659a6de1ff"
-        },
-        {
-            "type": "file",
-            "name": "img/minmin-ssbu.9f534a40.png",
-            "size": 12179,
-            "hash": "c499ab7136c1d6cdae0f56222ca6833511cc7eb047abefaffe1c171ce403f3b6"
-        },
-        {
-            "type": "file",
-            "name": "img/mythra-ssbu.d76e444f.png",
-            "size": 4285,
-            "hash": "9b607a2cbf973faa1764f336db1c13be2319e942f6dbaffb3b61842d7e6ee501"
-        },
-        {
-            "type": "file",
-            "name": "img/ness-ssbu.6e50b5bc.png",
-            "size": 5448,
-            "hash": "0f212c72dc51e5e976e71483aef2906d60e76f6a59115bc7bba0cd8cea6310b3"
-        },
-        {
-            "type": "file",
-            "name": "img/nl.0f0d5c45.svg",
-            "size": 647,
-            "hash": "c498d9b5a06731e3d2c215b1bc67666cff5da70388117ac017a799aa36fb3d7c"
-        },
-        {
-            "type": "file",
-            "name": "img/no-cover.c97c7c1d.jpg",
-            "size": 34002,
-            "hash": "5c4356d2725af14fdc1ae87a6ae9921b54d4306c1039705b85fcfdd4f016dfe0"
-        },
-        {
-            "type": "file",
-            "name": "img/olimar-ssbu.db3e5e0b.png",
-            "size": 8355,
-            "hash": "218e81196960a48d565aa92db3aaf0b19ba0849ebb3c4759b91aacb7e46a834e"
-        },
-        {
-            "type": "file",
-            "name": "img/pa.7e829b7a.svg",
-            "size": 871,
-            "hash": "753279e87ca8f86f72c510706ecbf0e1c34609c45977c817d4c24dd23e6087b2"
-        },
-        {
-            "type": "file",
-            "name": "img/palutena-ssbu.3c5c1ba8.png",
-            "size": 10224,
-            "hash": "fba77ebd5cf8b84a838e79720c8fda2ea2811952c2e47cf78fd707ad0e3fdda9"
-        },
-        {
-            "type": "file",
-            "name": "img/peach-kart.a1240568.png",
-            "size": 14086,
-            "hash": "b1d681385138905d1473534c2e00eab706420a0930cc6be1acc0f85fe2bd73e0"
-        },
-        {
-            "type": "file",
-            "name": "img/peach-ssbu.45af3d4c.png",
-            "size": 8265,
-            "hash": "a48c3339be7524e3849811901fdacf2a83852ace95b5c034528edee7e39bd66a"
-        },
-        {
-            "type": "file",
-            "name": "img/peach.217d6153.png",
-            "size": 31823,
-            "hash": "3749000c33fca12842173504954cdfcaa6d83884f037eb3109213604ec370d6b"
-        },
-        {
-            "type": "file",
-            "name": "img/pichu-ssbu.5f854ae6.png",
-            "size": 6911,
-            "hash": "5bfd119bdfcaa4d0270494b7f092a57b269362ec185404fcb6b3c35d0b6f0cbf"
-        },
-        {
-            "type": "file",
-            "name": "img/pikachin-kit-game-de-pirameki-daisakusen.d6363c73.jpg",
-            "size": 52330,
-            "hash": "950ccee321d9a5cb8b9aa351d0b7f84dcd8926dae5206de6f586b1ecd8fe778f"
-        },
-        {
-            "type": "file",
-            "name": "img/pikachu-ssbu.2d16cf4f.png",
-            "size": 6548,
-            "hash": "21e57402251bbbc8e2555c4124437a9c2045b087f75c1954ebea1c67c4039105"
-        },
-        {
-            "type": "file",
-            "name": "img/piranhaplant-ssbu.975d4423.png",
-            "size": 7095,
-            "hash": "b8710dfdec2967b96aa50784a77cc48d5e2e231108e6dee8bae13d396811fd4d"
-        },
-        {
-            "type": "file",
-            "name": "img/pl.f293b139.svg",
-            "size": 607,
-            "hash": "d2f5a4c333b15d987e971eefa68a3c1a48d4ab9cff8d5b225865bc8cb6dd5ee7"
-        },
-        {
-            "type": "file",
-            "name": "img/pit-ssbu.e7a81f8a.png",
-            "size": 8670,
-            "hash": "7114c72b5061f7e5a89178c206e4d223efc85c39a42b10934b97139977ee2bda"
-        },
-        {
-            "type": "file",
-            "name": "img/playstation.48313957.png",
-            "size": 6790,
-            "hash": "44799224a120c7f281fcb23a9e8daaae1a39faaf37488d0f25d267961a004847"
-        },
-        {
-            "type": "file",
-            "name": "img/pokemontrainer-ssbu.0fa73d8a.png",
-            "size": 6577,
-            "hash": "300c7c476b50d4e6e2c73bc6cc11f294a1cb14866ab1b20af1a20345ae543142"
-        },
-        {
-            "type": "file",
-            "name": "img/pro-yakyuu-famista-evolution.ad0daee7.jpg",
-            "size": 56827,
-            "hash": "954f193a50ae0023f1aedfaa20b3e799ea72902bbd8bd6c58bd3ec28861e1a05"
-        },
-        {
-            "type": "file",
-            "name": "img/pyra-ssbu.31513faf.png",
-            "size": 29600,
-            "hash": "8040e3afad2e5582cddc4ecc55bb82f5d6b40bc2ae08e6d1254af0213aed4553"
-        },
-        {
-            "type": "file",
-            "name": "img/re.269ab577.svg",
-            "size": 410,
-            "hash": "036c5061e712b8dd72c66b5a4583d2dfd1f3853faff62dc4d59d05895695fab2"
-        },
-        {
-            "type": "file",
-            "name": "img/red-cap.1bd8445b.png",
-            "size": 9046,
-            "hash": "f0bf9bda713c5b1c1fded97dce75c0aeb3d408bb6ff77e172060b2cf95805e56"
-        },
-        {
-            "type": "file",
-            "name": "img/richter-ssbu.add76089.png",
-            "size": 8280,
-            "hash": "a6253037770a5b399ae1fcbd1378d2e0e3ef48db21e231d1de194f952d0998d1"
-        },
-        {
-            "type": "file",
-            "name": "img/ridley-ssbu.a98a0db1.png",
-            "size": 5276,
-            "hash": "a920ec007383d7a8547d767cb8bd3f67a787e970e9695a03f46cc9289c1eb999"
-        },
-        {
-            "type": "file",
-            "name": "img/rob-ssbu.264fb444.png",
-            "size": 6536,
-            "hash": "3c18efc1fccde3fbfcdb33d7a56c48272e1d39eec55a44d8e55e57f46a1c6760"
-        },
-        {
-            "type": "file",
-            "name": "img/robin-ssbu.71e3e72d.png",
-            "size": 8121,
-            "hash": "acf3abf679817f5c2b933a193d21e4f17e04f562f2d635c7bdfec62c123ba581"
-        },
-        {
-            "type": "file",
-            "name": "img/rosalina-kart.2ae7c1aa.png",
-            "size": 11860,
-            "hash": "085d98ba6bb7edc04ce51b8b0a1924ea406f8b5cb6b7a144011ff649c30e3fb2"
-        },
-        {
-            "type": "file",
-            "name": "img/rosalina-ssbu.d844471c.png",
-            "size": 7431,
-            "hash": "7a4aadcc7e03dd5640ec0dc43843f3414421bd78896bb6ec577e1a11a4bf8305"
-        },
-        {
-            "type": "file",
-            "name": "img/rosalina.dbc6b4e6.png",
-            "size": 27097,
-            "hash": "1262f6e2a47e49b141c9e379da4a563716bf5968c659c57caf53dce4d04f11b6"
-        },
-        {
-            "type": "file",
-            "name": "img/roy-ssbu.26c858cf.png",
-            "size": 7548,
-            "hash": "e1768d5d91505bbea109eef43013dc40b4ed807c3b10a26e67e4a94aaaf9a1e1"
-        },
-        {
-            "type": "file",
-            "name": "img/ru.707b18a8.svg",
-            "size": 647,
-            "hash": "e022b10d724c02bb5db4228230df83e5a7f5d6ffa1bac6ede7418f8e726366b7"
-        },
-        {
-            "type": "file",
-            "name": "img/ryu-ssbu.dc392346.png",
-            "size": 11566,
-            "hash": "1718b0a66e8b80facf88622ef30b919899cc5a15d0c6715f9b645635de377b0e"
-        },
-        {
-            "type": "file",
-            "name": "img/samus-ssbu.527d691c.png",
-            "size": 7464,
-            "hash": "9eed6c9101af40c5606e73945bc07d33e3eae8ce13f94566e7a6a5173e095277"
-        },
-        {
-            "type": "file",
-            "name": "img/sephiroth-ssbu.c1690479.png",
-            "size": 13256,
-            "hash": "980fcb70c6c92bfa4f2ab97a3065a6026e57b5a213bb7c5667d7f32ca35f8427"
-        },
-        {
-            "type": "file",
-            "name": "img/settings1.1f6f8ca1.jpg",
-            "size": 67250,
-            "hash": "8accbce1fda3721d53bd42626d95b42bc2322bca614fa72ba7fcfb5301dfa3fe"
-        },
-        {
-            "type": "file",
-            "name": "img/settings1.9b0ae184.jpg",
-            "size": 63872,
-            "hash": "a63444f8ccc4dd509101e5271fef9addcf7e12371e63766b4b024d714db78c8f"
-        },
-        {
-            "type": "file",
-            "name": "img/settings2.1035d313.jpg",
-            "size": 28689,
-            "hash": "05954b8edb64049833d1b9be6aa002b9e6a2f33b9dc217598d0b093520d124c2"
-        },
-        {
-            "type": "file",
-            "name": "img/settings2.efbf7c05.jpg",
-            "size": 53454,
-            "hash": "312a6932fed5de02e6940ebd1f4124f015972dbc986dfa21f721e969e09fa9c5"
-        },
-        {
-            "type": "file",
-            "name": "img/settings3.29954755.jpg",
-            "size": 62559,
-            "hash": "66662022823463031bc6ea20f966c0c79903581f1b602fa70599cbdb908ff99e"
-        },
-        {
-            "type": "file",
-            "name": "img/settings3.3be79b02.jpg",
-            "size": 54407,
-            "hash": "39a32f1b51a244fcfb43a117eadf680e125603f2e521265b7118b2ea13120526"
-        },
-        {
-            "type": "file",
-            "name": "img/settings4.18b3948f.jpg",
-            "size": 91585,
-            "hash": "850dbad0d08da0834e490f65c3e9d2eb5614a4b6559a13abf96a464d1cafc922"
-        },
-        {
-            "type": "file",
-            "name": "img/sheik-ssbu.c09b2c0f.png",
-            "size": 8588,
-            "hash": "318444f789a7d9a09477e054eb08f3f7c12b15d1c24bcdea476480dd6829915f"
-        },
-        {
-            "type": "file",
-            "name": "img/shulk-ssbu.b68262b0.png",
-            "size": 9607,
-            "hash": "ab493e5f10a98c800b495caa6ab6ea4b2e3be1965453a8b8e1bff4f1982b25d1"
-        },
-        {
-            "type": "file",
-            "name": "img/simon-ssbu.7be60cae.png",
-            "size": 9347,
-            "hash": "aacefa3419fce35ad5fcee3792666a0579b8eb3038a4263881b7fe5f1f7e62dd"
-        },
-        {
-            "type": "file",
-            "name": "img/snake-ssbu.1bcd8904.png",
-            "size": 9386,
-            "hash": "405686c11665268f2e979c72eba9ac1b2239697f8fe09ee50137f0334b3a376e"
-        },
-        {
-            "type": "file",
-            "name": "img/sonic-ssbu.908f8143.png",
-            "size": 5495,
-            "hash": "820b1331421b8ce6352f5ec7d618dee73872a69e0336b42ec4bbcaaeee45334f"
-        },
-        {
-            "type": "file",
-            "name": "img/steve-ssbu.b42176e3.png",
-            "size": 5844,
-            "hash": "8b66f08a15540a807656ac66d1349af4d5e2d917ef524a9092a7df305cb89d01"
-        },
-        {
-            "type": "file",
-            "name": "img/switch.a3a839fe.png",
-            "size": 4172,
-            "hash": "4dc3c12d3750fadc4e43fd78ac3cb5041e6813e622d60f49768c882730e99702"
-        },
-        {
-            "type": "file",
-            "name": "img/terry-ssbu.0ad3dc61.png",
-            "size": 24623,
-            "hash": "02112e5b3c305c5be7ea21dc1b04a0def30058fae19dfe77d4a1c65daded8b77"
-        },
-        {
-            "type": "file",
-            "name": "img/timmy.859085de.png",
-            "size": 19102,
-            "hash": "83305029fe2f586177d38f1363a13e2cf5ea0ac0405338ef101c6746ba475fc0"
-        },
-        {
-            "type": "file",
-            "name": "img/toad-kart.b1af4b4b.png",
-            "size": 7492,
-            "hash": "d2cd9594bb12476ab64f50ffbab8ddc238871053beeaa4b2162cc93371134c7c"
-        },
-        {
-            "type": "file",
-            "name": "img/toad.44514c83.png",
-            "size": 26659,
-            "hash": "07fc4f69d885a24f75d2ded92a5d4ceb698f82749b3fb6085382035d21847c7d"
-        },
-        {
-            "type": "file",
-            "name": "img/tom-nook.0a411df2.png",
-            "size": 16439,
-            "hash": "48f01a69a22d78e86d76d2c91998281d5910d63fcbbd4e31bdea7c3b9ce380ac"
-        },
-        {
-            "type": "file",
-            "name": "img/tommy.4e3cabc9.png",
-            "size": 19138,
-            "hash": "55f8d43179db8d0f93353428e5d9a1d7a93167d285d012c92245e1df8a068c71"
-        },
-        {
-            "type": "file",
-            "name": "img/toonlink-ssbu.1537e773.png",
-            "size": 6425,
-            "hash": "675329d35df65d7d27975ca00ac21b2fabfe7d428747c38129fa6850143d31b9"
-        },
-        {
-            "type": "file",
-            "name": "img/tw.44eb4e2e.svg",
-            "size": 1005,
-            "hash": "58feed500f2d2a550e5d38cb2215e2c9eeec8d21f8d49b243a068fa2c9bada2b"
-        },
-        {
-            "type": "file",
-            "name": "img/ua.09e072a7.svg",
-            "size": 607,
-            "hash": "59bee0b2628740a9ea0953b46b6c62e93966d8aaf23004cd1ec4d373c901b3fe"
-        },
-        {
-            "type": "file",
-            "name": "img/us.c49164ce.svg",
-            "size": 2760,
-            "hash": "69e09d41b9f5fad06ff3eea848b3f3fba168027a8273acea7c853cfb13974e3f"
-        },
-        {
-            "type": "file",
-            "name": "img/villager-ssbu.ac6e53b5.png",
-            "size": 5714,
-            "hash": "81d0bf36677aac12d4f7081dede397007f2d63effddc0a8124007fba4f64d459"
-        },
-        {
-            "type": "file",
-            "name": "img/vkontakte.713c4c4c.svg",
-            "size": 2591,
-            "hash": "bc5ac46669733c14f2b0154e968b08cd39cf53bcfdac33716885c50be34b3693"
-        },
-        {
-            "type": "file",
-            "name": "img/vn.5f6f3fcc.svg",
-            "size": 799,
-            "hash": "21a311b734230406f52f8f8606035552643adc300c9bbb41fe2308c8ca3abc65"
-        },
-        {
-            "type": "file",
-            "name": "img/wario-kart.1d30eda0.png",
-            "size": 10901,
-            "hash": "6b90b2e2c376245aaac8bfaf0643449e2c8d77cf0979a051411180663e127269"
-        },
-        {
-            "type": "file",
-            "name": "img/wario-ssbu.35cb7401.png",
-            "size": 9412,
-            "hash": "12021dd4cdf781820e78e18bfbddb130507929a72f03899db8377ff826ccf3d2"
-        },
-        {
-            "type": "file",
-            "name": "img/whatsapp.eafe62b5.svg",
-            "size": 1152,
-            "hash": "79c28d91f5e9934da8b6ba43056113061ae23659e838c78cbee495cba8ebf720"
-        },
-        {
-            "type": "file",
-            "name": "img/wiifittrainer-ssbu.c366f8b0.png",
-            "size": 5688,
-            "hash": "0a47de6873cb02de81cf5966969ce46b8bf8a1e336fe70ade5ebf8b45a7d2970"
-        },
-        {
-            "type": "file",
-            "name": "img/wolf-ssbu.b2317412.png",
-            "size": 8583,
-            "hash": "c22d8930958d1233e337cca9daf199b0afcde9d1e069f20e7695e57960457a62"
-        },
-        {
-            "type": "file",
-            "name": "img/world-flags-globe.f17c62e2.png",
-            "size": 50962,
-            "hash": "e95b5e90d20e3970bcbf86ddf523f76c3a6ed5c20e1482532567cbbfb614bc4c"
-        },
-        {
-            "type": "file",
-            "name": "img/yoshi-kart.cfbbbb39.png",
-            "size": 9391,
-            "hash": "62772287fb15cb5771a4399d53be6d0d4ff9b8f2a550ffcaae3770e3c0189dd1"
-        },
-        {
-            "type": "file",
-            "name": "img/yoshi-ssbu.9c9af558.png",
-            "size": 5533,
-            "hash": "edc57314f813001a626e1d17ed73e4fbe9f500e02fcd260ef679ad973ed69860"
-        },
-        {
-            "type": "file",
-            "name": "img/yoshi.b710928d.png",
-            "size": 54323,
-            "hash": "e896853e422a586656077a4af8349fa234e382f6852178219e874c552559180e"
-        },
-        {
-            "type": "file",
-            "name": "img/zelda-ssbu.7790a038.png",
-            "size": 9213,
-            "hash": "a6cfcbb0ddb449efdfb2df58c473740fb244133db769e192c044da4e615d3b77"
-        },
-        {
-            "type": "file",
-            "name": "img/younglink-ssbu.b91675e5.png",
-            "size": 7377,
-            "hash": "a379a76b74d519ce6fad037df99cc73f05c5a2c3cdc585f4cbe384036df38d65"
-        },
-        {
-            "type": "file",
-            "name": "img/zerosuitsamus-ssbu.bbf03a68.png",
-            "size": 8531,
-            "hash": "1fb5c6c392c1a9356372da9aee0de54a70365e74acc0b85882ce0f3723aaaed3"
-        },
-        {
-            "type": "file",
-            "name": "js/app.96e4ed0e.js",
-            "size": 2280157,
-            "hash": "b33ad457db69d8dc4a8166745cff4bffd3777a23cc1d0e0b3a965c5ac592798e"
-        },
-        {
-            "type": "file",
-            "name": "js/chunk-vendors.c40f0db7.js",
-            "size": 183712,
-            "hash": "b8e46c4a04cc10f2443d7ffe8b2eecb15dd895dc1c8ca69e21575602aa383633"
         },
         {
             "type": "file",
@@ -1087,27 +915,27 @@
         },
         {
             "type": "file",
-            "name": "img/icons/android-chrome-512x512.png",
-            "size": 16638,
-            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
-        },
-        {
-            "type": "file",
             "name": "img/icons/apple-touch-icon-120x120.png",
             "size": 1359,
             "hash": "a2db20742894e403410affb7d309f1e4b75dbbaf39cf351019f70deed0e6ecc2"
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon-152x152.png",
-            "size": 2005,
-            "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
+            "name": "img/icons/android-chrome-512x512.png",
+            "size": 16638,
+            "hash": "068ad1afdd0625aa3aa3c28a49e2fa70d4e65d5c1232dc301499354e8b8f0118"
         },
         {
             "type": "file",
             "name": "img/icons/apple-touch-icon-180x180.png",
             "size": 1567,
             "hash": "940ca26f385a497ba06cdc4d0fa15e4f09603d21c7bfe41623226e11bb0196df"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon-152x152.png",
+            "size": 2005,
+            "hash": "dc586d5136e64f59a97663b9c54985b1829e04a114f6e06ac9c2768528cab883"
         },
         {
             "type": "file",
@@ -1135,12 +963,6 @@
         },
         {
             "type": "file",
-            "name": "img/icons/favicon-32x32.png",
-            "size": 493,
-            "hash": "6ca16294cb53573040299e65a7f636779423146624ddf3589addc0313f09b8c7"
-        },
-        {
-            "type": "file",
             "name": "img/icons/msapplication-icon-144x144.png",
             "size": 2132,
             "hash": "e02368dd7e5dc3c1dcc35515e54f68fe802b7f655395c58450647ee234ca070b"
@@ -1150,6 +972,12 @@
             "name": "img/icons/mstile-150x150.png",
             "size": 2067,
             "hash": "66416c8ecb1df6caed80e0e2bb4b01ef4b9b1573d0f46911de252226c1410f65"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/favicon-32x32.png",
+            "size": 493,
+            "hash": "6ca16294cb53573040299e65a7f636779423146624ddf3589addc0313f09b8c7"
         },
         {
             "type": "file",
