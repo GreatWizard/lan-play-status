@@ -31,7 +31,6 @@ communities.forEach((c) => {
   })
 })
 
-fs.rmSync(distPath, { recursive: true })
 fs.mkdirSync(distPath, { recursive: true })
 
 flags.forEach((f) => {
