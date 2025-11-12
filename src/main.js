@@ -2,18 +2,20 @@ import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
 import App from './App.vue'
+import { createGtag } from 'vue-gtag'
 import { i18n } from './i18n'
 import Konami from './konami'
 import router from './router'
-import VueGtag from 'vue-gtag-next'
 
 createApp(App)
   .use(createPinia())
   .use(i18n)
   .use(router)
-  .use(VueGtag, {
-    config: { id: 'UA-128202561-1' },
-  })
+  .use(
+    createGtag({
+      tagId: 'UA-128202561-1',
+    }),
+  )
   .use(Konami, {
     callback: () => {
       let head = document.head || document.getElementsByTagName('head')[0]
