@@ -32,7 +32,14 @@
   { "title": "Fate/Extella Link" },
   { "title": "EA SPORTS FIFA 18" },
   { "title": "EA SPORTS FIFA 19" },
-  { "title": "EA SPORTS FIFA 20 Nintendo Switch Legacy Edition" },
+  {
+    "title": "EA SPORTS FIFA 20 Nintendo Switch Legacy Edition",
+    "source": "https://assets1.ignimgs.com/2019/09/09/fifa-20---button-2020-1568061446797.jpg"
+  },
+  {
+    "title": "EA SPORTS FIFA 23 Nintendo Switch Legacy Edition",
+    "source": "https://assets-prd.ignimgs.com/2022/07/20/fifa-23-button-002a-1658345962881.jpg"
+  },
   { "title": "Flip Over Frog", "ds": true },
   { "title": "Flip Wars", "ds": true },
   {
@@ -64,6 +71,7 @@
     "source": "https://img-eshop.cdn.nintendo.net/i/fa85b59fdb799e8d06303beff4b03d63c0ac22d24c303e981f1a8f2c5471d5b4.jpg?w=1000"
   },
   { "title": "Korg Gadget for Nintendo Switch", "ds": true },
+  { "title": "Kirby’s Dream Buffet", "format": "1x1", "ds": true },
   { "title": "Luigi's Mansion 3" },
   { "title": "Mantis Burn Racing", "ds": true },
   { "title": "Marvel Ultimate Alliance 3: The Black Order" },
@@ -86,8 +94,6 @@
   { "title": "Ms. Splosion Man", "ds": true },
   { "title": "Namco Museum", "ds": true },
   { "title": "NBA 2K18" },
-  { "title": "NBA 2K19" },
-  { "title": "NBA 2K20" },
   { "title": "Nine Parchments", "ds": true },
   { "title": "Overcooked 2" },
   { "title": "Party Arcade", "ds": true },
@@ -144,7 +150,10 @@
   { "title": "Torchlight 2", "ds": true },
   { "title": "Trine Enchanted Edition", "ds": true },
   { "title": "Trine 2: Complete Story", "ds": true },
-  { "title": "Trivial Pursuit Live!", "ds": true },
+  {
+    "title": "Trivial Pursuit Live!",
+    "source": "https://assets-prd.ignimgs.com/2022/03/18/trivial-pursuit-live-button-final-1647630282142.jpg"
+  },
   { "title": "Ultra Street Fighter 2: The Final Challengers" },
   { "title": "UNO", "ds": true },
   { "title": "Windjammers", "ds": true },

@@ -54,6 +54,7 @@ export default {
           // Remove diactrics
           .normalize('NFD')
           .replace(/[\u0300-\u036f]/g, '')
+          .replace(/’/g, '')
           // Fix strange names
           .replace(/\+/g, 'and')
           .replace(/&/g, 'and')
@@ -92,7 +93,7 @@ export default {
           .replace('DukeNukem3D', 'DukeNukem3d')
           .replace('Cruisn', 'CrusiN')
 
-        return `https://fs-prod-cdn.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_${
+        return `https://www.nintendo.com/eu/media/images/11_square_images/games_18/nintendo_switch_${
           this.game.ds ? 'download_software' : '5'
         }/${this.game.format || 'SQ'}_NSwitch${
           this.game.ds ? 'DS' : ''
