@@ -9,6 +9,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v5
       - uses: pnpm/action-setup@v4
@@ -22,13 +25,11 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ secrets.PAT }}
           commit-message: Auto-update games
           branch: auto-games-update
           title: "[Bot] Update Games List"
       - name: Enable Pull Request Automerge
         if: steps.cpr.outputs.pull-request-operation == 'created'
-        uses: peter-evans/enable-pull-request-automerge@v3
-        with:
-          token: ${{ secrets.PAT }}
-          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+        run: gh pr merge --merge --auto auto-games-update
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}
