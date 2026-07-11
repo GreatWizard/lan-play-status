@@ -63,6 +63,13 @@
     "type": "rust"
   },
   {
+    "ip": "switch.tripout.tech",
+    "port": 11451,
+    "flag": "ca",
+    "platform": "switch",
+    "type": "rust"
+  },
+  {
     "ip": "lan.imperialcommand.xyz",
     "port": 11451,
     "flag": "us",

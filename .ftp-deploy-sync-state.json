@@ -1,7 +1,7 @@
 {
     "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
     "version": "1.0.0",
-    "generatedTime": 1783770829079,
+    "generatedTime": 1783771038735,
     "data": [
         {
             "type": "file",
@@ -26,14 +26,14 @@
             "name": "assets"
         },
         {
+            "type": "folder",
+            "name": "data"
+        },
+        {
             "type": "file",
             "name": "browserconfig.xml",
             "size": 255,
             "hash": "06e2ae833ecfe1b1a84105a396561901e173abe9bc63d1fb1eacbf93c732244a"
-        },
-        {
-            "type": "folder",
-            "name": "data"
         },
         {
             "type": "file",
@@ -55,7 +55,7 @@
             "type": "file",
             "name": "index.html",
             "size": 2245,
-            "hash": "237b0d7e512fb628960c3d69d170168cbd2be5fcaa58220125338f1fc3807a2a"
+            "hash": "8ed747ce83c02cea049a715db66412aece2d62399fd2465cb7c44338ff8ec951"
         },
         {
             "type": "file",
@@ -113,27 +113,27 @@
         },
         {
             "type": "file",
-            "name": "assets/bowser-ssbu-W6Fb6rmo.png",
-            "size": 7858,
-            "hash": "94f1fcda94c57666891913abc4b1f22b9a6f387bcb60504dd051e5bd817c0b09"
-        },
-        {
-            "type": "file",
             "name": "assets/bowser-kart-CQsqhimS.png",
             "size": 13998,
             "hash": "890fa227d4796667c1fac6e1a50a63d9e4c9e65c220d93b00d900c77e0063d3e"
         },
         {
             "type": "file",
-            "name": "assets/byleth-ssbu-Ct-3PumL.png",
-            "size": 8915,
-            "hash": "3cfca956b0bc44f96935bb2fbcb76feefe2671de4756031c03d3d67bfd436841"
+            "name": "assets/bowser-ssbu-W6Fb6rmo.png",
+            "size": 7858,
+            "hash": "94f1fcda94c57666891913abc4b1f22b9a6f387bcb60504dd051e5bd817c0b09"
         },
         {
             "type": "file",
             "name": "assets/bowserjr-ssbu-DtzmcqYO.png",
             "size": 6352,
             "hash": "7d83780cd5178ef016a54274cefaf02f62b3259723c765e68b42a73396574e75"
+        },
+        {
+            "type": "file",
+            "name": "assets/byleth-ssbu-Ct-3PumL.png",
+            "size": 8915,
+            "hash": "3cfca956b0bc44f96935bb2fbcb76feefe2671de4756031c03d3d67bfd436841"
         },
         {
             "type": "file",
@@ -293,9 +293,9 @@
         },
         {
             "type": "file",
-            "name": "assets/index-zNVcUhuH.js",
-            "size": 2532377,
-            "hash": "3ffbe21c1a34516354970f96bbb2888f6b33cd24804f3a573e126e03930ce654"
+            "name": "assets/index-h6I15sag.js",
+            "size": 2532465,
+            "hash": "cc5369c522490a133f825864749cd921aabecd7ddd5b0a5775f2385d6530bd9f"
         },
         {
             "type": "file",
@@ -419,15 +419,15 @@
         },
         {
             "type": "file",
-            "name": "assets/lucas-ssbu-DEpcEmxu.png",
-            "size": 5456,
-            "hash": "19ab6dd39949c6cf31efab12a0ebaeaf5154b73c4fd6c0956523560a77421aa7"
-        },
-        {
-            "type": "file",
             "name": "assets/lucina-ssbu-CPsa28ut.png",
             "size": 8438,
             "hash": "dcf86879e69066cbf6cb733cabfeb51f443ae54a51ca8c160e35a560c70678c0"
+        },
+        {
+            "type": "file",
+            "name": "assets/lucas-ssbu-DEpcEmxu.png",
+            "size": 5456,
+            "hash": "19ab6dd39949c6cf31efab12a0ebaeaf5154b73c4fd6c0956523560a77421aa7"
         },
         {
             "type": "file",
@@ -575,15 +575,15 @@
         },
         {
             "type": "file",
-            "name": "assets/pikachin-kit-game-de-pirameki-daisakusen-D0b4lG6l.jpg",
-            "size": 52330,
-            "hash": "950ccee321d9a5cb8b9aa351d0b7f84dcd8926dae5206de6f586b1ecd8fe778f"
-        },
-        {
-            "type": "file",
             "name": "assets/pichu-ssbu-DIV1Szpl.png",
             "size": 6911,
             "hash": "5bfd119bdfcaa4d0270494b7f092a57b269362ec185404fcb6b3c35d0b6f0cbf"
+        },
+        {
+            "type": "file",
+            "name": "assets/pikachin-kit-game-de-pirameki-daisakusen-D0b4lG6l.jpg",
+            "size": 52330,
+            "hash": "950ccee321d9a5cb8b9aa351d0b7f84dcd8926dae5206de6f586b1ecd8fe778f"
         },
         {
             "type": "file",
@@ -671,6 +671,12 @@
         },
         {
             "type": "file",
+            "name": "assets/rosalina-ssbu-CBPjNwPJ.png",
+            "size": 7431,
+            "hash": "7a4aadcc7e03dd5640ec0dc43843f3414421bd78896bb6ec577e1a11a4bf8305"
+        },
+        {
+            "type": "file",
             "name": "assets/roy-ssbu-DL91QaDg.png",
             "size": 7548,
             "hash": "e1768d5d91505bbea109eef43013dc40b4ed807c3b10a26e67e4a94aaaf9a1e1"
@@ -689,27 +695,21 @@
         },
         {
             "type": "file",
-            "name": "assets/rosalina-ssbu-CBPjNwPJ.png",
-            "size": 7431,
-            "hash": "7a4aadcc7e03dd5640ec0dc43843f3414421bd78896bb6ec577e1a11a4bf8305"
-        },
-        {
-            "type": "file",
             "name": "assets/sephiroth-ssbu-DZm9ebNf.png",
             "size": 13256,
             "hash": "980fcb70c6c92bfa4f2ab97a3065a6026e57b5a213bb7c5667d7f32ca35f8427"
         },
         {
             "type": "file",
-            "name": "assets/settings1-0iNaTESC.jpg",
-            "size": 67250,
-            "hash": "8accbce1fda3721d53bd42626d95b42bc2322bca614fa72ba7fcfb5301dfa3fe"
-        },
-        {
-            "type": "file",
             "name": "assets/settings1-BlKpTZ-d.jpg",
             "size": 63872,
             "hash": "a63444f8ccc4dd509101e5271fef9addcf7e12371e63766b4b024d714db78c8f"
+        },
+        {
+            "type": "file",
+            "name": "assets/settings1-0iNaTESC.jpg",
+            "size": 67250,
+            "hash": "8accbce1fda3721d53bd42626d95b42bc2322bca614fa72ba7fcfb5301dfa3fe"
         },
         {
             "type": "file",
@@ -749,15 +749,15 @@
         },
         {
             "type": "file",
-            "name": "assets/simon-ssbu-bo4ck_Cx.png",
-            "size": 9347,
-            "hash": "aacefa3419fce35ad5fcee3792666a0579b8eb3038a4263881b7fe5f1f7e62dd"
-        },
-        {
-            "type": "file",
             "name": "assets/shulk-ssbu-CWAiF0nz.png",
             "size": 9607,
             "hash": "ab493e5f10a98c800b495caa6ab6ea4b2e3be1965453a8b8e1bff4f1982b25d1"
+        },
+        {
+            "type": "file",
+            "name": "assets/simon-ssbu-bo4ck_Cx.png",
+            "size": 9347,
+            "hash": "aacefa3419fce35ad5fcee3792666a0579b8eb3038a4263881b7fe5f1f7e62dd"
         },
         {
             "type": "file",
@@ -851,9 +851,9 @@
         },
         {
             "type": "file",
-            "name": "assets/wolf-ssbu-J09RaK10.png",
-            "size": 8583,
-            "hash": "c22d8930958d1233e337cca9daf199b0afcde9d1e069f20e7695e57960457a62"
+            "name": "assets/yoshi-TgHWUtuL.png",
+            "size": 54323,
+            "hash": "e896853e422a586656077a4af8349fa234e382f6852178219e874c552559180e"
         },
         {
             "type": "file",
@@ -863,9 +863,9 @@
         },
         {
             "type": "file",
-            "name": "assets/yoshi-TgHWUtuL.png",
-            "size": 54323,
-            "hash": "e896853e422a586656077a4af8349fa234e382f6852178219e874c552559180e"
+            "name": "assets/wolf-ssbu-J09RaK10.png",
+            "size": 8583,
+            "hash": "c22d8930958d1233e337cca9daf199b0afcde9d1e069f20e7695e57960457a62"
         },
         {
             "type": "file",
@@ -900,8 +900,8 @@
         {
             "type": "file",
             "name": "data/servers.json",
-            "size": 10359,
-            "hash": "cd5c5f3042a0cfd5465ebd0a48c26838515c529b517512209011939acfc389a0"
+            "size": 10483,
+            "hash": "2eb5314ce78ff5afb25c97f1ccfe21889db9e425683ce02d21c038806c63230b"
         },
         {
             "type": "folder",
@@ -939,15 +939,15 @@
         },
         {
             "type": "file",
-            "name": "img/icons/apple-touch-icon-60x60.png",
-            "size": 679,
-            "hash": "5ff0a87d94c2753e9ef192b802dd8c87b0876053d54ed2d642869e899d112119"
-        },
-        {
-            "type": "file",
             "name": "img/icons/apple-touch-icon-76x76.png",
             "size": 980,
             "hash": "852f9da2305ab21aaf8c5732b61a66dc009b67e6d059526ea51317b7dbd0f84a"
+        },
+        {
+            "type": "file",
+            "name": "img/icons/apple-touch-icon-60x60.png",
+            "size": 679,
+            "hash": "5ff0a87d94c2753e9ef192b802dd8c87b0876053d54ed2d642869e899d112119"
         },
         {
             "type": "file",
