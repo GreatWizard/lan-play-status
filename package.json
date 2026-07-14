@@ -40,7 +40,7 @@
     "prettier": "3.6.2",
     "sass": "^1.94.0",
     "sass-loader": "^16.0.6",
-    "svgo": "^4.0.0",
+    "svgo": "^4.0.1",
     "vite": "^7.1.11",
     "vite-plugin-vue-devtools": "^8.0.3",
     "vitest": "^3.2.4",
